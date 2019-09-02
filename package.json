@@ -1,0 +1,19 @@
+{
+  "name": "simplytammy.github.io",
+  "version": "1.0.0",
+  "description": "This is my personal website containing information about me, my current and future projects",
+  "main": "assets/js/script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simplytammy/simplytammy.github.io.git"
+  },
+  "author": "Ogurinka Benjamin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simplytammy/simplytammy.github.io/issues"
+  },
+  "homepage": "https://github.com/simplytammy/simplytammy.github.io#readme"
+}
