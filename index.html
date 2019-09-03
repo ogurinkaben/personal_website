@@ -36,7 +36,7 @@
         <link rel="icon" type="image/png" sizes="16x16" href="assets/img/icons/favicon-16x16.png">
         <link rel="manifest" href="manifest.json">
         <meta name="msapplication-TileColor" content="#151618">
-        <meta name="msapplication-TileImage" content="assets/img/icons//ms-icon-144x144.png">
+        <meta name="msapplication-TileImage" content="assets/img/icons/ms-icon-144x144.png">
         <meta name="theme-color" content="#151618">
         <!--Custom Css-->
         <link rel="stylesheet" href="style.css">
@@ -45,16 +45,25 @@
         <!--Google font-->
         <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
     </head>
-    <body>
+    <body class="" id="body">
         <div class="og_container">
+            <div class="abs">
+                <span onclick="toggleTheme()" class="fas fa-sun" id="toggle"></span>
+            </div>
             <div class="wrapper">
-                <h1 class="">_I am redesigning </h1>
-                <p>Meanwhile, check out my <a href="https://portfolio.ogurinkabenjamin.me/" target="_blank" style="color: #5f646d;">Portfolio</a></p>
                 <div class="">
-                    <img src="/assets/img/core/building.png">
+                    <img src="/assets/img/core/profile_pic.jpg" class="profile_pic">
                 </div>
-                <p class="" style="color: #fff"><code>Also keep an eye on me via social media</code></p>
-                <div class="og-quick-contact-holder w3-animate-bottom">
+                <div class="profile fadeIn">
+                    <h1 class="">Hey there!<span class="blink">|</span> </h1>
+                    <p>I am Ogurinka-Woruka Benjamin (or Simply Tammy). I design and develop amazingly beautiful things and I really love what I do!</p>
+                </div>
+                <div class="nav">
+                    <a href="about.html" class="nav_links">[ about me  ]</a>
+                    <a href="https://portfolio.ogurinkabenjamin.me" class="nav_links">[ what I've done ]</a>
+                    <!--    <a href="https://blog.ogurinkabenjamin.me" class="nav_links">[ blog ]</a> -->
+                </div>
+                <div class="og-quick-contact-holder">
                     <a href="https://twitter.com/_simplytammy" class="og-quick-contact-link" target="_blank"
                         >
                     <i class="fab  fa-fw fa-twitter"></i></a>
@@ -68,6 +77,9 @@
                         >
                     <i class="fab  fa-fw fa-dev"></i></a>
                     <br>
+                </div>
+                <div class="copyright">
+                    <p>Made with <i class="fa fa-heart redColor"></i> and <i class="fa fa-code purpleColor"></i> by ME!</p>
                 </div>
             </div>
         </div>

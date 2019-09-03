@@ -1,24 +1,25 @@
-/*==========
-General and overides
-==========*/
+:root {
+  --bg_default: #151618;
+  --color_default: rgb(23, 191, 99) !important;
+}
 
 * {
   background: inherit;
   font-family: 'Space Mono', monospace;
 }
 
-html {
-  background: #151618 !important;
-}
-
+html,
 body {
   -o-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-family: 'Space Mono', monospace !important;
   color: #fff;
-  background: #151618;
+  background: var(--bg_default);
   cursor: default;
+  padding: 0;
+  margin: 0;
+  transition: 0.9s ease-in-out;
 }
 
 @media (max-width:744px) {
@@ -26,6 +27,38 @@ body {
   body {
     height: auto;
   }
+}
+
+#toggle {
+  transition: 0.8s ease-in-out;
+  cursor: pointer;
+}
+
+body.theme {
+  background: #f1f1f1 !important;
+  color: #151618 !important;
+}
+
+.abs {
+  position: absolute;
+  top: 2em;
+  left: 3em;
+}
+
+.redColor {
+  color: #ad1a30;
+}
+
+.purpleColor {
+  color: #c72cc9;
+}
+
+.fa-sun {
+  color: #FDB813;
+}
+
+.fa-moon {
+  color: #555;
 }
 
 @-webkit-keyframes fadeIn {
@@ -55,6 +88,25 @@ body {
   }
 }
 
+@-webkit-keyframes blinker {
+  from {
+    opacity: 1.0;
+  }
+  to {
+    opacity: 0.0;
+  }
+}
+
+.blink {
+  text-decoration: blink;
+  -webkit-animation-name: blinker;
+  -webkit-animation-duration: 0.6s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-direction: alternate;
+  color: var(--color_default);
+}
+
 .fade-in {
   opacity: 0;
   -webkit-animation: fadeIn ease-in 1;
@@ -72,6 +124,15 @@ img {
   width: 100%;
 }
 
+a {
+  color: var(--color_default);
+  text-decoration: none;
+}
+
+a:focus {
+  outline: none;
+}
+
 .og_container {
   min-height: 100vh;
   display: flex;
@@ -85,17 +146,140 @@ img {
   text-align: center;
 }
 
-g_container .wrapper h1 {
-  font-size: 36px;
+.og_container .wrapper .profile_pic {
+  max-width: 12rem;
+  max-height: 12rem;
+  border-radius: 50%;
+  border: 8px solid var(--color_default);
+  ;
 }
 
-.og_container .wrapper p {
+.og_container .wrapper .profile {
+  padding: 2rem 6rem 1rem 6rem;
+}
+
+.og_container .wrapper .profile h1 {
+  font-size: 36px;
+  color: var(--color_default);
+}
+
+.og_container .wrapper .profile p {
   font-size: 18px;
 }
 
+.og_container .wrapper .nav {
+  padding: 0 0 2rem 0;
+}
+
+.og_container .wrapper .nav .nav_links {
+  display: block;
+  margin: 6px auto;
+  text-decoration: none;
+}
+
+.og_container .wrapper .nav .nav_links:hover {
+  text-transform: uppercase;
+}
+
+.og_container.about {
+  display: block;
+  padding: 1rem 12rem;
+}
+
+.og_container.about .top_nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.og_container.about .top_nav .brand .link {
+  font-weight: 800;
+}
+
+.menu-overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.menu-overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  background: transparent !important;
+}
+
+.menu-overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 30px;
+  display: block;
+  transition: 0.3s;
+  background: transparent !important;
+}
+
+.menu-overlay a:hover,
+.menu-overlay a:focus {
+  color: #f1f1f1;
+}
+
+.menu-overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .menu-overlay a {
+    font-size: 20px
+  }
+  .menu-overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+.og_container.about .top_nav .menuToggle {
+  padding: 5px 15px;
+  border: 2px solid var(--color_default);
+  display: none;
+}
+
+.more-content {
+  display: none;
+  transition: 0.8s ease-in-out;
+}
+
+.more-content.active {
+  display: block;
+  transition: 0.8s ease-in-out;
+}
+
+.og_container.about .about_me {
+  padding: 3em 0;
+}
+
+.og_container.about .about_me h1 {
+  color: var(--color_default);
+  font-size: 28px;
+}
+
+.og_container.about .about_me p {
+  font-size: 20px;
+}
+
 .og-quick-contact-holder {
-  padding: 2em 0;
-  margin: 1em auto;
+  padding: 0;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -103,40 +287,71 @@ g_container .wrapper h1 {
   font-size: 18px;
   z-index: 99999;
   padding: 10px 12px;
-  margin: 1rem auto;
-  border: 2px solid #fff;
+  margin: 0 auto;
   border-radius: 50%;
   margin-bottom: 30px;
-  color: #fff;
+  color: inherit;
   text-align: center;
 }
 
 .og-quick-contact-link:hover {
-  color: #aec26b;
   -webkit-transition: .6s;
   transition: .6s;
-  border: 2px solid #aec26b;
+  opacity: 0.6;
+  color: var(--color_default);
+}
+
+.copyright {
+  margin: 2em 0;
+}
+
+.copyright p {
+  font-size: 16px;
 }
 
 @media screen and (max-width: 765px) {
+  .abs {
+    top: 0.45em;
+    left: 1em;
+  }
   .og_container .wrapper {
     width: 100%;
   }
-  .og_container .wrapper h1 {
+  .og_container .wrapper .profile h1 {
     font-size: 20px;
   }
-  .og_container .wrapper p {
+  .og_container .wrapper .profile p {
     font-size: 14px;
+  }
+  .og_container .wrapper .profile {
+    padding: 2rem 1rem 1rem 1rem;
+  }
+  .og_container.about {
+    display: block;
+    padding: 1rem 1rem;
+  }
+  .og_container.about .top_nav .menu {
+    display: none;
+  }
+  .og_container.about .top_nav .menu .link {
+    font-size: 16px;
+  }
+  .og_container.about .top_nav .menu .link:hover {
+    text-transform: uppercase !important;
+  }
+  .og_container.about .top_nav .menuToggle {
+    display: block;
+  }
+  .og_container.about .about_me p {
+    font-size: 15px;
   }
   .og-quick-contact-link {
     font-size: 14px;
     z-index: 99999;
     padding: 10px 12px;
     margin: 1rem auto;
-    border: 2px solid #fff;
     border-radius: 50%;
     margin-bottom: 30px;
-    color: #fff;
     text-align: center;
   }
 }

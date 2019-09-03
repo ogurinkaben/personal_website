@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Ogurinka :: Page not found</title>
+		<style type="text/css">
+			@import url('https://fonts.googleapis.com/css?family=Fira+Mono:400');
+			html,
+			body
+			{
+				padding: 0;
+				margin:0;
+			}
+			@-webkit-keyframes blinker {
+		from {
+		opacity: 1.0;
+		}
+		to {
+		opacity: 0.0;
+		}
+		}
+		.blink {
+		text-decoration: blink;
+		-webkit-animation-name: blinker;
+		-webkit-animation-duration: 0.6s;
+		-webkit-animation-iteration-count: infinite;
+		-webkit-animation-timing-function: ease-in-out;
+		-webkit-animation-direction: alternate;
+		color: var(--color_default);
+		}
+		.holder {
+		display: flex;
+		height: 100vh;
+		align-items: center;
+		justify-content: center;
+		padding: 1em;
+		background: #131313;
+		color: #fff;
+		font-family: 'Fira Mono', monospace;
+		}
+		.err
+		{
+			text-align: center;
+			padding: 1em;
+			width: 50%;
+			margin: 0 auto;
+		}
+		.err h1
+		{
+				color: rgb(23, 191, 99);;
+		}
+		.err p {
+		font-size: 36px;
+		}
+				.err a {
+					color: rgb(23, 191, 99);
+				}
+					.err img
+					{
+						width: 50%;
+					}
+					@media screen and (max-width: 950px) {
+						.err {
+							width: 100%;
+						}
+								.err p {
+		font-size: 25px;
+		}
+					}
+		</style>
+	</head>
+	<body>
+		<div class="holder">
+			<div class="err">
+				<h1>Ooops!<span class="blink">|</span> </h1>
+				<p>The Page You are looking does not exist or must have been removed by me!</p>
+				<a href="/">[ Go back .. ] </a>
+			</div>
+		</div>
+	</body>
+</html>
