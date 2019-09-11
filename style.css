@@ -6,6 +6,7 @@
 * {
   background: inherit;
   font-family: 'Space Mono', monospace;
+  transition: 0.9s ease-in-out;
 }
 
 html,
@@ -19,7 +20,6 @@ body {
   cursor: default;
   padding: 0;
   margin: 0;
-  transition: 0.9s ease-in-out;
 }
 
 @media (max-width:744px) {
@@ -39,10 +39,35 @@ body.theme {
   color: #151618 !important;
 }
 
+.text-isLeft {
+  text-align: left !important;
+}
+
 .abs {
   position: absolute;
   top: 2em;
   left: 3em;
+}
+
+.shape-1 {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  height: 200px;
+  width: 200px;
+  border-radius: 4% 96% 7% 93% / 0% 99% 1% 100%;
+  box-shadow: 0 10px 30px rgb(23, 191, 99, 0.17);
+  background: rgb(23, 191, 99, 0.12);
+}
+
+.shape-2 {
+  position: fixed;
+  bottom: 10px;
+  left: 0;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.22);
 }
 
 .redColor {
@@ -51,6 +76,24 @@ body.theme {
 
 .purpleColor {
   color: #c72cc9;
+}
+
+.mtb {
+  margin: 2rem 0;
+}
+
+.pl {
+  padding-left: 1rem;
+}
+
+.og_button {
+  border: 2px solid rgb(23, 191, 99);
+  color: rgb(23, 191, 99);
+  padding: 12px 33px;
+  text-decoration: none;
+  background: inherit;
+  transition: 0.8s ease;
+  box-shadow: 0 4px 30px rgb(23, 191, 99, 0.12);
 }
 
 .fa-sun {
@@ -135,31 +178,75 @@ a:focus {
 
 .og_container {
   min-height: 100vh;
+}
+
+.row {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 1em;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  padding: 20px;
+}
+
+@media screen and (max-width: 864px) {
+  .reverse-column-order {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column-reverse;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+  }
+}
+
+.og_container.landing {
+  padding: 1rem 12rem;
+  position: relative;
+}
+
+@media screen and (max-width: 864px) {
+  .og_container.landing {
+    padding: 1rem 1rem;
+  }
+  .og_container.landing .content {
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+  }
 }
 
 .og_container .wrapper {
-  width: 50vw;
   text-align: center;
 }
 
 .og_container .wrapper .profile_pic {
-  max-width: 12rem;
-  max-height: 12rem;
+  max-width: 8rem;
+  max-height: 8rem;
   border-radius: 50%;
   border: 8px solid var(--color_default);
   ;
 }
 
+.og_container .wrapper .content {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
 .og_container .wrapper .profile {
-  padding: 2rem 6rem 1rem 6rem;
+  margin: 1rem 0;
 }
 
 .og_container .wrapper .profile h1 {
-  font-size: 36px;
+  font-size: 60px;
   color: var(--color_default);
 }
 
@@ -186,12 +273,13 @@ a:focus {
   padding: 1rem 12rem;
 }
 
-.og_container.about .top_nav {
+.top_nav {
   display: flex;
   justify-content: space-between;
+  padding: 1em 0;
 }
 
-.og_container.about .top_nav .brand .link {
+.top_nav .brand .link {
   font-weight: 800;
 }
 
@@ -248,7 +336,7 @@ a:focus {
   }
 }
 
-.og_container.about .top_nav .menuToggle {
+.top_nav .menuToggle {
   padding: 5px 15px;
   border: 2px solid var(--color_default);
   display: none;
@@ -257,6 +345,8 @@ a:focus {
 .more-content {
   display: none;
   transition: 0.8s ease-in-out;
+  margin: 2rem auto;
+  padding: 1rem 1rem;
 }
 
 .more-content.active {
@@ -266,6 +356,7 @@ a:focus {
 
 .og_container.about .about_me {
   padding: 3em 0;
+  min-height: 100vh;
 }
 
 .og_container.about .about_me h1 {
@@ -286,7 +377,7 @@ a:focus {
 .og-quick-contact-link {
   font-size: 18px;
   z-index: 99999;
-  padding: 10px 12px;
+  padding: 10px 12px 10px 0;
   margin: 0 auto;
   border-radius: 50%;
   margin-bottom: 30px;
@@ -302,7 +393,7 @@ a:focus {
 }
 
 .copyright {
-  margin: 2em 0;
+  margin: 0.55em 0;
 }
 
 .copyright p {
@@ -318,28 +409,25 @@ a:focus {
     width: 100%;
   }
   .og_container .wrapper .profile h1 {
-    font-size: 20px;
+    font-size: 36px;
   }
   .og_container .wrapper .profile p {
-    font-size: 14px;
-  }
-  .og_container .wrapper .profile {
-    padding: 2rem 1rem 1rem 1rem;
+    font-size: 15px;
   }
   .og_container.about {
     display: block;
     padding: 1rem 1rem;
   }
-  .og_container.about .top_nav .menu {
+  .top_nav .menu {
     display: none;
   }
-  .og_container.about .top_nav .menu .link {
+  .top_nav .menu .link {
     font-size: 16px;
   }
-  .og_container.about .top_nav .menu .link:hover {
+  .top_nav .menu .link:hover {
     text-transform: uppercase !important;
   }
-  .og_container.about .top_nav .menuToggle {
+  .top_nav .menuToggle {
     display: block;
   }
   .og_container.about .about_me p {
@@ -348,7 +436,6 @@ a:focus {
   .og-quick-contact-link {
     font-size: 14px;
     z-index: 99999;
-    padding: 10px 12px;
     margin: 1rem auto;
     border-radius: 50%;
     margin-bottom: 30px;

@@ -46,54 +46,74 @@
         <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
     </head>
     <body class="" id="body">
-        <div class="og_container">
-            <div class="abs">
-                <span onclick="toggleTheme()" class="fas fa-sun" id="toggle"></span>
-            </div>
-            <div class="wrapper">
-                <div class="">
-                    <img src="/assets/img/core/profile_pic.jpg" class="profile_pic">
-                </div>
-                <div class="profile fadeIn">
-                    <h1 class="">Hey there!<span class="blink">|</span> </h1>
-                    <p>I am Ogurinka-Woruka Benjamin (or Simply Tammy). I design and develop amazingly beautiful things and I really love what I do!</p>
-                </div>
-                <div class="nav">
-                    <a href="about.html" class="nav_links">[ about me  ]</a>
-                    <a href="https://portfolio.ogurinkabenjamin.me" class="nav_links">[ what I've done ]</a>
-                    <!--    <a href="https://blog.ogurinkabenjamin.me" class="nav_links">[ blog ]</a> -->
-                </div>
-                <div class="og-quick-contact-holder">
-                    <a href="https://twitter.com/_simplytammy" class="og-quick-contact-link" target="_blank"
-                        >
-                    <i class="fab  fa-fw fa-twitter"></i></a>
-                    <a href="https://www.github.com/simplytammy" class=" og-quick-contact-link" target="_blank"
-                        >
-                    <i class="fab  fa-fw fa-github-alt"></i></a>
-                    <a href="https://codepen.io/simplytammy/" class=" og-quick-contact-link" target="_blank"
-                        >
-                    <i class="fab  fa-fw fa-codepen"></i></a>
-                    <a href="https://dev.to/simplytammy/" class=" og-quick-contact-link" target="_blank"
-                        >
-                    <i class="fab  fa-fw fa-dev"></i></a>
-                    <br>
-                </div>
-                <div class="copyright">
-                    <p>Made with <i class="fa fa-heart redColor"></i> and <i class="fa fa-code purpleColor"></i> by ME!</p>
-                </div>
+        <div id="myNav" class="menu-overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="menu-overlay-content">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="https://portfolio.ogurinkabenjamin.me">Portfolio</a>
+                <a href="https://calendly.com/ogurinkabenjamin" class="og_button">Hello</a>
             </div>
         </div>
-        <script src="app.js"></script>
-        <script>
-        if (navigator.serviceWorker.controller) {
-        console.log('[My PWA] active service worker found, no need to register')
-        } else {
-        navigator.serviceWorker.register('sw.js', {
-        scope: './'
-        }).then(function (reg) {
-        console.log('Service worker has been registered for scope:' + reg.scope);
-        });
-        }
-        </script>
-    </body>
+        <div class="og_container landing">
+            <div class="shape-1"></div>
+            <div class="top_nav">
+                <div class="brand">
+                    <span onclick="toggleTheme()" class="fas fa-sun" id="toggle"></span>
+                    <a href="index.html" class="link">$ Ogurinka<span class="blink">|</span> </a>
+                </div>
+                <div class="menu">
+                    <a href="about.html" class="link">[ about ]</a>
+                    <a href="https://portfolio.ogurinkabenjamin.me" class="link">[ portfolio ]</a>
+                </div>
+                <a href="#" class="menuToggle" onclick="openNav()">Menu</a>
+            </div>            <div class="wrapper">
+            <div class="content row reverse-column-order">
+                <div class="column">
+                    <div class="profile fadeIn">
+                        <h1 class="">Hey there!<span class="blink">|</span> </h1>
+                        <p>I am Ogurinka-Woruka Benjamin (or Simply Tammy). I design and develop amazingly beautiful things and I really love what I do!</p>
+                        <div class="mtb">
+                            <a href="#" class="og_button">Work With Me</a>
+                        </div>
+                        <div class="og-quick-contact-holder text-isLeft">
+                            <a href="https://twitter.com/_simplytammy" class="og-quick-contact-link" target="_blank"
+                                >
+                            <i class="fab  fa-fw fa-twitter"></i></a>
+                            <a href="https://www.github.com/simplytammy" class=" og-quick-contact-link" target="_blank"
+                                >
+                            <i class="fab  fa-fw fa-github-alt"></i></a>
+                            <a href="https://codepen.io/simplytammy/" class=" og-quick-contact-link" target="_blank"
+                                >
+                            <i class="fab  fa-fw fa-codepen"></i></a>
+                            <a href="https://dev.to/simplytammy/" class=" og-quick-contact-link" target="_blank"
+                                >
+                            <i class="fab  fa-fw fa-dev"></i></a>
+                            <br>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <div class="column">
+                    <img src="assets/img/core/hero.svg">
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+    <script src="app.js"></script>
+    <script>
+    if (navigator.serviceWorker.controller) {
+    console.log('[My PWA] active service worker found, no need to register')
+    } else {
+    navigator.serviceWorker.register('sw.js', {
+    scope: './'
+    }).then(function (reg) {
+    console.log('Service worker has been registered for scope:' + reg.scope);
+    });
+    }
+    </script>
+</body>
 </html>
