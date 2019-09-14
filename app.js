@@ -23,4 +23,11 @@ function closeNav( ) {
 function viewMore( ) {
 	var more = document.getElementById( "moreContent" );
 	more.classList.toggle( "active" );
+	if ( more.classList.contains( 'active' ) ) {
+		document.querySelector( '.showMore' ).textContent = 'Read less';
+	}
+	else {
+		document.querySelector( '.showMore' ).textContent = 'Read more';
+
+	}
 }

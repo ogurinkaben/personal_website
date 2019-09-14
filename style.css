@@ -29,6 +29,19 @@ body {
   }
 }
 
+.inTouch {
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background: #141413;
+  opacity: 1;
+}
+
 #toggle {
   transition: 0.8s ease-in-out;
   cursor: pointer;
@@ -94,6 +107,11 @@ body.theme {
   background: inherit;
   transition: 0.8s ease;
   box-shadow: 0 4px 30px rgb(23, 191, 99, 0.12);
+}
+
+.og_button:hover {
+  background: rgb(23, 191, 99);
+  color: #fff;
 }
 
 .fa-sun {
@@ -164,7 +182,7 @@ body.theme {
 }
 
 img {
-  width: 100%;
+  max-width: 80%;
 }
 
 a {
@@ -195,7 +213,7 @@ a:focus {
   padding: 20px;
 }
 
-@media screen and (max-width: 864px) {
+@media screen and (max-width: 950px) {
   .reverse-column-order {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -208,11 +226,15 @@ a:focus {
 }
 
 .og_container.landing {
-  padding: 1rem 12rem;
+  padding: 1rem 2rem;
   position: relative;
 }
 
-@media screen and (max-width: 864px) {
+.about_text {
+  margin-top: 3rem;
+}
+
+@media screen and (max-width: 950px) {
   .og_container.landing {
     padding: 1rem 1rem;
   }
@@ -270,7 +292,7 @@ a:focus {
 
 .og_container.about {
   display: block;
-  padding: 1rem 12rem;
+  padding: 1rem 2rem;
 }
 
 .top_nav {
@@ -370,6 +392,7 @@ a:focus {
 
 .og-quick-contact-holder {
   padding: 0;
+  padding-bottom: 4rem;
   margin: 0 auto;
   text-align: center;
 }
@@ -400,7 +423,7 @@ a:focus {
   font-size: 16px;
 }
 
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 950px) {
   .abs {
     top: 0.45em;
     left: 1em;
