@@ -18,8 +18,6 @@ body {
   color: #fff;
   background: var(--bg_default);
   cursor: default;
-  padding: 0;
-  margin: 0;
 }
 
 @media (max-width:744px) {
@@ -27,6 +25,11 @@ body {
   body {
     height: auto;
   }
+}
+
+p {
+  padding: 0;
+  margin: 0;
 }
 
 .inTouch {
@@ -65,22 +68,22 @@ body.theme {
 .shape-1 {
   position: absolute;
   bottom: 10px;
-  left: 0;
+  right: 0;
   height: 200px;
   width: 200px;
   border-radius: 4% 96% 7% 93% / 0% 99% 1% 100%;
-  box-shadow: 0 10px 30px rgb(23, 191, 99, 0.17);
-  background: rgb(23, 191, 99, 0.12);
+  box-shadow: 0 10px 30px rgba(23, 191, 99, 0.17);
+  background: rgba(23, 191, 99, 0.12);
 }
 
 .shape-2 {
-  position: fixed;
+  position: absolute;
   bottom: 10px;
   left: 0;
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.22);
+  height: 200px;
+  width: 200px;
+  border-radius: 69% 31% 68% 32% / 58% 72% 28% 42%;
+  background: rgba(23, 191, 99, 0.02);
 }
 
 .redColor {
@@ -93,6 +96,56 @@ body.theme {
 
 .mtb {
   margin: 2rem 0;
+}
+
+.mt {
+  margin-top: 1rem;
+}
+
+.a_bg {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  background: rgba(23, 191, 99, 0.03);
+  border-radius: 40% 60% 60% 40% / 70% 30% 70% 30%;
+  left: 2em;
+  animation: morph 15s linear infinite alternate, spin 20s linear infinite;
+  z-index: 1;
+  will-change: border-radius, transform;
+  transform-origin: 55% 55%;
+  pointer-events: none;
+}
+
+@media screen and (max-width: 745px) {
+  .a_bg {
+    bottom: 4em;
+    top: 1em;
+    left: unset;
+  }
+}
+
+@keyframes morph {
+  0% {
+    border-radius: 40% 60% 60% 40% / 70% 30% 70% 30%;
+    width: 350px;
+    height: 350px;
+  }
+  100% {
+    border-radius: 40% 60%;
+    width: 360px;
+    height: 360px;
+  }
+  100% {
+    transform: rotate(1turn);
+    width: 400px;
+    height: 400px;
+  }
+}
+
+}
+
+.showMore {
+  margin-bottom: 0 !important;
 }
 
 .pl {
@@ -183,6 +236,8 @@ body.theme {
 
 img {
   max-width: 80%;
+  display: block;
+  margin: 0 auto;
 }
 
 a {
@@ -211,6 +266,7 @@ a:focus {
   flex-basis: 100%;
   flex: 1;
   padding: 20px;
+  position: relative;
 }
 
 @media screen and (max-width: 950px) {
@@ -265,6 +321,7 @@ a:focus {
 
 .og_container .wrapper .profile {
   margin: 1rem 0;
+  position: relative;
 }
 
 .og_container .wrapper .profile h1 {
@@ -367,8 +424,8 @@ a:focus {
 .more-content {
   display: none;
   transition: 0.8s ease-in-out;
-  margin: 2rem auto;
-  padding: 1rem 1rem;
+  margin: 0 auto 2rem auto;
+  padding: 0 1rem 1rem 1rem;
 }
 
 .more-content.active {
@@ -378,7 +435,7 @@ a:focus {
 
 .og_container.about .about_me {
   padding: 3em 0;
-  min-height: 100vh;
+  min-height: 70vh;
 }
 
 .og_container.about .about_me h1 {
