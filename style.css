@@ -562,7 +562,7 @@ a:focus {
   }
   .og_container.about {
     display: block;
-    padding: 1rem 1rem;
+    padding: 1rem 0.55rem;
   }
   .top_nav .menu {
     display: none;
