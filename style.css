@@ -227,6 +227,7 @@ body.theme {
   background: inherit;
   transition: 0.8s ease;
   box-shadow: 0 4px 30px rgb(23, 191, 99, 0.12);
+  border-radius: 2rem;
 }
 
 .og_button:hover {
@@ -340,7 +341,7 @@ a:focus {
   text-align: center;
   padding: 1rem;
   border: 1px solid var(--color_default);
-  min-height: 150px;
+  max-height: 12rem;
   max-width: 12rem;
   margin: 1rem 0;
   display: flex;
@@ -447,9 +448,14 @@ a:focus {
 }
 
 .top_nav {
-  display: flex;
+  display: block;
   justify-content: space-between;
   padding: 1em 0;
+  text-align: center;
+}
+
+.top_nav .brand {
+  margin-bottom: 2rem;
 }
 
 .top_nav .brand .link {
