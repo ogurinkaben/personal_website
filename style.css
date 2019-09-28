@@ -336,6 +336,33 @@ a:focus {
   position: relative;
 }
 
+.iDO {
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid var(--color_default);
+  min-height: 150px;
+  max-width: 12rem;
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.8s ease;
+}
+
+.iDO .og-icon span {
+  font-size: 80px;
+  color: var(--color_default);
+}
+
+.iDO:hover {
+  background: var(--color_default);
+}
+
+.iDO:hover .og-icon span,
+.iDO:hover .og-text p {
+  color: #fff !important;
+}
+
 @media screen and (max-width: 950px) {
   .reverse-column-order {
     display: -webkit-box;
@@ -493,6 +520,10 @@ a:focus {
   transition: 0.8s ease-in-out;
   margin: 0 auto 2rem auto;
   padding: 0 1rem 1rem 1rem;
+}
+
+.more-content h1 {
+  margin: 2rem 0;
 }
 
 .more-content.active {
