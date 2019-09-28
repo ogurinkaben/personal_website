@@ -455,7 +455,7 @@ a:focus {
 }
 
 .top_nav .brand {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .top_nav .brand .link {
@@ -516,7 +516,7 @@ a:focus {
 }
 
 .top_nav .menuToggle {
-  padding: 5px 15px;
+  padding: 5px 15px 0 15px;
   border: 2px solid var(--color_default);
   display: none;
 }
@@ -600,6 +600,12 @@ a:focus {
   .og_container.about {
     display: block;
     padding: 1rem 0.55rem;
+  }
+  .top_nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.55rem 0;
+    text-align: center;
   }
   .top_nav .menu {
     display: none;
