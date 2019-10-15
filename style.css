@@ -17,6 +17,7 @@ body {
   color: #fff;
   background: var(--bg_default);
   cursor: default;
+  transition: 0.6s ease-in-out;
 }
 
 @media (max-width:744px) {
