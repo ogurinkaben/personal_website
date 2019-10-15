@@ -50,7 +50,12 @@ p {
   cursor: pointer;
 }
 
-body.theme {
+body.dark {
+  background: #151618 !important;
+  color: #f1f1f1 !important;
+}
+
+body.light {
   background: #f1f1f1 !important;
   color: #151618 !important;
 }
