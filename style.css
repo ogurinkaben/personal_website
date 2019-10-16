@@ -34,10 +34,10 @@ a {
 .btn {
   padding: 14px 42px;
   color: #fff;
-  background: rgba(21, 22, 24);
+  background: rgba(21, 22, 24,0.8);
   border: none;
   border-radius: 3rem;
-  box-shadow: 0 10px 30px rgba(21, 22, 24);
+  box-shadow: 5px 10px 30px rgba(21, 22, 24,0.3);
   cursor: pointer;
   text-decoration: none;
   font-size: 16px;
@@ -45,7 +45,7 @@ a {
 }
 
 .og-icon {
-  background: rgba(21, 22, 24,0.6);
+  background: rgba(21, 22, 24,0.8);
   box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.3);
   color: #fff;
   font-size: 30px;
