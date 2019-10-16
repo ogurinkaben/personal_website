@@ -1,82 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Ogurinka :: Page not found</title>
-		<style type="text/css">
-			@import url('https://fonts.googleapis.com/css?family=Fira+Mono:400');
-			html,
-			body
-			{
-				padding: 0;
-				margin:0;
-			}
-			@-webkit-keyframes blinker {
-		from {
-		opacity: 1.0;
-		}
-		to {
-		opacity: 0.0;
-		}
-		}
-		.blink {
-		text-decoration: blink;
-		-webkit-animation-name: blinker;
-		-webkit-animation-duration: 0.6s;
-		-webkit-animation-iteration-count: infinite;
-		-webkit-animation-timing-function: ease-in-out;
-		-webkit-animation-direction: alternate;
-		color: var(--color_default);
-		}
-		.holder {
-		display: flex;
-		height: 100vh;
-		align-items: center;
-		justify-content: center;
-		padding: 1em;
-		background: #131313;
-		color: #fff;
-		font-family: 'Fira Mono', monospace;
-		}
-		.err
-		{
-			text-align: center;
-			padding: 1em;
-			width: 50%;
-			margin: 0 auto;
-		}
-		.err h1
-		{
-				color: rgb(23, 191, 99);;
-		}
-		.err p {
-		font-size: 36px;
-		}
-				.err a {
-					color: rgb(23, 191, 99);
-				}
-					.err img
-					{
-						width: 50%;
-					}
-					@media screen and (max-width: 950px) {
-						.err {
-							width: 100%;
-						}
-								.err p {
-		font-size: 25px;
-		}
-					}
-		</style>
-	</head>
-	<body>
-		<div class="holder">
-			<div class="err">
-				<h1>Ooops!<span class="blink">|</span> </h1>
-				<p>The Page You are looking does not exist or must have been removed by me!</p>
-				<a href="/">[ Go back .. ] </a>
-			</div>
-		</div>
-	</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="portfolio, Ogurinka Benjamin, Ogurinka Tammy Benjamin, Tammy, simplytammy simply tammy">
+        <meta name="description" content="Curious Developer. I design and code beautifully simple things, and I love what I do.">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Ogurinka :: Page not found</title>
+        <!-- open graph tags -->
+        <meta property="og:title" content="Ogurinka Benjamin :." />
+        <meta property="og:description" content="Curious Developer. I design and code beautifully simple things, and I love what I do" />
+        <meta property="og:url" content="https://ogurinkabenjamin.me" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://pbs.twimg.com/profile_images/1122402512957575169/da6vHW3F_400x400.jpg" />
+        <!-- twitter cards -->
+        <meta name="twitter:card" content="“summary_large_image”" />
+        <meta name="twitter:site" content="@_simplytammy" />
+        <meta name="twitter:creator" content="@_simplytammy" />
+        <meta name="twitter:title" content="Ogurinka Benjamin ::" />
+        <meta name="twitter:description" content="Curious Developer. I design and code beautifully simple things, and I love what I do." />
+        <meta name="twitter:image" content="https://pbs.twimg.com/profile_images/1122402512957575169/da6vHW3F_400x400.jpg" />
+        <!--Icons -->
+        <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="assets/img/icons/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="assets/img/icons/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="assets/img/icons/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="assets/img/icons/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="assets/img/icons/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="assets/img/icons/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="assets/img/icons/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/img/icons/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="assets/img/icons/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/img/icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="assets/img/icons/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/img/icons/favicon-16x16.png">
+        <link rel="manifest" href="manifest.json">
+        <meta name="msapplication-TileColor" content="#151618">
+        <meta name="msapplication-TileImage" content="assets/img/icons/ms-icon-144x144.png">
+        <meta name="theme-color" content="#151618">
+        <!--Custom Css-->
+        <link rel="stylesheet" href="style.css">
+        <!--Icons-->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/themify-icons/0.1.2/css/themify-icons.css">
+        <!--Google font-->
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Lato:300&display=swap" rel="stylesheet">
+    </head>
+    <body id="body">
+        <div class="main-wrapper">
+            <div id="myNav" class="menu-overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="menu-overlay-content">
+                    <a href="about.html" class="link">About</a>
+                    <a href="blog.html" class="link">Blog</a>
+                    <a href="contact.html" class="link">Contact</a>
+                    <a href="https://portfolio.ogurinkabenjamin.me" class="link">Portfolio</a>
+                    
+                </div>
+            </div>
+            <section class="og-hero notFound">
+                <nav class="og-nav" id="nav">
+                    <div class="brand">
+                        <a href="index.html" class="brand-link">
+                            ben
+                        </a>
+                    </div>
+                    <div class="menu">
+                        <a href="about.html" class="link">About</a>
+                        <a href="blog.html" class="link">Blog</a>
+                        <a href="contact.html" class="link">Contact</a>
+                        <a href="https://portfolio.ogurinkabenjamin.me" class="link">Portfolio</a>
+                        
+                    </div>
+                    <a href="#" class="menuToggle" onclick="openNav()"> <i class="ti-layout-grid3-alt"></i></a>
+                </nav>
+                <div class="inner">
+                    <h1>Oops  </h1>
+                    <div class="og-icon">
+                        <span class="ti-unlink"></span>
+                    </div>
+                    <p>This is not the page you are looking for..</p>
+                    <p>You may have clicked a broken link or the page does not exist</p>
+                    <div class="og-aoc unset">
+                        <div>
+                            <a href="index.html" class="og-hero-link"> <i class="ti-home" target="_blank"></i></a>
+                            <p>Back to site</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+            
+            
+        </div>
+        <script src="app.js"></script>
+    </body>
 </html>

@@ -6,7 +6,7 @@
         <meta name="keywords" content="portfolio, Ogurinka Benjamin, Ogurinka Tammy Benjamin, Tammy, simplytammy simply tammy">
         <meta name="description" content="Curious Developer. I design and code beautifully simple things, and I love what I do.">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Ogurinka :: Home</title>
+        <title>Ogurinka :: Leave a message</title>
         <!-- open graph tags -->
         <meta property="og:title" content="Ogurinka Benjamin :." />
         <meta property="og:description" content="Curious Developer. I design and code beautifully simple things, and I love what I do" />
@@ -57,10 +57,10 @@
                     
                 </div>
             </div>
-            <section class="og-hero">
+            <section class="og-hero md">
                 <nav class="og-nav" id="nav">
                     <div class="brand">
-                        <a href="#" class="brand-link">
+                        <a href="index.html" class="brand-link">
                             ben
                         </a>
                     </div>
@@ -74,68 +74,55 @@
                     <a href="#" class="menuToggle" onclick="openNav()"> <i class="ti-layout-grid3-alt"></i></a>
                 </nav>
                 <div class="inner">
-                    <h1>Ogurinka Benjamin </h1>
-                    <p>Passionate and Lenient Web &amp; UX Developer with Proficiencies in Problem Solving, Web Design and UX Principles.</p>
-                    <div class="og-aoc">
-                        <div>
-                            <a href="https://portfolio.ogurinkabenjamin.me" class="og-hero-link"> <i class="ti-ruler-pencil" target="_blank"></i></a>
-                            <p>Work</p>
-                        </div>
-                        <div>
-                            <a href="learn.html" class="og-hero-link"><i class="ti-package"></i></a>
-                            <p>Mentor</p>
-                        </div>
-                        <div>
-                            <a href="https://calendly.com/ogurinkabenjamin/talk-to" class="og-hero-link" target="_blank"><i class="ti-comment-alt"></i></a>
-                            <p>Connect</p>
-                        </div>
-                    </div>
+                    <h1>Leave a message  </h1>
+                    <p>I Will be in touch</p>
                 </div>
             </section>
             <section class="wrapper">
-                <div class="innerWrap">
-                    <div>
-                        <h3>Hi There, </h3>
-                        <p> I am a Frontend Web Developer, UX Designer and Student currently living in Rivers, Nigeria. I started my journey as a Front End Developer in February 2018 and since then I've been able to
-                            learn a lot and grow myself.
-                            I code for fun and build amazingly beautiful and simple things as a hobby. I Pay attention to best practices known to me
-                        and I'm always open to learn new things and take on challenging paths.</p>
-                        <a href="about.html" class="btn">Keep Reading</a></p>
+                <div class="innerWrap lg">
+                    <div class="row">
+                        <div class="column">
+                            <h1>Leave a message</h1>
+                            <div class="form">
+                                <form name="contact" method="POST" data-netlify="true" action="/success.html">
+                                    <input type="text" class="og-field" name="fullName" placeholder="Your Full Name" required>
+                                    <input type="text" class="og-field" name="eMail" placeholder="Email" required>
+                                    <input type="text" class="og-field" name="phone" placeholder="Phone number (optional)" required>
+                                    <textarea class="og-field textarea" placeholder="Message"></textarea>
+                                    <button type="submit" class="btn">Send</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <h1>Book Appointment</h1>
+                            <p>Want to get a more one-on-one interaction with me? <br>Well let's do this. Pin an appointment on a day and time that works for you</p>
+                            <div class="og-icon" id="myBtn">
+                                <a href="https://calendly.com/ogurinkabenjamin/talk-to?month=2019-10" class="link" target="_blank"> <span class="ti-pin2"></span> </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                
             </section>
-            <footer>
-                <div class="og-quick-contact-holder">
-                    <a href="https://twitter.com/_simplytammy" class="og-quick-contact-link" target="_blank"
-                        >
-                    <i class="fab  fa-fw fa-twitter"></i></a>
-                    <a href="https://www.github.com/simplytammy" class=" og-quick-contact-link" target="_blank"
-                        >
-                    <i class="fab  fa-fw fa-github-alt"></i></a>
-                    <a href="https://codepen.io/simplytammy/" class=" og-quick-contact-link" target="_blank"
-                        >
-                    <i class="fab  fa-fw fa-codepen"></i></a>
-                    <a href="https://dev.to/simplytammy/" class=" og-quick-contact-link" target="_blank"
-                        >
-                    <i class="fab  fa-fw fa-dev"></i></a>
-                    <br>
-                    <div class="copyright">
-                        <p>Made with <i class="fa fa-heart redColor"></i> and <i class="fa fa-code purpleColor"></i> by ME!</p>
-                    </div>
+            <div class="og-quick-contact-holder">
+                <a href="https://twitter.com/_simplytammy" class="og-quick-contact-link" target="_blank"
+                    >
+                <i class="fab  fa-fw fa-twitter"></i></a>
+                <a href="https://www.github.com/simplytammy" class=" og-quick-contact-link" target="_blank"
+                    >
+                <i class="fab  fa-fw fa-github-alt"></i></a>
+                <a href="https://codepen.io/simplytammy/" class=" og-quick-contact-link" target="_blank"
+                    >
+                <i class="fab  fa-fw fa-codepen"></i></a>
+                <a href="https://dev.to/simplytammy/" class=" og-quick-contact-link" target="_blank"
+                    >
+                <i class="fab  fa-fw fa-dev"></i></a>
+                <br>
+                <div class="copyright">
+                    <p>Made with <i class="fa fa-heart redColor"></i> and <i class="fa fa-code purpleColor"></i> by ME!</p>
                 </div>
-            </footer>
+            </div>
         </div>
         <script src="app.js"></script>
-        <script>
-        if (navigator.serviceWorker.controller) {
-        console.log('[My PWA] active service worker found, no need to register')
-        } else {
-        navigator.serviceWorker.register('sw.js', {
-        scope: './'
-        }).then(function (reg) {
-        console.log('Service worker has been registered for scope:' + reg.scope);
-        });
-        }
-        </script>
     </body>
 </html>
