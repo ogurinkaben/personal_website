@@ -45,7 +45,7 @@ a {
 }
 
 .og-icon {
-  background: rgba(102, 45, 145, 0.9);
+  background: rgba(102, 45, 145, 0.6);
   box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.3);
   color: #fff;
   font-size: 30px;
@@ -128,7 +128,7 @@ a {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.6);
   overflow-x: hidden;
   transition: 0.5s;
 }
@@ -186,9 +186,9 @@ a {
 
 .og-hero {
   min-height: 70vh;
-  background: -webkit-linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(102, 45, 145, 0.9)), url(assets/img/core/profile_pic.jpg);
-  background: -o-linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(102, 45, 145, 0.9)), url(assets/img/core/profile_pic.jpg);
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(102, 45, 145, 0.9)), url(assets/img/core/profile_pic.jpg);
+  background: -webkit-linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(102, 45, 145, 0.6)), url(assets/img/core/profile_pic.jpg);
+  background: -o-linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(102, 45, 145, 0.6)), url(assets/img/core/profile_pic.jpg);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(102, 45, 145, 0.6)), url(assets/img/core/profile_pic.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -201,9 +201,9 @@ a {
 
 .og-hero.md {
   min-height: 35vh;
-  background: -webkit-linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(102, 45, 145, 0.9)), url(assets/img/core/profile_pic.jpg);
-  background: -o-linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(102, 45, 145, 0.9)), url(assets/img/core/profile_pic.jpg);
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(102, 45, 145, 0.9)), url(assets/img/core/profile_pic.jpg);
+  background: -webkit-linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(102, 45, 145, 0.6)), url(assets/img/core/profile_pic.jpg);
+  background: -o-linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(102, 45, 145, 0.6)), url(assets/img/core/profile_pic.jpg);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(102, 45, 145, 0.6)), url(assets/img/core/profile_pic.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -212,9 +212,9 @@ a {
 
 .og-hero.fh {
   min-height: 100vh;
-  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.4), rgba(102, 45, 145, 0.9)), url(assets/img/core/md.jpg);
-  background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.4), rgba(102, 45, 145, 0.9)), url(assets/img/core/md.jpg);
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(102, 45, 145, 0.9)), url(assets/img/core/md.jpg);
+  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.4), rgba(102, 45, 145, 0.6)), url(assets/img/core/md.jpg);
+  background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.4), rgba(102, 45, 145, 0.6)), url(assets/img/core/md.jpg);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(102, 45, 145, 0.6)), url(assets/img/core/md.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -223,9 +223,9 @@ a {
 
 .og-hero.notFound {
   min-height: 100vh;
-  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.4), rgba(102, 45, 145, 0.9)), url(assets/img/core/404.jpg);
-  background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.4), rgba(102, 45, 145, 0.9)), url(assets/img/core/404.jpg);
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(102, 45, 145, 0.9)), url(assets/img/core/404.jpg);
+  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.4), rgba(102, 45, 145, 0.6)), url(assets/img/core/404.jpg);
+  background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.4), rgba(102, 45, 145, 0.6)), url(assets/img/core/404.jpg);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(102, 45, 145, 0.6)), url(assets/img/core/404.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -276,8 +276,8 @@ a {
 }
 
 .og-hero .og-aoc .og-hero-link i:hover {
-  background: rgba(102, 45, 145, 0.9);
-  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.9);
+  background: rgba(102, 45, 145, 0.6);
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.6);
 }
 
 @media screen and (max-width: 950px) {
