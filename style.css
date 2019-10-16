@@ -34,10 +34,10 @@ a {
 .btn {
   padding: 14px 42px;
   color: #fff;
-  background: rgba(102, 45, 145);
+  background: rgba(21, 22, 24);
   border: none;
   border-radius: 3rem;
-  box-shadow: 0 10px 30px rgba(102, 45, 145, 0.5);
+  box-shadow: 0 10px 30px rgba(21, 22, 24);
   cursor: pointer;
   text-decoration: none;
   font-size: 16px;
@@ -45,7 +45,7 @@ a {
 }
 
 .og-icon {
-  background: rgba(102, 45, 145, 0.6);
+  background: rgba(21, 22, 24,0.6);
   box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.3);
   color: #fff;
   font-size: 30px;
@@ -94,8 +94,8 @@ a {
 
 .og-nav.activeNav {
   -webkit-box-shadow: 0 10px 30px rgba(102, 45, 145, 0.2);
-  box-shadow: 0 10px 30px rgba(102, 45, 145, 0.2);
-  background: rgba(102, 45, 145, 0.8);
+  box-shadow: 0 10px 30px rgba(21, 22, 24,0.6);
+  background: rgba(21, 22, 24,0.8);
 }
 
 .og-nav .brand,
@@ -186,9 +186,9 @@ a {
 
 .og-hero {
   min-height: 70vh;
-  background: -webkit-linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(102, 45, 145, 0.6)), url(assets/img/core/profile_pic.jpg);
-  background: -o-linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(102, 45, 145, 0.6)), url(assets/img/core/profile_pic.jpg);
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(102, 45, 145, 0.6)), url(assets/img/core/profile_pic.jpg);
+  background: -webkit-linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(21, 22, 24,0.6)), url(assets/img/core/profile_pic.jpg);
+  background: -o-linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(21, 22, 24,0.6)), url(assets/img/core/profile_pic.jpg);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(21, 22, 24,0.6)), url(assets/img/core/profile_pic.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -201,9 +201,9 @@ a {
 
 .og-hero.md {
   min-height: 35vh;
-  background: -webkit-linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(102, 45, 145, 0.6)), url(assets/img/core/profile_pic.jpg);
-  background: -o-linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(102, 45, 145, 0.6)), url(assets/img/core/profile_pic.jpg);
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(102, 45, 145, 0.6)), url(assets/img/core/profile_pic.jpg);
+  background: -webkit-linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(21, 22, 24,0.6)), url(assets/img/core/profile_pic.jpg);
+  background: -o-linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(21, 22, 24,0.6)), url(assets/img/core/profile_pic.jpg);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(21, 22, 24,0.6)), url(assets/img/core/profile_pic.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -212,9 +212,9 @@ a {
 
 .og-hero.fh {
   min-height: 100vh;
-  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.4), rgba(102, 45, 145, 0.6)), url(assets/img/core/md.jpg);
-  background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.4), rgba(102, 45, 145, 0.6)), url(assets/img/core/md.jpg);
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(102, 45, 145, 0.6)), url(assets/img/core/md.jpg);
+  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.4), rgba(21, 22, 24,0.6)), url(assets/img/core/md.jpg);
+  background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.4), rgba(21, 22, 24,0.6)), url(assets/img/core/md.jpg);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(21, 22, 24,0.6)), url(assets/img/core/md.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -223,9 +223,9 @@ a {
 
 .og-hero.notFound {
   min-height: 100vh;
-  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.4), rgba(102, 45, 145, 0.6)), url(assets/img/core/404.jpg);
-  background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.4), rgba(102, 45, 145, 0.6)), url(assets/img/core/404.jpg);
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(102, 45, 145, 0.6)), url(assets/img/core/404.jpg);
+  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.4), rgba(21, 22, 24,0.6)), url(assets/img/core/404.jpg);
+  background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.4), rgba(21, 22, 24,0.6)), url(assets/img/core/404.jpg);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(21, 22, 24,0.6)), url(assets/img/core/404.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -276,7 +276,7 @@ a {
 }
 
 .og-hero .og-aoc .og-hero-link i:hover {
-  background: rgba(102, 45, 145, 0.6);
+  background: rgba(21, 22, 24,0.6);
   box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.6);
 }
 
@@ -320,7 +320,7 @@ a {
   object-fit: cover;
   margin-bottom: 30px;
   padding: 20px;
-  border: 2px solid rgba(102, 45, 145, 0.2);
+  border: 2px solid rgba(21, 22, 24,0.2);
   border-radius: 26% 74% 21% 79% / 72% 30% 70% 28%;
 }
 
@@ -366,7 +366,7 @@ a {
 
 .wrapper .innerWrap .og-field:focus,
 .wrapper .innerWrap .og-field.textarea:focus {
-  border: 1px solid rgba(102, 45, 145);
+  border: 1px solid rgba(21, 22, 24);
 }
 
 @media screen and (max-width: 950px) {
@@ -393,12 +393,12 @@ a {
   border-radius: 50%;
   margin-bottom: 30px;
   text-align: center;
-  color: rgba(102, 45, 145, 1);
+  color: rgba(21, 22, 24,1);
   background: transparent;
 }
 
 .og-quick-contact-link:hover {
-  color: rgba(102, 45, 145, 0.5);
+  color: rgba(102, 45, 145, 1);
   -webkit-transition: .6s;
   transition: .6s;
 }
