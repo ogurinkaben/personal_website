@@ -47,6 +47,27 @@ a {
   text-decoration: none;
   font-size: 16px;
   font-weight: bold;
+  transition: 0.6s ease-in-out;
+}
+.btn:hover {
+  box-shadow: 5px 14px 36px rgba(102, 45, 145, 0.6);
+}
+.btn.outline {
+  padding: 14px 42px;
+  border:1px solid #fff;
+  border-radius: 3rem;
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.3);
+  background: transparent;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  transition: 0.6s ease-in-out;
+}
+
+.btn.outline:hover {
+ background: rgba(102, 45, 145, 0.8);
+ box-shadow: 5px 14px 36px rgba(102, 45, 145, 0.6);
 }
 
 .og-icon {
@@ -69,6 +90,52 @@ a {
 
 .purpleColor {
   color: #c72cc9;
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s ease-in both;
+}
+.fade-in.slow {
+    animation: fadeInSlow 1s ease-in both;
+    animation-delay: 0.7s !important;
+}
+
+.fade-in:nth-child(1) {
+  animation-delay: 0.4s;
+}
+.fade-in:nth-child(2) {
+  animation-delay: 0.5s;
+}
+.fade-in:nth-child(3) {
+  animation-delay: 0.6s;
+}
+.fade-in:nth-child(4) {
+  animation-delay: 0.7s;
+}
+.fade-in:nth-child(5) {
+  animation-delay: 0.8s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -20%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes fadeInSlow {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -20%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
 }
 
 .row {
@@ -165,7 +232,7 @@ a {
 .menu-overlay .closebtn {
   position: absolute;
   top: 20px;
-  right: 45px;
+  right: 11px;
   font-size: 60px;
 }
 
@@ -217,9 +284,9 @@ a {
 
 .og-hero.fh {
   min-height: 100vh;
-  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.4), rgba(102, 45, 145, 0.6)), url(assets/img/core/md.jpg);
-  background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.4), rgba(102, 45, 145, 0.6)), url(assets/img/core/md.jpg);
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(102, 45, 145, 0.6)), url(assets/img/core/md.jpg);
+  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.4), rgba(102, 45, 145, 0.9)), url(assets/img/core/md.jpg);
+  background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.4), rgba(102, 45, 145, 0.9)), url(assets/img/core/md.jpg);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(102, 45, 145, 0.9)), url(assets/img/core/md.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
