@@ -6,7 +6,7 @@
 
                 html,
                 body {
-                  background: #151618 !important;
+                  background: #2F3242 !important;
                 }
 
                 h1,
@@ -319,6 +319,40 @@
                   align-items: center;
                 }
 
+                .og_wrapper .bio .inner {
+                  position: relative;
+                }
+
+                .og_wrapper .bio .profile-photo {
+                  margin: 2rem 0;
+                  max-height: 350px;
+                  max-width: 270px;
+                }
+
+                .og_wrapper .bio .profile-photo img {
+                  max-height: 350px;
+                  max-width: 300px;
+                  object-fit: contain;
+                  position: relative;
+
+                }
+
+                .og_wrapper .bio .profile-photo:before {
+                  content: "";
+                  position: absolute;
+                  top: 10px;
+                  height: 350px;
+                  width: 270px;
+                  left: 10px;
+                  border: 2px solid rgb(23, 191, 99);
+                  transition: 0.4s ease-in-out;
+
+                }
+
+                .og_wrapper .bio .profile-photo:hover:before {
+                  background: rgb(23, 191, 99);
+                }
+
                 .og_wrapper .bio h1 {
                   font-size: 26px;
                   color: rgb(23, 191, 99);
@@ -351,7 +385,7 @@
                   color: #ffffff;
                   line-height: 1.8rem;
                   font-size: 20px;
-margin-bottom:1.4rem;
+                  margin-bottom: 1.4rem;
                 }
 
                 .og_wrapper .bio .work,
