@@ -4,7 +4,8 @@ const getArticle = async () => {
     const response = await fetch(`https://dev.to/api/articles/${id}`);
     const data = await response.json();
     document.title = data.title;
-    document.querySelector('.title').textContent = data.title;
+    document.querySelector('#title').textContent = data.title;
+    document.querySelector('#crumbs-title').textContent = data.title;
     if (data.cover_image) {
         document.querySelector('#cover').src = data.cover_image;
     } else {
