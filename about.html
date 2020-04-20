@@ -9,15 +9,13 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Ogurinka Benjamin :: UI Developer</title>
   <!-- open graph tags -->
-  <meta property="og:title" content="Ogurinka Benjamin :." />
-  <meta property="og:description" content="Curious Developer. I design and code beautifully simple things, and I love what I do" />
-  <meta property="og:url" content="https://ogurinkabenjamin.me" />
+  <meta property="og:url" content="https://ogben.xyz" />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="assets/img/icons/android-icon-192x192.png" />
+  <meta property="og:image" content="https://pbs.twimg.com/profile_images/1245935060714500096/R8c_nZOS_400x400.jpg" />
   <!-- twitter cards -->
   <meta name="twitter:card" content="“summary_large_image”" />
   <meta name="twitter:description" content="Curious Developer. I design and code beautifully simple things, and I love what I do." />
-  <meta name="twitter:image" content="assets/img/icons/android-icon-192x192.png" />
+  <meta name="twitter:image" content="https://pbs.twimg.com/profile_images/1245935060714500096/R8c_nZOS_400x400.jpg" />
   <!--Icons -->
   <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="assets/img/icons/apple-icon-60x60.png">
@@ -37,7 +35,8 @@
   <meta name="msapplication-TileImage" content="assets/img/icons/ms-icon-144x144.png">
   <meta name="theme-color" content="#151618">
   <!--Custom Css-->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="loader.css">
   <!--Icons-->
   <!--  <link rel="stylesheet" type="text/css" href="assets/fontawesome/css/all.min.css"> -->
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/themify-icons/0.1.2/css/themify-icons.css">
@@ -62,10 +61,15 @@
 
 <body>
   <main class="og_wrapper fadeIn">
-    <header class="profile">
-      <a href="/" class="a_link plain">
-        <h1>Ogurinka Benjamin</h1>
-      </a>
+    <header class="header">
+      <a href="/" class="brand">Ogurinka Benjamin </a>
+      <div class="nav">
+        <a href="about.html" class="active">About me</a>
+        <a href="/articles/">Articles</a>
+        <a href="https://studio.ogben.xyz">Studio</a>
+
+      </div>
+
     </header>
     <div class="bio">
       <div>
@@ -108,96 +112,71 @@
             Portfolio <i class="ti-rocket"></i>
           </a>
         </div>
-        <h1>Work Experience</h1>
-
-        <div class="work">
-          <span class="date">Sep. 2018 - Nov. 2018</span>
-          <h5 class="company"><a href="https://uniract.com" target="_blank" class="a_link plain">Uniract Integtated Services</a></h5>
-          <p class="role">Frontend Developer Intern</p>
-        </div>
-        <div class="work">
-          <span class="date">Feb. 2019 - July 2019</span>
-          <h5 class="company"><a href="bubble.ng" target="_blank" class="a_link plain">Bubble Innovation Hub </a></h5>
-          <p class="role">Frontend Developer Intern</p>
-        </div>
-        <div class="work">
-          <span class="date">July 2019 - Jan. 2020</span>
-          <h5 class="company"> <a href="https://proinsight.com.ng" target="_blank" class="a_link plain">Proinsight
-              Technologies. </a></h5>
-          <p class="role">Web Designer &amp; Frontend Developer (Part-time)</p>
-        </div>
-        <div class="work">
-          <span class="date">Nov. 2019 - Feb. 2020</span>
-          <h5 class="company"> <a href="https://eventpady.com" target="_blank" class="a_link plain">EventPady. </a></h5>
-          <p class="role">Frontend Developer</p>
-        </div>
-        <div class="work">
-          <span class="date">Dec. 2019 - Present</span>
-          <h5 class="company"> <a href="https://loopedreality.xyz" target="_blank" class="a_link plain">Looped Reality</a></h5>
-          <p class="role">Frontend Developer (Contract)</p>
-        </div>
-        <div class="work">
-          <span class="date">Feb. 2020 - Present</span>
-          <h5 class="company"> <a href="https://zebulloners.com" target="_blank" class="a_link plain">Zebullon Developers Network</a></h5>
-          <p class="role">Frontend Developer (Full Time)</p>
-        </div>
         <div class="">
-          <a href="https://docs.google.com/document/d/1znarm0Yi8HwoBhVuSzKaJe_k2EW8ex-C5xI2L2rb8XU/edit?usp=sharing" class="a_button animate" target="_blank">
-            <svg>
-              <rect x="0" y="0" fill="none" width="100%" height="100%" />
-            </svg>
-            Resume <i class="ti-agenda"></i>
-          </a>
-        </div>
-        <h1>Community Impact</h1>
+          <div class="">
+            <h1>Work Experience</h1>
 
-        <div class="work">
-          <span class="date">Jan. 2020 - Present</span>
-          <h5 class="company"><a href="https://studentpartners.microsoft.com" target="_blank" class="a_link plain"> Microsoft </a> </h5>
-          <p class="role">Student Partner</p>
-        </div>
-        <div class="work">
-          <span class="date">Sep. 2019 - Present</span>
-          <h5 class="company"><a href="https://codeclubph.tech" target="_blank" class="a_link plain">Codeclub PH</a> &amp; <a href="https://twitter.com/dscuniport" target="_blank" class="a_link plain"> DSC, Uniport</a></h5>
-          <p class="role">Co-Lead and Mentor</p>
-        </div>
-        <div class="work">
-          <span class="date">April 2019 - Present</span>
-          <h5 class="company"><a href="https://ingressive.co" target="_blank" class="a_link plain"> Ingressive</a></h5>
-          <p class="role">Campus Ambassador</p>
-        </div>
-        <h1>Articles</h1>
+            <div class="work">
+              <span class="date">Sep. 2018 - Nov. 2018</span>
+              <h5 class="company"><a href="https://uniract.com" target="_blank" class="a_link plain">Uniract Integtated Services</a></h5>
+              <p class="role">Frontend Developer Intern</p>
+            </div>
+            <div class="work">
+              <span class="date">Feb. 2019 - July 2019</span>
+              <h5 class="company"><a href="bubble.ng" target="_blank" class="a_link plain">Bubble Innovation Hub </a></h5>
+              <p class="role">Frontend Developer Intern</p>
+            </div>
+            <div class="work">
+              <span class="date">July 2019 - Jan. 2020</span>
+              <h5 class="company"> <a href="https://proinsight.com.ng" target="_blank" class="a_link plain">Proinsight
+                  Technologies. </a></h5>
+              <p class="role">Web Designer &amp; Frontend Developer (Part-time)</p>
+            </div>
+            <div class="work">
+              <span class="date">Nov. 2019 - Feb. 2020</span>
+              <h5 class="company"> <a href="https://eventpady.com" target="_blank" class="a_link plain">EventPady. </a></h5>
+              <p class="role">Frontend Developer</p>
+            </div>
+            <div class="work">
+              <span class="date">Dec. 2019 - Present</span>
+              <h5 class="company"> <a href="https://loopedreality.xyz" target="_blank" class="a_link plain">Looped Reality</a></h5>
+              <p class="role">Frontend Developer (Contract)</p>
+            </div>
+            <div class="work">
+              <span class="date">Feb. 2020 - Present</span>
+              <h5 class="company"> <a href="https://zebulloners.com" target="_blank" class="a_link plain">Zebullon Developers Network</a></h5>
+              <p class="role">Frontend Developer (Full Time)</p>
+            </div>
+            <div class="">
+              <a href="https://docs.google.com/document/d/1znarm0Yi8HwoBhVuSzKaJe_k2EW8ex-C5xI2L2rb8XU/edit?usp=sharing" class="a_button animate" target="_blank">
+                <svg>
+                  <rect x="0" y="0" fill="none" width="100%" height="100%" />
+                </svg>
+                Resume <i class="ti-agenda"></i>
+              </a>
+            </div>
+          </div>
+          <div class="">
+            <h1>Community Impact</h1>
 
-        <article class="article">
-          <span class="details">Dec. 24 2019 - 5min read</span>
-          <a href="https://dev.to/simplytammy/what-programming-language-to-choose-it-s-really-up-to-you-3cp0" target="_blank" class="a_link plain">
-            What programming language to choose? It's really up to you
-          </a>
-        </article>
-        <article class="article">
-          <span class="details">Nov. 11 2019 - 4min read</span>
-          <a href="https://dev.to/simplytammy/13-reasons-why-you-should-be-using-netlify-kgl" target="_blank" class="a_link plain">
-            13 reasons why you should be using Netlify
-          </a>
-        </article>
-        <article class="article">
-          <span class="details">Sept. 10 2019 - 3min read</span>
-          <a href="https://dev.to/simplytammy/you-should-probably-know-enough-javascript-first-3lcp" target="_blank" class="a_link plain">
-            You should probably know enough JavaScript, first.
-          </a>
-        </article>
-        <article class="article">
-          <span class="details">Aug. 18 2019 - 5min read</span>
-          <a href="https://dev.to/simplytammy/beginner-s-guide-to-javascript-arrays-part-2-411p" target="_blank" class="a_link plain">
-            Beginner's guide to Javascript arrays [PART 2]
-          </a>
-        </article>
-        <article class="article">
-          <span class="details">Aug. 16 2019 - 4min read</span>
-          <a href="https://dev.to/simplytammy/beginner-s-guide-to-javascript-arrays-part-1-1p2n" target="_blank" class="a_link plain">
-            Beginner's guide to JavaScript arrays [PART 1]
-          </a>
-        </article>
+            <div class="work">
+              <span class="date">Jan. 2020 - Present</span>
+              <h5 class="company"><a href="https://studentpartners.microsoft.com" target="_blank" class="a_link plain"> Microsoft </a> </h5>
+              <p class="role">Student Partner</p>
+            </div>
+            <div class="work">
+              <span class="date">Sep. 2019 - Present</span>
+              <h5 class="company"><a href="https://codeclubph.tech" target="_blank" class="a_link plain">Codeclub PH</a> &amp; <a href="https://twitter.com/dscuniport" target="_blank" class="a_link plain"> DSC, Uniport</a></h5>
+              <p class="role">Co-Lead and Mentor</p>
+            </div>
+            <div class="work">
+              <span class="date">April 2019 - Present</span>
+              <h5 class="company"><a href="https://ingressive.co" target="_blank" class="a_link plain"> Ingressive</a></h5>
+              <p class="role">Campus Ambassador</p>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
     </div>
@@ -220,6 +199,7 @@
       </div>
     </footer>
   </main>
+  <script src="index.js"></script>
 </body>
 
 </html>

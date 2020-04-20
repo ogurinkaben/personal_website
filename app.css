@@ -1,3 +1,14 @@
+:root {
+  --side-margin: 15vw;
+  --defaultColor: rgb(23, 191, 99);
+}
+
+@media only screen and (max-width: 600px) {
+  :root {
+    --side-margin: 10px;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +17,7 @@
 
 html,
 body {
-  background: #2F3242 !important;
+  background: #00091b !important;
 }
 
 h1,
@@ -116,6 +127,53 @@ input:focus {
   }
 }
 
+.header {
+  padding: 10px 0;
+}
+
+.header .brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 1.5px;
+}
+
+.header .nav {
+  padding: 5px 0;
+}
+
+.header .nav a {
+  position: relative;
+  color: #fff;
+  font-size: 15px;
+  font-weight: normal;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 4px 4px 0;
+  transition: 0.8s ease-in-out;
+
+}
+
+.header .nav a:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  border-bottom: 3px solid transparent;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.header .nav a.active:before,
+.header .nav a:hover:before {
+  width: 50%;
+  border-color: var(--defaultColor);
+}
+
 .fadeIn {
 
   -webkit-animation: fadeIn 3s ease-in-out;
@@ -151,6 +209,20 @@ input:focus {
   justify-content: space-between;
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  padding: 0;
+}
 
 .m_default {
   margin: 1.75rem 0;
@@ -169,7 +241,7 @@ input:focus {
 }
 
 .a_link {
-  color: rgb(23, 191, 99);
+  color: var(--defaultColor);
   text-decoration: none;
   transition: 0.8s ease-in-out;
   display: inline-block;
@@ -183,7 +255,7 @@ input:focus {
   width: 100%;
   left: 0;
   bottom: 0;
-  border-bottom: 3px solid rgb(23, 191, 99);
+  border-bottom: 3px solid var(--defaultColor);
   -webkit-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
@@ -208,7 +280,8 @@ input:focus {
   width: 0;
   left: 0;
   bottom: 0;
-  border-bottom: 3px solid rgb(23, 191, 99);
+  border-bottom: 3px solid var(--defaultColor);
+  ;
   -webkit-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
@@ -228,7 +301,8 @@ input:focus {
 }
 
 .a_button {
-  color: rgb(23, 191, 99);
+  color: var(--defaultColor);
+  ;
   text-decoration: none;
   cursor: pointer;
   display: block;
@@ -259,7 +333,8 @@ input:focus {
 
 .animate rect {
   fill: none;
-  stroke: rgb(23, 191, 99);
+  stroke: var(--defaultColor);
+  ;
   stroke-width: 3;
   stroke-dasharray: 422, 0;
 }
@@ -278,15 +353,12 @@ input:focus {
 }
 
 .og_wrapper {
-  padding: 4.3rem 10rem;
-  position: absolute;
-  overflow: hidden;
+  margin: 1rem var(--side-margin);
+  padding: 3rem 0;
+
 
 }
 
-.og_wrapper header .profile {
-  padding-top: 1rem;
-}
 
 .og_wrapper .logo {
   width: 200px;
@@ -348,18 +420,18 @@ input:focus {
   height: 350px;
   width: 270px;
   left: 10px;
-  border: 2px solid rgb(23, 191, 99);
+  border: 2px solidvar(--defaultColor);
   transition: 0.4s ease-in-out;
 
 }
 
 .og_wrapper .bio .profile-photo:hover:before {
-  background: rgb(23, 191, 99);
+  background: var(--defaultColor);
 }
 
 .og_wrapper .bio h1 {
   font-size: 26px;
-  color: rgb(23, 191, 99);
+  color: var(--defaultColor);
   font-weight: bold;
   margin-top: 4rem;
   margin-bottom: 20px;
@@ -374,7 +446,7 @@ input:focus {
   height: 6px;
   width: 50px;
   border-radius: 10px;
-  background: rgb(23, 191, 99);
+  background: var(--defaultColor);
 }
 
 .og_wrapper .bio ul {
@@ -390,7 +462,7 @@ input:focus {
 
 .og_wrapper .bio ul li:before {
   content: "\2022";
-  color: rgb(23, 191, 99);
+  color: var(--defaultColor);
   font-weight: bold;
   display: inline-block;
   width: 1em;

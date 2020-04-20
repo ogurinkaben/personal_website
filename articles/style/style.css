@@ -1,0 +1,25 @@
+:root {
+    --paper-margin: 60px;
+    --main-color: #4481eb;
+    --my-gradient: linear-gradient(to right, var(--main-color) 0%, #04befe 100%);
+    --color_default: rgb(23, 191, 99) !important;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.05px;
+    font-size: 1.05em;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100%;
+}
+
+.wrapper {
+    margin: 2rem auto 2rem auto;
+    text-align: center;
+}
+
+.wrapper h4 {
+    color: #fff;
+}

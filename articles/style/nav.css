@@ -1,0 +1,138 @@
+:root {
+    --side-margin: 15vw;
+    --color_default: rgb(23, 191, 99) !important;
+}
+
+@media only screen and (max-width: 600px) {
+    :root {
+        --side-margin: 10px;
+    }
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    display: flex;
+    min-height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 0 auto;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05), 0 6px 6px rgba(0, 0, 0, 0.05);
+    font-family: 'Poppins', sans-serif;
+}
+
+header div {
+    padding: 0.46rem;
+    margin: 0 var(--side-margin);
+}
+
+header .brand {
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    font-size: 24px;
+    color: #1c1c1c;
+    text-decoration: none;
+}
+
+header .brand img {
+    width: 60px;
+    object-fit: contain;
+}
+
+header a {
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.overlay {
+    height: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 201;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: var(--color_default) !important;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 768px) {
+    .overlay a {
+        font-size: 20px
+    }
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+
+    .overlay-content {
+        width: 100%;
+    }
+}
+
+.og-quick-contact-holder {
+    padding: 1em 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.og-quick-contact-link {
+    font-size: 16px !important;
+    z-index: 99999;
+    padding: 10px 12px;
+    margin: 1rem auto;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    text-align: center;
+    color: inherit;
+    display: inline !important;
+}
+
+.og-quick-contact-link.dev {
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.og-quick-contact-link:hover {
+    color: var(--color_default) !important;
+    -webkit-transition: .6s;
+    transition: .6s;
+}
