@@ -14,6 +14,7 @@ article {
     background: #fff;
     border-radius: 15px;
     padding-bottom: 50px;
+    padding-top: 20px;
 }
 
 div.highlight {
@@ -98,6 +99,7 @@ table {
 
 address {
     margin: 35px var(--paper-margin);
+    padding: 20px 0;
 
 }
 
