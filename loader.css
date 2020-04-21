@@ -16,40 +16,14 @@
   height: 150px;
   margin: -75px 0 0 -75px;
   border: 3px solid transparent;
-  border-top-color: white;
+  border-top-color: rgb(23, 191, 99);
+  border-bottom-color: #fff;
   border-radius: 100%;
   -webkit-animation: spin 1s linear infinite;
   animation: spin 1s linear infinite;
   z-index: 1001;
 }
 
-#loader:before {
-  content: "";
-  position: absolute;
-  top: 5px;
-  left: 5px;
-  right: 5px;
-  bottom: 5px;
-  border: 3px solid transparent;
-  border-top-color: rgb(23, 191, 99);
-  border-radius: 100%;
-  -webkit-animation: spin 3s linear infinite;
-  animation: spin 3s linear infinite;
-}
-
-#loader:after {
-  content: "";
-  position: absolute;
-  top: 12px;
-  left: 12px;
-  right: 12px;
-  bottom: 12px;
-  border: 3px solid transparent;
-  border-top-color: rgb(23, 191, 99);
-  border-radius: 100%;
-  -webkit-animation: spin 1.5s linear infinite;
-  animation: spin 1.5s linear infinite;
-}
 
 @-webkit-keyframes spin {
   0% {

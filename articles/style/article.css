@@ -9,7 +9,7 @@ body {
 }
 
 article {
-    margin: 1rem var(--side-margin);
+    margin: 1rem auto;
     max-width: 900px;
     background: #fff;
     border-radius: 15px;
@@ -189,6 +189,7 @@ address a::before {
 
 .crumbs {
     padding: 1rem 0;
+    text-align: center;
 }
 
 .crumbs a {
