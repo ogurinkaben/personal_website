@@ -11,10 +11,17 @@ body {
 article {
     margin: 1rem auto;
     max-width: 900px;
-    background: #fff;
+    background: #00091b;
+    color: #fff;
     border-radius: 15px;
     padding-bottom: 50px;
 }
+
+article a {
+    color: rgb(23, 191, 99);
+    font-weight: bold;
+}
+
 
 div.highlight {
     padding: 3%;
@@ -76,6 +83,7 @@ table {
 
 #cover {
     width: 100%;
+    box-shadow: -2px -2px 5px #00091b, 2px 2px 5px #00091b;
 }
 
 #title {
@@ -87,7 +95,8 @@ table {
     background-size: 100% 5px;
     background-position: bottom 0 left 0, bottom 5px left 0;
     background-repeat: no-repeat;
-    font-size: 24px;
+    font-size: 32px;
+    color: rgb(23, 191, 99);
 }
 
 #author-img {
@@ -200,4 +209,28 @@ address a::before {
 .crumbs i {
     color: var(--defaultColor);
     font-size: 12px;
+}
+
+.back_to_top {
+    position: fixed;
+    bottom: 80px;
+    right: 40px;
+    z-index: 9999;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #f5f5f5;
+    color: #444;
+    cursor: pointer;
+    border-radius: 2px;
+    display: none;
+}
+
+.back_to_top:hover {
+    background: #e9ebec;
+}
+
+.back_to_top-show {
+    display: block;
 }
