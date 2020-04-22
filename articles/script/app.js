@@ -1,5 +1,5 @@
 const username = 'simplytammy'
-const perPage = 100; //If you have more articles, increase this or add pagination
+const perPage = 50; //If you have more articles, increase this or add pagination
 const getArticles = async () => {
     const response = await fetch(`https://dev.to/api/articles?username=${username}&per_page=${perPage}`);
     const data = await response.json();
@@ -14,6 +14,7 @@ const addArticle = article => {
     const clone = template.content.cloneNode(true);
     clone.querySelector('.title').textContent = article.title;
     clone.querySelector('.url').href = `article.html?id=${article.id}`;
+    clone.querySelector('.desc').textContent = article.description;
     if (article.cover_image) {
         clone.querySelector('.cover').src = article.cover_image;
     } else {
