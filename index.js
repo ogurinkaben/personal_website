@@ -1,7 +1,7 @@
 window.addEventListener('load', function() {
 	setTimeout(function() {
 		document.querySelector('body').classList.add("loaded");
-	}, 1000)
+	}, 1000);
 });
 const toggleBtn = document.querySelector('#toggleNav');
 const nav = document.getElementById("myNav");
