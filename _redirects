@@ -1,7 +1,8 @@
 https://ogben.xyz https://tammy.dev 301!
 
-/index.html				/
+/index.html				https://tammy.dev 301!
 
-/404.html			/404
-/about.html			/about
+/404.html			https://tammy.dev/404 301!
+
+/about.html			https://tammy.dev/about 301!
 
