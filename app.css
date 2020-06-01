@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
 :root {
   --side-margin: 15vw;
   --defaultColor: rgb(23, 191, 99);
@@ -134,11 +136,115 @@ input:focus {
 
 .header {
   padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  min-height: 40px;
+  align-items: center;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: rgb(0, 9, 27);
+  background-color: rgba(0, 9, 27, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay.active {
+  width: 300px;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
   text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+.more {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background 0.2s ease;
+  transition-delay: 0.15s;
+  z-index: 8000;
+  display: none;
+}
+
+.more svg {
+  transform: rotate(270deg);
+  z-index: 8000;
+}
+
+.more svg circle {
+  stroke-width: 2;
+  stroke: #fff;
+  fill: none;
+  stroke-dasharray: 95;
+  stroke-dashoffset: 190;
+  transition: all 0.6s ease;
+  stroke-linecap: round;
+  z-index: 8000;
+}
+
+.more svg #plus {
+  transform-origin: 50% 50%;
+  transition: all 0.8s ease;
+}
+
+.more svg #plus path {
+  stroke-width: 2;
+  stroke: #fff;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.more.toggle circle {
+  stroke-dasharray: 95;
+  stroke-dashoffset: 285;
+  z-index: 8000;
+}
+
+.more.toggle #plus {
+  transform: rotate(45deg);
+}
+
+.more.toggle:hover {
+  background: rgba(255, 255, 255, 0.06);
 }
 
 .header .brand {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
   color: #fff;
   text-decoration: none;
@@ -181,6 +287,24 @@ input:focus {
 .header .nav a:hover:before,
 .header .nav a.active:before {
   background: var(--defaultColor);
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 16px;
+  }
+
+  .overlay a {
+    font-size: 16px
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .more {
+    display: block;
+  }
 }
 
 .fadeIn {
@@ -271,7 +395,9 @@ input:focus {
 }
 
 .a_link:hover:before {
-  width: 50%;
+  width: 10%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .a_link.plain {
@@ -365,7 +491,7 @@ input:focus {
 
 .og_wrapper {
   position: relative;
-  margin: 1rem var(--side-margin);
+  margin: 0 var(--side-margin);
   padding: 3rem 0;
   z-index: 50;
 }
@@ -408,10 +534,59 @@ input:focus {
 .og_wrapper .intro {
   display: flex;
   min-height: 50vh;
+  margin: 0 var(--side-margin) 0 var(--side-margin);
   display: flex;
   align-items: center;
   text-align: center;
+  position: relative;
 
+}
+
+.info-text {
+  position: absolute;
+  right: 0px;
+  bottom: 2rem;
+  z-index: 2;
+  width: 386px;
+  padding-left: 56px;
+  background-image: url(./assets/img/core/534e23fb94be38d269000057_arrow-left-up.png);
+  background-position: 0% 15%;
+  background-size: 47px;
+  background-repeat: no-repeat;
+  opacity: 0.75;
+  transform: translateX(0px) translateY(0px);
+  transition: opacity 500ms ease 0s, transform 1200ms cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+  font-family: 'Caveat', cursive;
+  color:
+    white;
+  font-size: 29px;
+  line-height: 34px;
+  letter-spacing: 0.7px;
+
+}
+
+@media screen and (max-width: 850px) {
+  .info-text {
+    position: relative;
+    width: 80%;
+    font-size: 16px;
+    bottom: 0;
+    right: -2rem;
+    bottom: -1rem;
+    margin-bottom: 5rem
+  }
+
+}
+
+.intro-interaction {
+  position: absolute;
+  right: 0;
+  top: 1rem;
+  height: 200px;
+  width: 200px;
+  background: transparent;
+  border: 8px solid var(--defaultColor);
+  opacity: 0.1;
 }
 
 .og_wrapper .bio .inner {
@@ -512,6 +687,7 @@ input:focus {
 
 .footer {
   text-align: center;
+  margin-top: 5rem;
 }
 
 .footer p {
@@ -648,6 +824,7 @@ input:focus {
 }
 
 @media(max-width:767px) {
+
   .timeline {
     width: 100%;
     padding-bottom: 0;
