@@ -573,7 +573,7 @@ input:focus {
     bottom: 0;
     right: -2rem;
     bottom: -1rem;
-    margin-bottom: 5rem
+    margin-bottom: 2rem
   }
 
 }
@@ -687,7 +687,7 @@ input:focus {
 
 .footer {
   text-align: center;
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 
 .footer p {
@@ -702,7 +702,7 @@ input:focus {
 
 .footer .contact .a_link {
   margin-right: 3px;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .timeline {
@@ -824,6 +824,10 @@ input:focus {
 }
 
 @media(max-width:767px) {
+  .og_wrapper .intro {
+    min-height: 80vh;
+    align-items: center;
+  }
 
   .timeline {
     width: 100%;
