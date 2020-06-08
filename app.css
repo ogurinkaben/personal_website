@@ -416,7 +416,6 @@ input:focus {
   left: 0;
   bottom: 0;
   border-bottom: 3px solid var(--defaultColor);
-  ;
   -webkit-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
@@ -425,6 +424,8 @@ input:focus {
 
 .a_link.plain:hover:before {
   width: 100%;
+  left: 0;
+  transform: unset;
 }
 
 .email {
@@ -437,7 +438,6 @@ input:focus {
 
 .a_button {
   color: var(--defaultColor);
-  ;
   text-decoration: none;
   cursor: pointer;
   display: block;
