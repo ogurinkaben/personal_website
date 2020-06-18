@@ -13,7 +13,7 @@ const addArticle = article => {
     const template = document.querySelector('#blog-item');
     const clone = template.content.cloneNode(true);
     clone.querySelector('.title').textContent = article.title;
-    clone.querySelector('.url').href = `article.html?id=${article.id}`;
+    clone.querySelector('.url').href = `article?id=${article.id}`;
     clone.querySelector('.desc').textContent = article.description;
     if (article.cover_image) {
         clone.querySelector('.cover').src = article.cover_image;
