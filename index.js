@@ -1,5 +1,5 @@
-window.addEventListener('load', function() {
-	setTimeout(function() {
+window.addEventListener('load', () => {
+	setTimeout(() => {
 		document.querySelector('body').classList.add("loaded");
 	}, 1000);
 });
