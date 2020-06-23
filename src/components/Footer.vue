@@ -5,13 +5,28 @@
         <div class="row">
           <div class="column">
             <div class="og-section--heading">
-              <h1 class="sub-title">Lets work together <span class="period"></span></h1>
-              <a href="mailto:hi@tammy.dev" class="og-link email plain">hi@tammy.dev</a>
+              <h1 class="sub-title">Quick links <span class="period"></span></h1>
+              <div>
+                <router-link to="/" class=" og-link plain">
+                  Home</router-link>
+              </div>
+              <div>
+                <router-link to="/about-me" class=" og-link plain">
+                  About</router-link>
+              </div>
+              <div>
+                <router-link to="/my-blog" class=" og-link plain">
+                  Blog</router-link>
+              </div>
+              <div>
+                <a href="https://portfolio.tammy.dev" class=" og-link plain" target="_blank">
+                  Portfolio</a>
+              </div>
             </div>
           </div>
           <div class="column">
             <div class="og-section--heading">
-              <h1 class="sub-title">Find Me On Social Media <span class="period"></span></h1>
+              <h1 class="sub-title">Reach out via <span class="period"></span></h1>
               <div>
                 <a href="https://www.github.com/simplytammy" class=" og-link plain" target="_blank">
                   GitHub</a>
@@ -32,11 +47,15 @@
                 <a href="https://dribbble.com/simplytammy/" class=" og-link plain" target="_blank">
                   Dribbble</a>
               </div>
+              <div>
+                <a href="mailto:hi@tammy.dev" class=" og-link plain">
+                  hi@tammy.dev</a>
+              </div>
             </div>
           </div>
 
         </div>
-        <p class="copyright pt">Copyright &copy; 2018 - present. Design By Tammy</p>
+        <p class="copyright pt">Copyright &copy; 2018 - present. Designed By Tammy</p>
       </div>
 
     </div>
