@@ -1,14 +1,16 @@
 <template>
-  <div>
+  <div id="app">
     <transition v-bind:name="transitionName" mode="out-in">
-      <Nuxt />
+      <keep-alive>
+        <router-view></router-view>
+      </keep-alive>
     </transition>
   </div>
 </template>
+
 <script>
 export default {
   name: 'App',
-  scrollToTop: true,
   data() {
     return {
       transitionName: 'out-down',
