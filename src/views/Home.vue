@@ -45,7 +45,7 @@
 						</div>
 					</div>
 					<div class="column">
-						<div class="project-card is-gray">
+						<div class="project-card is-green">
 							<a href="http://cscplayground.xyz/posts" target="_blank">
 								<img src="../assets/img/design-cards/lc.png">
 								<h1 class="title">Playground <br>
@@ -70,7 +70,7 @@
 					<div class="column">
 						<div class="project-card is-mint">
 							<a href="https://terin.xyz" target="_blank">
-								<img src="../assets/img/design-cards/arrow.png">
+								<img src="../assets/img/design-cards/block.png">
 								<h1 class="title">Terin <br>
 									<span>—</span></h1>
 								<p class="desc">Official website for Terin, a tech start-up focused on technological growth and innovative products</p>
