@@ -52,12 +52,12 @@
 					</ul>
 				</div>
 				<div class="container section">
-					<div class="tabs" v-cloack>
+					<div class="tabs" v-cloak>
 						<ul>
 							<li v-for="(tab, index) in tabs" :class="{'is-active': show == index}"><a @click.prevent="show = index">{{tab.title}}</a></li>
 						</ul>
 					</div>
-					<div v-cloack>
+					<div v-cloak>
 						<transition-group name="fade-up" target="div" appear @click.native="navigate($event); alerts($event);">
 							<div v-for="(tab, index) in tabs" v-if="show == index" :key="index" v-html="tab.content"></div>
 						</transition-group>

@@ -23,9 +23,17 @@
 
       <div id="myNav" class="overlay">
         <div class="overlay-content">
-          <router-link to="/">Home</router-link>
-          <router-link to="/about-me">About Me</router-link>
-          <a href="https://portfolio.tammy.dev"> Portfolio </a>
+          <span @click="toggleNav">
+            <router-link to="/">
+              Home
+            </router-link>
+          </span>
+          <span @click="toggleNav">
+            <router-link to="/about-me">About Me</router-link>
+          </span>
+          <span @click="toggleNav">
+            <a href="https://portfolio.tammy.dev"> Portfolio </a>
+          </span>
         </div>
       </div>
     </header>
@@ -146,6 +154,10 @@ export default {
   display: block;
   opacity: 0;
 
+}
+
+.overlay a.router-link-exact-active {
+  color: #fff;
 }
 
 .overlay a:hover,
