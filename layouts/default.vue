@@ -1,13 +1,10 @@
 <template>
-  <div id="app">
+  <div>
     <transition v-bind:name="transitionName" mode="out-in">
-      <keep-alive>
-        <router-view></router-view>
-      </keep-alive>
+      <Nuxt />
     </transition>
   </div>
 </template>
-
 <script>
 export default {
   name: 'App',

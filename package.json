@@ -1,30 +1,26 @@
 {
-  "name": "tammy.dev",
-  "version": "0.1.0",
+  "name": "tammy.dev-nuxt",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "export": "nuxt export",
+    "serve": "nuxt serve",
+    "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lint": "npm run lint:js"
   },
   "dependencies": {
-    "axios": "^0.19.2",
-    "core-js": "^3.6.5",
+    "@nuxtjs/axios": "^5.11.0",
     "moment": "^2.27.0",
-    "nprogress": "^0.2.0",
-    "sweetalert2": "^9.15.1",
-    "vue": "^2.6.11",
-    "vue-meta": "^2.4.0",
-    "vue-router": "^3.2.0",
-    "vuex": "^3.4.0"
+    "nuxt": "^2.13.0"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^4.4.0",
-    "@vue/cli-service": "^4.4.0",
-    "vue-template-compiler": "^2.6.11"
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ]
+    "@nuxtjs/eslint-config": "^3.0.0",
+    "@nuxtjs/eslint-module": "^2.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.2.0",
+    "eslint-plugin-nuxt": "^1.0.0"
+  }
 }

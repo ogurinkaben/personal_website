@@ -1,64 +1,75 @@
 <template>
-  <div class="navbar is-relative">
-    <header class="header og-container">
+  <footer class="footer">
+    <div class="og-container ">
+      <div class="og-section">
+        <div class="row">
+          <div class="column">
+            <div class="og-section--heading">
+              <h1 class="sub-title">Quick links <span class="period"></span></h1>
+              <div>
+                <nuxt-link to="/" class=" og-link plain">
+                  Home</nuxt-link>
+              </div>
+              <div>
+                <nuxt-link to="/about" class=" og-link plain">
+                  About</nuxt-link>
+              </div>
+              <div>
+                <nuxt-link to="/blog" class=" og-link plain">
+                  Blog</nuxt-link>
+              </div>
+              <div>
+                <nuxt-link to="/contact" class=" og-link plain">
+                  Contact</nuxt-link>
+              </div>
+              <div>
+                <a href="https://portfolio.tammy.dev" class=" og-link plain" target="_blank">
+                  Portfolio</a>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="og-section--heading">
+              <h1 class="sub-title">Reach out via <span class="period"></span></h1>
+              <div>
+                <a href="https://www.github.com/simplytammy" class=" og-link plain" target="_blank">
+                  GitHub</a>
+              </div>
+              <div>
+                <a href="https://codepen.io/simplytammy/" class=" og-link plain" target="_blank">
+                  Codepen</a>
+              </div>
+              <div>
+                <a href="https://dev.to/simplytammy/" class=" og-link plain" target="_blank">
+                  Dev</a>
+              </div>
+              <div>
+                <a href="https://www.linkedin.com/in/benjamin-ogurinka-woruka-4b4093182" class=" og-link plain" target="_blank">
+                  LinkedIn</a>
+              </div>
+              <div>
+                <a href="https://dribbble.com/simplytammy/" class=" og-link plain" target="_blank">
+                  Dribbble</a>
+              </div>
+              <div>
+                <a href="mailto:hi@tammy.dev" class=" og-link plain">
+                  hi@tammy.dev</a>
+              </div>
+            </div>
+          </div>
 
-      <router-link to="/" class="brand">
-        tAMMy<span class="period"></span>
-      </router-link>
-
-      <nav class="nav">
-        <router-link to="/">Home</router-link>
-        <router-link to="/about-me">About Me</router-link>
-        <router-link to="/my-blog">Blog</router-link>
-        <router-link to="/contact-me">Contact</router-link>
-        <a href="https://portfolio.tammy.dev" target="_blank"> Portfolio </a>
-      </nav>
-      <div class="more" id="toggleNav" @click="toggleNav">
-        <svg width="32px" height="32px" viewBox="0 0 32 32">
-          <circle cx="16" cy="16" r="15"></circle>
-          <g id="plus">
-            <path d="M16,11 L16,21"></path>
-            <path d="M11,16 L21,16"></path>
-          </g>
-        </svg>
-      </div>
-
-      <div id="myNav" class="overlay">
-        <div class="overlay-content">
-          <span @click="toggleNav">
-            <router-link to="/">
-              Home
-            </router-link>
-          </span>
-          <span @click="toggleNav">
-            <router-link to="/about-me">About Me</router-link>
-          </span>
-          <span @click="toggleNav">
-            <router-link to="/my-blog">Blog</router-link>
-          </span>
-          <span @click="toggleNav">
-            <router-link to="/contact-me">Contact</router-link>
-          </span>
-          <span @click="toggleNav">
-            <a href="https://portfolio.tammy.dev" target="_blank"> Portfolio </a>
-          </span>
         </div>
+        <p class="copyright pt">Copyright &copy; 2018 - present. Designed By Tammy</p>
       </div>
-    </header>
-  </div>
+
+    </div>
+
+  </footer>
 </template>
 
 <script>
 export default {
-  name: 'Navbar',
-  methods: {
-    toggleNav() {
-      const toggleBtn = document.querySelector('#toggleNav');
-      const nav = document.getElementById("myNav");
-      toggleBtn.classList.toggle("toggle");
-      nav.classList.toggle("active");
-    }
-  }
+  name: 'Footer',
 }
 
 </script>
@@ -162,10 +173,6 @@ export default {
   display: block;
   opacity: 0;
 
-}
-
-.overlay a.router-link-exact-active {
-  color: #fff;
 }
 
 .overlay a:hover,
@@ -280,7 +287,7 @@ export default {
 
 .header .nav a:hover:before,
 .header .nav a.active:before,
-.header .nav a.router-link-exact-active:before {
+.header .nav a.nuxt-link-exact-active:before {
   background: var(--defaultColor);
 }
 
