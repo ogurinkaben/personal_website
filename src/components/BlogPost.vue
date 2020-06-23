@@ -1,0 +1,85 @@
+<template>
+  <div class="">
+    <section class="og-hero sm blog" v-bind:style="{background:'#00091b',background: 'linear-gradient(to bottom, rgba(0, 9, 27, 0.9), rgba(0, 9, 27, 0.9)),url(' + article.cover_image + ')  no-repeat center center / cover' }">
+      <Navbar />
+      <div class="og-hero--content og-container">
+        <div>
+          <p class="info">Article</p>
+          <h1 class="title" v-if="!article">That post can't be found.</h1>
+          <h1 class="title">{{ article.title }} —</h1>
+        </div>
+      </div>
+    </section>
+    <section class="og-section article-single">
+      <div class="og-container">
+        <div class="article-single-body" v-html="article.body_html"></div>
+      </div>
+    </section>
+
+  </div>
+</template>
+
+<script>
+import blogService from '@/services/blogService'
+import Navbar from '@/components/Navbar.vue'
+import '../devto.css'
+export default {
+  data() {
+    return {
+      article: {}
+    }
+  },
+  beforeMount() {
+    this.fetchArticle()
+  },
+  components: {
+    Navbar,
+  },
+  metaInfo() {
+    return {
+      title: this.article.title,
+      meta: [
+        { name: 'description', content: this.article.description },
+        { property: 'og:title', content: this.article.title },
+        { property: 'og:site_name', content: 'Tammy' },
+        { property: 'og:image', content: this.article.cover_image },
+        { property: 'og:type', content: 'website' },
+        { name: 'twitter:card', content: this.article.cover_image },
+        { name: 'twitter:description', content: this.article.description },
+        { name: 'twitter:image', content: this.article.cover_image },
+        { name: 'robots', content: 'index,follow' }
+      ]
+    }
+  },
+  methods: {
+    async fetchArticle() {
+      const articleId = this.$route.params.articleId
+      await blogService.fetchArticleById(articleId)
+        .then((response => {
+          switch (response.status) {
+            case 200:
+              {
+                if (response.data.user.username != 'simplytammy') {
+                  this.article = false;
+                } else {
+                  this.article = response.data
+                }
+                break
+              }
+            default:
+              {
+                this.article = false
+                break
+              }
+          }
+        }))
+    }
+  }
+}
+
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+
+</style>

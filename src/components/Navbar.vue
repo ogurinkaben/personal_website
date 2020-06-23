@@ -9,6 +9,7 @@
       <nav class="nav">
         <router-link to="/">Home</router-link>
         <router-link to="/about-me">About Me</router-link>
+        <router-link to="/my-blog">Blog</router-link>
         <a href="https://portfolio.tammy.dev"> Portfolio </a>
       </nav>
       <div class="more" id="toggleNav" @click="toggleNav">
@@ -30,6 +31,9 @@
           </span>
           <span @click="toggleNav">
             <router-link to="/about-me">About Me</router-link>
+          </span>
+          <span @click="toggleNav">
+            <router-link to="/my-blog">Blog</router-link>
           </span>
           <span @click="toggleNav">
             <a href="https://portfolio.tammy.dev"> Portfolio </a>

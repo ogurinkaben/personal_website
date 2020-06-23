@@ -8,6 +8,23 @@
   </div>
 </template>
 
+<script>
+export default {
+  name: 'App',
+  data() {
+    return {
+      transitionName: 'out-down',
+    }
+  },
+  watch: {
+    '$route'(to, from) {
+      this.transitionName = from.meta.order < to.meta.order ? 'out-up' : 'out-down'
+    }
+  }
+}
+
+</script>
+
 <style>
 .out-up-enter-active,
 .out-up-leave-active,
@@ -39,19 +56,3 @@
 }
 
 </style>
-<script>
-export default {
-  name: 'App',
-  data() {
-    return {
-      transitionName: 'out-down',
-    }
-  },
-  watch: {
-    '$route'(to, from) {
-      this.transitionName = from.meta.order < to.meta.order ? 'out-up' : 'out-down'
-    }
-  }
-}
-
-</script>

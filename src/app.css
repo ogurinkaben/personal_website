@@ -209,6 +209,154 @@ body {
 	}
 }
 
+.grid-layout {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+	gap: 35px;
+	height: fit-content;
+}
+
+.articles {
+	padding: 4rem 0 !important;
+}
+
+.article {
+	cursor: pointer;
+	background: #fff;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.article--body {
+	padding: 1rem;
+}
+
+.article .article--title {
+	font-size: 28px;
+	font-weight: 600;
+	color: var(--primaryColor);
+	font-family: 'Poppins', sans-serif;
+	margin: 1rem 0;
+}
+
+.article .article--desc {
+	font-size: 16px;
+	font-weight: 400;
+	color: var(--primaryColor);
+	font-family: 'Overpass', sans-serif;
+}
+
+.article .article--tag {
+	font-size: 12px;
+	padding: 10px;
+	background: var(--primaryColor);
+	color: #f3f3f3;
+	display: inline-block;
+	margin: 2px;
+}
+
+.article img {
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+}
+
+.article-single {
+	padding: 2rem 0 5rem 0;
+}
+
+.article-single-body {
+	margin: 1rem auto;
+	color: #00091b;
+	border-radius: 15px;
+	padding-bottom: 50px;
+}
+
+.article-single-body img {
+	max-width: 100%;
+}
+
+.article-single-body a {
+	color: rgb(23, 191, 99);
+	font-weight: 600;
+}
+
+.article-single-body ul {
+	padding-left: 1rem;
+}
+
+.article-single-body span,
+.article-single-body em,
+.article-single-body strong,
+.article-single-body li,
+.article-single-body a,
+.article-single-body p {
+	font-size: 16px !important;
+	margin: 5px 0;
+}
+
+.article-single-body h1,
+.article-single-body h2,
+.article-single-body h3,
+.article-single-body h4,
+.article-single-body h5,
+.article-single-body h6 {
+	margin: 2rem 0 0.4rem 0;
+	color: var(--defaultColor);
+}
+
+
+@media screen and (max-width: 768px) {
+
+	.article-single-body span,
+	.article-single-body em,
+	.article-single-body strong,
+	.article-single-body li,
+	.article-single-body a,
+	.article-single-body p {
+		font-size: 14px !important;
+		margin-bottom: 5px;
+	}
+}
+
+div.highlight {
+	padding: 3%;
+	overflow: auto;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table,
+th,
+td {
+	border: 1px solid #00091b;
+}
+
+th {
+	background: #f9f9fa;
+}
+
+td {
+	text-align: center;
+	min-width: 80px;
+}
+
+td li {
+	text-align: start;
+}
+
+
+table {
+	margin: 15px auto;
+}
+
+:not(pre)>code {
+	background: rgb(194, 194, 194);
+	border-radius: 2px;
+	padding: 0 5px;
+}
+
 .row {
 	display: flex;
 	flex-direction: row;
@@ -363,6 +511,14 @@ a:hover {
 .og-hero.about {
 	background: linear-gradient(to bottom, rgba(0, 9, 27, 0.9), rgba(0, 9, 27, 0.9)),
 		url('./assets/img/page-images/me.png');
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.og-hero.blog {
+	background: linear-gradient(to bottom, rgba(0, 9, 27, 0.9), rgba(0, 9, 27, 0.9)),
+		url('./assets/img/bg/blog.png');
 	background-position: top center;
 	background-size: cover;
 	background-repeat: no-repeat;

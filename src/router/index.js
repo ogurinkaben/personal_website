@@ -2,6 +2,8 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import NProgress from 'nprogress'
+import BlogHome from '@/components/BlogHome'
+import BlogPost from '@/components/BlogPost'
 Vue.use(VueRouter)
 const routes = [{
     path: '/',
@@ -19,15 +21,26 @@ const routes = [{
     },
     component: () => import('../views/About.vue')
   },
-  // {
-  //   path: '/my-portfolio',
-  //   name: 'Porfolio',
-  //   meta: {
-  //     title: 'Ogurinka Benjamin - My story',
-  //     order: 2
-  //   },
-  //   component: () => import('../views/Portfolio.vue')
-  // }
+  {
+    path: '/my-blog',
+    name: 'Blog',
+    meta: {
+      title: 'Ogurinka Benjamin - My story',
+      order: 2
+    },
+    component: () => import('../views/Blog.vue'),
+    children: [{
+        path: '/my-blog',
+        component: BlogHome,
+        name: 'blog-home'
+      },
+      {
+        path: '/blog/post/:articleId/',
+        component: BlogPost,
+        name: 'blog-post'
+      }
+    ]
+  }
 ]
 const scrollBehavior = (to, from, savedPosition) => {
   if (savedPosition) {
