@@ -657,9 +657,21 @@ a:hover {
 	margin: 0;
 }
 
+.footer {
+	background: #e3f0f8;
+}
+
 .footer .og-link {
 	display: inline-block;
 	margin: 1px 0;
 	font-size: 14px;
 	padding: 0;
+}
+
+.footer .copyright {
+	font-size: 13px;
+	font-weight: 400;
+	letter-spacing: 1.4px;
+	font-family: 'Overpass', sans-serif;
+	padding: 1rem;
 }

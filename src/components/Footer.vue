@@ -1,36 +1,42 @@
 <template>
-  <footer class="og-container footer">
-    <div class="row og-section">
-      <div class="column">
-        <div class="og-section--heading">
-          <h1 class="sub-title">Lets work together —</h1>
-          <a href="mailto:hi@tammy.dev" class="og-link email">hi@tammy.dev</a>
+  <footer class="footer">
+    <div class="og-container ">
+      <div class="og-section">
+        <div class="row">
+          <div class="column">
+            <div class="og-section--heading">
+              <h1 class="sub-title">Lets work together —</h1>
+              <a href="mailto:hi@tammy.dev" class="og-link email">hi@tammy.dev</a>
+            </div>
+          </div>
+          <div class="column">
+            <div class="og-section--heading">
+              <h1 class="sub-title">Find Me On Social Media —</h1>
+              <div>
+                <a href="https://www.github.com/simplytammy" class=" og-link" target="_blank">
+                  GitHub</a>
+              </div>
+              <div>
+                <a href="https://codepen.io/simplytammy/" class=" og-link" target="_blank">
+                  Codepen</a>
+              </div>
+              <div>
+                <a href="https://dev.to/simplytammy/" class=" og-link" target="_blank">
+                  Dev</a>
+              </div>
+              <div>
+                <a href="https://www.linkedin.com/in/benjamin-ogurinka-woruka-4b4093182" class=" og-link" target="_blank">
+                  LinkedIn</a>
+              </div>
+              <div>
+                <a href="https://dribbble.com/simplytammy/" class=" og-link" target="_blank">
+                  Dribbble</a>
+              </div>
+            </div>
+          </div>
+
         </div>
-      </div>
-      <div class="column">
-        <div class="og-section--heading">
-          <h1 class="sub-title">Find Me On Social Media —</h1>
-          <div>
-            <a href="https://www.github.com/simplytammy" class=" og-link" target="_blank">
-              GitHub</a>
-          </div>
-          <div>
-            <a href="https://codepen.io/simplytammy/" class=" og-link" target="_blank">
-              Codepen</a>
-          </div>
-          <div>
-            <a href="https://dev.to/simplytammy/" class=" og-link" target="_blank">
-              Dev</a>
-          </div>
-          <div>
-            <a href="https://www.linkedin.com/in/benjamin-ogurinka-woruka-4b4093182" class=" og-link" target="_blank">
-              LinkedIn</a>
-          </div>
-          <div>
-            <a href="https://dribbble.com/simplytammy/" class=" og-link" target="_blank">
-              Dribbble</a>
-          </div>
-        </div>
+        <p class="copyright pt">Copyright &copy; 2018 - present. Design By Tammy</p>
       </div>
 
     </div>
