@@ -760,11 +760,11 @@ a:hover {
 }
 
 .project-card {
-	min-height: 400px;
+	min-height: 450px;
 	width: 100%;
 	display: flex;
 	align-items: center;
-	padding: 1rem;
+	padding: 2rem;
 	margin: 0 auto 0.4rem auto;
 	border-radius: 5px;
 	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
@@ -836,13 +836,21 @@ a:hover {
 	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 1050px) {
 
-	.project-card,
+	.project-card {
+		padding: 1rem;
+		min-height: 100%;
+	}
+}
+
+@media only screen and (max-width: 1050px) {
+
 	.design-card img {
 		width: 100%;
 		min-height: 100%;
 	}
+
 
 }
 
