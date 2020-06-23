@@ -541,6 +541,16 @@ a:hover {
 	font-weight: 400;
 }
 
+@media only screen and (max-width: 600px) {
+	.og-hero .og-hero--content {
+		max-width: 100vw;
+	}
+
+	.og-hero .og-hero--content .title {
+		font-size: 28px;
+	}
+}
+
 /* Section */
 
 .og-section {

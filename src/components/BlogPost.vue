@@ -4,7 +4,7 @@
       <Navbar />
       <div class="og-hero--content og-container">
         <div>
-          <p class="info">Article</p>
+          <p class="info">{{article.published_at | moment}}</p>
           <h1 class="title" v-if="!article">That post can't be found.</h1>
           <h1 class="title">{{ article.title }} —</h1>
         </div>
@@ -22,6 +22,7 @@
 <script>
 import blogService from '@/services/blogService'
 import Navbar from '@/components/Navbar.vue'
+import moment from 'moment'
 import '../devto.css'
 export default {
   data() {
@@ -49,6 +50,11 @@ export default {
         { name: 'twitter:image', content: this.article.cover_image },
         { name: 'robots', content: 'index,follow' }
       ]
+    }
+  },
+  filters: {
+    moment: function(date) {
+      return moment(date).format('MMMM Do YYYY');
     }
   },
   methods: {
