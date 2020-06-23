@@ -16,6 +16,9 @@ body {
 	position: relative;
 }
 
+.pt {
+	padding-top: 2rem !important;
+}
 
 .text-default {
 	color: var(--defaultColor);
@@ -180,6 +183,7 @@ body {
 	.half-width {
 		max-width: 100vw;
 	}
+
 }
 
 .styled-list ul {
@@ -189,9 +193,20 @@ body {
 }
 
 .styled-list ul li {
-	color: #888;
+	color: var(--primaryColor);
 	font-size: 16px;
 	text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+	.half-width {
+		max-width: 100vw;
+	}
+
+	.styled-list ul li {
+		font-size: 14px;
+
+	}
 }
 
 .row {
@@ -402,6 +417,17 @@ a:hover {
 	color: var(--primaryColor);
 	font-weight: 400;
 
+}
+
+@media screen and (max-width: 768px) {
+	.og-section .og-section--heading {
+		padding: 10px;
+		max-width: 100vw;
+	}
+
+	.og-section .og-section--heading .info {
+		font-size: 14px;
+	}
 }
 
 .project-card {
@@ -635,7 +661,7 @@ a:hover {
 }
 
 .work {
-	margin: 0 0 2rem 0;
+	margin: 0 0 10px 0;
 	padding: 1rem;
 }
 
@@ -666,6 +692,11 @@ a:hover {
 	margin: 1px 0;
 	font-size: 14px;
 	padding: 0;
+	font-weight: 400;
+}
+
+.footer .og-section .og-section--heading .sub-title {
+	font-size: 16px;
 }
 
 .footer .copyright {

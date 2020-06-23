@@ -13,12 +13,12 @@
 		<section class="og-section">
 			<div class="og-container">
 				<div class="og-section--heading">
-					<h1 class="sub-title">A bit about me —</h1>
+					<h1 class="sub-title">A bit about me <span class="period"></span></h1>
 					<p class="info">Hi, I am Tammy. I code for fun and build amazingly beautiful and simple things as a hobby. I pay attention to best practices known to me
 						and I'm always open to learn new things and take on challenging paths.</p>
 					<p class="info">When I am not coding, I serve as a mentor to younger developers and people with little to zero knowlege about where and how to start there development journey.</p>
 				</div>
-				<div class="og-section--heading">
+				<div class="og-section--heading pt">
 					<h1 class="sub-title clear">Tools and tech <span class="period"></span></h1>
 				</div>
 				<div class="is_flexed styled-list half-width">
@@ -171,7 +171,7 @@ export default {
 					title: "Community Impact",
 					content: `
       <div class="og-section">
-        <div class="pt">
+        <div class="">
 
           <div class="work">
             <span class="date">May, 2020 - Present</span>
