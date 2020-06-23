@@ -1,5 +1,5 @@
 <template>
-  <div class="navbar">
+  <div class="navbar is-relative">
     <header class="header og-container">
 
       <router-link to="/" class="brand">
