@@ -41,6 +41,7 @@ import Navbar from '@/components/Navbar.vue'
 import Footer from '@/components/Footer.vue'
 export default {
 	name: "Blog",
+	scrollToTop: true,
 	data() {
 		return {
 			articles: []
