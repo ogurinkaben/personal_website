@@ -22,11 +22,19 @@ const routes = [{
     component: () => import('../views/About.vue')
   },
   {
+    path: '/contact-me',
+    name: 'Contact',
+    meta: {
+      order: 2
+    },
+    component: () => import('../views/Contact.vue')
+  },
+  {
     path: '/my-blog',
     name: 'Blog',
     meta: {
       title: 'Ogurinka Benjamin - My story',
-      order: 2
+      order: 3
     },
     component: () => import('../views/Blog.vue'),
     children: [{
