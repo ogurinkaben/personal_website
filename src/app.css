@@ -360,6 +360,14 @@ a:hover {
 	min-height: 50vh;
 }
 
+.og-hero.about {
+	background: linear-gradient(to bottom, rgba(0, 9, 27, 0.9), rgba(0, 9, 27, 0.9)),
+		url('./assets/img/page-images/me.png');
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
 @media only screen and (max-width: 600px) {
 	.og-hero .og-hero--content {
 		max-width: 100vw;
