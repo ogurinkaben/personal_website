@@ -1,6 +1,6 @@
 [build]
   base = "/"
-  publish = "/dist"
+  publish = "dist"
 [[redirects]]
   from = "/*"
   to = "/index.html"
