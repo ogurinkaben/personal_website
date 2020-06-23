@@ -36,6 +36,7 @@
 					<div class="column">
 						<div class="project-card is-ultra">
 							<a href="https://everylink.space" target="_blank">
+								<img src="../assets/img/design-cards/ctr.png">
 								<h1 class="title">Everylink <br>
 									<span>—</span></h1>
 
@@ -46,6 +47,7 @@
 					<div class="column">
 						<div class="project-card is-gray">
 							<a href="http://cscplayground.xyz/posts" target="_blank">
+								<img src="../assets/img/design-cards/lc.png">
 								<h1 class="title">Playground <br>
 									<span>—</span></h1>
 								<p class="desc">A Mini social media for my school department. Built as part of a practice project to get acquainted with Backend Basics</p>
@@ -57,6 +59,7 @@
 					<div class="column">
 						<div class="project-card is-dark">
 							<a href="https://airpods-store.codeit.today" target="_blank">
+								<img src="../assets/img/design-cards/screen.png">
 								<h1 class="title">Airpods Store <br>
 									<span>—</span></h1>
 
@@ -67,6 +70,7 @@
 					<div class="column">
 						<div class="project-card is-mint">
 							<a href="https://terin.xyz" target="_blank">
+								<img src="../assets/img/design-cards/arrow.png">
 								<h1 class="title">Terin <br>
 									<span>—</span></h1>
 								<p class="desc">Official website for Terin, a tech start-up focused on technological growth and innovative products</p>

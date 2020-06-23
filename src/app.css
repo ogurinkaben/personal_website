@@ -760,7 +760,7 @@ a:hover {
 }
 
 .project-card {
-	min-height: 300px;
+	min-height: 400px;
 	width: 100%;
 	display: flex;
 	align-items: center;
@@ -770,6 +770,13 @@ a:hover {
 	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
 	transition: 0.4s ease-in-out;
 
+}
+
+.project-card img {
+	width: 50%;
+	display: block;
+	margin: 1rem 0 2rem 0;
+	object-fit: cover;
 }
 
 .project-card:hover {
@@ -796,39 +803,20 @@ a:hover {
 
 .is-ultra {
 	background: #5F4B8B;
-	background: linear-gradient(to bottom, rgba(95, 75, 139, 0.9), rgba(95, 75, 139, 0.9)),
-		url('./assets/img/bg/everylink.png');
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
 }
 
 .is-gray {
 	background: #606060;
-	background: linear-gradient(to bottom, rgba(96, 96, 96, 0.9), rgba(96, 96, 96, 0.9)),
-		url('./assets/img/bg/playground.png');
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
 
 }
 
 .is-dark {
 	background: #101820;
-	background: linear-gradient(to bottom, rgba(16, 24, 32, 0.9), rgba(16, 24, 32, 0.9)),
-		url('./assets/img/bg/airpods-store.png');
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
 }
 
 .is-mint {
 	background: #03265b;
-	background: linear-gradient(to bottom, rgba(3, 38, 91, 0.9), rgba(3, 38, 91, 0.9)),
-		url('./assets/img/bg/terin.png');
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
+
 }
 
 .design-card {
@@ -849,10 +837,13 @@ a:hover {
 }
 
 @media only screen and (max-width: 600px) {
+
+	.project-card,
 	.design-card img {
 		width: 100%;
 		min-height: 100%;
 	}
+
 }
 
 .timeline {
