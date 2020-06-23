@@ -27,7 +27,9 @@ body {
 }
 
 .tabs {
-	margin-bottom: 2rem;
+	margin-bottom: 1rem;
+	margin-top: 2rem;
+	padding: 1rem;
 }
 
 .tabs ul {
@@ -38,7 +40,7 @@ body {
 .tabs ul li {
 	display: inline-block;
 	cursor: pointer;
-	padding: 18px;
+	padding: 10px;
 	color: var(--primaryColor);
 	font-size: 16px;
 	font-weight: 400;
@@ -188,7 +190,7 @@ body {
 
 .styled-list ul li {
 	color: #888;
-	font-size: 18px;
+	font-size: 16px;
 	text-align: left;
 }
 
