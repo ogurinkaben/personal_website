@@ -1,7 +1,11 @@
 <template>
   <div class="navbar">
     <header class="header og-container">
-      <h1 class="brand">tAMMy<span class="period"></span></h1>
+
+      <router-link to="/" class="brand">
+        tAMMy<span class="period"></span>
+      </router-link>
+
       <nav class="nav">
         <router-link to="/">Home</router-link>
         <router-link to="/about-me">About Me</router-link>

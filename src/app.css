@@ -192,15 +192,6 @@ body {
 	text-align: left;
 }
 
-.styled-list ul li:before {
-	content: "\2022";
-	color: var(--defaultColor);
-	font-weight: bold;
-	display: inline-block;
-	width: 1em;
-	margin-left: -1em;
-}
-
 .row {
 	display: flex;
 	flex-direction: row;
@@ -342,6 +333,7 @@ a:hover {
 	display: flex;
 	align-items: center;
 	min-height: 60vh;
+	padding-top: 3rem;
 	max-width: 50vw;
 	color: #f1f1f1;
 }
@@ -483,7 +475,6 @@ a:hover {
 }
 
 .design-card {
-	min-height: 350px;
 	display: flex;
 	align-items: center;
 	padding: 0;
