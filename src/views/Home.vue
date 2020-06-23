@@ -45,7 +45,7 @@
 					</div>
 					<div class="column">
 						<div class="project-card is-gray">
-							<a href="http://cscplaygroun.xyz/posts" target="_blank">
+							<a href="http://cscplayground.xyz/posts" target="_blank">
 								<h1 class="title">Playground <br>
 									<span>—</span></h1>
 								<p class="desc">A Mini social media for my school department. Built as part of a practice project to get acquainted with Backend Basics</p>
