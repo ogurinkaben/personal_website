@@ -97,6 +97,7 @@ import Footer from '@/components/Footer.vue'
 import axios from 'axios'
 export default {
   name: 'Contact',
+  scrollToTop: true,
   components: {
     Navbar,
     Footer,

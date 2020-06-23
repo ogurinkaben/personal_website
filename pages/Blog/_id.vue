@@ -25,6 +25,8 @@ import Navbar from '@/components/Navbar.vue'
 import Footer from '@/components/Footer.vue'
 import moment from 'moment'
 export default {
+  name: "BlogPost",
+  scrollToTop: true,
   data() {
     return {
       article: {}

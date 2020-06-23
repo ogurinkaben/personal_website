@@ -8,6 +8,7 @@
 <script>
 export default {
   name: 'App',
+  scrollToTop: true,
   data() {
     return {
       transitionName: 'out-down',
