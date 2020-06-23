@@ -10,7 +10,7 @@
         <router-link to="/">Home</router-link>
         <router-link to="/about-me">About Me</router-link>
         <router-link to="/my-blog">Blog</router-link>
-        <a href="https://portfolio.tammy.dev"> Portfolio </a>
+        <a href="https://portfolio.tammy.dev" target="_blank"> Portfolio </a>
       </nav>
       <div class="more" id="toggleNav" @click="toggleNav">
         <svg width="32px" height="32px" viewBox="0 0 32 32">
@@ -36,7 +36,7 @@
             <router-link to="/my-blog">Blog</router-link>
           </span>
           <span @click="toggleNav">
-            <a href="https://portfolio.tammy.dev"> Portfolio </a>
+            <a href="https://portfolio.tammy.dev" target="_blank"> Portfolio </a>
           </span>
         </div>
       </div>
