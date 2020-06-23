@@ -14,7 +14,8 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.11.0",
     "moment": "^2.27.0",
-    "nuxt": "^2.13.0"
+    "nuxt": "^2.13.0",
+    "sweetalert2": "^9.15.1"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^3.0.0",
