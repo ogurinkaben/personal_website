@@ -634,6 +634,7 @@ a:hover {
 }
 
 .og-form-control:focus {
+	outline: none;
 	border-color: none;
 }
 

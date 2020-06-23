@@ -19,6 +19,10 @@
                   Blog</router-link>
               </div>
               <div>
+                <router-link to="/contact-me" class=" og-link plain">
+                  Contact</router-link>
+              </div>
+              <div>
                 <a href="https://portfolio.tammy.dev" class=" og-link plain" target="_blank">
                   Portfolio</a>
               </div>
