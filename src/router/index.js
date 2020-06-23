@@ -30,15 +30,15 @@ const routes = [{
     },
     component: () => import('../views/Blog.vue'),
     children: [{
+        path: '/blog/post/:articleId/',
+        component: BlogPost,
+        name: 'blog-post'
+      },
+      {
         path: '/my-blog',
         component: BlogHome,
         name: 'blog-home'
       },
-      {
-        path: '/blog/post/:articleId/',
-        component: BlogPost,
-        name: 'blog-post'
-      }
     ]
   }
 ]

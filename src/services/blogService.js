@@ -21,4 +21,11 @@ export default {
 			return e.response
 		}
 	},
+	async fetchArticleBySlug(slug) {
+		try {
+			return await api.get(`articles/${slug}`)
+		} catch (e) {
+			return e.response
+		}
+	},
 }
