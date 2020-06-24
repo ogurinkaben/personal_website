@@ -492,7 +492,7 @@ a:hover {
 .og-hero {
 	min-height: 80vh;
 	width: 100%;
-	background: url('./assets/img/bg/hero-bg.png');
+	background: url('../assets/img/bg/hero-bg.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top center;
@@ -516,7 +516,7 @@ a:hover {
 
 .og-hero.about {
 	background: linear-gradient(to bottom, rgba(0, 9, 27, 0.9), rgba(0, 9, 27, 0.9)),
-		url('./assets/img/page-images/me.png');
+		url('../assets/img/page-images/me.png');
 	background-position: top center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -524,7 +524,7 @@ a:hover {
 
 .og-hero.blog {
 	background: linear-gradient(to bottom, rgba(0, 9, 27, 0.9), rgba(0, 9, 27, 0.9)),
-		url('./assets/img/bg/blog.png');
+		url('../assets/img/bg/blog.png');
 	background-position: top center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -532,7 +532,7 @@ a:hover {
 
 .og-hero.contact {
 	background: linear-gradient(to bottom, rgba(0, 9, 27, 0.9), rgba(0, 9, 27, 0.9)),
-		url('./assets/img/bg/contact.png');
+		url('../assets/img/bg/contact.png');
 	background-position: top center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -734,7 +734,7 @@ a:hover {
 }
 
 .og-section .og-section--heading .sub-title {
-	font-size: 20px;
+	font-size: 24px;
 	color: var(--primaryColor);
 	font-weight: 600;
 	letter-spacing: 1.4px;
@@ -780,6 +780,7 @@ a:hover {
 	object-fit: cover;
 }
 
+
 .project-card:hover {
 	margin-top: -4px;
 }
@@ -804,20 +805,39 @@ a:hover {
 
 .is-ultra {
 	background: #5F4B8B;
+	background: linear-gradient(to bottom, rgba(95, 75, 139, 0.9), rgba(95, 75, 139, 0.9)),
+		url('../assets/img/bg/everylink.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
-.is-green {
-	background: #2C5F2D;
+.is-gray {
+	background: #606060;
+	background: linear-gradient(to bottom, rgba(96, 96, 96, 0.9), rgba(96, 96, 96, 0.9)),
+		url('../assets/img/bg/playground.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 
 }
 
 .is-dark {
 	background: #101820;
+	background: linear-gradient(to bottom, rgba(16, 24, 32, 0.9), rgba(16, 24, 32, 0.9)),
+		url('../assets/img/bg/airpods-store.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .is-mint {
 	background: #03265b;
-
+	background: linear-gradient(to bottom, rgba(3, 38, 91, 0.9), rgba(3, 38, 91, 0.9)),
+		url('../assets/img/bg/terin.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .design-card {
@@ -837,22 +857,11 @@ a:hover {
 	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
 }
 
-@media screen and (max-width: 1050px) {
-
-	.project-card {
-		padding: 1rem;
-		min-height: 100%;
-	}
-}
-
-@media only screen and (max-width: 1050px) {
-
+@media only screen and (max-width: 600px) {
 	.design-card img {
 		width: 100%;
 		min-height: 100%;
 	}
-
-
 }
 
 .timeline {
@@ -944,9 +953,9 @@ a:hover {
 .timeline ul li .time h4 {
 	margin: 0;
 	padding: 0;
-	font-size: 13px;
-	font-weight: 200;
-	font-style: italic;
+	font-size: 12px;
+	font-weight: 400;
+	color: #999;
 }
 
 .timeline:before {
@@ -997,10 +1006,9 @@ a:hover {
 }
 
 .work .date {
-	color: var(--primaryColor);
-	opacity: 0.5;
 	font-size: 12px;
-	font-style: italic;
+	font-weight: 400;
+	color: #999;
 	display: block;
 }
 

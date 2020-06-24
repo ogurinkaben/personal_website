@@ -15,16 +15,18 @@
         <div class="article-single-body" v-html="article.body_html"></div>
       </div>
     </section>
-
+    <Footer />
   </div>
 </template>
 
 <script>
 import blogService from '@/services/blogService'
 import Navbar from '@/components/Navbar.vue'
+import Footer from '@/components/Footer.vue'
 import moment from 'moment'
-import '../devto.css'
 export default {
+  name: "BlogPost",
+  scrollToTop: true,
   data() {
     return {
       article: {}
@@ -35,8 +37,9 @@ export default {
   },
   components: {
     Navbar,
+    Footer,
   },
-  metaInfo() {
+  head() {
     return {
       title: this.article.title,
       meta: [
@@ -59,7 +62,8 @@ export default {
   },
   methods: {
     async fetchArticle() {
-      const articleId = this.$route.params.articleId
+      const articleId = this.$route.params.id
+      console.log(articleId)
       await blogService.fetchArticleById(articleId)
         .then((response => {
           switch (response.status) {
