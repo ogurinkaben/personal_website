@@ -734,7 +734,7 @@ a:hover {
 }
 
 .og-section .og-section--heading .sub-title {
-	font-size: 24px;
+	font-size: 20px;
 	color: var(--primaryColor);
 	font-weight: 600;
 	letter-spacing: 1.4px;
@@ -760,7 +760,7 @@ a:hover {
 }
 
 .project-card {
-	min-height: 450px;
+	min-height: 350px;
 	width: 100%;
 	display: flex;
 	align-items: center;
@@ -773,7 +773,7 @@ a:hover {
 }
 
 .project-card img {
-	width: 50%;
+	width: 55px;
 	display: block;
 	margin: 1rem 0 2rem 0;
 	object-fit: cover;
