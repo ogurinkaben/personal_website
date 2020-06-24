@@ -772,6 +772,10 @@ a:hover {
 
 }
 
+.project-card .card-link {
+	font-size: 14px;
+}
+
 .project-card img {
 	width: 55px;
 	display: block;
