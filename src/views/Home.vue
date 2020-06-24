@@ -16,7 +16,7 @@
 								<svg>
 									<rect x="0" y="0" fill="none" width="100%" height="100%" />
 								</svg>
-								A bit more <i class="ti-agenda"></i>
+								Read more <i class="ti-arrow-right"></i>
 							</div>
 						</router-link>
 					</div>
@@ -41,9 +41,7 @@
 									<span>—</span></h1>
 
 								<p class="desc">Everylink is a super simple URL shortener specially designed and developed for event organizers and social media enthusiasts to give them a fast way to easily share clean content URLs</p>
-								<div class="pt">
-									<span class="card-link">Click to view:.</span>
-								</div>
+
 							</a>
 						</div>
 					</div>
@@ -54,9 +52,7 @@
 								<h1 class="title">Playground <br>
 									<span>—</span></h1>
 								<p class="desc">A Mini social media for my school department. Built as part of a practice project to get acquainted with Backend Basics</p>
-								<div class="pt">
-									<span class="card-link">Click to view:.</span>
-								</div>
+
 							</a>
 						</div>
 					</div>
@@ -70,9 +66,7 @@
 									<span>—</span></h1>
 
 								<p class="desc">A Frontend E-commerce template built as part of a training series for beginner - intermediate level web developers</p>
-								<div class="pt">
-									<span class="card-link">Click to view:.</span>
-								</div>
+
 							</a>
 						</div>
 					</div>
@@ -83,9 +77,7 @@
 								<h1 class="title">Terin <br>
 									<span>—</span></h1>
 								<p class="desc">Official website for Terin, a tech start-up focused on technological growth and innovative products</p>
-								<div class="pt">
-									<span class="card-link">Click to view:.</span>
-								</div>
+
 							</a>
 						</div>
 					</div>
