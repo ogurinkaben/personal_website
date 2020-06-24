@@ -943,7 +943,9 @@ a:hover {
 .timeline ul li .time h4 {
 	margin: 0;
 	padding: 0;
-	font-size: 14px;
+	font-size: 13px;
+	font-weight: 200;
+	font-style: italic;
 }
 
 .timeline:before {
