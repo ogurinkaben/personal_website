@@ -85,7 +85,7 @@ export default {
       title: "About me - Ogurinka Benjamin",
       meta: [
         { name: 'description', content: 'I am an Ever Growing Creative, Christian, UI Designer, Frontend Developer and Student' },
-        { property: 'og:title', content: "Ogurinka Benjamin - Ever growing creative" },
+        { property: 'og:title', content: "About me - Ogurinka Benjamin" },
         { property: 'og:site_name', content: 'Tammy' },
         { property: 'og:image', content: 'https://pbs.twimg.com/profile_images/1245935060714500096/R8c_nZOS_400x400.jp' },
         { property: 'og:type', content: 'website' },
