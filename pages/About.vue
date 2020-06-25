@@ -212,6 +212,10 @@ export default {
     if (process.client) {
       this.$scrollTo('#__nuxt', 0, { force: true })
     }
+    this.$nextTick(() => {
+      this.$nuxt.$loading.start()
+      setTimeout(() => this.$nuxt.$loading.finish(), 3000)
+    })
   },
   methods: {
     navigate: function(e) {

@@ -332,8 +332,15 @@ table {
 .article {
 	cursor: pointer;
 	background: #fff;
-	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+	box-shadow: 13px 32px 36px -14px hsla(0, 0%, 70%, 0.10);
+	border-radius: 5px;
+	transition: .3s ease-in;
+
 	margin: 1rem auto;
+}
+
+.article:hover {
+	box-shadow: 13px 32px 36px -14px hsla(0, 0%, 70%, 0.3);
 }
 
 .article--body {
@@ -570,6 +577,14 @@ div.highlight {
 .og-hero.contact {
 	background: linear-gradient(to bottom, rgba(0, 9, 27, 0.9), rgba(0, 9, 27, 0.9)),
 		url('../assets/img/bg/contact.png');
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.og-hero.lost {
+	background: linear-gradient(to bottom, rgba(0, 9, 27, 0.9), rgba(0, 9, 27, 0.9)),
+		url('../assets/img/bg/lost.png');
 	background-position: top center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -814,7 +829,7 @@ div.highlight {
 	padding: 2rem;
 	margin: 0 auto 0.4rem auto;
 	border-radius: 5px;
-	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+	box-shadow: 13px 32px 36px -14px hsla(0, 0%, 70%, 0.3);
 	transition: 0.4s ease-in-out;
 
 }
@@ -901,7 +916,7 @@ div.highlight {
 	min-height: 400px;
 	object-fit: cover;
 	border-radius: 5px;
-	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+	box-shadow: 13px 32px 36px -14px hsla(0, 0%, 70%, 0.3);
 }
 
 img.single {

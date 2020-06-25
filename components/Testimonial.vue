@@ -7,7 +7,7 @@
       </div>
       <div v-cloak class="flex-img pt">
         <div class="testimonial-img pt">
-          <div v-for="(testimonial, index) in testimonials" :class="{'is-active': show == index}">
+          <div v-for="(testimonial, index) in testimonials" :class="[{'is-active': show == index}, testimonial.className]">
             <div class="img-wrapper">
 
               <a @click.prevent="show = index">
@@ -48,7 +48,7 @@ export default {
         },
         {
           id: 2,
-          className: "t-4",
+          className: "t-2",
           img: "https://res.cloudinary.com/simplytammy/image/upload/v1593045345/testimonials/sophie.jpg",
           name: "Edeki Sophia Peace",
           country: "Nigeria",
@@ -58,7 +58,7 @@ export default {
         },
         {
           id: 3,
-          className: "t-2",
+          className: "t-3",
           img: "https://res.cloudinary.com/simplytammy/image/upload/c_scale,w_100/v1593063042/testimonials/bree.jpg",
           name: "Bridget Eldoret",
           country: "Kenya",
@@ -68,12 +68,22 @@ export default {
         },
         {
           id: 4,
-          className: "t-3",
+          className: "t-4",
           img: "https://res.cloudinary.com/simplytammy/image/upload/v1593038985/testimonials/desmond.jpg",
           name: "Ezo-Ojile Desmond",
           country: "Nigeria",
           cite: "CEO, Studihub",
           content: `Benjamin is a highly skilled developer, always ready and willing to try out something new. He always gets the job done, professionally and on time.
+          `
+        },
+        {
+          id: 5,
+          className: "t-5",
+          img: "https://res.cloudinary.com/simplytammy/image/upload/c_scale,w_80/v1593107949/testimonials/david.jpg",
+          name: "Oladele David",
+          country: "Nigeria",
+          cite: "Web Developer, Cardano",
+          content: `I was looking for a good Front-End Developer who would create and evolve my websites as I work as the Backend Dev. Benjamin delivers exactly what I want. It’s always a pleasure working and seeing him. I enjoy meeting him as he lives locally and I always leave his place with a spring in my step and a smile on my face. I know he will keep improving my websites and advising me in the best ways forward for years to come, with SEO and new features. I look forward to a great working relationship and friendship with him.
           `
         },
       ]
@@ -136,34 +146,45 @@ export default {
   grid-gap: 1rem;
 }
 
+.testimonial-img .t-3 {
+  grid-column: 1/3;
+}
+
 .testimonial-img img {
   transform: scale(0.7);
   opacity: 0.6;
   transition: 0.4s ease-in-out;
 }
 
-.testimonial-img img.t-1 {
+
+.testimonial-img .t-1 img {
   -webkit-box-shadow: 0px 0px 0px 6px #E69A8D;
   -moz-box-shadow: 0px 0px 0px 6px #E69A8D;
   box-shadow: 0px 0px 0px 6px #E69A8D;
 }
 
-.testimonial-img img.t-2 {
+.testimonial-img .t-2 img {
   -webkit-box-shadow: 0px 0px 0px 6px #5F4B8B;
   -moz-box-shadow: 0px 0px 0px 6px #5F4B8B;
   box-shadow: 0px 0px 0px 6px #5F4B8B;
 }
 
-.testimonial-img img.t-3 {
+.testimonial-img .t-3 img {
   -webkit-box-shadow: 0px 0px 0px 6px #ADEFD1;
   -moz-box-shadow: 0px 0px 0px 6px #ADEFD1;
   box-shadow: 0px 0px 0px 6px #ADEFD1;
 }
 
-.testimonial-img img.t-4 {
+.testimonial-img .t-4 img {
   -webkit-box-shadow: 0px 0px 0px 6px #E0C568;
   -moz-box-shadow: 0px 0px 0px 6px #E0C568;
   box-shadow: 0px 0px 0px 6px #E0C568;
+}
+
+.testimonial-img .t-5 img {
+  -webkit-box-shadow: 0px 0px 0px 6px #FC766A;
+  -moz-box-shadow: 0px 0px 0px 6px #FC766A;
+  box-shadow: 0px 0px 0px 6px #FC766A;
 }
 
 

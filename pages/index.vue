@@ -103,11 +103,22 @@
             </div>
           </div>
         </div>
-        <div class="">
+        <div class="row">
           <div class="column">
+            <div class="design-card">
+              <div>
+                <img src="../assets/img/design-cards/cup-mockup.png">
 
-            <img src="../assets/img/design-cards/cup-mockup.png" class="single">
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="design-card">
+              <div>
+                <img src="../assets/img/design-cards/fitness-watch.png">
 
+              </div>
+            </div>
           </div>
         </div>
         <div class="row">
@@ -174,6 +185,10 @@ export default {
     if (process.client) {
       this.$scrollTo('#__nuxt', 0, { force: true })
     }
+    this.$nextTick(() => {
+      this.$nuxt.$loading.start()
+      setTimeout(() => this.$nuxt.$loading.finish(), 3000)
+    })
   },
   head() {
     return {

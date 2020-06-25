@@ -1,8 +1,8 @@
 <template>
   <footer class="footer">
-    <a @click="jumpToTop" class="to-top">
-      <i>up</i>
-    </a>
+    <button @click="jumpToTop" class="to-top">
+      <i>scroll up</i>
+    </button>
     <div class="og-container ">
       <div class="og-section">
         <div class="row">
@@ -68,7 +68,7 @@
       </div>
 
     </div>
-
+    <span class="footer-bb"></span>
   </footer>
 </template>
 
@@ -87,19 +87,16 @@ export default {
 </script>
 
 <style scoped>
-@import url('https://cdn.jsdelivr.net/themify-icons/0.1.2/css/themify-icons.css');
-
 .to-top {
-  display: inline-flex;
+  display: inline-block;
   align-items: center;
   justify-content: center;
-  border-radius: 50%;
+  border-radius: 10px;
   position: absolute;
-  height: 50px;
-  width: 50px;
   top: -0.8rem;
   right: 1rem;
   background: #ddd;
+  border: none;
   padding: 10px 20px;
   color: var(--primaryColor);
   transition: 0.4s ease-in-out;
@@ -130,6 +127,14 @@ export default {
   display: inline-block;
   margin-left: 10px;
 
+}
+
+.footer-bb {
+  display: block;
+  width: 100%;
+  height: 5px;
+  background: linear-gradient(90deg, #f00000, #f00000 16.67%, #ff8000 16.67%, #ff8000 33.33%, #ffff00 33.33%, #ffff00 50%, #007940 50%, #007940 66.67%, #4040ff 66.67%, #4040ff 83.33%, #a000c0 83.33%, #a000c0) fixed;
+  opacity: 0.6;
 }
 
 </style>
