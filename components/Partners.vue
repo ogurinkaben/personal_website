@@ -42,6 +42,7 @@ export default {
   min-height: 100px;
   align-content: center;
   justify-content: center;
+  padding-bottom: 4rem;
 }
 
 .partners-grid {
