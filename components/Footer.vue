@@ -1,7 +1,7 @@
 <template>
   <footer class="footer">
     <a @click="jumpToTop" class="to-top">
-      <i class="ti-arrow-up"></i>
+      <i>up</i>
     </a>
     <div class="og-container ">
       <div class="og-section">
@@ -92,10 +92,10 @@ export default {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border-radius: 1rem;
+  border-radius: 50%;
   position: absolute;
-  height: 40px;
-  width: 40px;
+  height: 50px;
+  width: 50px;
   top: -0.8rem;
   right: 1rem;
   background: #ddd;
