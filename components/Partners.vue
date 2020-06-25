@@ -10,6 +10,7 @@
           <img src="../assets/img/partners/codeit-logo-dark.png">
           <img src="../assets/img/partners/fd_logo.png">
           <img src="../assets/img/partners/doa.jpg">
+          <img src="../assets/img/partners/eventpady.png" class="ev">
         </div>
       </div>
     </div>
@@ -61,6 +62,10 @@ export default {
   -ms-filter: grayscale(100%);
   -o-filter: grayscale(100%);
   filter: gray;
+}
+
+.partners-grid img.ev {
+  grid-column: 1 /3;
 }
 
 </style>
