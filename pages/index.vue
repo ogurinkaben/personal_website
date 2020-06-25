@@ -170,6 +170,11 @@ export default {
     Testimonial,
     Partners
   },
+  mounted() {
+    if (process.client) {
+      this.$scrollTo('#__nuxt', 0, { force: true })
+    }
+  },
   head() {
     return {
       title: "Ogurinka Benjamin - Ever growing creative",

@@ -208,6 +208,11 @@ export default {
       ]
     }
   },
+  mounted() {
+    if (process.client) {
+      this.$scrollTo('#__nuxt', 0, { force: true })
+    }
+  },
   methods: {
     navigate: function(e) {
       if (e.target.dataset.show) {

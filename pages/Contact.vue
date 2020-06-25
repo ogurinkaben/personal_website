@@ -112,6 +112,11 @@ export default {
       isSending: false
     };
   },
+  mounted() {
+    if (process.client) {
+      this.$scrollTo('#__nuxt', 0, { force: true })
+    }
+  },
   head() {
     return {
       title: "Contact me - Ogurinka Benjamin",

@@ -39,6 +39,11 @@ export default {
     Navbar,
     Footer,
   },
+  mounted() {
+    if (process.client) {
+      this.$scrollTo('#__nuxt', 0, { force: true })
+    }
+  },
   head() {
     return {
       title: this.article.title,
