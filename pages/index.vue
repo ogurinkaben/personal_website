@@ -7,12 +7,12 @@
         <div>
           <h1 class="title">Hello, I'm Tammy —</h1>
           <p class="info">
-            I am an Ever Growing Creative, Christian, UI Designer, Freelance Web Developer and Student currently living
+            I am an Ever Growing Creative, Christian, UI Designer, Freelance Web Developer and Mentor currently living
             in Rivers, Nigeria. I build and design beautifully simple things that run on the web.
           </p>
           <div class="is-relative">
             <router-link to="/about" class="text-default">
-              <div class="og-button animate" target="_blank">
+              <div class="og-button animate has-shadow">
                 <svg>
                   <rect x="0" y="0" fill="none" width="100%" height="100%" />
                 </svg>
@@ -103,6 +103,13 @@
             </div>
           </div>
         </div>
+        <div class="">
+          <div class="">
+
+            <img src="../assets/img/design-cards/cup-mockup.png" class="single">
+
+          </div>
+        </div>
         <div class="row">
           <div class="column">
             <div class="design-card">
@@ -121,9 +128,10 @@
             </div>
           </div>
         </div>
-        <div class="is-relative text-is-center">
-          <a href="https://portfolio.tammy.dev" class="text-default">
-            <div class="og-button animate" target="_blank">
+
+        <div class="is-relative text-is-center pt">
+          <a href="https://portfolio.tammy.dev" class="text-default" target="_blank">
+            <div class="og-button animate is-fill has-shadow">
               <svg>
                 <rect x="0" y="0" fill="none" width="100%" height="100%" />
               </svg>
@@ -133,6 +141,17 @@
         </div>
       </div>
     </section>
+    <section class="og-container">
+      <div class="og-section">
+        <Testimonial />
+      </div>
+    </section>
+    <section class="og-container">
+      <div class="og-section">
+        <Partners />
+      </div>
+    </section>
+
     <Footer />
   </div>
 </template>
@@ -140,12 +159,16 @@
 <script>
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import Testimonial from '../components/Testimonial'
+import Partners from '../components/Partners'
 export default {
   name: "Home",
   scrollToTop: true,
   components: {
     Navbar,
-    Footer
+    Footer,
+    Testimonial,
+    Partners
   },
   head() {
     return {

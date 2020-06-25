@@ -1,6 +1,6 @@
 <template>
 	<div class="navbar is-relative">
-		<header class="header og-container">
+		<header class="header og-container" id="top">
 
 			<nuxt-link to="/" class="brand">
 				tAMMy<span class="period"></span>

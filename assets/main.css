@@ -2,6 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&display=swap');
 
+@font-face {
+	font-family: EurostileBold;
+	src: url('./font/EurostileBold.ttf');
+}
+
+@font-face {
+	font-family: EurostileNormal;
+	src: url('./font/EuroStyleNormal.ttf');
+}
+
 :root {
 	--side-margin: 15vw;
 	--defaultColor: rgb(23, 191, 99);
@@ -13,8 +23,81 @@ body {
 	background: #f5f5f5;
 }
 
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'EurostileBold', sans-serif;
+}
+
+a,
+input,
+textarea,
+ul,
+li,
+span,
+p {
+	font-family: 'Poppins', sans-serif;
+}
+
+a:focus,
+input:focus {
+	outline: none;
+}
+
+a,
+a:hover {
+	text-decoration: none;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table,
+th,
+td {
+	border: 1px solid #00091b;
+}
+
+th {
+	background: #f9f9fa;
+}
+
+td {
+	text-align: center;
+	min-width: 80px;
+}
+
+td li {
+	text-align: start;
+}
+
+
+table {
+	margin: 15px auto;
+}
+
+:not(pre)>code {
+	background: rgb(194, 194, 194);
+	border-radius: 2px;
+	padding: 0 5px;
+}
+
+.has-shadow {
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12) !important;
+}
+
 .is-relative {
-	position: relative;
+	position: relative !important;
 }
 
 .pt {
@@ -23,6 +106,10 @@ body {
 
 .text-default {
 	color: var(--defaultColor);
+}
+
+.text-is-center {
+	text-align: center !important;
 }
 
 .info-text {
@@ -58,7 +145,7 @@ body {
 .tabs ul li.is-active {
 	background: var(--defaultColor);
 	color: #fff;
-	border-radius: 5px;
+	border-radius: 0;
 }
 
 .og-link {
@@ -141,11 +228,18 @@ body {
 	transition: 0.4s ease;
 	background: transparent;
 	border: none;
+
 }
+
 
 .animate {
 	background: transparent;
 	text-align: center;
+}
+
+.animate.is-fill {
+	background: var(--defaultColor);
+	color: #fff;
 }
 
 .animate svg {
@@ -166,7 +260,7 @@ body {
 
 .animate:hover {
 	background: rgba(225, 51, 45, 0);
-
+	color: var(--defaultColor);
 }
 
 .animate:hover rect {
@@ -219,7 +313,7 @@ body {
 .grid-layout {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-	gap: 35px;
+	gap: 1px;
 	height: fit-content;
 }
 
@@ -330,39 +424,6 @@ div.highlight {
 	overflow: auto;
 }
 
-table {
-	border-collapse: collapse;
-}
-
-table,
-th,
-td {
-	border: 1px solid #00091b;
-}
-
-th {
-	background: #f9f9fa;
-}
-
-td {
-	text-align: center;
-	min-width: 80px;
-}
-
-td li {
-	text-align: start;
-}
-
-
-table {
-	margin: 15px auto;
-}
-
-:not(pre)>code {
-	background: rgb(194, 194, 194);
-	border-radius: 2px;
-	padding: 0 5px;
-}
 
 .row {
 	display: flex;
@@ -396,40 +457,6 @@ table {
 	}
 }
 
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	font-family: 'Poppins', sans-serif;
-}
-
-a,
-input,
-textarea,
-ul,
-li,
-span,
-p {
-	font-family: 'Poppins', sans-serif;
-}
-
-a:focus,
-input:focus {
-	outline: none;
-}
-
-a,
-a:hover {
-	text-decoration: none;
-}
 
 .og-container {
 	margin: 0 var(--side-margin);
@@ -549,11 +576,13 @@ a:hover {
 	font-size: 38px;
 	font-weight: 900;
 	letter-spacing: 1.5px;
+	margin-bottom: 1.4rem;
 }
 
 .og-hero .og-hero--content .info {
 	font-size: 18px;
 	font-weight: 400;
+	margin-bottom: 1.4rem;
 }
 
 @media only screen and (max-width: 600px) {
@@ -732,6 +761,7 @@ a:hover {
 	font-weight: 600;
 	letter-spacing: 1.4px;
 	margin-top: 1rem;
+	margin-bottom: 1rem;
 }
 
 .og-section .og-section--heading .sub-title {
@@ -858,6 +888,16 @@ a:hover {
 	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
 }
 
+img.single {
+	width: 50%;
+	min-height: 400px;
+	object-fit: cover;
+	display: block;
+	margin: 1rem auto;
+	border-radius: 5px;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
 @media only screen and (max-width: 600px) {
 	.project-card {
 		padding: 1rem;
@@ -949,6 +989,10 @@ a:hover {
 	font-size: 18px;
 }
 
+.timeline ul li h3 a {
+	font-family: 'EurostileBold', sans-serif;
+}
+
 .timeline ul li p {
 	margin: 10px 0 0;
 	padding: 0;
@@ -1008,7 +1052,7 @@ a:hover {
 
 .work {
 	margin: 0 0 10px 0;
-	padding: 1rem;
+	padding: 0.5rem 1rem;
 }
 
 .work .date {
@@ -1021,6 +1065,11 @@ a:hover {
 .work .company {
 	color: var(--primaryColor);
 	font-size: 18px;
+	margin: 0.65rem 0;
+}
+
+.work .company a {
+	font-family: 'EurostileBold', sans-serif;
 }
 
 .work .role {
@@ -1030,6 +1079,7 @@ a:hover {
 
 .footer {
 	background: #e3f0f8;
+	position: relative;
 }
 
 .footer .og-link {
