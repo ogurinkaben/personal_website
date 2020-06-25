@@ -104,7 +104,7 @@
           </div>
         </div>
         <div class="">
-          <div class="">
+          <div class="column">
 
             <img src="../assets/img/design-cards/cup-mockup.png" class="single">
 
