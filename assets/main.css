@@ -898,6 +898,13 @@ img.single {
 	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
 }
 
+@media screen and (max-width: 768px) {
+	img.single {
+		width: 100%;
+		min-height: auto;
+	}
+}
+
 @media only screen and (max-width: 600px) {
 	.project-card {
 		padding: 1rem;
