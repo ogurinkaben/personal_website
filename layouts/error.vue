@@ -35,7 +35,6 @@ export default {
     Footer,
   },
   props: ['error'],
-  layout: 'default',
   head() {
     return {
       title: "Something does not seem right!",
