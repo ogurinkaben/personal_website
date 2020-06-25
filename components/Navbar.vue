@@ -25,21 +25,21 @@
 
 			<div id="myNav" class="overlay">
 				<div class="overlay-content">
-					<span @click="toggleNav">
+					<span @click="closeNav">
 						<nuxt-link to="/">
 							Home
 						</nuxt-link>
 					</span>
-					<span @click="toggleNav">
+					<span @click="closeNav">
 						<nuxt-link to="/about">About Me</nuxt-link>
 					</span>
-					<span @click="toggleNav">
+					<span @click="closeNav">
 						<nuxt-link to="/blog">Blog</nuxt-link>
 					</span>
-					<span @click="toggleNav">
+					<span @click="closeNav">
 						<nuxt-link to="/contact">Contact</nuxt-link>
 					</span>
-					<span @click="toggleNav">
+					<span @click="closeNav">
 						<a href="https://portfolio.tammy.dev" target="_blank"> Portfolio </a>
 					</span>
 				</div>
@@ -57,6 +57,12 @@ export default {
 			const nav = document.getElementById("myNav");
 			toggleBtn.classList.toggle("toggle");
 			nav.classList.toggle("active");
+		},
+		closeNav() {
+			const toggleBtn = document.querySelector('#toggleNav');
+			const nav = document.getElementById("myNav");
+			toggleBtn.classList.remove("toggle");
+			nav.classList.remove("active");
 		}
 	}
 }

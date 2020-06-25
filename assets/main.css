@@ -1072,6 +1072,7 @@ img.single {
 .work .date {
 	font-size: 12px;
 	font-weight: 400;
+	font-family: 'EurostileBold', sans-serif;
 	color: #999;
 	display: block;
 }
