@@ -593,6 +593,13 @@ div.highlight {
 	.og-hero .og-hero--content .title {
 		font-size: 28px;
 	}
+
+	.og-hero .og-hero--content .info {
+		font-size: 15px;
+		font-weight: 400;
+		margin-bottom: 1.4rem;
+	}
+
 }
 
 .circle {
