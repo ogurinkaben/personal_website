@@ -59,7 +59,7 @@ export default {
         {
           id: 3,
           className: "t-2",
-          img: "https://i.ya-webdesign.com/images/avatar-icon-png-1.png",
+          img: "https://res.cloudinary.com/simplytammy/image/upload/c_scale,w_100/v1593063042/testimonials/bree.jpg",
           name: "Bridget Eldoret",
           country: "Kenya",
           cite: "Mentee",
