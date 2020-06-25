@@ -16,7 +16,7 @@
                 <svg>
                   <rect x="0" y="0" fill="none" width="100%" height="100%" />
                 </svg>
-                A bit more <i class="ti-agenda"></i>
+                A bit more <i class="ti-arrow-right"></i>
               </div>
             </router-link>
           </div>

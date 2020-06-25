@@ -1,5 +1,8 @@
 <template>
   <footer class="footer">
+    <a @click="jumpToTop" class="to-top">
+      <i class="ti-arrow-up"></i>
+    </a>
     <div class="og-container ">
       <div class="og-section">
         <div class="row">
@@ -60,6 +63,7 @@
 
         </div>
         <p class="copyright pt">Copyright &copy; 2018 - present. Designed By Tammy</p>
+        <p class="credits">Built with <img src="https://res.cloudinary.com/simplytammy/image/upload/v1593059237/nuxtlogo.png"></p>
       </div>
 
     </div>
@@ -70,32 +74,58 @@
 <script>
 export default {
   name: 'Footer',
+  methods: {
+    jumpToTop() {
+      if (process.client) {
+        this.$scrollTo('#__nuxt', 0, { force: true })
+      }
+    },
+  }
 }
 
 </script>
 
 <style scoped>
+@import url('https://cdn.jsdelivr.net/themify-icons/0.1.2/css/themify-icons.css');
+
 .to-top {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   border-radius: 1rem;
   position: absolute;
+  height: 40px;
+  width: 40px;
   top: -0.8rem;
   right: 1rem;
   background: #ddd;
-  padding: 10px;
+  padding: 10px 20px;
   color: var(--primaryColor);
+  transition: 0.4s ease-in-out;
 }
 
 .to-top:hover {
-  color: var(--primaryColor);
+  color: #fff;
+  cursor: pointer;
+  background: var(--defaultColor);
 }
 
 .to-top i {
   font-style: normal;
   font-size: 15px;
   font-weight: 400;
+}
+
+.credits {
+  font-size: 12px;
+  padding: 0 1rem;
+  display: flex;
+  min-height: 20px;
+  align-items: center;
+}
+
+.credits img {
+  width: 100px;
 }
 
 </style>
