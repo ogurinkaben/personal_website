@@ -1,8 +1,6 @@
 <template>
   <footer class="footer">
-    <button @click="jumpToTop" class="to-top">
-      <i>scroll up</i>
-    </button>
+
     <div class="og-container ">
       <div class="og-section">
         <div class="row">
@@ -68,7 +66,11 @@
       </div>
 
     </div>
+    <span @click="jumpToTop" class="to-top">
+      <img src="../assets/img/page-images/rocket.png" class="footer-rocket">
+    </span>
     <span class="footer-bb"></span>
+
   </footer>
 </template>
 
@@ -87,31 +89,34 @@ export default {
 </script>
 
 <style scoped>
+@keyframes float {
+  0% {
+    transform: translatey(0);
+  }
+
+  50% {
+    transform: translatey(-10px);
+  }
+
+  100% {
+    transform: translatey(0);
+  }
+}
+
 .to-top {
-  display: inline-block;
-  align-items: center;
-  justify-content: center;
   border-radius: 10px;
   position: absolute;
-  top: -0.8rem;
+  top: -2rem;
   right: 1rem;
-  background: #ddd;
   border: none;
-  padding: 10px 20px;
-  color: var(--primaryColor);
   transition: 0.4s ease-in-out;
-}
-
-.to-top:hover {
-  color: #fff;
   cursor: pointer;
-  background: var(--defaultColor);
+  background: #fff;
+  padding: 10px;
 }
 
-.to-top i {
-  font-style: normal;
-  font-size: 15px;
-  font-weight: 400;
+.to-top:focus {
+  outline: none;
 }
 
 .credits {
@@ -135,6 +140,12 @@ export default {
   height: 5px;
   background: linear-gradient(90deg, #f00000, #f00000 16.67%, #ff8000 16.67%, #ff8000 33.33%, #ffff00 33.33%, #ffff00 50%, #007940 50%, #007940 66.67%, #4040ff 66.67%, #4040ff 83.33%, #a000c0 83.33%, #a000c0) fixed;
   opacity: 0.6;
+}
+
+.footer-rocket {
+  width: 30px;
+  transform: translatey(0px);
+  animation: float 3s ease-in-out infinite;
 }
 
 </style>
