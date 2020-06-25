@@ -202,7 +202,7 @@ export default {
 .testimonial-content {
   text-align: center;
   margin-top: 2rem;
-  min-height: 250px;
+  min-height: 180px;
 }
 
 .testimonial-content .name {
