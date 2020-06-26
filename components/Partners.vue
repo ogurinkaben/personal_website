@@ -47,7 +47,7 @@ export default {
 
 .partners-grid {
   display: grid;
-  grid-template-columns: 100px 100px;
+  grid-template-columns: 80px 80px;
   grid-gap: 1rem;
   align-items: center;
 }
