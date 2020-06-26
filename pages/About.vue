@@ -14,12 +14,12 @@
       <div class="og-container">
         <div class="og-section--heading">
           <h1 class="sub-title">A bit about me <span class="period"></span></h1>
-          <p class="info">Hi, I am Tammy. I code for fun and build amazingly beautiful and simple things as a hobby. I pay attention to best practices known to me
-            and I'm always open to learn new things and take on challenging paths.</p>
-          <p class="info">When I am not coding, I serve as a mentor to younger developers and people with little to zero knowlege about where and how to start there development journey.</p>
+          <p class="info">Hi again, I am Tammy. I build amazingly beautiful and simple things as a hobby, paying attention to best practices known to me
+            and always open to new concepts, ideas and innovative challenging paths.</p>
+          <p class="info">When I am not playing with pixels and semi-colons, I serve as a mentor to a wide range of diverse individuals, driving impact and helping others find purpose and peace in what they do.</p>
         </div>
         <div class="og-section--heading pt">
-          <h1 class="sub-title clear">Tools and tech <span class="period"></span></h1>
+          <h1 class="sub-title clear">My tools and tech <span class="period"></span></h1>
         </div>
         <div class="is_flexed styled-list half-width">
           <ul>

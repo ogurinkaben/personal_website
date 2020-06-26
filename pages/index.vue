@@ -7,8 +7,7 @@
         <div>
           <h1 class="title">Hello, I'm Tammy —</h1>
           <p class="info">
-            I am an Ever Growing Creative, Christian, UI Designer, Freelance Web Developer and Mentor currently living
-            in Rivers, Nigeria. I build and design beautifully simple things that run on the web.
+            I design User Interfaces and build Interactive applications that define experiences, products and brands.
           </p>
           <div class="is-relative">
             <router-link to="/about" class="text-default">
