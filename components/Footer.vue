@@ -28,7 +28,7 @@
                   Portfolio</a>
               </div>
               <div>
-                <nuxt-link to="/contacts" class=" og-link plain">
+                <nuxt-link to="/versions" class=" og-link plain">
                   Versions</nuxt-link>
               </div>
             </div>

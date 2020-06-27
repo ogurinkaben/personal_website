@@ -834,17 +834,18 @@ div.highlight {
 
 }
 
+.design-card img:hover,
+.project-card:hover {
+	cursor: pointer;
+	transform: translateY(-0.5%);
+	box-shadow: 13px 32px 36px -14px hsla(0, 0%, 70%, 0.6);
+}
 
 .project-card img {
 	width: 55px;
 	display: block;
 	margin: 1rem 0 2rem 0;
 	object-fit: cover;
-}
-
-
-.project-card:hover {
-	margin-top: -4px;
 }
 
 .project-card a,
@@ -917,6 +918,7 @@ div.highlight {
 	object-fit: cover;
 	border-radius: 20px;
 	box-shadow: 13px 32px 36px -14px hsla(0, 0%, 70%, 0.3);
+	transition: 0.4s ease-in-out;
 }
 
 img.single {
