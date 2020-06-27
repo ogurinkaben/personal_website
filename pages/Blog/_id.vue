@@ -12,7 +12,9 @@
     </section>
     <section class="og-section article-single">
       <div class="og-container">
-        <div class="article-single-body" v-html="article.body_html"></div>
+        <div class="half-width">
+          <div class="article-single-body" v-html="article.body_html"></div>
+        </div>
       </div>
     </section>
     <Footer />

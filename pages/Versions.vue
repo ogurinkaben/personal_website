@@ -150,6 +150,7 @@ export default {
   cursor: pointer;
   transition: 0.2s;
   min-height: 400px;
+  margin: 0.5rem auto;
 }
 
 .version--item:hover {

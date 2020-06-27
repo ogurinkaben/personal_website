@@ -160,7 +160,7 @@
         <Partners />
       </div>
     </section>
-
+    <BlogPreview />
     <Footer />
   </div>
 </template>
@@ -170,6 +170,7 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import Testimonial from '../components/Testimonial'
 import Partners from '../components/Partners'
+import BlogPreview from '../components/BlogPreview'
 export default {
   name: "Home",
   scrollToTop: true,
@@ -177,7 +178,8 @@ export default {
     Navbar,
     Footer,
     Testimonial,
-    Partners
+    Partners,
+    BlogPreview
   },
   mounted() {
     if (process.client) {

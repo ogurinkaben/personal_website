@@ -112,6 +112,10 @@ table {
 	text-align: center !important;
 }
 
+.text-is-white {
+	color: #fff !important;
+}
+
 .info-text {
 	color: var(--defaultColor);
 	font-size: 13px;
@@ -373,7 +377,7 @@ table {
 
 .article img {
 	width: 100%;
-	height: 300px;
+	height: 200px;
 	object-fit: cover;
 }
 
@@ -444,6 +448,7 @@ div.highlight {
 .row {
 	display: flex;
 	flex-direction: row;
+	align-items: center;
 	flex-wrap: wrap;
 	width: 100%;
 }
@@ -771,7 +776,7 @@ div.highlight {
 
 .og-section {
 	padding: 1rem 0;
-	min-height: 60vh;
+	min-height: 50vh;
 }
 
 .og-section .og-section--heading {
@@ -828,7 +833,7 @@ div.highlight {
 	align-items: center;
 	padding: 2rem;
 	margin: 0 auto 0.4rem auto;
-	border-radius: 20px;
+	border-radius: 0;
 	box-shadow: 13px 32px 36px -14px hsla(0, 0%, 70%, 0.3);
 	transition: 0.4s ease-in-out;
 
@@ -908,7 +913,7 @@ div.highlight {
 	align-items: center;
 	padding: 0;
 	margin: 0 auto 0.4rem auto;
-	border-radius: 14px;
+	border-radius: 0;
 
 }
 
@@ -916,7 +921,7 @@ div.highlight {
 	width: 100%;
 	min-height: 400px;
 	object-fit: cover;
-	border-radius: 20px;
+	border-radius: 0;
 	box-shadow: 13px 32px 36px -14px hsla(0, 0%, 70%, 0.3);
 	transition: 0.4s ease-in-out;
 }
