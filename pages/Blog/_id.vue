@@ -50,22 +50,6 @@ export default {
       setTimeout(() => this.$nuxt.$loading.finish(), 3000)
     })
   },
-  head() {
-    return {
-      title: this.article.title,
-      meta: [
-        { name: 'description', content: this.article.description },
-        { property: 'og:title', content: this.article.title },
-        { property: 'og:site_name', content: 'Tammy' },
-        { property: 'og:image', content: this.article.cover_image },
-        { property: 'og:type', content: 'website' },
-        { name: 'twitter:card', content: this.article.cover_image },
-        { name: 'twitter:description', content: this.article.description },
-        { name: 'twitter:image', content: this.article.cover_image },
-        { name: 'robots', content: 'index,follow' }
-      ]
-    }
-  },
   filters: {
     moment: function(date) {
       return moment(date).format('MMMM Do YYYY');
@@ -96,7 +80,23 @@ export default {
           }
         }))
     }
-  }
+  },
+  head() {
+    return {
+      title: this.article.title,
+      meta: [
+        { name: 'description', content: this.article.description },
+        { property: 'og:title', content: this.article.title },
+        { property: 'og:site_name', content: 'Tammy' },
+        { property: 'og:image', content: this.article.cover_image },
+        { property: 'og:type', content: 'website' },
+        { name: 'twitter:card', content: this.article.cover_image },
+        { name: 'twitter:description', content: this.article.description },
+        { name: 'twitter:image', content: this.article.cover_image },
+        { name: 'robots', content: 'index,follow' }
+      ]
+    }
+  },
 }
 
 </script>

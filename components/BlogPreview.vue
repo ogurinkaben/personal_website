@@ -12,7 +12,7 @@
               <h1 class="blog-preview__title">{{article.title}}</h1>
               <p class="blog-preview__desc">{{article.description}}</p>
               <div class="pt">
-                <button @click="openArticle(article.id)" class="preview-btn">Continue Reading <span>&rarr;</span></button>
+                <button @click="openArticle(article.id, article.slug)" class="preview-btn">Continue Reading <span>&rarr;</span></button>
               </div>
             </div>
           </div>
@@ -50,7 +50,6 @@ export default {
                   this.$router.push('/error')
                 } else {
                   this.article = response.data
-                  console.log(this.article.id)
                 }
                 break
               }
@@ -62,8 +61,8 @@ export default {
           }
         }))
     },
-    openArticle(id) {
-      this.$router.push('/blog/' + id)
+    openArticle(id, slug) {
+      this.$router.push(`/blog/${id}` + "-" + slug)
     }
   }
 }

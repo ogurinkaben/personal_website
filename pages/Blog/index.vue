@@ -14,7 +14,7 @@
 				<h3 v-if="articles.length < 1" class="text-gray-600">No posts yet, stay tuned!</h3>
 				<div class="grid-layout">
 
-					<div v-for="article in articles" :key="article.id" @click="openArticle(article.id, article.title)" class="article">
+					<div v-for="article in articles" :key="article.id" @click="openArticle(article.id, article.slug)" class="article">
 						<img class="" :src="article.social_image" :alt="article.description">
 						<div class="article--body">
 							<div class="px-6 py-4">
@@ -85,8 +85,7 @@ export default {
 					}
 				})
 		},
-		openArticle(id, title) {
-			var slug = title.split(" ").join("-").toLowerCase().replace(/\s/g, '');
+		openArticle(id, slug) {
 			this.$router.push(`/blog/${id}` + "-" + slug)
 		}
 	},
