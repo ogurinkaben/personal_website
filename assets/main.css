@@ -828,7 +828,7 @@ div.highlight {
 	align-items: center;
 	padding: 2rem;
 	margin: 0 auto 0.4rem auto;
-	border-radius: 5px;
+	border-radius: 20px;
 	box-shadow: 13px 32px 36px -14px hsla(0, 0%, 70%, 0.3);
 	transition: 0.4s ease-in-out;
 
@@ -907,7 +907,7 @@ div.highlight {
 	align-items: center;
 	padding: 0;
 	margin: 0 auto 0.4rem auto;
-	border-radius: 5px;
+	border-radius: 14px;
 
 }
 
@@ -915,7 +915,7 @@ div.highlight {
 	width: 100%;
 	min-height: 400px;
 	object-fit: cover;
-	border-radius: 5px;
+	border-radius: 20px;
 	box-shadow: 13px 32px 36px -14px hsla(0, 0%, 70%, 0.3);
 }
 
