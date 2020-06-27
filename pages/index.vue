@@ -35,7 +35,7 @@
           <div class="column">
             <div class="project-card is-ultra">
               <a href="https://everylink.space" target="_blank">
-                <img src="../assets/img/design-cards/ctr.png">
+                <img src="../assets/img/design-cards/ctr.png" alt="ctr icon">
                 <h1 class="title">Everylink <br>
                   <span>—</span></h1>
 
@@ -46,7 +46,7 @@
           <div class="column">
             <div class="project-card is-gray">
               <a href="http://cscplayground.xyz/posts" target="_blank">
-                <img src="../assets/img/design-cards/lc.png">
+                <img src="../assets/img/design-cards/lc.png" alt="line icon">
                 <h1 class="title">Playground <br>
                   <span>—</span></h1>
                 <p class="desc">A Mini social media for my school department. Built as part of a practice project to get acquainted with Backend Basics</p>
@@ -58,7 +58,7 @@
           <div class="column">
             <div class="project-card is-dark">
               <a href="https://airpods-store.codeit.today" target="_blank">
-                <img src="../assets/img/design-cards/screen.png">
+                <img src="../assets/img/design-cards/screen.png" alt="screen icon">
                 <h1 class="title">Airpods Store <br>
                   <span>—</span></h1>
 
@@ -69,7 +69,7 @@
           <div class="column">
             <div class="project-card is-mint">
               <a href="https://terin.xyz" target="_blank">
-                <img src="../assets/img/design-cards/block.png">
+                <img src="../assets/img/design-cards/block.png" alt="Block icon">
                 <h1 class="title">Terin <br>
                   <span>—</span></h1>
                 <p class="desc">Official website for Terin, a tech start-up focused on technological growth and innovative products</p>
@@ -88,7 +88,7 @@
           <div class="column">
             <div class="design-card">
               <div>
-                <img src="../assets/img/design-cards/dyces_mobile.png">
+                <img src="../assets/img/design-cards/dyces_mobile.png" alt="Dyces Mobile">
 
               </div>
             </div>
@@ -96,25 +96,7 @@
           <div class="column">
             <div class="design-card">
               <div>
-                <img src="../assets/img/design-cards/taskAppUI.png">
-
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="column">
-            <div class="design-card">
-              <div>
-                <img src="../assets/img/design-cards/cup-mockup.png">
-
-              </div>
-            </div>
-          </div>
-          <div class="column">
-            <div class="design-card">
-              <div>
-                <img src="../assets/img/design-cards/fitness-watch.png">
+                <img src="../assets/img/design-cards/taskAppUI.png" alt="Task App UI">
 
               </div>
             </div>
@@ -124,7 +106,7 @@
           <div class="column">
             <div class="design-card">
               <div>
-                <img src="../assets/img/design-cards/rev_mediaUI.png">
+                <img src="../assets/img/design-cards/cup-mockup.png" alt="Coffee Cup Mockup">
 
               </div>
             </div>
@@ -132,8 +114,25 @@
           <div class="column">
             <div class="design-card">
               <div>
-                <img src="../assets/img/design-cards/double.png">
+                <img src="../assets/img/design-cards/fitness-watch.png" alt="Fitness Watch">
 
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column">
+            <div class="design-card">
+              <div>
+                <img src="../assets/img/design-cards/rev_mediaUI.png" alt="Rev Media">
+
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="design-card">
+              <div>
+                <img src="../assets/img/design-cards/double.png" alt="Double">
               </div>
             </div>
           </div>

@@ -288,7 +288,7 @@ table {
 }
 
 .styled-list ul {
-	padding: 0 0 2rem 1rem;
+	padding: 0 0 2rem 0.5rem;
 	list-style: none;
 
 }

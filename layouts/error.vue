@@ -51,6 +51,11 @@ export default {
       ]
     }
   },
+  beforeMount() {
+    if (this.error.statusCode === 404) {
+      this.$router.push('/')
+    }
+  },
   mounted() {
     this.$nextTick(() => {
       this.$nuxt.$loading.start()

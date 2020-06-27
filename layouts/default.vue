@@ -30,7 +30,7 @@ export default {
 .out-down-leave-active,
 .fade-enter-active,
 .fade-leave-active {
-  transition: all .3s ease;
+  transition: all .5s ease;
 }
 
 .out-up-leave-to,

@@ -27,6 +27,10 @@
                 <a href="https://portfolio.tammy.dev" class=" og-link plain" target="_blank">
                   Portfolio</a>
               </div>
+              <div>
+                <nuxt-link to="/contacts" class=" og-link plain">
+                  Versions</nuxt-link>
+              </div>
             </div>
           </div>
           <div class="column">
@@ -141,7 +145,7 @@ export default {
   width: 100%;
   height: 5px;
   background: linear-gradient(90deg, #f00000, #f00000 16.67%, #ff8000 16.67%, #ff8000 33.33%, #ffff00 33.33%, #ffff00 50%, #007940 50%, #007940 66.67%, #4040ff 66.67%, #4040ff 83.33%, #a000c0 83.33%, #a000c0) fixed;
-  opacity: 0.6;
+  opacity: 0.7;
 }
 
 .footer-rocket {
