@@ -58,7 +58,6 @@ export default {
   methods: {
     async fetchArticle() {
       const articleId = this.$route.params.id
-      console.log(articleId)
       await blogService.fetchArticleById(articleId)
         .then((response => {
           switch (response.status) {

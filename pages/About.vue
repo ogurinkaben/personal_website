@@ -18,39 +18,6 @@
             and always open to new concepts, ideas and innovative challenging paths.</p>
           <p class="info">When I am not playing with pixels and semi-colons, I serve as a mentor to a wide range of diverse individuals, driving impact and helping others find purpose and peace in what they do.</p>
         </div>
-        <div class="og-section--heading pt">
-          <h1 class="sub-title clear">My tools and tech <span class="period"></span></h1>
-        </div>
-        <div class="is_flexed styled-list half-width">
-          <ul>
-            <li>Bootstrap</li>
-            <li>Bulma</li>
-            <li>CSS</li>
-            <li>Canva</li>
-            <li>Dart </li>
-            <li>Express </li>
-            <li>Figma </li>
-            <li>Firebase</li>
-          </ul>
-          <ul>
-            <li>GitHub</li>
-            <li>GitLab</li>
-            <li>Heroku</li>
-            <li>HTML</li>
-            <li>JAMstack </li>
-            <li>Javascript </li>
-            <li>MongoDB </li>
-          </ul>
-          <ul>
-            <li>Netlify</li>
-            <li>Node.js </li>
-            <li>PHP </li>
-            <li>Vercel </li>
-            <li>Vue.js </li>
-            <li>Wireflow </li>
-            <li>Wordpress</li>
-          </ul>
-        </div>
         <div class="container section">
           <div class="tabs" v-cloak>
             <ul>

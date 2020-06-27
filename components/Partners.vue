@@ -47,7 +47,7 @@ export default {
 
 .partners-grid {
   display: grid;
-  grid-template-columns: 80px 80px;
+  grid-template-columns: 60px 60px;
   grid-gap: 1rem;
   align-items: center;
 }
@@ -56,6 +56,9 @@ export default {
   max-width: 100%;
   max-height: 80px;
   object-fit: cover;
+  filter: url("data:image/svg+xml;utf8,&lt;svg xmlns=\'http://www.w3.org/2000/svg\'&gt;&lt;filter id=\'grayscale\'&gt;&lt;feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/&gt;&lt;/filter&gt;&lt;/svg&gt;#grayscale");
+  filter: gray;
+  -webkit-filter: grayscale(100%);
 }
 
 
