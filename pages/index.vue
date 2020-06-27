@@ -132,7 +132,7 @@
           <div class="column">
             <div class="design-card">
               <div>
-                <img src="../assets/img/design-cards/double.png" alt="Double">
+                <img src="../assets/img/design-cards/oke-daniel.png" alt="Oke Daniel Portfolio">
               </div>
             </div>
           </div>
