@@ -32,7 +32,7 @@
           <h1 class="sub-title">Web <span class="period"></span></h1>
         </div>
         <div class="row">
-          <div class="column" data-aos="fade-right">
+          <div class="column">
             <div class="project-card is-ultra">
               <a href="https://everylink.space" target="_blank">
                 <img data-src="../assets/img/design-cards/ctr.png" alt="ctr icon" v-lazy-load>
@@ -43,7 +43,7 @@
               </a>
             </div>
           </div>
-          <div class="column" data-aos="fade-left">
+          <div class="column">
             <div class="project-card is-gray">
               <a href="http://cscplayground.xyz/posts" target="_blank">
                 <img data-src="../assets/img/design-cards/lc.png" alt="line icon" v-lazy-load>
@@ -55,7 +55,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="column" data-aos="fade-right">
+          <div class="column">
             <div class="project-card is-dark">
               <a href="https://airpods-store.codeit.today" target="_blank">
                 <img data-src="../assets/img/design-cards/screen.png" alt="screen icon" v-lazy-load>
@@ -66,7 +66,7 @@
               </a>
             </div>
           </div>
-          <div class="column" data-aos="fade-left">
+          <div class="column">
             <div class="project-card is-mint">
               <a href="https://terin.xyz" target="_blank">
                 <img data-src="../assets/img/design-cards/block.png" alt="Block icon" v-lazy-load>
@@ -84,7 +84,7 @@
         <div class="og-section--heading">
           <h1 class="sub-title">Design <span class="period"></span></h1>
         </div>
-        <div class="row" data-aos="fade-up">
+        <div class="row">
           <div class="column">
             <div class="design-card">
               <div>
@@ -102,7 +102,7 @@
             </div>
           </div>
         </div>
-        <div class="row" data-aos="fade-up">
+        <div class="row">
           <div class="column">
             <div class="design-card">
               <div>
@@ -120,7 +120,7 @@
             </div>
           </div>
         </div>
-        <div class="row" data-aos="fade-up">
+        <div class="row">
           <div class="column">
             <div class="design-card">
               <div>
