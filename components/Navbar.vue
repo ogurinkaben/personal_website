@@ -14,7 +14,7 @@
 				<nuxt-link to="/contact">Contact</nuxt-link>
 				<a href="https://portfolio.tammy.dev" target="_blank"> Portfolio </a>
 			</nav>
-			<div class="more" id="toggleNav" @click="toggleNav">
+			<div class="mobile-menu-toggle" id="toggleNav" @click="toggleNav">
 				<svg width="32px" height="32px" viewBox="0 0 32 32">
 					<circle cx="16" cy="16" r="15"></circle>
 					<g id="plus">
@@ -185,7 +185,7 @@ export default {
 	font-size: 60px;
 }
 
-.more {
+.mobile-menu-toggle {
 	width: 32px;
 	height: 32px;
 	display: inline-block;
@@ -197,12 +197,12 @@ export default {
 	display: none;
 }
 
-.more svg {
+.mobile-menu-toggle svg {
 	transform: rotate(270deg);
 	z-index: 8000;
 }
 
-.more svg circle {
+.mobile-menu-toggle svg circle {
 	stroke-width: 2;
 	stroke: #fff;
 	fill: none;
@@ -213,12 +213,12 @@ export default {
 	z-index: 8000;
 }
 
-.more svg #plus {
+.mobile-menu-toggle svg #plus {
 	transform-origin: 50% 50%;
 	transition: all 0.8s ease;
 }
 
-.more svg #plus path {
+.mobile-menu-toggle svg #plus path {
 	stroke-width: 2;
 	stroke: #fff;
 	fill: none;
@@ -226,17 +226,17 @@ export default {
 	stroke-linejoin: round;
 }
 
-.more.toggle circle {
+.mobile-menu-toggle.toggle circle {
 	stroke-dasharray: 95;
 	stroke-dashoffset: 285;
 	z-index: 8000;
 }
 
-.more.toggle #plus {
+.mobile-menu-toggle.toggle #plus {
 	transform: rotate(45deg);
 }
 
-.more.toggle:hover {
+.mobile-menu-toggle.toggle:hover {
 	background: rgba(255, 255, 255, 0.06);
 }
 
@@ -307,7 +307,7 @@ export default {
 		display: none;
 	}
 
-	.more {
+	.mobile-menu-toggle {
 		display: block;
 	}
 }
