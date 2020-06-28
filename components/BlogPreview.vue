@@ -38,8 +38,8 @@ export default {
   },
   methods: {
     async fetchArticle() {
-      const articleId = '367712'
-      console.log(articleId)
+      const articleId = '371846'
+      // const articleId = '367712'
       await blogService.fetchArticleById(articleId)
         .then((response => {
           switch (response.status) {

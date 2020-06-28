@@ -75,6 +75,7 @@ export default {
 						case 200:
 							{
 								this.articles = response.data
+								console.log(this.articles)
 								break
 							}
 						default:
