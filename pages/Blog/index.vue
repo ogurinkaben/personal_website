@@ -51,6 +51,9 @@ export default {
 		Navbar,
 		Footer,
 	},
+	beforeMount() {
+		this.fetchArticles()
+	},
 	head() {
 		return {
 			title: "My Blog - Ogurinka Benjamin",
@@ -75,7 +78,6 @@ export default {
 						case 200:
 							{
 								this.articles = response.data
-								console.log(this.articles)
 								break
 							}
 						default:
