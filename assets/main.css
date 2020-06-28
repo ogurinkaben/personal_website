@@ -561,7 +561,7 @@ div.highlight {
 
 .og-hero.sm,
 .og-hero.sm .og-hero--content {
-	min-height: 50vh;
+	min-height: 30vh;
 }
 
 .og-hero.about {
