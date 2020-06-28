@@ -4,6 +4,7 @@
 
 			<nuxt-link to="/" class="brand">
 				tAMMy<span class="period"></span>
+				<p>Freelance Web Designer</p>
 			</nuxt-link>
 
 			<nav class="nav">
@@ -246,6 +247,11 @@ export default {
 	text-decoration: none;
 	letter-spacing: 1.5px;
 	font-family: 'MuseoModerno', cursive;
+}
+
+.header .brand p {
+	font-size: 10px;
+	font-weight: 200;
 }
 
 .header .nav {
