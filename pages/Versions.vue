@@ -178,6 +178,12 @@ export default {
   margin-bottom: 2.5rem;
 }
 
+@media screen and (max-width:768px) {
+  .card-text {
+    font-size: 14px;
+  }
+}
+
 .card-btn {
   display: inline-block;
   padding: 16px;
