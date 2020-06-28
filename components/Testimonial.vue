@@ -11,7 +11,7 @@
             <div class="img-wrapper">
 
               <a @click.prevent="show = index">
-                <img :src="testimonial.img" :class="testimonial.className">
+                <img :src="testimonial.img" :class="testimonial.className" data-aos="zoom-in" data-aos-delay="800">
               </a>
             </div>
           </div>

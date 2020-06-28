@@ -6,11 +6,11 @@
       </div>
       <div class="partners-grid-area">
         <div class="partners-grid">
-          <img data-src="../assets/img/partners/olete_logo.png" v-lazy-load>
-          <img data-src="../assets/img/partners/codeit-logo-dark.png" v-lazy-load>
-          <img data-src="../assets/img/partners/fd_logo.png" v-lazy-load>
-          <img data-src="../assets/img/partners/doa.jpg" v-lazy-load>
-          <img data-src="../assets/img/partners/eventpady.png" class="ev" v-lazy-load>
+          <img data-src="../assets/img/partners/olete_logo.png" v-lazy-load data-aos="fade-up" data-aos-delay="800">
+          <img data-src="../assets/img/partners/codeit-logo-dark.png" v-lazy-load data-aos="fade-up" data-aos-delay="800">
+          <img data-src="../assets/img/partners/fd_logo.png" v-lazy-load data-aos="fade-up" data-aos-delay="800">
+          <img data-src="../assets/img/partners/doa.jpg" v-lazy-load data-aos="fade-up" data-aos-delay="800">
+          <img data-src="../assets/img/partners/eventpady.png" class="ev" v-lazy-load data-aos="fade-up" data-aos-delay="800">
         </div>
       </div>
     </div>

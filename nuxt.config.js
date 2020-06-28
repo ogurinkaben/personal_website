@@ -23,7 +23,8 @@ export default {
     '~/assets/main.css'
   ],
   plugins: [
-    { src: '~/plugins/sweetAlert.js', mode: 'client' }
+    { src: '~/plugins/sweetAlert.js', mode: 'client' },
+    { src: "@/plugins/aos", ssr: false }
   ],
   components: true,
   buildModules: [
