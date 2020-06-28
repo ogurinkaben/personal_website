@@ -23,8 +23,7 @@ export default {
     '~/assets/main.css'
   ],
   plugins: [
-    { src: '~/plugins/sweetAlert.js', mode: 'client' },
-    { src: '~plugins/googleAnalytics.js', mode: 'client' }
+    { src: '~/plugins/sweetAlert.js', mode: 'client' }
   ],
   components: true,
   buildModules: [
