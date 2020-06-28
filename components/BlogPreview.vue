@@ -17,7 +17,7 @@
             </div>
           </div>
           <div class="column">
-            <img :src="article.cover_image" :alt="article.description" class="blog-preview__image">
+            <img :data-src="article.cover_image" :alt="article.description" class="blog-preview__image" v-lazy-load>
           </div>
         </div>
       </div>
@@ -80,6 +80,7 @@ export default {
   border-radius: 0.4rem;
   transition: 0.2s;
   cursor: pointer;
+  font-family: 'Poppins', sans-serif;
 }
 
 .preview-btn span {

@@ -89,7 +89,7 @@ export default {
 				})
 		},
 		openArticle(id, slug) {
-			this.$router.push(`/blog/${id}` + "-" + slug)
+			this.$router.push(`/blog/post/${id}` + "-" + slug)
 		}
 	},
 	mounted() {

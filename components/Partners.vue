@@ -6,11 +6,11 @@
       </div>
       <div class="partners-grid-area">
         <div class="partners-grid">
-          <img src="../assets/img/partners/olete_logo.png">
-          <img src="../assets/img/partners/codeit-logo-dark.png">
-          <img src="../assets/img/partners/fd_logo.png">
-          <img src="../assets/img/partners/doa.jpg">
-          <img src="../assets/img/partners/eventpady.png" class="ev">
+          <img data-src="../assets/img/partners/olete_logo.png" v-lazy-load>
+          <img data-src="../assets/img/partners/codeit-logo-dark.png" v-lazy-load>
+          <img data-src="../assets/img/partners/fd_logo.png" v-lazy-load>
+          <img data-src="../assets/img/partners/doa.jpg" v-lazy-load>
+          <img data-src="../assets/img/partners/eventpady.png" class="ev" v-lazy-load>
         </div>
       </div>
     </div>

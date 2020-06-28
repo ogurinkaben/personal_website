@@ -33,6 +33,9 @@ export default {
     '@nuxtjs/axios',
     'vue-scrollto/nuxt',
     ['vue-scrollto/nuxt', { duration: 1000 }],
+    ['nuxt-lazy-load', {
+      defaultImage: '~/assets/img/page-images/placeholder-image.png',
+    }]
   ],
   axios: {},
   build: {}
