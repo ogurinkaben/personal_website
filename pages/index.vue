@@ -21,7 +21,7 @@
         </div>
         <div class="row">
           <div class="column">
-            <div class="project-card is-ultra">
+            <div class="project-card is-ultra" lazy-background>
               <a href="https://everylink.space" target="_blank">
                 <img data-src="../assets/img/design-cards/ctr.png" alt="ctr icon" v-lazy-load>
                 <h1 class="title">Everylink <br>
@@ -32,7 +32,7 @@
             </div>
           </div>
           <div class="column">
-            <div class="project-card is-gray">
+            <div class="project-card is-gray" lazy-background>
               <a href="http://cscplayground.xyz/posts" target="_blank">
                 <img data-src="../assets/img/design-cards/lc.png" alt="line icon" v-lazy-load>
                 <h1 class="title">Playground <br>
@@ -44,7 +44,7 @@
         </div>
         <div class="row">
           <div class="column">
-            <div class="project-card is-dark">
+            <div class="project-card is-dark" lazy-background>
               <a href="https://airpods-store.codeit.today" target="_blank">
                 <img data-src="../assets/img/design-cards/screen.png" alt="screen icon" v-lazy-load>
                 <h1 class="title">Airpods Store <br>
@@ -55,7 +55,7 @@
             </div>
           </div>
           <div class="column">
-            <div class="project-card is-mint">
+            <div class="project-card is-mint" lazy-background>
               <a href="https://terin.xyz" target="_blank">
                 <img data-src="../assets/img/design-cards/block.png" alt="Block icon" v-lazy-load>
                 <h1 class="title">Terin <br>
