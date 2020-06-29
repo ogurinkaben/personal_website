@@ -795,11 +795,13 @@ div.highlight {
 .og-section {
 	padding: 1rem 0;
 	min-height: 50vh;
+
 }
 
 .og-section .og-section--heading {
 	padding: 10px;
 	max-width: 50vw;
+	position: relative;
 }
 
 @media screen and (max-width: 768px) {
@@ -816,6 +818,24 @@ div.highlight {
 	letter-spacing: 1.4px;
 	margin-top: 1rem;
 	margin-bottom: 1rem;
+	position: relative;
+	z-index: 5;
+}
+
+.cover-text {
+	font-size: 100px;
+	position: absolute;
+	top: 1rem;
+	left: 0;
+	z-index: 0;
+	opacity: 0.3;
+	line-height: 44px;
+	color: #ddd;
+}
+
+.cover-text.text-is-muted--default {
+	color: var(--defaultColor);
+	opacity: 0.1;
 }
 
 .og-section .og-section--heading .sub-title {
@@ -824,12 +844,16 @@ div.highlight {
 	font-weight: 600;
 	letter-spacing: 1.4px;
 	margin: 1rem 0;
+	position: relative;
+	z-index: 5;
 }
 
 .og-section .og-section--heading .info {
 	font-size: 16px;
 	color: var(--primaryColor);
 	font-weight: 400;
+	position: relative;
+	z-index: 5;
 
 }
 
@@ -841,6 +865,10 @@ div.highlight {
 
 	.og-section .og-section--heading .info {
 		font-size: 14px;
+	}
+
+	.cover-text {
+		font-size: 50px;
 	}
 }
 

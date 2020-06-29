@@ -12,8 +12,9 @@
     </section>
     <section class="og-section">
       <div class="og-container">
-        <div class="og-section--heading">
+        <div class="og-section--heading is-relative">
           <h1 class="title">Recent Projects —</h1>
+          <h1 class="cover-text">Recent Projects</h1>
           <p class="info">Collection of some of my most recent projects and works</p>
         </div>
         <div class="og-section--heading">

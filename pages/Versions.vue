@@ -121,13 +121,13 @@ export default {
     return {
       title: "Website Versions",
       meta: [
-        { name: 'description', content: 'I am an Ever Growing Creative, Christian, UI Designer, Frontend Developer and Student' },
-        { property: 'og:title', content: "Ogurinka Benjamin - Ever growing creative" },
+        { name: 'description', content: 'I design User Interfaces and build Interactive applications that define experiences, products and brands.' },
+        { property: 'og:title', content: "Ogurinka 'Tammy' Benjamin - Ever growing creative" },
         { property: 'og:site_name', content: 'Tammy' },
         { property: 'og:image', content: 'https://pbs.twimg.com/profile_images/1245935060714500096/R8c_nZOS_400x400.jp' },
         { property: 'og:type', content: 'website' },
         { name: 'twitter:card', content: 'https://pbs.twimg.com/profile_images/1245935060714500096/R8c_nZOS_400x400.j' },
-        { name: 'twitter:description', content: 'I am an Ever Growing Creative, Christian, UI Designer, Frontend Developer and Student' },
+        { name: 'twitter:description', content: 'I design User Interfaces and build Interactive applications that define experiences, products and brands.' },
         { name: 'twitter:image', content: 'https://pbs.twimg.com/profile_images/1245935060714500096/R8c_nZOS_400x400.jpg' },
         { name: 'robots', content: 'index,follow' }
       ]
@@ -149,8 +149,10 @@ export default {
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: 0.2s;
-  min-height: 400px;
+  min-height: 500px;
   margin: 0.5rem auto;
+  display: flex;
+  align-items: center;
 }
 
 .version--item:hover {
@@ -179,6 +181,10 @@ export default {
 }
 
 @media screen and (max-width:768px) {
+  .version--item {
+    min-height: auto;
+  }
+
   .card-text {
     font-size: 14px;
   }

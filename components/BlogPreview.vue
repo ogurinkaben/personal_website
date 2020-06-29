@@ -1,11 +1,11 @@
 <template>
   <div class="blog-preview og-section">
     <div class="grid-bg "></div>
-    <div class="og-container">
+    <div class="og-container blog-preview -container">
       <div class="">
-        <div class="og-section--heading">
+        <div class="og-section--heading is-relative">
           <h1 class="title text-is-white">Blog Post —</h1>
-
+          <h1 class="cover-text text-is-muted--default">Blog Post </h1>
         </div>
         <div class="row">
           <div class="column">
@@ -109,6 +109,11 @@ export default {
   background-color: var(--primaryColor);
 }
 
+.blog-preview .blog-preview -container {
+  position: relative;
+  z-index: 100 !important;
+}
+
 .grid-bg {
   position: absolute;
   background-color: transparent;
@@ -116,18 +121,7 @@ export default {
   height: 100%;
   background-size: 50px 50px;
   width: 100%;
-  opacity: 0.4;
-  animation: keepAlive 3s linear 1s infinite alternate;
-}
-
-@keyframes keepAlive {
-  from {
-    opacity: 0.4
-  }
-
-  to {
-    opacity: 1
-  }
+  z-index: 0;
 }
 
 .blog-preview .blog-preview__title {
