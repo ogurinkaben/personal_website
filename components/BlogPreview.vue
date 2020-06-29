@@ -116,7 +116,18 @@ export default {
   height: 100%;
   background-size: 50px 50px;
   width: 100%;
-  opacity: 0.6;
+  opacity: 0.4;
+  animation: keepAlive 3s linear 1s infinite alternate;
+}
+
+@keyframes keepAlive {
+  from {
+    opacity: 0.4
+  }
+
+  to {
+    opacity: 1
+  }
 }
 
 .blog-preview .blog-preview__title {
