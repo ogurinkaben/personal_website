@@ -162,7 +162,15 @@ export default {
               <h4>May, 2020 - Present</h4>
             </div>
           </li>
-
+          <li>
+            <div class="content">
+              <h3> <a href="https://irl.dev" target="_blank" class="og-link plain"> DEV irl</a></h3>
+              <p>Organizer</p>
+            </div>
+            <div class="time">
+              <h4>August, 2019 - Present</h4>
+            </div>
+          </li>
           <li>
             <div class="content">
               <h3><a href="#!" class="og-link plain">codeit </a></h3>
