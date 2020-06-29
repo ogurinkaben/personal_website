@@ -5,7 +5,7 @@
 			<div class="og-hero--content og-container">
 				<div>
 					<p class="info">Articles</p>
-					<h1 class="title">Stuff I've written —</h1>
+					<h1 class="title">Some careful curated content —</h1>
 				</div>
 			</div>
 		</section>

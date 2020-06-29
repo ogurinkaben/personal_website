@@ -16,7 +16,7 @@
     <section class="og-section max-padding-bottom">
       <div class="og-container">
         <div class="og-section--heading">
-          <h1 class="title">List of my website versions —</h1>
+          <h1 class="title">List of website versions —</h1>
 
         </div>
         <div class="row">
@@ -181,6 +181,10 @@ export default {
 @media screen and (max-width:768px) {
   .card-text {
     font-size: 14px;
+  }
+
+  .card-content {
+    padding: 3rem 1rem;
   }
 }
 

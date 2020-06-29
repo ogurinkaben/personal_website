@@ -14,7 +14,7 @@
       <div class="og-container">
         <div class="og-section--heading">
           <h1 class="sub-title">Leave a message <span class="period"></span></h1>
-          <p class="info">I will reply within the day!</p>
+          <p class="info">Typically replies within the day!</p>
           <p class="info-text">(All fields are required)</p>
         </div>
         <form class="pt half-width auto" @submit.prevent="sendMessage">

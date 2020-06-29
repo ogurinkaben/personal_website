@@ -80,7 +80,7 @@ export default {
   border-radius: 0.4rem;
   transition: 0.2s;
   cursor: pointer;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'EurostileNormal', sans-serif;
 }
 
 .preview-btn span {

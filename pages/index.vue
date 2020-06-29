@@ -3,22 +3,10 @@
 
     <section class="og-hero">
       <Navbar />
-      <div class="og-hero--content og-container">
+      <div class="og-hero--content home og-container">
         <div>
-          <h1 class="title">Hello, I'm Tammy —</h1>
-          <p class="info">
-            I design User Interfaces and build Interactive applications that define experiences, products and brands.
-          </p>
-          <div class="is-relative">
-            <router-link to="/about" class="text-default">
-              <div class="og-button animate has-shadow">
-                <svg>
-                  <rect x="0" y="0" fill="none" width="100%" height="100%" />
-                </svg>
-                A bit more <i class="ti-arrow-right"></i>
-              </div>
-            </router-link>
-          </div>
+          <h1 class="title"> Tammy designs User Interfaces and build Interactive applications that define experiences, products and brands. —</h1>
+
         </div>
       </div>
     </section>
@@ -26,7 +14,7 @@
       <div class="og-container">
         <div class="og-section--heading">
           <h1 class="title">Recent Projects —</h1>
-          <p class="info">Collection of some of my most recent projects and works</p>
+          <p class="info">Collection of some of his most recent projects and works</p>
         </div>
         <div class="og-section--heading">
           <h1 class="sub-title">Web <span class="period"></span></h1>

@@ -5,20 +5,19 @@
       <Navbar />
       <div class="og-hero--content og-container">
         <div>
-          <p class="info">About me</p>
-          <h1 class="title">Ogurinka Benjamin —</h1>
+          <p class="info">About</p>
+          <h1 class="title">A bit about Tammy —</h1>
         </div>
       </div>
     </section>
     <section class="og-section">
       <div class="og-container">
         <div class="og-section--heading">
-          <h1 class="sub-title">A bit about me <span class="period"></span></h1>
-          <p class="info">Hi again, I am Tammy. I build amazingly beautiful and simple things as a hobby, paying attention to best practices known to me
-            and always open to new concepts, ideas and innovative challenging paths.</p>
-          <p class="info">When I am not playing with pixels and semi-colons, I serve as a mentor to a wide range of diverse individuals, driving impact and helping others find purpose and peace in what they do.</p>
+          <p class="info pt">Ogurinka 'Tammy' Benjamin is a natural leader whose drawn towards coaching people. He enables them find purpose and fulfillment in whatsoever they do.</p>
+          <p class="info pt">You can say he's impact driven!</p>
+          <p class="info pt">He is ambitious and thrives on building amazing and simple things as a hobby. He is open to new concepts, ideas and innovative challenging paths</p>
         </div>
-        <div class="container section">
+        <div class="container w-x">
           <div class="tabs" v-cloak>
             <ul>
               <li v-for="(tab, index) in tabs" :class="{'is-active': show == index}"><a @click.prevent="show = index">{{tab.title}}</a></li>
@@ -140,36 +139,62 @@ export default {
           id: 2,
           title: "Community Impact",
           content: `
-      <div class="og-section">
-        <div class="">
+          <div class="timeline">
+        <ul>
 
-          <div class="work">
-            <span class="date">May, 2020 - Present</span>
-            <h5 class="company"><a href="https://andela.com/alc/" target="_blank" class="og-link plain"> Google Africa <br>Developer Scholarship</a></h5>
-            <p class="role">Mentor</p>
-          </div>
-          <div class="work">
-            <span class="date">May, 2020 - Present</span>
-            <h5 class="company"><a href="#!" target="_blank" class="og-link plain"> codeit</a></h5>
-            <p class="role">Public Relations</p>
-          </div>
-          <div class="work">
-            <span class="date">Jan. 2020 - Present</span>
-            <h5 class="company"><a href="https://studentpartners.microsoft.com" target="_blank" class="og-link plain"> Microsoft </a> </h5>
-            <p class="role">Student Partner</p>
-          </div>
-          <div class="work">
-            <span class="date">Sep. 2019 - Present</span>
-            <h5 class="company"><a href="https://codeclubph.tech" target="_blank" class="og-link plain">Codeclub PH</a> &amp; <a href="https://twitter.com/dscuniport" target="_blank" class="og-link plain"> DSC, Uniport</a></h5>
-            <p class="role">Co-Lead and Mentor</p>
-          </div>
-          <div class="work">
-            <span class="date">April, 2019 - Present</span>
-            <h5 class="company"><a href="https://ingressive.co" target="_blank" class="og-link plain"> Ingressive</a></h5>
-            <p class="role">Campus Ambassador</p>
-          </div>
-        </div>
-  
+          <li>
+            <div class="content">
+              <h3><a href="https://studentpartners.microsoft.com" target="_blank" class="og-link plain"> Microsoft </a> </h3>
+              <p>Student Partner</p>
+            </div>
+            <div class="time">
+              <h4>Jan. 2020 - Present</h4>
+            </div>
+          </li>
+          <li>
+            <div class="content">
+              <h3> <a href="https://andela.com/alc/" target="_blank" class="og-link plain"> Google Africa <br>Developer Scholarship</a></h3>
+              <p>Mentor</p>
+            </div>
+            <div class="time">
+              <h4>May, 2020 - Present</h4>
+            </div>
+          </li>
+
+          <li>
+            <div class="content">
+              <h3><a href="#!" class="og-link plain">codeit </a></h3>
+              <p>Public Relations</p>
+            </div>
+            <div class="time">
+              <h4>May, 2020 - Present</h4>
+            </div>
+          </li>
+
+
+          <li>
+            <div class="content">
+              <h3><a href="https://codeclubph.tech" target="_blank" class="og-link plain">Codeclub PH</a> &amp; <a href="https://twitter.com/dscuniport" target="_blank" class="og-link plain"> DSC, Uniport</a></h3>
+              <p>Co-Lead and Mentor</p>
+            </div>
+            <div class="time">
+              <h4>Sep. 2019 - Present</h4>
+            </div>
+          </li>
+
+          <li>
+            <div class="content">
+              <h3> <a href="https://ingressive.co" target="_blank" class="og-link plain"> Ingressive</a></h3>
+              <p>Campus Ambassador</p>
+            </div>
+            <div class="time">
+              <h4>April, 2019 - Present</h4>
+            </div>
+          </li>
+
+          <div style="clear:both;"></div>
+        </ul>
+
       </div>`
         },
       ]
@@ -212,6 +237,10 @@ export default {
   height: 0;
   transform: translateY(30px);
   opacity: 0;
+}
+
+.w-x {
+  min-height: 100vh;
 }
 
 </style>
