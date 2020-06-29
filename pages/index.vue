@@ -21,7 +21,7 @@
         </div>
         <div class="row">
           <div class="column">
-            <div class="project-card is-ultra" lazy-background>
+            <div class="project-card is-dupian" lazy-background>
               <a href="https://everylink.space" target="_blank">
                 <img data-src="../assets/img/design-cards/ctr.png" alt="ctr icon" v-lazy-load>
                 <h1 class="title">Everylink <br>
@@ -32,7 +32,7 @@
             </div>
           </div>
           <div class="column">
-            <div class="project-card is-gray" lazy-background>
+            <div class="project-card is-livid" lazy-background>
               <a href="http://cscplayground.xyz/posts" target="_blank">
                 <img data-src="../assets/img/design-cards/lc.png" alt="line icon" v-lazy-load>
                 <h1 class="title">Playground <br>

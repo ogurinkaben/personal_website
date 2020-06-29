@@ -889,41 +889,21 @@ div.highlight {
 	margin: 0;
 }
 
-.is-ultra {
-	background: #5F4B8B;
-	background: linear-gradient(to bottom, rgba(95, 75, 139, 0.9), rgba(95, 75, 139, 0.9)),
-		url('../assets/img/bg/everylink.png');
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
+.is-dupian {
+	background: #60a3bc;
 }
 
-.is-gray {
-	background: #606060;
-	background: linear-gradient(to bottom, rgba(96, 96, 96, 0.9), rgba(96, 96, 96, 0.9)),
-		url('../assets/img/bg/playground.png');
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
+.is-livid {
+	background: #6a89cc;
 
 }
 
 .is-dark {
 	background: #101820;
-	background: linear-gradient(to bottom, rgba(16, 24, 32, 0.9), rgba(16, 24, 32, 0.9)),
-		url('../assets/img/bg/airpods-store.png');
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
 }
 
 .is-mint {
-	background: #03265b;
-	background: linear-gradient(to bottom, rgba(3, 38, 91, 0.9), rgba(3, 38, 91, 0.9)),
-		url('../assets/img/bg/terin.png');
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
+	background: #079992;
 }
 
 .design-card {
