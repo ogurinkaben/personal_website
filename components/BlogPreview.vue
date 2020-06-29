@@ -1,5 +1,6 @@
 <template>
   <div class="blog-preview og-section">
+    <div class="grid-bg "></div>
     <div class="og-container">
       <div class="">
         <div class="og-section--heading">
@@ -99,11 +100,23 @@ export default {
 }
 
 .blog-preview {
+  position: relative;
   display: flex;
   align-items: center;
   min-height: 50vh;
   padding: 4rem 0;
   background: var(--primaryColor);
+  background-color: var(--primaryColor);
+}
+
+.grid-bg {
+  position: absolute;
+  background-color: transparent;
+  background-image: linear-gradient(0deg, transparent 24%, rgba(255, 255, 255, .05) 25%, rgba(255, 255, 255, .05) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, .05) 75%, rgba(255, 255, 255, .05) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(255, 255, 255, .05) 25%, rgba(255, 255, 255, .05) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, .05) 75%, rgba(255, 255, 255, .05) 76%, transparent 77%, transparent);
+  height: 100%;
+  background-size: 50px 50px;
+  width: 100%;
+  opacity: 0.6;
 }
 
 .blog-preview .blog-preview__title {
