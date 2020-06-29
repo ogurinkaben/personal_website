@@ -2,7 +2,7 @@
   <div class="og-container partners">
     <div class="og-section">
       <div class="og-section--heading text-is-center">
-        <h1 class="title">Brands he's worked with <span class="period"></span></h1>
+        <h1 class="title">Brands I've worked with <span class="period"></span></h1>
       </div>
       <div class="partners-grid-area">
         <div class="partners-grid">

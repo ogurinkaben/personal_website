@@ -56,15 +56,15 @@ export default {
 	},
 	head() {
 		return {
-			title: "My Blog - Ogurinka Benjamin",
+			title: "Blog - Ogurinka 'Tammy' Benjamin",
 			meta: [
-				{ name: 'description', content: 'I am an Ever Growing Creative, Christian, UI Designer, Frontend Developer and Student' },
-				{ property: 'og:title', content: "My Blog - Ogurinka Benjamin" },
+				{ name: 'description', content: 'I design User Interfaces and build Interactive applications that define experiences, products and brands.' },
+				{ property: 'og:title', content: "Ogurinka 'Tammy' Benjamin - Ever growing creative" },
 				{ property: 'og:site_name', content: 'Tammy' },
 				{ property: 'og:image', content: 'https://pbs.twimg.com/profile_images/1245935060714500096/R8c_nZOS_400x400.jp' },
 				{ property: 'og:type', content: 'website' },
 				{ name: 'twitter:card', content: 'https://pbs.twimg.com/profile_images/1245935060714500096/R8c_nZOS_400x400.j' },
-				{ name: 'twitter:description', content: 'I am an Ever Growing Creative, Christian, UI Designer, Frontend Developer and Student' },
+				{ name: 'twitter:description', content: 'He design User Interfaces and build Interactive applications that define experiences, products and brands.' },
 				{ name: 'twitter:image', content: 'https://pbs.twimg.com/profile_images/1245935060714500096/R8c_nZOS_400x400.jpg' },
 				{ name: 'robots', content: 'index,follow' }
 			]

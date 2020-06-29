@@ -5,22 +5,24 @@
       <Navbar />
       <div class="og-hero--content og-container">
         <div>
-          <p class="info">About</p>
-          <h1 class="title">A bit about Tammy —</h1>
+          <p class="info">About </p>
+          <h1 class="title">A bit about Me —</h1>
         </div>
       </div>
     </section>
     <section class="og-section">
       <div class="og-container">
         <div class="og-section--heading">
-          <p class="info pt">Ogurinka 'Tammy' Benjamin is a natural leader whose drawn towards coaching people. He enables them find purpose and fulfillment in whatsoever they do.</p>
-          <p class="info pt">You can say he's impact driven!</p>
-          <p class="info pt">He is ambitious and thrives on building amazing and simple things as a hobby. He is open to new concepts, ideas and innovative challenging paths.</p>
+          <p class="info pt">Hi, I am Ogurinka 'Tammy' Benjamin, a Natural Leader and Ever-growing creative who's drawn towards coaching people and fostering amazing creative teams.</p>
+          <p class="info pt">You can say I am impact driven!</p>
+          <p class="info pt">I am ambitious, innovative and love to build amazing and simple things as a hobby, while being open to new concepts, ideas and challenging paths.</p>
+          <p class="info pt">Currently, I live, work and play in Rivers, Nigeria and chasing a CS degree at the University of Port Harcourt, Nigeria.</p>
         </div>
         <div class="container w-x">
           <div class="tabs" v-cloak>
             <ul>
-              <li v-for="(tab, index) in tabs" :class="{'is-active': show == index}"><a @click.prevent="show = index">{{tab.title}}</a></li>
+              <li v-for="(tab, index) in tabs" :class="{'is-active': show == index}">
+                <a @click.prevent="show = index">{{tab.title}}</a></li>
             </ul>
           </div>
           <div v-cloak>
@@ -48,15 +50,15 @@ export default {
   },
   head() {
     return {
-      title: "About me - Ogurinka Benjamin",
+      title: "About  - Ogurinka 'Tammy' Benjamin",
       meta: [
-        { name: 'description', content: 'I am an Ever Growing Creative, Christian, UI Designer, Frontend Developer and Student' },
-        { property: 'og:title', content: "About me - Ogurinka Benjamin" },
+        { name: 'description', content: 'I design User Interfaces and build Interactive applications that define experiences, products and brands.' },
+        { property: 'og:title', content: "Ogurinka 'Tammy' Benjamin - About" },
         { property: 'og:site_name', content: 'Tammy' },
         { property: 'og:image', content: 'https://pbs.twimg.com/profile_images/1245935060714500096/R8c_nZOS_400x400.jp' },
         { property: 'og:type', content: 'website' },
         { name: 'twitter:card', content: 'https://pbs.twimg.com/profile_images/1245935060714500096/R8c_nZOS_400x400.j' },
-        { name: 'twitter:description', content: 'I am an Ever Growing Creative, Christian, UI Designer, Frontend Developer and Student' },
+        { name: 'twitter:description', content: 'I design User Interfaces and build Interactive applications that define experiences, products and brands.' },
         { name: 'twitter:image', content: 'https://pbs.twimg.com/profile_images/1245935060714500096/R8c_nZOS_400x400.jpg' },
         { name: 'robots', content: 'index,follow' }
       ]

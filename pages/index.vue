@@ -5,7 +5,7 @@
       <Navbar />
       <div class="og-hero--content home og-container">
         <div>
-          <h1 class="title"> Tammy designs User Interfaces and builds Interactive applications that define experiences, products and brands. —</h1>
+          <h1 class="title"> I design User Interfaces and build Interactive applications that define experiences, products and brands. —</h1>
 
         </div>
       </div>
@@ -14,7 +14,7 @@
       <div class="og-container">
         <div class="og-section--heading">
           <h1 class="title">Recent Projects —</h1>
-          <p class="info">Collection of some of his most recent projects and works</p>
+          <p class="info">Collection of some of my most recent projects and works</p>
         </div>
         <div class="og-section--heading">
           <h1 class="sub-title">Web <span class="period"></span></h1>
@@ -180,15 +180,15 @@ export default {
   },
   head() {
     return {
-      title: "Ogurinka Benjamin - Ever growing creative",
+      title: "Ogurinka 'Tammy' Benjamin - Ever growing creative",
       meta: [
-        { name: 'description', content: 'I am an Ever Growing Creative, Christian, UI Designer, Frontend Developer and Student' },
-        { property: 'og:title', content: "Ogurinka Benjamin - Ever growing creative" },
+        { name: 'description', content: 'I design User Interfaces and build Interactive applications that define experiences, products and brands.' },
+        { property: 'og:title', content: "Ogurinka 'Tammy' Benjamin - Ever growing creative" },
         { property: 'og:site_name', content: 'Tammy' },
         { property: 'og:image', content: 'https://pbs.twimg.com/profile_images/1245935060714500096/R8c_nZOS_400x400.jp' },
         { property: 'og:type', content: 'website' },
         { name: 'twitter:card', content: 'https://pbs.twimg.com/profile_images/1245935060714500096/R8c_nZOS_400x400.j' },
-        { name: 'twitter:description', content: 'I am an Ever Growing Creative, Christian, UI Designer, Frontend Developer and Student' },
+        { name: 'twitter:description', content: 'I design User Interfaces and build Interactive applications that define experiences, products and brands.' },
         { name: 'twitter:image', content: 'https://pbs.twimg.com/profile_images/1245935060714500096/R8c_nZOS_400x400.jpg' },
         { name: 'robots', content: 'index,follow' }
       ]

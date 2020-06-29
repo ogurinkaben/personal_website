@@ -3,7 +3,7 @@
     <div class="og-section">
       <div class="og-section--heading text-is-center">
         <h1 class="title">Testimonials <span class="period"></span></h1>
-        <p class="info">People he's worked with have said some nice things...</p>
+        <p class="info">People I've worked with have said some nice things...</p>
       </div>
       <div v-cloak class="flex-img pt">
         <div class="testimonial-img pt">

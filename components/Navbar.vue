@@ -9,7 +9,7 @@
 
 			<nav class="nav">
 				<nuxt-link to="/">Home</nuxt-link>
-				<nuxt-link to="/about">About Me</nuxt-link>
+				<nuxt-link to="/about">About </nuxt-link>
 				<nuxt-link to="/blog">Blog</nuxt-link>
 				<nuxt-link to="/contact">Contact</nuxt-link>
 				<a href="https://portfolio.tammy.dev" target="_blank"> Portfolio </a>
@@ -32,7 +32,7 @@
 						</nuxt-link>
 					</span>
 					<span @click="closeNav">
-						<nuxt-link to="/about">About Me</nuxt-link>
+						<nuxt-link to="/about">About </nuxt-link>
 					</span>
 					<span @click="closeNav">
 						<nuxt-link to="/blog">Blog</nuxt-link>
