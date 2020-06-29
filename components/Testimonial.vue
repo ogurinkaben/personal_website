@@ -12,7 +12,7 @@
             <div class="img-wrapper">
 
               <a @click.prevent="show = index">
-                <img :src="testimonial.img" :class="testimonial.className">
+                <img :data-src="testimonial.img" :class="testimonial.className" v-lazy-load>
               </a>
             </div>
           </div>

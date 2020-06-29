@@ -7,12 +7,12 @@
       </div>
       <div class="partners-grid-area">
         <div class="partners-grid">
-          <img data-src="../assets/img/partners/olete_logo.png" v-lazy-load>
-          <img data-src="../assets/img/partners/codeit-logo-dark.png" v-lazy-load>
-          <img data-src="../assets/img/partners/fd_logo.png" v-lazy-load>
-          <img data-src="../assets/img/partners/doa.png" v-lazy-load>
-          <img data-src="../assets/img/partners/jessie-health-care-alt.png" v-lazy-load>
-          <img data-src="../assets/img/partners/eventpady.png" v-lazy-load>
+          <img data-src="../assets/img/partners/olete_logo.png" alt="Olete" v-lazy-load>
+          <img data-src="../assets/img/partners/codeit-logo-dark.png" alt="codeit" v-lazy-load>
+          <img data-src="../assets/img/partners/fd_logo.png" alt="Fliredoth" v-lazy-load>
+          <img data-src="../assets/img/partners/doa.png" alt="DOA Graphics" v-lazy-load>
+          <img data-src="../assets/img/partners/jessie-health-care-alt.png" alt="Jessie Healthcare" v-lazy-load>
+          <img data-src="../assets/img/partners/eventpady.png" alt="Eventpady" v-lazy-load>
         </div>
       </div>
     </div>

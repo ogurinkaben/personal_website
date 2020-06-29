@@ -15,7 +15,7 @@
 				<div class="grid-layout">
 
 					<div v-for="article in articles" :key="article.id" @click="openArticle(article.id, article.slug)" class="article">
-						<img class="" :src="article.social_image" :alt="article.description">
+						<img class="" :data-src="article.social_image" :alt="article.description" v-lazy-load>
 						<div class="article--body">
 							<div class="px-6 py-4">
 								<h3 class="article--title">{{ article.title }}</h3>
