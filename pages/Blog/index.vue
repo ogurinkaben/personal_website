@@ -11,7 +11,7 @@
 		</section>
 		<div class="og-container">
 			<section class="og-section articles">
-				<h3 v-if="articles.length < 1" class="text-gray-600">No posts yet, stay tuned!</h3>
+				<div class="loader" v-if="articlesLoading"></div>
 				<div class="grid-layout">
 
 					<div v-for="article in articles" :key="article.id" @click="openArticle(article.id, article.slug)" class="article">
@@ -44,15 +44,13 @@ export default {
 	scrollToTop: true,
 	data() {
 		return {
-			articles: []
+			articles: [],
+			articlesLoading: false
 		}
 	},
 	components: {
 		Navbar,
 		Footer,
-	},
-	beforeMount() {
-		this.fetchArticles()
 	},
 	head() {
 		return {
@@ -72,12 +70,14 @@ export default {
 	},
 	methods: {
 		async fetchArticles() {
+			this.articlesLoading = true
 			await blogService.fetchArticles()
 				.then((response) => {
 					switch (response.status) {
 						case 200:
 							{
 								this.articles = response.data
+								this.articlesLoading = false
 								break
 							}
 						default:
@@ -89,7 +89,13 @@ export default {
 				})
 		},
 		openArticle(id, slug) {
-			this.$router.push(`/blog/post/${id}` + "-" + slug)
+			this.$router.push({
+				path: `/blog/post/${id}-${slug}`,
+				params: {
+					id: id,
+					slug: slug
+				}
+			})
 		}
 	},
 	mounted() {
@@ -124,6 +130,26 @@ li {
 
 a {
 	color: #42b983;
+}
+
+.loader {
+	border: 8px solid #f3f3f3;
+	border-top: 8px solid var(--primaryColor);
+	border-radius: 50%;
+	width: 80px;
+	height: 80px;
+	margin: 0 auto;
+	animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
 }
 
 </style>
