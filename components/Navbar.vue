@@ -4,7 +4,7 @@
 
 			<nuxt-link to="/" class="brand">
 				tAMMy<span class="period"></span>
-				<p>Freelance Web Designer</p>
+				<p>Freelance Web Developer</p>
 			</nuxt-link>
 
 			<nav class="nav">
