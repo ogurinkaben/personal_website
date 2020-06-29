@@ -1,7 +1,7 @@
 <template>
   <div class="container">
 
-    <section class="og-hero">
+    <section class="og-hero home">
       <Navbar />
       <div class="og-hero--content home og-container">
         <div>

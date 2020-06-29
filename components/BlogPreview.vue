@@ -112,6 +112,7 @@ export default {
 .blog-preview .blog-preview -container {
   position: relative;
   z-index: 100 !important;
+  background: transparent;
 }
 
 .grid-bg {

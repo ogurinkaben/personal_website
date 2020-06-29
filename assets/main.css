@@ -581,6 +581,24 @@ div.highlight {
 	min-height: 30vh;
 }
 
+.og-hero.home {
+	background: linear-gradient(to bottom, rgba(0, 9, 27, 0.9), rgba(0, 9, 27, 0.9)),
+		url('../assets/img/bg/tammy.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 960px) {
+	.og-hero.home {
+		background: linear-gradient(to bottom, rgba(0, 9, 27, 0.9), rgba(0, 9, 27, 0.9)),
+			url('../assets/img/bg/tammy-mobile.png');
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+}
+
 .og-hero.about {
 	background: linear-gradient(to bottom, rgba(0, 9, 27, 0.9), rgba(0, 9, 27, 0.9)),
 		url('../assets/img/page-images/me.png');
@@ -613,7 +631,7 @@ div.highlight {
 	background-repeat: no-repeat;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1020px) {
 	.og-hero .og-hero--content {
 		max-width: 100vw;
 	}
