@@ -2,9 +2,9 @@
   <footer class="footer">
 
     <div class="og-container ">
-      <div class="og-section">
+      <div class="og-section half-width ">
         <div class="row">
-          <div class="column">
+          <div class="column ">
             <div class="og-section--heading">
               <h1 class="sub-title">Quick links <span class="period"></span></h1>
               <div>
@@ -33,7 +33,7 @@
               </div>
             </div>
           </div>
-          <div class="column">
+          <div class="column ">
             <div class="og-section--heading">
               <h1 class="sub-title">Reach out via <span class="period"></span></h1>
               <div>
@@ -64,10 +64,10 @@
           </div>
 
         </div>
-        <div class="pt">
+        <div class="pt ">
           <p class="copyright pt">Copyright &copy; 2018 - present. Designed By Tammy</p>
-          <p class="credits">Built with <a href="https://nuxtjs.org/" target="_blank"><img src="https://res.cloudinary.com/simplytammy/image/upload/v1593059237/nuxtlogo.png"></a></p>
-          <p class="credits">Hosted on <a href="https://www.netlify.com/" target="_blank"><img src="https://res.cloudinary.com/simplytammy/image/upload/c_scale,w_100/v1593060309/netlify.png"></a></p>
+          <p class="credits ">Built with <a href="https://nuxtjs.org/" target="_blank"><img src="https://res.cloudinary.com/simplytammy/image/upload/v1593059237/nuxtlogo.png"></a></p>
+          <p class="credits ">Hosted on <a href="https://www.netlify.com/" target="_blank"><img src="https://res.cloudinary.com/simplytammy/image/upload/c_scale,w_100/v1593060309/netlify.png"></a></p>
         </div>
       </div>
 
@@ -136,7 +136,7 @@ export default {
 .credits img {
   width: 80px;
   display: inline-block;
-  margin-left: 10px;
+  margin: 0 auto;
 
 }
 

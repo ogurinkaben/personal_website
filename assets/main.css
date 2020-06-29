@@ -296,6 +296,10 @@ table {
 	max-width: 50vw;
 }
 
+.half-width.auto {
+	margin: 0 auto;
+}
+
 @media screen and (max-width: 768px) {
 	.half-width {
 		max-width: 100vw;

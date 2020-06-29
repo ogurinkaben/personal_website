@@ -15,7 +15,7 @@
         <div class="og-section--heading">
           <p class="info pt">Ogurinka 'Tammy' Benjamin is a natural leader whose drawn towards coaching people. He enables them find purpose and fulfillment in whatsoever they do.</p>
           <p class="info pt">You can say he's impact driven!</p>
-          <p class="info pt">He is ambitious and thrives on building amazing and simple things as a hobby. He is open to new concepts, ideas and innovative challenging paths</p>
+          <p class="info pt">He is ambitious and thrives on building amazing and simple things as a hobby. He is open to new concepts, ideas and innovative challenging paths.</p>
         </div>
         <div class="container w-x">
           <div class="tabs" v-cloak>

@@ -5,7 +5,7 @@
       <Navbar />
       <div class="og-hero--content home og-container">
         <div>
-          <h1 class="title"> Tammy designs User Interfaces and build Interactive applications that define experiences, products and brands. —</h1>
+          <h1 class="title"> Tammy designs User Interfaces and builds Interactive applications that define experiences, products and brands. —</h1>
 
         </div>
       </div>
