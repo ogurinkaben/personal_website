@@ -12,7 +12,6 @@
 				<nuxt-link to="/about">About </nuxt-link>
 				<nuxt-link to="/blog">Blog</nuxt-link>
 				<nuxt-link to="/contact">Contact</nuxt-link>
-				<a href="https://portfolio.tammy.dev" target="_blank"> Portfolio </a>
 			</nav>
 			<div class="mobile-menu-toggle" id="toggleNav" @click="toggleNav">
 				<svg width="32px" height="32px" viewBox="0 0 32 32">
@@ -39,9 +38,6 @@
 					</span>
 					<span @click="closeNav">
 						<nuxt-link to="/contact">Contact</nuxt-link>
-					</span>
-					<span @click="closeNav">
-						<a href="https://portfolio.tammy.dev" target="_blank"> Portfolio </a>
 					</span>
 				</div>
 			</div>

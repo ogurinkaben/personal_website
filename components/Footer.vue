@@ -24,10 +24,6 @@
                   Contact</nuxt-link>
               </div>
               <div>
-                <a href="https://portfolio.tammy.dev" class=" og-link plain" target="_blank">
-                  Portfolio</a>
-              </div>
-              <div>
                 <nuxt-link to="/versions" class=" og-link plain">
                   Versions</nuxt-link>
               </div>

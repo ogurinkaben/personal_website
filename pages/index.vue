@@ -128,17 +128,6 @@
             </div>
           </div>
         </div>
-
-        <div class="is-relative text-is-center pt">
-          <a href="https://portfolio.tammy.dev" class="text-default" target="_blank">
-            <div class="og-button animate is-fill has-shadow">
-              <svg>
-                <rect x="0" y="0" fill="none" width="100%" height="100%" />
-              </svg>
-              View Portfolio <i class="ti-agenda"></i>
-            </div>
-          </a>
-        </div>
       </div>
     </section>
     <section class="og-container">
