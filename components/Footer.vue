@@ -27,6 +27,10 @@
                 <nuxt-link to="/versions" class=" og-link plain">
                   Versions</nuxt-link>
               </div>
+              <div>
+                <a href="mailto:hi@tammy.dev" class=" og-link plain">
+                  hi@tammy.dev</a>
+              </div>
             </div>
           </div>
           <div class="column ">
@@ -53,9 +57,10 @@
                   Dribbble</a>
               </div>
               <div>
-                <a href="mailto:hi@tammy.dev" class=" og-link plain">
-                  hi@tammy.dev</a>
+                <a href="https://twitter.com/_simplytammy/" class=" og-link plain" target="_blank">
+                  Dribbble</a>
               </div>
+
             </div>
           </div>
 
