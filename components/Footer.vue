@@ -58,7 +58,7 @@
               </div>
               <div>
                 <a href="https://twitter.com/_simplytammy/" class=" og-link plain" target="_blank">
-                  Dribbble</a>
+                  Twitter</a>
               </div>
 
             </div>
