@@ -17,6 +17,7 @@
     "nuxt": "^2.13.0",
     "nuxt-lazy-load": "^1.2.4",
     "sweetalert2": "^9.15.1",
+    "vue-page-transition": "^0.2.2",
     "vue-scroll-to-top": "^1.0.3",
     "vue-scrollto": "^2.18.1"
   },

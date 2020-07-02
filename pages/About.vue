@@ -26,9 +26,11 @@
             </ul>
           </div>
           <div v-cloak>
-            <transition-group name="fade-up" target="div" appear @click.native="navigate($event); alerts($event);">
+
+            <vue-page-transition name="fade-in-up" target="div" appear @click.native="navigate($event); alerts($event);">
               <div v-for="(tab, index) in tabs" v-if="show == index" :key="tab.id" v-html="tab.content"></div>
-            </transition-group>
+            </vue-page-transition>
+
           </div>
         </div>
       </div>
@@ -39,6 +41,9 @@
 
 <script>
 // @ is an alias to /src
+import Vue from 'vue'
+import VuePageTransition from 'vue-page-transition'
+Vue.use(VuePageTransition)
 import Navbar from '@/components/Navbar.vue'
 import Footer from '@/components/Footer.vue'
 export default {

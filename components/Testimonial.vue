@@ -19,19 +19,22 @@
         </div>
       </div>
       <div v-cloak class="is-relative">
-        <transition-group name="fade-up" target="div" appear @click.native="navigate($event); alerts($event);">
+        <vue-page-transition name="flip-x" target="div" appear @click.native="navigate($event); alerts($event);">
           <div v-for="(testimonial, index) in testimonials" v-if="show == index" :key="testimonial.id" class="testimonial-content is-relative">
 
             <p class="body is-relative"><span class="quote">"</span>{{testimonial.content}} </p>
             <h3 class="name">{{testimonial.name}} <br> ({{testimonial.country}}) </h3>
             <span class="cite">{{testimonial.cite}}</span>
           </div>
-        </transition-group>
+        </vue-page-transition>
       </div>
     </div>
   </div>
 </template>
 <script>
+import Vue from 'vue'
+import VuePageTransition from 'vue-page-transition'
+Vue.use(VuePageTransition)
 export default {
   name: 'Testimonial',
   data() {
