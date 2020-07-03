@@ -5,8 +5,8 @@
       <Navbar />
       <div class="og-hero--content home og-container">
         <div>
-          <h1 class="title">Heyo! I'm Tammy <span class="period"></span></h1>
-          <p class="info"> I design User Interfaces and build Interactive applications that define experiences, products and brands.</p>
+          <h1 class="title">Hi, I'm Tammy <span class="period"></span></h1>
+          <p class="info"> I design User Interfaces and build Interactive Applications that define experiences, products, brands and helps businesses grow.</p>
           <img data-src="../assets/img/page-images/signature.png" class="signature" alt="Tammy's Signature" v-lazy-load>
 
         </div>
