@@ -53,7 +53,7 @@
                 <h1 class="title">Airpods Store <br>
                   <span>—</span></h1>
 
-                <p class="desc">A Frontend E-commerce template built as part of a training series for beginner - intermediate level web developers</p>
+                <p class="desc">A Frontend E-commerce template built as part of a training series by codeit.today for beginner - intermediate level web developers</p>
               </a>
             </div>
           </div>
