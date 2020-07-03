@@ -2,8 +2,14 @@
   <footer class="footer">
 
     <div class="og-container ">
-      <div class="og-section half-width ">
+      <div class="og-section">
         <div class="row">
+          <div class="column ">
+            <div class="og-section--heading">
+              <h1 class="small">Keep up with me</h1>
+              <h1 class="cover-text text-is-muted--default">Keep up with me </h1>
+            </div>
+          </div>
           <div class="column ">
             <div class="og-section--heading">
               <h1 class="sub-title">Quick links <span class="period"></span></h1>
@@ -66,7 +72,7 @@
 
         </div>
         <div class="pt ">
-          <p class="copyright pt">Copyright &copy; 2018 - present. Designed By Tammy</p>
+          <p class="copyright pt">Copyright &copy; 2020. All rights reserved</p>
           <p class="credits ">Built with <a href="https://nuxtjs.org/" target="_blank"><img src="https://res.cloudinary.com/simplytammy/image/upload/v1593059237/nuxtlogo.png"></a></p>
           <p class="credits ">Hosted on <a href="https://www.netlify.com/" target="_blank"><img src="https://res.cloudinary.com/simplytammy/image/upload/c_scale,w_100/v1593060309/netlify.png"></a></p>
         </div>
@@ -138,6 +144,7 @@ export default {
   width: 80px;
   display: inline-block;
   margin: 0 auto;
+  padding-left: 16px;
 
 }
 

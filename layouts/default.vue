@@ -11,7 +11,7 @@ import VuePageTransition from 'vue-page-transition'
 Vue.use(VuePageTransition)
 export default {
   name: 'App',
-  transition: 'fade-in-left',
+  transition: 'fade-in-up',
   scrollToTop: true,
 }
 

@@ -1,6 +1,6 @@
 <template>
   <div class="blog-preview og-section">
-    <div class="grid-bg "></div>
+    <!-- <div class="grid-bg "></div> -->
     <div class="og-container blog-preview -container">
       <div class="">
         <div class="og-section--heading is-relative">
