@@ -725,6 +725,10 @@ div.highlight {
 	}
 }
 
+.og-form-area {
+	margin-bottom: 8rem;
+}
+
 .og-form label {
 	display: block;
 	font-size: 15px;

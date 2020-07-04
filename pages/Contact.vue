@@ -17,7 +17,7 @@
           <p class="info">Typically replies within the day!</p>
           <p class="info-text">(All fields are required)</p>
         </div>
-        <form class="pt half-width " @submit.prevent="sendMessage">
+        <form class="pt half-width og-form-area" @submit.prevent="sendMessage">
 
           <div class="row">
             <div class="column">
