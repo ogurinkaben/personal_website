@@ -92,16 +92,54 @@ table {
 	padding: 0 5px;
 }
 
-.fade-up-enter-active,
-.fade-up-leave-active {
-	transition: all 0.3s ease-in-out;
+.fade-enter-active {
+	animation: acrossIn .30s ease-out both;
 }
 
-.fade-up-enter,
-.fade-up-leave-to {
-	height: 0;
-	transform: translateY(30px);
-	opacity: 0;
+.fade-leave-active {
+	animation: acrossOut .30s ease-in both;
+}
+
+@keyframes acrossIn {
+	0% {
+		transform: translate3d(-100%, 0, 0);
+	}
+
+	100% {
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+@keyframes acrossOut {
+	0% {
+		transform: translate3d(0, 0, 0);
+	}
+
+	100% {
+		transform: translate3d(100%, 0, 0);
+	}
+}
+
+.zoom-enter-active,
+.zoom-leave-active {
+	animation-duration: 0.5s;
+	animation-fill-mode: both;
+	animation-name: zoom;
+}
+
+.zoom-leave-active {
+	animation-direction: reverse;
+}
+
+@keyframes zoom {
+	from {
+		opacity: 0;
+		transform: scale3d(0.3, 0.3, 0.3);
+	}
+
+	100% {
+		opacity: 1;
+	}
 }
 
 .has-shadow {
