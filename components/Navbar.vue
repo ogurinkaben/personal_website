@@ -2,12 +2,12 @@
 	<div class="navbar is-relative">
 		<header class="header og-container" id="top">
 
-			<nuxt-link to="/" class="brand">
+			<nuxt-link to="/" class="brand animate__animated animate__bounceInDown">
 				tAMMy<span class="period"></span>
 				<p>Freelance Web Developer</p>
 			</nuxt-link>
 
-			<nav class="nav">
+			<nav class="nav animate__animated animate__fadeInDown">
 				<nuxt-link to="/">Home</nuxt-link>
 				<nuxt-link to="/about">About </nuxt-link>
 				<nuxt-link to="/blog">Blog</nuxt-link>
