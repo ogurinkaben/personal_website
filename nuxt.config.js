@@ -1,11 +1,12 @@
 export default {
-	transition: {
+	pageTransition: {
 		name: 'zoom',
 		mode: 'out-in'
 	},
 	loading: {
 		color: 'rgb(23, 191, 99)',
-		height: '4px'
+		height: '5px',
+		duration: 10000
 	},
 	generate: {
 		fallback: true
@@ -26,6 +27,9 @@ export default {
 	css: [
 		'~/assets/main.css'
 	],
+	router: {
+		middleware: 'delay'
+	},
 	plugins: [
 		{ src: '~/plugins/sweetAlert.js', mode: 'client' },
 		{ src: "@/plugins/aos", ssr: false }
