@@ -203,7 +203,7 @@ export default {
               <p>Campus Ambassador</p>
             </div>
             <div class="time">
-              <h4>April, 2019 - Present</h4>
+              <h4>April, 2019 - June, 2020</h4>
             </div>
           </li>
 
