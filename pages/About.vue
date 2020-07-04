@@ -178,7 +178,7 @@ export default {
           </li>
           <li>
             <div class="content">
-              <h3><a href="https://codeit.today" class="og-link plain">codeit </a></h3>
+              <h3><a href="https://codeit.today" class="og-link plain" target="_blank">codeit </a></h3>
               <p>Public Relations</p>
             </div>
             <div class="time">
