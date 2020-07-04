@@ -4,25 +4,25 @@
     <section class="og-hero home">
       <Navbar />
       <div class="og-hero--content home og-container">
-        <div>
-          <h1 class="title">Hi, I'm Tammy <span class="period"></span></h1>
-          <p class="info"> I design User Interfaces and build Interactive Applications that define experiences, products, brands and helps businesses grow.</p>
-          <img data-src="../assets/img/page-images/signature.png" class="signature" alt="Tammy's Signature" v-lazy-load>
+        <div class="animate__animated animate__backInDown">
+          <h1 class="title  animate__animated animate__bounce">Hi, I'm Tammy <span class="period"></span></h1>
+          <p class="info animate__animated animate__backInDown"> I design User Interfaces and build Interactive Applications that define experiences, products, brands and helps businesses grow.</p>
+          <img data-src="../assets/img/page-images/signature.png" class="signature animate__animated animate__fadeInDown" alt="Tammy's Signature" v-lazy-load>
 
         </div>
       </div>
     </section>
     <section class="og-section">
       <div class="og-container">
-        <div class="og-section--heading is-relative">
+        <div class="og-section--heading is-relative animate__animated animate__fadeInDownBig">
           <h1 class="title">Recent Projects —</h1>
           <h1 class="cover-text">Recent Projects</h1>
           <p class="info">Collection of some of my most recent projects and works</p>
         </div>
-        <div class="og-section--heading">
+        <div class="og-section--heading" data-aos="slide-up" data-aos-easing="ease">
           <h1 class="sub-title">Web <span class="period"></span></h1>
         </div>
-        <div class="row">
+        <div class="row" data-aos="slide-up" data-aos-easing="ease">
           <div class="column">
             <div class="project-card is-dupian" lazy-background>
               <a href="https://everylink.space" target="_blank">
@@ -45,7 +45,7 @@
             </div>
           </div>
         </div>
-        <div class="row">
+        <div class="row" data-aos="slide-up" data-aos-easing="ease">
           <div class="column">
             <div class="project-card is-dark" lazy-background>
               <a href="https://airpods-store.codeit.today" target="_blank">
@@ -72,10 +72,10 @@
     </section>
     <section class="og-section">
       <div class="og-container">
-        <div class="og-section--heading">
+        <div class="og-section--heading" data-aos="slide-up" data-aos-easing="ease">
           <h1 class="sub-title">Design <span class="period"></span></h1>
         </div>
-        <div class="row">
+        <div class="row" data-aos="slide-up" data-aos-easing="ease">
           <div class="column">
             <div class="design-card">
               <div>
@@ -93,7 +93,7 @@
             </div>
           </div>
         </div>
-        <div class="row">
+        <div class="row" data-aos="slide-up" data-aos-easing="ease">
           <div class="column">
             <div class="design-card">
               <div>
@@ -111,7 +111,7 @@
             </div>
           </div>
         </div>
-        <div class="row">
+        <div class="row" data-aos="slide-up" data-aos-easing="ease">
           <div class="column">
             <div class="design-card">
               <div>
@@ -130,17 +130,17 @@
         </div>
       </div>
     </section>
-    <section class="og-container">
+    <section class="og-container" data-aos="slide-up" data-aos-easing="ease">
       <div class="og-section">
         <Testimonial />
       </div>
     </section>
-    <section class="og-container">
+    <section class="og-container" data-aos="slide-up" data-aos-easing="ease">
       <div class="og-section">
         <Partners />
       </div>
     </section>
-    <BlogPreview />
+    <BlogPreview data-aos="slide-up" data-aos-easing="ease" />
     <Footer />
   </div>
 </template>

@@ -3,7 +3,7 @@
 		<section class="og-hero sm blog">
 			<Navbar />
 			<div class="og-hero--content og-container">
-				<div>
+				<div class="animate__animated animate__backInDown">
 					<p class="info">Articles</p>
 					<h1 class="title">Some carefully curated content —</h1>
 				</div>
@@ -12,7 +12,7 @@
 		<div class="og-container">
 			<section class="og-section articles">
 				<div class="loader" v-if="articlesLoading"></div>
-				<div class="grid-layout">
+				<div class="grid-layout animate__animated animate__fadeInUpBig">
 
 					<div v-for="article in articles" :key="article.id" @click="openArticle(article.id, article.slug)" class="article">
 						<img class="" :data-src="article.social_image" :alt="article.description" v-lazy-load>

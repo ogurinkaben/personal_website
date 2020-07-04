@@ -4,7 +4,7 @@
     <section class="og-hero sm about">
       <Navbar />
       <div class="og-hero--content og-container">
-        <div>
+        <div class="animate__animated animate__backInDown">
           <p class="info">About </p>
           <h1 class="title">A bit about Me —</h1>
         </div>
@@ -12,13 +12,13 @@
     </section>
     <section class="og-section">
       <div class="og-container">
-        <div class="og-section--heading">
+        <div class="og-section--heading animate__animated animate__fadeInDown">
           <p class="info pt">Hi, I am Ogurinka 'Tammy' Benjamin, a Natural Leader and Ever-growing creative who's drawn towards coaching people and fostering amazing creative teams.</p>
           <p class="info pt">You can say I am impact driven!</p>
           <p class="info pt">I am ambitious, innovative and love to build amazing and simple things as a hobby, while being open to new concepts, ideas and challenging paths. I have serious passion for UI designs, animations and creating intuitive, dynamic user experiences. </p>
           <p class="info pt">Currently, I live, work and play in Rivers, Nigeria and chasing a CS degree at the University of Port Harcourt, Nigeria.</p>
         </div>
-        <div class="container w-x">
+        <div class="container w-x animate__animated animate__fadeInUpBig ">
           <div class="tabs" v-cloak>
             <ul>
               <li v-for="(tab, index) in tabs" :class="{'is-active': show == index}">

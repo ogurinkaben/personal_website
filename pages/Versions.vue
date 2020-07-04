@@ -4,7 +4,7 @@
     <section class="og-hero sm">
       <Navbar />
       <div class="og-hero--content og-container">
-        <div>
+        <div class="animate__animated animate__backInDown">
           <p class="info">
             Website
           </p>

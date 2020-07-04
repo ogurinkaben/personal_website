@@ -3,7 +3,7 @@
     <section class="og-hero sm blog" v-bind:style="{background:'#00091b',background: 'linear-gradient(to bottom, rgba(0, 9, 27, 0.9), rgba(0, 9, 27, 0.9)),url(' + article.cover_image + ')  no-repeat center center / cover' }">
       <Navbar />
       <div class="og-hero--content og-container">
-        <div>
+        <div class="animate__animated animate__backInDown">
           <p class="info">{{article.published_at | moment}}</p>
           <h1 class="title" v-if="!article">That post can't be found.</h1>
           <h1 class="title">{{ article.title }} —</h1>

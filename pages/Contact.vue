@@ -4,14 +4,14 @@
     <section class="og-hero sm contact">
       <Navbar />
       <div class="og-hero--content og-container">
-        <div>
+        <div class="animate__animated animate__backInDown">
           <p class="info">Say hello</p>
           <h1 class="title">Contact —</h1>
         </div>
       </div>
     </section>
     <section class="og-section">
-      <div class="og-container">
+      <div class="og-container animate__animated animate__fadeInUpBig">
         <div class="og-section--heading">
           <h1 class="sub-title">Leave a message <span class="period"></span></h1>
           <p class="info">Typically replies within the day!</p>
