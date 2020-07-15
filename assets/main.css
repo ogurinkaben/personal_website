@@ -597,9 +597,6 @@ div.highlight {
 .og-hero {
 	min-height: 80vh;
 	width: 100%;
-	background: url('../assets/img/bg/hero-bg.png');
-	background-repeat: no-repeat;
-	background-size: cover;
 	background-position: top center;
 	padding: 10px;
 }
@@ -638,7 +635,7 @@ div.highlight {
 
 @media only screen and (max-width: 960px) {
 	.og-hero.home {
-		background: linear-gradient(to bottom, rgba(0, 9, 27, 0.9), rgba(0, 9, 27, 0.9)),
+		background: linear-gradient(to bottom, rgba(0, 9, 27, 0.7), rgba(0, 9, 27, 0.7)),
 			url('../assets/img/bg/tammy-mobile.png');
 		background-position: center;
 		background-size: cover;
