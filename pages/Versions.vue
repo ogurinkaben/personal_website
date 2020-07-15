@@ -4,7 +4,7 @@
     <section class="og-hero sm">
       <Navbar />
       <div class="og-hero--content og-container">
-        <div class="animate__animated animate__backInDown">
+        <div class="animate__animated animate__fadeInUp">
           <p class="info">
             Website
           </p>
@@ -122,13 +122,13 @@ export default {
       title: "Website Versions",
       meta: [
         { name: 'description', content: 'I design User Interfaces and build Interactive applications that define experiences, products and brands.' },
-        { property: 'og:title', content: "Ogurinka 'Tammy' Benjamin - Ever growing creative" },
+        { property: 'og:title', content: "Tammy - Ever growing creative" },
         { property: 'og:site_name', content: 'Tammy' },
-        { property: 'og:image', content: 'https://pbs.twimg.com/profile_images/1245935060714500096/R8c_nZOS_400x400.jp' },
+        { property: 'og:image', content: 'https://pbs.twimg.com/profile_images/1283040894808215553/CVvTaxEl_400x400.jpg' },
         { property: 'og:type', content: 'website' },
-        { name: 'twitter:card', content: 'https://pbs.twimg.com/profile_images/1245935060714500096/R8c_nZOS_400x400.j' },
+        { name: 'twitter:card', content: 'https://pbs.twimg.com/profile_images/1283040894808215553/CVvTaxEl_400x400.jpg' },
         { name: 'twitter:description', content: 'I design User Interfaces and build Interactive applications that define experiences, products and brands.' },
-        { name: 'twitter:image', content: 'https://pbs.twimg.com/profile_images/1245935060714500096/R8c_nZOS_400x400.jpg' },
+        { name: 'twitter:image', content: 'https://pbs.twimg.com/profile_images/1283040894808215553/CVvTaxEl_400x400.jpg' },
         { name: 'robots', content: 'index,follow' }
       ]
     }
