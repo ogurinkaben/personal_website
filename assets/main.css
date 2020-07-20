@@ -633,6 +633,14 @@ div.highlight {
 	background-repeat: no-repeat;
 }
 
+.og-hero.versions {
+	background: linear-gradient(to bottom, rgba(0, 9, 27, 0.7), rgba(0, 9, 27, 0.7)),
+		url('../assets/img/bg/hero-bg.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
 @media only screen and (max-width: 960px) {
 	.og-hero.home {
 		background: linear-gradient(to bottom, rgba(0, 9, 27, 0.7), rgba(0, 9, 27, 0.7)),
