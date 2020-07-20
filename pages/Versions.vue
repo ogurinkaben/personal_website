@@ -1,9 +1,9 @@
 <template>
   <div class="container">
 
-    <section class="og-hero sm">
+    <section class="og-hero sm versions">
       <Navbar />
-      <div class="og-hero--content og-container versions">
+      <div class="og-hero--content og-container ">
         <div class="animate__animated animate__fadeInUp">
           <p class="info">
             Website
