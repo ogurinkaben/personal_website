@@ -3,7 +3,7 @@
 		<header class="header og-container" id="top">
 
 			<nuxt-link to="/" class="brand animate__animated animate__bounceInDown">
-				tAMMy<span class="period"></span>
+				<img src="../assets/logo.png">
 				<p>Freelance Web Developer</p>
 			</nuxt-link>
 
@@ -245,6 +245,10 @@ export default {
 	font-family: 'MuseoModerno', cursive;
 }
 
+.header .brand img {
+	width: 120px;
+}
+
 .header .brand p {
 	font-size: 10px;
 	font-weight: 200;
@@ -277,7 +281,7 @@ export default {
 	margin: 0 auto;
 	left: 50%;
 	transform: translateX(-50%);
-	top: 1.3rem;
+	top: 1.7rem;
 	background: transparent;
 	-webkit-transition: all 0.5s ease;
 	-o-transition: all 0.5s ease;
@@ -292,7 +296,7 @@ export default {
 
 @media screen and (max-width: 768px) {
 	.header {
-		padding: 10px;
+		padding: 0.5rem 0;
 	}
 
 	.overlay a {

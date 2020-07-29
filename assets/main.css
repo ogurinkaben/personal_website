@@ -696,6 +696,10 @@ div.highlight {
 	margin-bottom: 1.4rem;
 }
 
+.og-hero .og-hero--content .title.uu {
+	font-size: 58px;
+}
+
 .og-hero .og-hero--content .info {
 	font-size: 18px;
 	font-weight: 400;
@@ -707,9 +711,11 @@ div.highlight {
 		max-width: 100vw;
 	}
 
+	.og-hero .og-hero--content .title.uu,
 	.og-hero .og-hero--content .title {
 		font-size: 30px;
 	}
+
 
 	.og-hero .og-hero--content .info {
 		font-size: 15px;

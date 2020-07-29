@@ -39,8 +39,7 @@ export default {
   },
   methods: {
     async fetchArticle() {
-      const articleId = '371846'
-      // const articleId = '367712'
+      const articleId = '409388'
       await blogService.fetchArticleById(articleId)
         .then((response => {
           switch (response.status) {

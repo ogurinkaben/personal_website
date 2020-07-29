@@ -5,7 +5,7 @@
       <Navbar />
       <div class="og-hero--content home og-container">
         <div class="animate__animated animate__fadeInUp">
-          <h1 class="title  animate__animated animate__bounce">Hi, I'm Tammy <span class="period"></span></h1>
+          <h1 class="title  animate__animated animate__bounce uu">Hi, I'm Tammy <span class="period"></span></h1>
           <p class="info animate__animated animate__fadeInUp"> I design User Interfaces and build Interactive Applications that define experiences, products, brands and helps businesses grow.</p>
         </div>
       </div>
@@ -189,5 +189,10 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+.uu {
+  font-family: 'Kaushan Script', cursive;
+}
 
 </style>
