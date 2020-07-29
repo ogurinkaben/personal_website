@@ -47,8 +47,8 @@
                   GitHub</a>
               </div>
               <div>
-                <a href="https://codepen.io/simplytammy/" class=" og-link plain" target="_blank">
-                  Codepen</a>
+                <a href="https://instagram.com/_simplytammy/" class=" og-link plain" target="_blank">
+                  Instagram</a>
               </div>
               <div>
                 <a href="https://dev.to/simplytammy/" class=" og-link plain" target="_blank">
