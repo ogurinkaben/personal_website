@@ -189,10 +189,4 @@ export default {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
-
-.uu {
-  font-family: 'Kaushan Script', cursive;
-}
-
 </style>
