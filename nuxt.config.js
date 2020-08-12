@@ -43,7 +43,7 @@ export default {
 		'vue-scrollto/nuxt',
 		['vue-scrollto/nuxt', { duration: 1000 }],
 		['nuxt-lazy-load', {
-			defaultImage: '~/assets/img/page-images/placeholder-image.png',
+			defaultImage: '/lazy_loading.gif',
 		}]
 	],
 	axios: {},
