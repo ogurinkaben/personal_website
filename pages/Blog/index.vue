@@ -21,11 +21,6 @@
 								<h3 class="article--title">{{ article.title }}</h3>
 								<p class="article--desc">{{ article.description }}</p>
 							</div>
-							<div class="pt">
-								<span class="article--tag" v-for="tag in article.tag_list" :key="tag">
-									#{{ tag }}
-								</span>
-							</div>
 						</div>
 					</div>
 				</div>

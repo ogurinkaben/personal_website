@@ -5,7 +5,20 @@
       <Navbar />
       <div class="og-hero--content home og-container">
         <div class="animate__animated animate__fadeInUp">
-          <h1 class="title  animate__animated animate__bounce uu">Hi, I'm Tammy <span class="period"></span></h1>
+          <h1 class="title  animate__animated animate__bounce uu">
+            <div id="flip">
+              <div>
+                <div>Salut!</div>
+              </div>
+              <div>
+                <div>Hola!</div>
+              </div>
+              <div>
+                <div>Kon'nichiwa!</div>
+              </div>
+            </div>
+            I am Tammy <span class="period"></span>
+          </h1>
           <p class="info animate__animated animate__fadeInUp"> I design User Interfaces and build Interactive Applications that define experiences, products, brands and helps businesses grow.</p>
         </div>
       </div>
@@ -75,29 +88,10 @@
         </div>
         <div class="row" data-aos="slide-up" data-aos-easing="ease">
           <div class="column">
-            <div class="design-card">
-              <div>
-                <img data-src="../assets/img/design-cards/dyces_mobile.png" alt="Dyces Mobile" v-lazy-load>
+            <div class="og-section--heading">
+              <h3 class="title">Fiteness Watch UI</h3>
+              <p class="info">A simple UI design to mimic a fitness app on a smartwatch.</p>
 
-              </div>
-            </div>
-          </div>
-          <div class="column">
-            <div class="design-card">
-              <div>
-                <img data-src="../assets/img/design-cards/taskAppUI.png" alt="Task App UI" v-lazy-load>
-
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row" data-aos="slide-up" data-aos-easing="ease">
-          <div class="column">
-            <div class="design-card">
-              <div>
-                <img data-src="../assets/img/design-cards/cup-mockup.png" alt="Coffee Cup Mockup" v-lazy-load>
-
-              </div>
             </div>
           </div>
           <div class="column">
@@ -111,11 +105,84 @@
         </div>
         <div class="row" data-aos="slide-up" data-aos-easing="ease">
           <div class="column">
+            <div class="og-section--heading">
+              <h3 class="title">Dyces Mobile</h3>
+              <p class="info">A Mobile App Design for an online wallet. Built as part of a demo project for fintech company.</p>
+
+            </div>
+          </div>
+          <div class="column">
+            <div class="design-card">
+              <div>
+                <img data-src="../assets/img/design-cards/dyces_mobile.png" alt="Task App UI" v-lazy-load>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row" data-aos="slide-up" data-aos-easing="ease">
+          <div class="column">
+            <div class="og-section--heading">
+              <h3 class="title">Task'0</h3>
+              <p class="info">
+                UI Design for a task management and time tracking application.
+              </p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="design-card">
+              <div>
+                <img data-src="../assets/img/design-cards/taskAppUI.png" alt="Task App UI" v-lazy-load>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row" data-aos="slide-up" data-aos-easing="ease">
+          <div class="column">
+            <div class="og-section--heading">
+              <h3 class="title">Cup Mockup</h3>
+              <p class="info">
+                A simple recreation of a disposable cup with a flexible straw
+              </p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="design-card">
+              <div>
+                <img data-src="../assets/img/design-cards/cup-mockup.png" alt="Coffee Cup Mockup" v-lazy-load>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="row" data-aos="slide-up" data-aos-easing="ease">
+          <div class="column">
+            <div class="og-section--heading">
+              <h3 class="title">Rev Media</h3>
+              <p class="info">
+                Website UI Design for a creative Agency
+              </p>
+            </div>
+          </div>
+          <div class="column">
             <div class="design-card">
               <div>
                 <img data-src="../assets/img/design-cards/rev_mediaUI.png" alt="Rev Media" v-lazy-load>
 
               </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="row" data-aos="slide-up" data-aos-easing="ease">
+          <div class="column">
+            <div class="og-section--heading">
+              <h3 class="title">Oke</h3>
+              <p class="info">
+                Portfolio UI Design for a Software Developer based in Rivers, Nigeria
+              </p>
             </div>
           </div>
           <div class="column">
@@ -189,4 +256,68 @@ export default {
 </script>
 
 <style>
+#flip {
+  height: 50px;
+  overflow: hidden;
+  font-size: 36px;
+}
+
+#flip>div>div {
+  color: #fff;
+  padding: 4px 12px;
+  height: 45px;
+  margin-bottom: 45px;
+  display: inline-block;
+}
+
+#flip div:first-child {
+  animation: show 10s linear infinite;
+}
+
+#flip div div {
+  background: #42c58a;
+}
+
+#flip div:first-child div {
+  background: #4ec7f3;
+}
+
+#flip div:last-child div {
+  background: #DC143C;
+}
+
+@keyframes show {
+  0% {
+    margin-top: -270px;
+  }
+
+  5% {
+    margin-top: -180px;
+  }
+
+  33% {
+    margin-top: -180px;
+  }
+
+  38% {
+    margin-top: -90px;
+  }
+
+  66% {
+    margin-top: -90px;
+  }
+
+  71% {
+    margin-top: 0px;
+  }
+
+  99.99% {
+    margin-top: 0px;
+  }
+
+  100% {
+    margin-top: -270px;
+  }
+}
+
 </style>

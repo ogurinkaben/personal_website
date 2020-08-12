@@ -55,7 +55,7 @@
                   Dev</a>
               </div>
               <div>
-                <a href="https://www.linkedin.com/in/benjamin-ogurinka-woruka-4b4093182" class=" og-link plain" target="_blank">
+                <a href="https://www.linkedin.com/in/simplytammy" class=" og-link plain" target="_blank">
                   LinkedIn</a>
               </div>
               <div>
