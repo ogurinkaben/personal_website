@@ -8,13 +8,13 @@
           <h1 class="title  animate__animated animate__bounce uu">
             <div id="flip">
               <div>
+                <div>Hello!</div>
+              </div>
+              <div>
                 <div>Salut!</div>
               </div>
               <div>
                 <div>Hola!</div>
-              </div>
-              <div>
-                <div>Kon'nichiwa!</div>
               </div>
             </div>
             I am Tammy <span class="period"></span>
