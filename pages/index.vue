@@ -88,63 +88,11 @@
         </div>
         <div class="row" data-aos="slide-up" data-aos-easing="ease">
           <div class="column">
-            <div class="og-section--heading">
-              <h3 class="title">Fiteness Watch UI</h3>
-              <p class="info">A simple UI design to mimic a fitness app on a smartwatch.</p>
-
-            </div>
-          </div>
-          <div class="column">
             <div class="design-card">
               <div>
                 <img data-src="../assets/img/design-cards/fitness-watch.png" alt="Fitness Watch" v-lazy-load>
 
               </div>
-            </div>
-          </div>
-        </div>
-        <div class="row" data-aos="slide-up" data-aos-easing="ease">
-          <div class="column">
-            <div class="og-section--heading">
-              <h3 class="title">Dyces Mobile</h3>
-              <p class="info">A Mobile App Design for an online wallet. Built as part of a demo project for fintech company.</p>
-
-            </div>
-          </div>
-          <div class="column">
-            <div class="design-card">
-              <div>
-                <img data-src="../assets/img/design-cards/dyces_mobile.png" alt="Task App UI" v-lazy-load>
-
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row" data-aos="slide-up" data-aos-easing="ease">
-          <div class="column">
-            <div class="og-section--heading">
-              <h3 class="title">Task'0</h3>
-              <p class="info">
-                UI Design for a task management and time tracking application.
-              </p>
-            </div>
-          </div>
-          <div class="column">
-            <div class="design-card">
-              <div>
-                <img data-src="../assets/img/design-cards/taskAppUI.png" alt="Task App UI" v-lazy-load>
-
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row" data-aos="slide-up" data-aos-easing="ease">
-          <div class="column">
-            <div class="og-section--heading">
-              <h3 class="title">Cup Mockup</h3>
-              <p class="info">
-                A simple recreation of a disposable cup with a flexible straw
-              </p>
             </div>
           </div>
           <div class="column">
@@ -159,30 +107,29 @@
         </div>
         <div class="row" data-aos="slide-up" data-aos-easing="ease">
           <div class="column">
-            <div class="og-section--heading">
-              <h3 class="title">Rev Media</h3>
-              <p class="info">
-                Website UI Design for a creative Agency
-              </p>
+            <div class="design-card">
+              <div>
+                <img data-src="../assets/img/design-cards/taskAppUI.png" alt="Task App UI" v-lazy-load>
+
+              </div>
             </div>
           </div>
+          <div class="column">
+            <div class="design-card">
+              <div>
+                <img data-src="../assets/img/design-cards/dyces_mobile.png" alt="Task App UI" v-lazy-load>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row" data-aos="slide-up" data-aos-easing="ease">
           <div class="column">
             <div class="design-card">
               <div>
                 <img data-src="../assets/img/design-cards/rev_mediaUI.png" alt="Rev Media" v-lazy-load>
 
               </div>
-            </div>
-          </div>
-
-        </div>
-        <div class="row" data-aos="slide-up" data-aos-easing="ease">
-          <div class="column">
-            <div class="og-section--heading">
-              <h3 class="title">Oke</h3>
-              <p class="info">
-                Portfolio UI Design for a Software Developer based in Rivers, Nigeria
-              </p>
             </div>
           </div>
           <div class="column">
@@ -192,6 +139,19 @@
               </div>
             </div>
           </div>
+
+        </div>
+        <div class="row" data-aos="slide-up" data-aos-easing="ease">
+
+          <div class="column">
+            <div class="design-card">
+              <div>
+                <img data-src="../assets/img/design-cards/jbl_speaker.png" alt="JBL Product Page" v-lazy-load>
+
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
