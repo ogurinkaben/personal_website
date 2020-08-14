@@ -243,7 +243,7 @@ export default {
 }
 
 #flip div:last-child div {
-  background: #DC143C;
+  background: #6a89cc;
 }
 
 @keyframes show {
