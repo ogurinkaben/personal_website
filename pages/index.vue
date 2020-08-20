@@ -35,6 +35,29 @@
         </div>
         <div class="row" data-aos="slide-up" data-aos-easing="ease">
           <div class="column">
+            <div class="project-card is-dsc" lazy-background>
+              <a href="https://dscuniport.xyz" target="_blank">
+                <img data-src="../assets/img/design-cards/dsc.png" alt="ctr icon" v-lazy-load>
+                <h1 class="title">DSC, UNIPORT <br>
+                  <span>—</span></h1>
+
+                <p class="desc">Official Website for the Google Developer Student Clubs, University of Port Harcourt.</p>
+              </a>
+            </div>
+          </div>
+          <div class="column">
+            <div class="project-card is-io" lazy-background>
+              <a href="https://iohub.space" target="_blank">
+                <img data-src="../assets/img/design-cards/io.png" alt="line icon" v-lazy-load>
+                <h1 class="title">ioHub <br>
+                  <span>—</span></h1>
+                <p class="desc">Website for ioHub, a creative agency focused on UI/UX, Web Design and Web Development services.</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row" data-aos="slide-up" data-aos-easing="ease">
+          <div class="column">
             <div class="project-card is-dupian" lazy-background>
               <a href="https://everylink.space" target="_blank">
                 <img data-src="../assets/img/design-cards/ctr.png" alt="ctr icon" v-lazy-load>

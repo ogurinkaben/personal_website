@@ -1002,6 +1002,14 @@ div.highlight {
 	background: #60a3bc;
 }
 
+.is-dsc {
+	background: #0a192f;
+}
+
+.is-io {
+	background: #ff8800;
+}
+
 .is-livid {
 	background: #6a89cc;
 
