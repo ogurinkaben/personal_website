@@ -17,7 +17,7 @@
                 <div>Hola!</div>
               </div>
             </div>
-            I am Tammy <span class="period"></span>
+            I'm Tammy <span class="period"></span>
           </h1>
           <p class="info animate__animated animate__fadeInUp"> I design User Interfaces and build Interactive Applications that define experiences, products, brands and helps businesses grow.</p>
         </div>
