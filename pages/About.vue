@@ -160,11 +160,11 @@ export default {
           </li>
           <li>
             <div class="content">
-              <h3><a href="https://studentambassadors.microsoft.com" target="_blank" class="og-link plain"> Microsoft </a> </h3>
-              <p>Student Partner</p>
+              <h3><a href="https://studentambassadors.microsoft.com" target="_blank" class="og-link plain"> Microsoft Learn</a> </h3>
+              <p>Student Partner </p>
             </div>
             <div class="time">
-              <h4>Jan. 2020 - Aug. 2020 </h4>
+              <h4>Jan. 2020 - Present</h4>
             </div>
           </li>
           <li>
