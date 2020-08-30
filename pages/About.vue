@@ -13,10 +13,9 @@
     <section class="og-section">
       <div class="og-container">
         <div class="og-section--heading animate__animated animate__fadeInDown">
-          <p class="info pt">Hi, I am Ogurinka 'Tammy' Benjamin, a Natural Leader and Ever-growing creative who's drawn towards coaching people and fostering amazing creative teams.</p>
-          <p class="info pt">You can say I am impact driven!</p>
+          <p class="info pt">Hello (again), I am Ogurinka Benjamin, a Natural Leader and Ever-growing creative who's drawn towards coaching people and fostering amazing creative teams.</p>
           <p class="info pt">I am ambitious, innovative and love to build amazing and simple things as a hobby, while being open to new concepts, ideas and challenging paths. I have serious passion for UI designs, animations and creating intuitive, dynamic user experiences. </p>
-          <p class="info pt">Currently, I live, work and play in Rivers, Nigeria and chasing a CS degree at the University of Port Harcourt, Nigeria.</p>
+          <p class="info pt">Currently, I live, work and play in Rivers, Nigeria while chasing a CS degree at the University of Port Harcourt, Nigeria.</p>
         </div>
         <div class="container w-x animate__animated animate__fadeInUpBig ">
           <div class="tabs" v-cloak>
@@ -55,11 +54,11 @@ export default {
   },
   head() {
     return {
-      title: "About  - Tammy",
+      title: "About  - Ogurinka Benjamin",
       meta: [
         { name: 'description', content: 'I design User Interfaces and build Interactive applications that define experiences, products and brands.' },
-        { property: 'og:title', content: "Tammy" },
-        { property: 'og:site_name', content: 'Tammy' },
+        { property: 'og:title', content: "Ogurinka Benjamin" },
+        { property: 'og:site_name', content: 'Ogurinka Benjamin' },
         { property: 'og:image', content: 'https://pbs.twimg.com/profile_images/1283040894808215553/CVvTaxEl_400x400.jpg' },
         { property: 'og:type', content: 'website' },
         { name: 'twitter:card', content: 'https://pbs.twimg.com/profile_images/1283040894808215553/CVvTaxEl_400x400.jpg' },

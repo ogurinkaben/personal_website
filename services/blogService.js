@@ -9,7 +9,7 @@ const api = axios.create({
 export default {
 	async fetchArticles() {
 		try {
-			return await api.get(`articles?username=simplytammy`)
+			return await api.get(`articles?username=ogurinkaben`)
 		} catch (e) {
 			return e.response
 		}

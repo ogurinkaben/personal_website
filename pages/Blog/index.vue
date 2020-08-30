@@ -49,11 +49,11 @@ export default {
 	},
 	head() {
 		return {
-			title: "Blog - Tammy",
+			title: "Blog - Ogurinka Benjamin",
 			meta: [
 				{ name: 'description', content: 'I design User Interfaces and build Interactive applications that define experiences, products and brands.' },
-				{ property: 'og:title', content: "Tammy - Ever growing creative" },
-				{ property: 'og:site_name', content: 'Tammy' },
+				{ property: 'og:title', content: "Ogurinka Benjamin - Blog" },
+				{ property: 'og:site_name', content: 'Ogurinka Benjamin' },
 				{ property: 'og:image', content: 'https://pbs.twimg.com/profile_images/1283040894808215553/CVvTaxEl_400x400.jpg' },
 				{ property: 'og:type', content: 'website' },
 				{ name: 'twitter:card', content: 'https://pbs.twimg.com/profile_images/1283040894808215553/CVvTaxEl_400x400.jpg' },

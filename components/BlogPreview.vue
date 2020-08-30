@@ -45,7 +45,7 @@ export default {
           switch (response.status) {
             case 200:
               {
-                if (response.data.user.username != 'simplytammy') {
+                if (response.data.user.username != 'ogurinkaben') {
                   this.article = false;
                   this.$router.push('/error')
                 } else {

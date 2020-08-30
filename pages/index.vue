@@ -17,7 +17,7 @@
                 <div>Hola!</div>
               </div>
             </div>
-            I'm Tammy <span class="period"></span>
+            I'm Ogurinka Benjamin <span class="period"></span>
           </h1>
           <p class="info animate__animated animate__fadeInUp"> I design User Interfaces and build Interactive Applications that define experiences, products, brands and helps businesses grow.</p>
         </div>
@@ -220,11 +220,11 @@ export default {
   },
   head() {
     return {
-      title: "Tammy - Ever growing creative",
+      title: "Ogurinka Benjamin - Ever growing creative",
       meta: [
         { name: 'description', content: 'I design User Interfaces and build Interactive applications that define experiences, products and brands.' },
-        { property: 'og:title', content: "Tammy - Ever growing creative" },
-        { property: 'og:site_name', content: 'Tammy' },
+        { property: 'og:title', content: "Ogurinka Benjamin - Ever growing creative" },
+        { property: 'og:site_name', content: 'Ogurinka Benjamin' },
         { property: 'og:image', content: 'https://pbs.twimg.com/profile_images/1283040894808215553/CVvTaxEl_400x400.jpg' },
         { property: 'og:type', content: 'website' },
         { name: 'twitter:card', content: 'https://pbs.twimg.com/profile_images/1283040894808215553/CVvTaxEl_400x400.jpg' },
