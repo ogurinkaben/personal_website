@@ -63,7 +63,7 @@
                   Dribbble</a>
               </div>
               <div>
-                <a href="https://twitter.com/_simplytammy/" class=" og-link plain" target="_blank">
+                <a href="https://twitter.com/simplyta_mmy/" class=" og-link plain" target="_blank">
                   Twitter</a>
               </div>
 
