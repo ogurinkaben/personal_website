@@ -3,7 +3,7 @@
 		<header class="header og-container" id="top">
 
 			<nuxt-link to="/" class="brand animate__animated animate__bounceInDown">
-				<span class="brand">tAMMy</span><span class="period"></span>
+				<span class="brand">ogurinkaben</span><span class="period"></span>
 				<p>Freelance Web Developer</p>
 			</nuxt-link>
 
