@@ -33,38 +33,35 @@
                 <nuxt-link to="/versions" class=" og-link plain">
                   Versions</nuxt-link>
               </div>
-              <div>
-                <a href="mailto:hi@tammy.dev" class=" og-link plain">
-                  hi@tammy.dev</a>
-              </div>
+             
             </div>
           </div>
           <div class="column ">
             <div class="og-section--heading">
               <h1 class="sub-title">Reach out via <span class="period"></span></h1>
               <div>
-                <a href="https://www.github.com/simplytammy" class=" og-link plain" target="_blank">
+                <a href="https://www.github.com/ogurinkaben" class=" og-link plain" target="_blank">
                   GitHub</a>
               </div>
               <div>
-                <a href="https://instagram.com/_simplytammy/" class=" og-link plain" target="_blank">
-                  Instagram</a>
-              </div>
-              <div>
-                <a href="https://dev.to/simplytammy/" class=" og-link plain" target="_blank">
+                <a href="https://dev.to/ogurinkaben/" class=" og-link plain" target="_blank">
                   Dev</a>
               </div>
               <div>
-                <a href="https://www.linkedin.com/in/simplytammy" class=" og-link plain" target="_blank">
+                <a href="https://www.linkedin.com/in/ogurinkaben" class=" og-link plain" target="_blank">
                   LinkedIn</a>
               </div>
               <div>
-                <a href="https://dribbble.com/simplytammy/" class=" og-link plain" target="_blank">
+                <a href="https://dribbble.com/ogurinkaben/" class=" og-link plain" target="_blank">
                   Dribbble</a>
               </div>
               <div>
-                <a href="https://twitter.com/simplyta_mmy/" class=" og-link plain" target="_blank">
+                <a href="https://twitter.com/ogurinkaben/" class=" og-link plain" target="_blank">
                   Twitter</a>
+              </div>
+               <div>
+                <a href="mailto:hi@tammy.dev" class=" og-link plain">
+                  hi@tammy.dev</a>
               </div>
 
             </div>
