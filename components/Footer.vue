@@ -1,6 +1,5 @@
 <template>
   <footer class="footer">
-
     <div class="og-container ">
       <div class="og-section">
         <div class="row">

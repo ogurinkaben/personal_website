@@ -122,6 +122,10 @@ table {
 	}
 }
 
+.fancy-border {
+	border-radius: 69% 31% 37% 63% / 53% 50% 50% 47%;
+}
+
 .zoom-enter-active,
 .zoom-leave-active {
 	animation-duration: 0.5s;

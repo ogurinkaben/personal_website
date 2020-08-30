@@ -18,7 +18,7 @@
             </div>
           </div>
           <div class="column">
-            <img :data-src="article.cover_image" :alt="article.description" class="blog-preview__image" v-lazy-load>
+            <img :data-src="article.cover_image" :alt="article.description" class="blog-preview__image " v-lazy-load>
           </div>
         </div>
       </div>
@@ -137,7 +137,7 @@ export default {
 }
 
 .blog-preview .blog-preview__image {
-  height: 300px;
+  height: 400px;
   width: 100%;
   object-fit: cover;
   display: block;
@@ -158,7 +158,7 @@ export default {
   }
 
   .blog-preview .blog-preview__image {
-    height: 200px;
+    height: 250px;
     width: 100%;
     object-fit: cover;
     display: block;
