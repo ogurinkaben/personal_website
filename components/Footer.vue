@@ -60,8 +60,8 @@
                   Twitter</a>
               </div>
               <div>
-                <a href="mailto:hi@tammy.dev" class=" og-link plain">
-                  ogurinkabenjamin@gmail.com</a>
+                <a href="hi@ogurinkabenjamin.com" class=" og-link plain">
+                  Email</a>
               </div>
 
             </div>

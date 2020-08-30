@@ -47,7 +47,7 @@ export default {
           name: "Derek Vinebo",
           country: "Nigeria",
           cite: "CEO, Eventpady",
-          content: `Tammy proved to have the right amount of tenacity and devotion when delivering projects. Having worked with him on many notestimonialle solutions, he was always able to not just deliver within given timeframes but maintain the level of quality needed to separate our solutions from others.
+          content: `Benjamin proved to have the right amount of tenacity and devotion when delivering projects. Having worked with him on many notestimonialle solutions, he was always able to not just deliver within given timeframes but maintain the level of quality needed to separate our solutions from others.
           `
         },
         {
@@ -57,7 +57,7 @@ export default {
           name: "Edeki Sophia Peace",
           country: "Nigeria",
           cite: "Mentee",
-          content: `Web development class with Tammy  is so far the best I've had. It's one of the highlights of my stay home period. Thanks to him I and probably would be speaking for all who attended the class had a very simplified foundational knowledge.
+          content: `Web development class with Benjamin  is so far the best I've had. It's one of the highlights of my stay home period. Thanks to him I and probably would be speaking for all who attended the class had a very simplified foundational knowledge.
           `
         },
         {
@@ -67,7 +67,7 @@ export default {
           name: "Bridget Eldoret",
           country: "Kenya",
           cite: "Mentee",
-          content: `Learning from Tammy was one of my best experiences. He explained every concept well and would go back and explain anything that any student hadn't understood.
+          content: `Learning from Benjamin was one of my best experiences. He explained every concept well and would go back and explain anything that any student hadn't understood.
           `
         },
         {
@@ -77,7 +77,7 @@ export default {
           name: "Ezo-Ojile Desmond",
           country: "Nigeria",
           cite: "CEO, Studihub",
-          content: `Tammy is a highly skilled developer, always ready and willing to try out something new. He always gets the job done, professionally and on time.
+          content: `Benjamin is a highly skilled developer, always ready and willing to try out something new. He always gets the job done, professionally and on time.
           `
         },
         {
@@ -87,7 +87,7 @@ export default {
           name: "Oladele David",
           country: "Nigeria",
           cite: "Web Developer, Cardano",
-          content: `I was looking for a good Front-End Developer who would create and evolve my websites as I work as the Backend Dev. Tammy delivers exactly what I want. It’s always a pleasure working and seeing him.
+          content: `I was looking for a good Front-End Developer who would create and evolve my websites as I work as the Backend Dev. Benjamin delivers exactly what I want. It’s always a pleasure working and seeing him.
           `
         },
       ]

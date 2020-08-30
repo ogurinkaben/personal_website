@@ -147,7 +147,8 @@ export default {
         })
       } else {
         this.isSending = true;
-        axios.post(`https://tammy-app.herokuapp.com/messages/api/v1/send`, {
+        // axios.post(`https://tammy-app.herokuapp.com/messages/api/v1/send`, {
+        axios.post(`http://localhost:5000/messages/api/v1/send`, {
           fullName: this.fullName,
           email: this.email,
           phoneNumber: this.phoneNumber,
