@@ -73,7 +73,7 @@ export default {
       show: 0,
       tabs: [{
           id: 1,
-          title: "Work History",
+          title: "Work ",
           content: `      <div class="timeline">
         <ul>
           <li>
@@ -150,7 +150,7 @@ export default {
 
           <li>
             <div class="content">
-              <h3><a href="https://dscuniport.xyz" target="_blank" class="og-link plain"> Google Developer Student Clubs, UNIPORT</a></h3>
+              <h3><a href="https://dscuniport.xyz" target="_blank" class="og-link plain">Developer Student Clubs, UNIPORT</a></h3>
               <p>Lead</p>
             </div>
             <div class="time">
