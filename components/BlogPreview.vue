@@ -77,7 +77,7 @@ export default {
   color: #3363ff;
   background-color: #e6ecff;
   border: none;
-  border-radius: 0.4rem;
+  border-radius: 0;
   transition: 0.2s;
   cursor: pointer;
   font-family: 'Poppins', sans-serif;
