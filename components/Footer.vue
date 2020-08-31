@@ -1,89 +1,90 @@
 <template>
   <footer class="footer">
-    <div class="og-container ">
-      <div class="og-section">
-        <div class="row">
-          <div class="column ">
-            <div class="og-section--heading">
-              <h1 class="small">Keep up with me</h1>
-              <h1 class="cover-text text-is-muted--default">Keep up with me </h1>
+    <div class="footer-wrapper">
+      <div class="og-container ">
+        <div class="og-section">
+          <div class="row">
+            <div class="column ">
+              <div class="og-section--heading">
+                <h1 class="small">Keep up with me</h1>
+                <h1 class="cover-text text-is-muted--default">Keep up with me </h1>
+              </div>
             </div>
-          </div>
-          <div class="column ">
-            <div class="og-section--heading">
-              <h1 class="sub-title">Quick links <span class="period"></span></h1>
-              <div>
-                <nuxt-link to="/" class=" og-link plain">
-                  Home</nuxt-link>
-              </div>
-              <div>
-                <nuxt-link to="/about" class=" og-link plain">
-                  About</nuxt-link>
-              </div>
-              <div>
-                <nuxt-link to="/blog" class=" og-link plain">
-                  Blog</nuxt-link>
-              </div>
-              <div>
-                <nuxt-link to="/contact" class=" og-link plain">
-                  Contact</nuxt-link>
-              </div>
-              <div>
-                <nuxt-link to="/versions" class=" og-link plain">
-                  Versions</nuxt-link>
-              </div>
-              <div>
-                <a href="mailto:hi@ogurinkabenjamin.com" class=" og-link plain">
-                  Email</a>
-              </div>
+            <div class="column ">
+              <div class="og-section--heading">
+                <h1 class="sub-title">Quick links <span class="period"></span></h1>
+                <div>
+                  <nuxt-link to="/" class=" og-link plain">
+                    Home</nuxt-link>
+                </div>
+                <div>
+                  <nuxt-link to="/about" class=" og-link plain">
+                    About</nuxt-link>
+                </div>
+                <div>
+                  <nuxt-link to="/blog" class=" og-link plain">
+                    Blog</nuxt-link>
+                </div>
+                <div>
+                  <nuxt-link to="/contact" class=" og-link plain">
+                    Contact</nuxt-link>
+                </div>
+                <div>
+                  <nuxt-link to="/versions" class=" og-link plain">
+                    Versions</nuxt-link>
+                </div>
+                <div>
+                  <a href="mailto:hi@ogurinkabenjamin.com" class=" og-link plain">
+                    Email</a>
+                </div>
 
+              </div>
             </div>
-          </div>
-          <div class="column ">
-            <div class="og-section--heading">
-              <h1 class="sub-title">Reach out via <span class="period"></span></h1>
-              <div>
-                <a href="https://dev.to/ogurinkaben/" class=" og-link plain" target="_blank">
-                  Dev</a>
-              </div>
-              <div>
-                <a href="https://dribbble.com/ogurinkaben/" class=" og-link plain" target="_blank">
-                  Dribbble</a>
-              </div>
-              <div>
-                <a href="https://www.github.com/ogurinkaben" class=" og-link plain" target="_blank">
-                  GitHub</a>
-              </div>
+            <div class="column ">
+              <div class="og-section--heading">
+                <h1 class="sub-title">Reach out via <span class="period"></span></h1>
+                <div>
+                  <a href="https://dev.to/ogurinkaben/" class=" og-link plain" target="_blank">
+                    Dev</a>
+                </div>
+                <div>
+                  <a href="https://dribbble.com/ogurinkaben/" class=" og-link plain" target="_blank">
+                    Dribbble</a>
+                </div>
+                <div>
+                  <a href="https://www.github.com/ogurinkaben" class=" og-link plain" target="_blank">
+                    GitHub</a>
+                </div>
 
-              <div>
-                <a href="https://instagram.com/ogurinkaben/" class=" og-link plain" target="_blank">
-                  Instagram</a>
-              </div>
-              <div>
-                <a href="https://www.linkedin.com/in/ogurinkaben" class=" og-link plain" target="_blank">
-                  LinkedIn</a>
-              </div>
+                <div>
+                  <a href="https://instagram.com/ogurinkaben/" class=" og-link plain" target="_blank">
+                    Instagram</a>
+                </div>
+                <div>
+                  <a href="https://www.linkedin.com/in/ogurinkaben" class=" og-link plain" target="_blank">
+                    LinkedIn</a>
+                </div>
 
-              <div>
-                <a href="https://twitter.com/ogurinkaben/" class=" og-link plain" target="_blank">
-                  Twitter</a>
-              </div>
+                <div>
+                  <a href="https://twitter.com/ogurinkaben/" class=" og-link plain" target="_blank">
+                    Twitter</a>
+                </div>
 
+              </div>
             </div>
-          </div>
 
+          </div>
+          <div class="pt ">
+            <p class="copyright pt">Copyright &copy; 2020. All rights reserved</p>
+          </div>
         </div>
-        <div class="pt ">
-          <p class="copyright pt">Copyright &copy; 2020. All rights reserved</p>
-        </div>
+
       </div>
-
+      <span @click="jumpToTop" class="to-top">
+        <img src="../assets/img/page-images/rocket.png" class="footer-rocket">
+      </span>
+      <span class="footer-bb"></span>
     </div>
-    <span @click="jumpToTop" class="to-top">
-      <img src="../assets/img/page-images/rocket.png" class="footer-rocket">
-    </span>
-    <span class="footer-bb"></span>
-
   </footer>
 </template>
 
@@ -150,6 +151,9 @@ export default {
 
 .footer-bb {
   display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
   width: 100%;
   height: 5px;
   background: linear-gradient(90deg, #f00000, #f00000 16.67%, #ff8000 16.67%, #ff8000 33.33%, #ffff00 33.33%, #ffff00 50%, #007940 50%, #007940 66.67%, #4040ff 66.67%, #4040ff 83.33%, #a000c0 83.33%, #a000c0) fixed;

@@ -1244,9 +1244,17 @@ img.single {
 }
 
 .footer {
-	background: #e3f0f8;
+	background: url('./img/bg/footer.png');
+	min-height: 80vh;
 	position: relative;
 	padding-top: 6rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.footer .footer-wrapper {
+	width: 100%;
 }
 
 .footer .og-link {
