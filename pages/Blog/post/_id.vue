@@ -63,7 +63,7 @@ export default {
           switch (response.status) {
             case 200:
               {
-                if (response.data.user.username != 'simplytammy') {
+                if (response.data.user.username != 'ogurinkaben') {
                   this.article = false;
                   this.$router.push('/error')
                 } else {
@@ -86,7 +86,7 @@ export default {
       meta: [
         { name: 'description', content: this.article.description },
         { property: 'og:title', content: this.article.title },
-        { property: 'og:site_name', content: 'Tammy' },
+        { property: 'og:site_name', content: 'Ogurinka Benjamin' },
         { property: 'og:image', content: this.article.cover_image },
         { property: 'og:type', content: 'website' },
         { name: 'twitter:card', content: this.article.cover_image },
