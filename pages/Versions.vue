@@ -25,7 +25,7 @@
               <div class="card">
                 <div class="card-content">
                   <h1 class="card-header">Version 1</h1>
-                  <p class="card-text">"What you do makes a difference, and you have to decide what kind of difference you want to make." - Jane Goodall</p><a href="https://ogb-v1.netlify.app/" target="_blank" class="card-btn">Explore <span>&rarr;</span></a>
+                  <a href="https://ogb-v1.netlify.app/" target="_blank" class="card-btn">Explore <span>&rarr;</span></a>
                 </div>
               </div>
             </div>
@@ -35,7 +35,6 @@
               <div class="card">
                 <div class="card-content">
                   <h1 class="card-header">Version 2</h1>
-                  <p class="card-text">"Stay afraid, but do it anyway. What's important is the action. You don't have to wait to be confident. Just do it and eventually the confidence will follow." - Carrie Fisher</p>
                   <a href="https://ogb-v2.netlify.app/" target="_blank" class="card-btn">Explore <span>&rarr;</span></a>
                 </div>
               </div>
@@ -49,7 +48,7 @@
               <div class="card">
                 <div class="card-content">
                   <h1 class="card-header">Version 2.1</h1>
-                  <p class="card-text">"One can choose to go back toward safety or forward toward growth. Growth must be chosen again and again; fear must be overcome again and again." - Abraham Maslow</p><a href="https://ogb-v2-1.netlify.app" target="_blank" class="card-btn">Explore <span>&rarr;</span></a>
+                  <a href="https://ogb-v2-1.netlify.app" target="_blank" class="card-btn">Explore <span>&rarr;</span></a>
                 </div>
               </div>
             </div>
@@ -59,7 +58,6 @@
               <div class="card">
                 <div class="card-content">
                   <h1 class="card-header">Version 3</h1>
-                  <p class="card-text">"The swiftest way to triple your success is to double your investment in personal development." - Robin Sharma</p>
                   <a href="https://ogb-v3.netlify.app/" target="_blank" class="card-btn">Explore <span>&rarr;</span></a>
                 </div>
               </div>
@@ -73,7 +71,7 @@
               <div class="card">
                 <div class="card-content">
                   <h1 class="card-header">Version 4</h1>
-                  <p class="card-text">"Life's challenges are not supposed to paralyze you, they're supposed to help you discover who you are." - Bernice Johnson Reagon</p><a href="https://ogb-v4.netlify.app" target="_blank" class="card-btn">Explore <span>&rarr;</span></a>
+                  <a href="https://ogb-v4.netlify.app" target="_blank" class="card-btn">Explore <span>&rarr;</span></a>
                 </div>
               </div>
             </div>
@@ -83,8 +81,7 @@
               <div class="card">
                 <div class="card-content">
                   <h1 class="card-header">Version 5 (current)</h1>
-                  <p class="card-text">"It is impossible to live without failing at something, unless you live so cautiously that you might as well not have lived at all - in which case, you fail by default." - J.K. Rowling</p>
-                  <nuxt-link to="/" target="_blank" class="card-btn">Explore <span>&rarr;</span></nuxt-link>
+                  <nuxt-link to="/" class="card-btn">Explore <span>&rarr;</span></nuxt-link>
                 </div>
               </div>
             </div>
@@ -149,7 +146,8 @@ export default {
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: 0.2s;
-  min-height: 500px;
+  min-height: 80px;
+  width: 100%;
   margin: 0.5rem auto;
   display: flex;
   align-items: center;
@@ -200,8 +198,7 @@ export default {
   font-size: 15px;
   text-align: center;
   color: #3363ff;
-  background-color: #e6ecff;
-  border: none;
+  border-bottom: 10px solid #e6ecff;
   border-radius: 0;
   transition: 0.2s;
   cursor: pointer;
