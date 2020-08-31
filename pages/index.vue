@@ -1,22 +1,10 @@
 <template>
   <div class="container">
-
     <section class="og-hero home">
       <Navbar />
       <div class="og-hero--content home og-container">
         <div class="animate__animated animate__fadeInUp">
           <h1 class="title  animate__animated animate__bounce uu">
-            <div id="flip">
-              <div>
-                <div>Hello!</div>
-              </div>
-              <div>
-                <div>Salut!</div>
-              </div>
-              <div>
-                <div>Hola!</div>
-              </div>
-            </div>
             I'm Ogurinka Benjamin <span class="period"></span>
           </h1>
           <p class="info animate__animated animate__fadeInUp"> I design User Interfaces and build Interactive Applications that define experiences, products, brands and helps businesses grow.</p>

@@ -69,8 +69,6 @@
         </div>
         <div class="pt ">
           <p class="copyright pt">Copyright &copy; 2020. All rights reserved</p>
-          <p class="credits ">Built with <a href="https://nuxtjs.org/" target="_blank"><img src="https://res.cloudinary.com/simplytammy/image/upload/v1593059237/nuxtlogo.png"></a></p>
-          <p class="credits ">Hosted on <a href="https://www.netlify.com/" target="_blank"><img src="https://res.cloudinary.com/simplytammy/image/upload/c_scale,w_100/v1593060309/netlify.png"></a></p>
         </div>
       </div>
 
