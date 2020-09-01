@@ -4,7 +4,7 @@
 
 			<nuxt-link to="/" class="brand animate__animated animate__bounceInDown">
 				<span class="brand">ogurinkaben </span><span class="period"></span>
-				<p>Freelance Web Developer</p>
+				<p>Web Creative</p>
 			</nuxt-link>
 
 			<nav class="nav animate__animated animate__fadeInDown">
@@ -252,7 +252,7 @@ export default {
 
 .header .brand p {
 	font-size: 10px;
-	font-weight: 200;
+	font-weight: 400;
 }
 
 .header .nav {
