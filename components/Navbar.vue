@@ -3,8 +3,8 @@
 		<header class="header og-container" id="top">
 
 			<nuxt-link to="/" class="brand animate__animated animate__bounceInDown">
-				<span class="brand">ogurinkaben </span><span class="period"></span>
-				<p>Web Creative</p>
+				<span class="brand">ob </span><span class="period"></span>
+				<p>Freelance Developer</p>
 			</nuxt-link>
 
 			<nav class="nav animate__animated animate__fadeInDown">
@@ -27,17 +27,17 @@
 				<div class="overlay-content">
 					<span @click="closeNav">
 						<nuxt-link to="/">
-							Home
+							<span>0.1 </span> Home
 						</nuxt-link>
 					</span>
 					<span @click="closeNav">
-						<nuxt-link to="/about">About </nuxt-link>
+						<nuxt-link to="/about">0.2 About </nuxt-link>
 					</span>
 					<span @click="closeNav">
-						<nuxt-link to="/blog">Blog</nuxt-link>
+						<nuxt-link to="/blog">0.3 Blog</nuxt-link>
 					</span>
 					<span @click="closeNav">
-						<nuxt-link to="/contact">Contact</nuxt-link>
+						<nuxt-link to="/contact">0.4 Contact</nuxt-link>
 					</span>
 				</div>
 			</div>
@@ -151,11 +151,13 @@ export default {
 	position: relative;
 	top: 25%;
 	width: 100%;
-	text-align: center;
+	text-align: right;
 	margin-top: 30px;
+	padding: 1.8rem;
 }
 
 .overlay a {
+	position: relative;
 	padding: 8px;
 	text-decoration: none;
 	font-size: 36px;
@@ -237,7 +239,7 @@ export default {
 }
 
 .header .brand {
-	font-size: 2.2rem;
+	font-size: 3.4rem;
 	font-weight: bold;
 	color: #fff;
 	text-decoration: none;
