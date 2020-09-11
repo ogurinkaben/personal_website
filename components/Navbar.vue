@@ -3,7 +3,7 @@
 		<header class="header og-container" id="top">
 
 			<nuxt-link to="/" class="brand animate__animated animate__bounceInDown">
-				<span class="brand">ob </span><span class="period"></span>
+				<span class="brand">ob</span><span class="period"></span>
 				<p>Freelance Developer</p>
 			</nuxt-link>
 
@@ -243,9 +243,9 @@ export default {
 	font-weight: bold;
 	color: #fff;
 	text-decoration: none;
-	letter-spacing: 1.5px;
-	font-family: 'MuseoModerno', cursive;
+	letter-spacing: 0;
 	font-family: 'Sacramento', cursive;
+	padding: 0 0.2rem 0 0;
 }
 
 .header .brand img {
