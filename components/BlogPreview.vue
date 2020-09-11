@@ -142,6 +142,7 @@ export default {
   object-fit: cover;
   display: block;
   margin-top: 2rem;
+  border-radius: 0.5rem;
 }
 
 @media screen and (max-width:768px) {
