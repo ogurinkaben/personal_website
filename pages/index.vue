@@ -166,6 +166,21 @@
         </div>
       </div>
     </section>
+    <div class="bg--white">
+      <div class="og-section  is-flex flex-center justify-center text-is-center ">
+        <div class="og-section--heading">
+          <h1 class="title">Want to see more of what I have done?</h1>
+          <nuxt-link class="og-button animate" to="/contact">
+
+            <svg>
+              <rect x="0" y="0" fill="none" width="100%" height="100%" />
+            </svg>
+            <span>Send message</span>
+
+          </nuxt-link>
+        </div>
+      </div>
+    </div>
     <section class="og-container" data-aos="slide-up" data-aos-easing="ease">
       <div class="og-section">
         <Testimonial />

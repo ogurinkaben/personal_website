@@ -94,6 +94,10 @@ table {
 	padding: 0 5px;
 }
 
+.bg--white {
+	background: #fff !important;
+}
+
 .fade-enter-active {
 	animation: acrossIn .30s ease-out both;
 }
@@ -288,7 +292,6 @@ table {
 	transition: 0.4s ease;
 	background: transparent;
 	border: none;
-
 }
 
 
@@ -313,7 +316,6 @@ table {
 .animate rect {
 	fill: none;
 	stroke: var(--defaultColor);
-	;
 	stroke-width: 3;
 	stroke-dasharray: 422, 0;
 }
@@ -541,6 +543,22 @@ div.highlight {
 
 .og-container {
 	margin: 0 var(--side-margin);
+}
+
+.is-flex {
+	display: flex;
+}
+
+.flex-center {
+	align-items: center !important;
+}
+
+.justify-center {
+	justify-content: center !important;
+}
+
+.text-is-center {
+	text-align: center !important;
 }
 
 .clear {
@@ -896,7 +914,7 @@ div.highlight {
 }
 
 .og-section .og-section--heading .title {
-	font-size: 26px;
+	font-size: 2.1rem;
 	color: var(--primaryColor);
 	font-weight: 600;
 	letter-spacing: 1.4px;
@@ -923,7 +941,7 @@ div.highlight {
 }
 
 .og-section .og-section--heading .sub-title {
-	font-size: 20px;
+	font-size: 1.4rem;
 	color: var(--primaryColor);
 	font-weight: 600;
 	letter-spacing: 1.4px;
