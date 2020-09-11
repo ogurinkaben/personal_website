@@ -98,6 +98,10 @@ table {
 	background: #fff !important;
 }
 
+.text-is-primary {
+	color: var(--defaultColor) !important;
+}
+
 .fade-enter-active {
 	animation: acrossIn .30s ease-out both;
 }
