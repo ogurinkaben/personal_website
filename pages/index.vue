@@ -146,24 +146,13 @@
           <div class="column">
             <div class="design-card">
               <div>
-                <img data-src="../assets/img/design-cards/oke-daniel.png" alt="Oke Daniel Portfolio" v-lazy-load>
+                <img data-src="../assets/img/design-cards/knotes.png" alt="Knotes App" v-lazy-load>
               </div>
             </div>
           </div>
 
         </div>
-        <div class="row" data-aos="slide-up" data-aos-easing="ease">
 
-          <div class="column">
-            <div class="design-card">
-              <div>
-                <img data-src="../assets/img/design-cards/jbl_speaker.png" alt="JBL Product Page" v-lazy-load>
-
-              </div>
-            </div>
-          </div>
-
-        </div>
       </div>
     </section>
     <div class="bg--white">
