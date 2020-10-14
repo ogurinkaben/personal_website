@@ -124,8 +124,7 @@ export default {
 	width: 100%;
 	background: rgba(0, 9, 27, 0.7);
 	z-index: 100;
-	padding-left: 0.5rem;
-	padding-right: 0.5rem;
+	padding: 1rem;
 }
 
 .header {
@@ -304,6 +303,7 @@ export default {
 	letter-spacing: 0;
 	font-family: 'Sacramento', cursive;
 	padding: 0 0.2rem 0 0;
+	line-height: 2.5rem;
 }
 
 .header .brand img {
@@ -313,6 +313,8 @@ export default {
 .header .brand p {
 	font-size: 10px;
 	font-weight: 400;
+	line-height: 0.6rem;
+	padding-bottom: 0.6rem;
 }
 
 .header .nav {
