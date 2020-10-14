@@ -22,7 +22,7 @@ export default {
 		],
 		link: [
 			{ rel: 'icon', type: 'image/x-icon', href: '/app-icons/favicon.ico' }
-		]
+		],
 	},
 	css: [
 		'~/assets/main.css'

@@ -25,20 +25,36 @@
 
 			<div id="myNav" class="overlay">
 				<div class="overlay-content">
-					<span @click="closeNav">
-						<nuxt-link to="/">
-							<span>0.1 </span> Home
-						</nuxt-link>
+					<span class="closebtn" @click="closeNav">
+						close
 					</span>
-					<span @click="closeNav">
-						<nuxt-link to="/about">0.2 About </nuxt-link>
-					</span>
-					<span @click="closeNav">
-						<nuxt-link to="/blog">0.3 Blog</nuxt-link>
-					</span>
-					<span @click="closeNav">
-						<nuxt-link to="/contact">0.4 Contact</nuxt-link>
-					</span>
+					<div class="nav-row">
+						<div class="nav-col col-fs">
+							<span @click="closeNav">
+								<nuxt-link to="/">
+									<span>0.1 </span> Home
+								</nuxt-link>
+							</span>
+						</div>
+						<div class="nav-col col-sc">
+							<span @click="closeNav">
+								<nuxt-link to="/about">0.2 About </nuxt-link>
+							</span>
+						</div>
+					</div>
+					<div class="nav-row">
+						<div class="nav-col">
+							<span @click="closeNav">
+								<nuxt-link to="/blog">0.3 Blog</nuxt-link>
+							</span>
+						</div>
+
+						<div class="nav-col">
+							<span @click="closeNav">
+								<nuxt-link to="/contact">0.4 Contact</nuxt-link>
+							</span>
+						</div>
+					</div>
 				</div>
 			</div>
 		</header>
@@ -101,6 +117,17 @@ export default {
 	}
 }
 
+.navbar {
+	position: fixed !important;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: rgba(0, 9, 27, 0.7);
+	z-index: 100;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
+
 .header {
 	padding: 1rem 0;
 	display: flex;
@@ -110,23 +137,24 @@ export default {
 }
 
 .overlay {
-	height: 100%;
-	width: 0;
+	height: 0;
+	width: 100%;
 	position: fixed;
 	z-index: 8;
-	top: 0;
+	bottom: 0;
 	right: 0;
-	background-color: rgb(0, 9, 27);
-	background-color: rgba(0, 9, 27, 0.9);
+	background-color: #00091b;
 	visibility: hidden;
-	transition: opacity 0.35s, visibility 0.35s, height 0.35s;
+	transition: height 0.35s, visibility 0.35s, height 0.35s;
 	overflow-x: hidden;
 	transition: 0.5s;
+	border-top-right-radius: 2rem;
+	border-top-left-radius: 2rem;
 }
 
 
 .overlay.active {
-	width: 300px;
+	height: auto;
 	visibility: visible;
 }
 
@@ -147,13 +175,30 @@ export default {
 	animation-delay: 0.8s;
 }
 
-.overlay-content {
-	position: relative;
-	top: 25%;
+.nav-row {
+	display: flex;
+	justify-content: center;
+}
+
+.nav-col {
+
+	min-height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	width: 100%;
-	text-align: right;
-	margin-top: 30px;
-	padding: 1.8rem;
+	border: 1px solid #ddd;
+	transition: height 0.35s, visibility 0.35s, height 0.35s;
+}
+
+.nav-col.col-fs {
+
+	border-top-left-radius: 2rem;
+}
+
+.nav-col.col-sc {
+	border-top-right-radius: 2rem;
+
 }
 
 .overlay a {
@@ -167,6 +212,8 @@ export default {
 
 }
 
+
+
 .overlay a.nuxt-link-exact-active {
 	color: #fff;
 }
@@ -178,9 +225,20 @@ export default {
 
 .overlay .closebtn {
 	position: absolute;
-	top: 20px;
-	right: 45px;
-	font-size: 60px;
+	top: 0;
+	left: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 25px;
+	font-size: 12px;
+	text-align: center;
+	width: 120px;
+	background: #ddd;
+	transform: translateX(-50%);
+	border-radius: 3rem;
+	cursor: pointer;
+
 }
 
 .mobile-menu-toggle {

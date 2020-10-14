@@ -625,6 +625,8 @@ div.highlight {
 	width: 100%;
 	background-position: top center;
 	padding: 10px;
+	display: flex;
+	align-items: center;
 }
 
 
@@ -632,7 +634,7 @@ div.highlight {
 	display: flex;
 	align-items: center;
 	min-height: 60vh;
-	padding-top: 3rem;
+	padding-top: 4rem;
 	max-width: 30vw;
 	color: #f1f1f1;
 }
@@ -648,7 +650,7 @@ div.highlight {
 
 .og-hero.sm,
 .og-hero.sm .og-hero--content {
-	min-height: 30vh;
+	min-height: 50vh;
 }
 
 .og-hero.home {
