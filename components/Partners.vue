@@ -11,7 +11,7 @@
           <img data-src="../assets/img/partners/codeit-logo-dark.png" alt="codeit" v-lazy-load>
           <img data-src="../assets/img/partners/fd_logo.png" alt="Fliredoth" v-lazy-load>
           <img data-src="../assets/img/partners/doa.png" alt="DOA Graphics" v-lazy-load>
-          <img data-src="../assets/img/partners/jessie-health-care-alt.png" alt="Jessie Healthcare" v-lazy-load>
+          <img data-src="../assets/img/partners/sublime.png" alt="Sublime And Beauty" v-lazy-load>
           <img data-src="../assets/img/partners/eventpady.png" alt="Eventpady" v-lazy-load>
         </div>
       </div>
@@ -41,7 +41,7 @@ export default {
 <style>
 .partners-grid-area {
   display: flex;
-  min-height: 100px;
+  min-height: 120px;
   align-content: center;
   justify-content: center;
   padding-bottom: 4rem;
@@ -49,14 +49,14 @@ export default {
 
 .partners-grid {
   display: grid;
-  grid-template-columns: 60px 60px 60px;
+  grid-template-columns: 80px 80px 80px;
   grid-gap: 1rem;
   align-items: center;
 }
 
 .partners-grid img {
   max-width: 100%;
-  height: 80px;
+  height: 100px;
   object-fit: contain;
   filter: url("data:image/svg+xml;utf8,&lt;svg xmlns=\'http://www.w3.org/2000/svg\'&gt;&lt;filter id=\'grayscale\'&gt;&lt;feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/&gt;&lt;/filter&gt;&lt;/svg&gt;#grayscale");
   filter: gray;
