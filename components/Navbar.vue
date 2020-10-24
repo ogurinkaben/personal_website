@@ -141,7 +141,7 @@ export default {
 	position: fixed;
 	z-index: 8;
 	bottom: 0;
-	right: 0;
+	left: 0;
 	background-color: #00091b;
 	visibility: hidden;
 	transition: height 0.35s, visibility 0.35s, height 0.35s;
