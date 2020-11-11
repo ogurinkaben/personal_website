@@ -24,12 +24,12 @@
         <div class="row" data-aos="slide-up" data-aos-easing="ease">
           <div class="column">
             <div class="project-card is-dsc" lazy-background>
-              <a href="https://sublimeandbeauty.com" target="_blank">
-                <img data-src="../assets/img/design-cards/lashes.png" alt="ctr icon" v-lazy-load>
-                <h1 class="title">Sublime &amp; Beauty UK <br>
+              <a href="https://dscuniport.xyz" target="_blank">
+                <img data-src="../assets/img/design-cards/dsc.png" alt="dsc icon" v-lazy-load>
+                <h1 class="title">DSC UNIPORT <br>
                   <span>—</span></h1>
 
-                <p class="desc">Online store for a UK-Based beauty store with focus on eyelash products and accessories </p>
+                <p class="desc">Website for Developer Student Clubs Chapter in the University of Port Harcourt </p>
               </a>
             </div>
           </div>
