@@ -4,7 +4,7 @@
 
 			<nuxt-link to="/" class="brand animate__animated animate__bounceInDown">
 				<span class="brand">ob</span><span class="period"></span>
-				<p>Freelance Software Developer</p>
+				<p>Freelance Software Designer</p>
 			</nuxt-link>
 
 			<nav class="nav animate__animated animate__fadeInDown">

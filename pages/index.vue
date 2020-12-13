@@ -5,9 +5,18 @@
       <div class="og-hero--content home og-container">
         <div class="animate__animated animate__fadeInUp">
           <h1 class="title  animate__animated animate__bounce uu">
-            I'm Ogurinka Benjamin <span class="period"></span>
+             I design User Interfaces and build Interactive Applications that define experiences, products, brands and helps businesses grow <span class="period"></span>
           </h1>
-          <p class="info animate__animated animate__fadeInUp"> I design User Interfaces and build Interactive Applications that define experiences, products, brands and helps businesses grow.</p>
+         <div>
+                <nuxt-link class="og-button animate" to="/contact">
+
+            <svg>
+              <rect x="0" y="0" fill="none" width="100%" height="100%" />
+            </svg>
+            <span>Say Hello</span>
+
+          </nuxt-link>
+         </div>
         </div>
       </div>
     </section>
@@ -24,12 +33,12 @@
         <div class="row" data-aos="slide-up" data-aos-easing="ease">
           <div class="column">
             <div class="project-card is-dsc" lazy-background>
-              <a href="https://dscuniport.xyz" target="_blank">
-                <img data-src="../assets/img/design-cards/dsc.png" alt="dsc icon" v-lazy-load>
-                <h1 class="title">DSC UNIPORT <br>
+              <a href="https://getcolr.xyz" target="_blank">
+                <img data-src="../assets/img/design-cards/getcolr.png" alt="GetColr Logo" v-lazy-load>
+                <h1 class="title">GetColr <br>
                   <span>—</span></h1>
 
-                <p class="desc">Website for Developer Student Clubs Chapter in the University of Port Harcourt </p>
+                <p class="desc">A Web App that easily helps you generate colours from an image </p>
               </a>
             </div>
           </div>
@@ -151,6 +160,16 @@
             </div>
           </div>
 
+        </div>
+        <div class="row">
+                  <div class="column">
+            <div class="design-card">
+              <div>
+                <img data-src="../assets/img/design-cards/lyrica.png" alt="Lyrica" v-lazy-load>
+
+              </div>
+            </div>
+          </div>
         </div>
 
       </div>

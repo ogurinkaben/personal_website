@@ -13,14 +13,13 @@
     <section class="og-section">
       <div class="og-container">
         <div class="og-section--heading animate__animated animate__fadeInDown">
-          <p class="info pt">Hello (again), I am Ogurinka Benjamin, a Natural Leader and Ever-growing creative who's drawn towards coaching people and fostering amazing creative teams.</p>
-          <p class="info pt">I am ambitious, innovative and love to build amazing and simple things as a hobby, while being open to new concepts, ideas and challenging paths. I have serious passion for UI designs, animations and creating intuitive, dynamic user experiences. </p>
+          <p class="info pt"> I am a web creative with a love for beautiful and functional web content. I am ambitious, innovative, and love to build amazing and simple things as a hobby while being open to new concepts, ideas, and challenging paths. I have a serious passion for UI designs, animations, and creating intuitive, dynamic user experiences.</p>
           <p class="info pt">Currently, I live, work and play in Rivers, Nigeria while chasing a CS degree at the University of Port Harcourt, Nigeria.</p>
         </div>
         <div class="container w-x animate__animated animate__fadeInUpBig ">
           <div class="tabs" v-cloak>
             <ul>
-              <li v-for="(tab, index) in tabs" :class="{'is-active': show == index}">
+              <li v-for="(tab, index) in tabs" :class="{'is-active': show == index}" :key="tab.id">
                 <a @click.prevent="show = index">{{tab.title}}</a></li>
             </ul>
           </div>
@@ -37,7 +36,7 @@
     <Footer />
   </div>
 </template>
-
+ 
 <script>
 // @ is an alias to /src
 import Vue from 'vue'
@@ -132,7 +131,7 @@ export default {
               <p>Full-stack Developer (Contract)</p>
             </div>
             <div class="time">
-              <h4>May, 2020 - Present</h4>
+              <h4>May, 2020 - November 2020</h4>
             </div>
           </li>
 
@@ -163,7 +162,7 @@ export default {
               <p>Student Partner </p>
             </div>
             <div class="time">
-              <h4>Jan. 2020 - Present</h4>
+              <h4>Jan. 2020 - Aug. 2020</h4>
             </div>
           </li>
           <li>
@@ -172,7 +171,7 @@ export default {
               <p>Mentor</p>
             </div>
             <div class="time">
-              <h4>May, 2020 - Present</h4>
+              <h4>May, 2020 - Oct. 2020</h4>
             </div>
           </li>
           <li>
