@@ -153,8 +153,9 @@ export default {
 
 
 .overlay.active {
-	height: auto;
+	height: 400px;
 	visibility: visible;
+		transition: 0.5s;
 }
 
 .overlay.active a {
@@ -186,18 +187,20 @@ export default {
 	align-items: center;
 	justify-content: center;
 	width: 100%;
-	border: 1px solid #ddd;
+	border: 1px solid #eee;
 	transition: height 0.35s, visibility 0.35s, height 0.35s;
 }
 
 .nav-col.col-fs {
-
-	border-top-left-radius: 2rem;
+	border-top:2px solid #eee;
+	border-left:2px solid #eee;
+	border-top-left-radius: 3rem;
 }
 
 .nav-col.col-sc {
-	border-top-right-radius: 2rem;
-
+	border-top-right-radius: 3rem;
+	border-top:2px solid #eee;
+	border-right:2px solid #eee;
 }
 
 .overlay a {

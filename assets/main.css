@@ -621,7 +621,7 @@ div.highlight {
 
 /* Hero*/
 .og-hero {
-  min-height: 80vh;
+  min-height: 100vh;
   width: 100%;
   background-position: top center;
   padding: 10px;
@@ -737,7 +737,7 @@ div.highlight {
 
   .og-hero .og-hero--content .title.uu,
   .og-hero .og-hero--content .title {
-    font-size: 30px;
+    font-size: 1.3rem;
   }
 
 
