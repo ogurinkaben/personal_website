@@ -3,7 +3,7 @@
 		<header class="header og-container" id="top">
 
 			<nuxt-link to="/" class="brand animate__animated animate__bounceInDown">
-				<span class="brand">ob</span><span class="period"></span>
+				<span class="brand"><img src="../assets/logo.png" alt=""></span>
 				<p>Freelance Software Designer</p>
 			</nuxt-link>
 
@@ -307,7 +307,9 @@ export default {
 }
 
 .header .brand img {
-	width: 120px;
+	max-width: 150px;
+	height: 50px;
+	object-fit: contain;
 }
 
 .header .brand p {
