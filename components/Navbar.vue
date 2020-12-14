@@ -147,8 +147,8 @@ export default {
 	transition: height 0.35s, visibility 0.35s, height 0.35s;
 	overflow-x: hidden;
 	transition: 0.5s;
-	border-top-right-radius: 2rem;
-	border-top-left-radius: 2rem;
+	border-top-right-radius: 3rem;
+	border-top-left-radius: 3rem;
 }
 
 
