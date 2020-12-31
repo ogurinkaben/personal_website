@@ -75,7 +75,7 @@
 
           </div>
           <div class="pt ">
-            <p class="copyright pt">Copyright &copy; 2020. All rights reserved</p>
+            <p class="copyright pt">Copyright &copy; 2018-present. All rights reserved</p>
           </div>
         </div>
 
