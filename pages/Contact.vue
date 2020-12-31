@@ -74,12 +74,10 @@
                 <div id="ball-2" class="circle"></div>
                 <div id="ball-3" class="circle"></div>
               </div>
-              <button type="submit" class="og-button animate" v-if="!isSending">
+              <button type="submit" class="og-link--button text-default" v-if="!isSending">
 
-                <svg>
-                  <rect x="0" y="0" fill="none" width="100%" height="100%" />
-                </svg>
-                <span>Send Message </span>
+         
+                Send Message<span class="ti-envelope"></span>
 
               </button>
             </div>

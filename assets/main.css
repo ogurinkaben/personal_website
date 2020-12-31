@@ -94,6 +94,30 @@ table {
   padding: 0 5px;
 }
 
+.og-link--button {
+  color: #f2f2f2;
+  display: inline-flex;
+  align-items: center;
+  min-height: 30px;
+  padding: 1rem 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.og-link--button span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  margin-left: 0.6rem;
+  font-size: 1rem;
+  color: #fff;
+  background: var(--defaultColor) !important;
+  border-radius: 50%;
+}
+
 .bg--white {
   background: #fff !important;
 }
@@ -155,6 +179,85 @@ table {
     opacity: 1;
   }
 }
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity .5s;
+}
+
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
+
+span.scroll {
+  position: absolute;
+  bottom: 0.7rem;
+  left: 0.6rem;
+  width: 30px;
+  height: 50px;
+  margin-left: -15px;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  box-sizing: border-box;
+  opacity: 0.5;
+}
+
+span.scroll::before {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  content: '';
+  width: 6px;
+  height: 6px;
+  margin-left: -3px;
+  background-color: #fff;
+  border-radius: 100%;
+  box-sizing: border-box;
+  -webkit-animation: scroll-indicator 2s infinite;
+  animation: scroll-indicator 2s infinite;
+}
+
+@-webkit-keyframes scroll-indicator {
+  0% {
+    -webkit-transform: translate(0, 0);
+    opacity: 0;
+  }
+
+  40% {
+    opacity: 1;
+  }
+
+  80% {
+    -webkit-transform: translate(0, 20px);
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes scroll-indicator {
+  0% {
+    transform: translate(0, 0);
+    opacity: 0;
+  }
+
+  40% {
+    opacity: 1;
+  }
+
+  80% {
+    transform: translate(0, 20px);
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
 
 .has-shadow {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12) !important;
@@ -631,6 +734,7 @@ div.highlight {
 
 
 .og-hero .og-hero--content {
+  position: relative;
   display: flex;
   align-items: center;
   min-height: 80vh;
@@ -807,7 +911,7 @@ div.highlight {
 .og-form label {
   display: block;
   font-size: 0.9rem;
-  font-family: 'Poppins'sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #888;
 }
 
@@ -1035,7 +1139,7 @@ div.highlight {
 }
 
 .is-livid {
-  background: #6a89cc;
+  background: var(--defaultColor);
 
 }
 

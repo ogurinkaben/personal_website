@@ -5,20 +5,19 @@
       <div class="og-hero--content home og-container">
         <div class="animate__animated animate__fadeInUp">
           <h1 class="title  animate__animated animate__bounce uu">
-             I Design Interactive Applications that define experiences, products, and brands<span class="period"></span>
+            I Design Interactive Applications that define experiences, products, and brands<span class="period"></span>
           </h1>
-         <div>
-                <nuxt-link class="og-button animate" to="/contact">
+          <div>
+            <nuxt-link class="og-link--button" to="/contact">
 
-            <svg>
-              <rect x="0" y="0" fill="none" width="100%" height="100%" />
-            </svg>
-            <span>Say Hello</span>
+             Say Hello <span class="ti-arrow-right"></span>
 
-          </nuxt-link>
-         </div>
+            </nuxt-link>
+          </div>
         </div>
+        <span class="scroll"></span>
       </div>
+
     </section>
     <section class="og-section">
       <div class="og-container">
@@ -48,7 +47,8 @@
                 <img data-src="../assets/img/design-cards/io.png" alt="line icon" v-lazy-load>
                 <h1 class="title">ioHub <br>
                   <span>—</span></h1>
-                <p class="desc">Website for ioHub, a creative agency focused on UI/UX, Web Design and Web Development services.</p>
+                <p class="desc">Website for ioHub, a creative agency focused on UI/UX, Web Design and Web Development
+                  services.</p>
               </a>
             </div>
           </div>
@@ -61,40 +61,18 @@
                 <h1 class="title">Everylink <br>
                   <span>—</span></h1>
 
-                <p class="desc">Everylink is a super simple URL shortener specially designed and developed for event organizers and social media enthusiasts to give them a fast way to easily share clean content URLs</p>
+                <p class="desc">Everylink is a super simple URL shortener specially designed and developed for event
+                  organizers and social media enthusiasts to give them a fast way to easily share clean content URLs</p>
               </a>
             </div>
           </div>
           <div class="column">
             <div class="project-card is-livid" lazy-background>
-              <a href="http://cscplayground.xyz/posts" target="_blank">
+              <a href="https://dallasconzut.com/" target="_blank">
                 <img data-src="../assets/img/design-cards/lc.png" alt="line icon" v-lazy-load>
-                <h1 class="title">Playground <br>
+                <h1 class="title">Dallas Conzut <br>
                   <span>—</span></h1>
-                <p class="desc">A Mini social media for my school department. Built as part of a practice project to get acquainted with Backend Basics</p>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="row" data-aos="slide-up" data-aos-easing="ease">
-          <div class="column">
-            <div class="project-card is-dark" lazy-background>
-              <a href="https://airpods-store.codeit.today" target="_blank">
-                <img data-src="../assets/img/design-cards/screen.png" alt="screen icon" v-lazy-load>
-                <h1 class="title">Airpods Store <br>
-                  <span>—</span></h1>
-
-                <p class="desc">A Frontend E-commerce template built as part of a training series by codeit.today for beginner - intermediate level web developers</p>
-              </a>
-            </div>
-          </div>
-          <div class="column">
-            <div class="project-card is-mint" lazy-background>
-              <a href="https://terin.xyz" target="_blank">
-                <img data-src="../assets/img/design-cards/block.png" alt="Block icon" v-lazy-load>
-                <h1 class="title">Terin <br>
-                  <span>—</span></h1>
-                <p class="desc">Official website for Terin, a tech start-up focused on technological growth and innovative products</p>
+                <p class="desc">Dallas provides customers with the highest quality of construction services at a fair price with the aim of building long term customer and supplier relationships.</p>
               </a>
             </div>
           </div>
@@ -105,25 +83,6 @@
       <div class="og-container">
         <div class="og-section--heading" data-aos="slide-up" data-aos-easing="ease">
           <h1 class="sub-title">Design <span class="period"></span></h1>
-        </div>
-        <div class="row" data-aos="slide-up" data-aos-easing="ease">
-          <div class="column">
-            <div class="design-card">
-              <div>
-                <img data-src="../assets/img/design-cards/fitness-watch.png" alt="Fitness Watch" v-lazy-load>
-
-              </div>
-            </div>
-          </div>
-          <div class="column">
-            <div class="design-card">
-              <div>
-                <img data-src="../assets/img/design-cards/cup-mockup.png" alt="Coffee Cup Mockup" v-lazy-load>
-
-              </div>
-            </div>
-          </div>
-
         </div>
         <div class="row" data-aos="slide-up" data-aos-easing="ease">
           <div class="column">
@@ -161,31 +120,19 @@
           </div>
 
         </div>
-        <div class="row">
-                  <div class="column">
-            <div class="design-card">
-              <div>
-                <img data-src="../assets/img/design-cards/lyrica.png" alt="Lyrica" v-lazy-load>
-
-              </div>
-            </div>
-          </div>
-        </div>
-
       </div>
     </section>
     <div class="bg--white">
       <div class="og-section  is-flex flex-center justify-center text-is-center ">
         <div class="og-section--heading">
           <h1 class="title">Want to see more of what I have done<span class="text-is-primary">?</span></h1>
-          <nuxt-link class="og-button animate" to="/contact">
+          <div class=" text-is-center ">
+          <nuxt-link class="og-link--button text-default  text-is-center " to="/contact">
 
-            <svg>
-              <rect x="0" y="0" fill="none" width="100%" height="100%" />
-            </svg>
-            <span>Send message</span>
+             Say Hello <span class="ti-arrow-right"></span>
 
-          </nuxt-link>
+            </nuxt-link>
+          </div>
         </div>
       </div>
     </div>
@@ -205,113 +152,141 @@
 </template>
 
 <script>
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
-import Testimonial from '../components/Testimonial'
-import Partners from '../components/Partners'
-import BlogPreview from '../components/BlogPreview'
-export default {
-  name: "Home",
-  scrollToTop: true,
-  components: {
-    Navbar,
-    Footer,
-    Testimonial,
-    Partners,
-    BlogPreview
-  },
-  mounted() {
-    if (process.client) {
-      this.$scrollTo('#__nuxt', 0, { force: true })
-    }
-    this.$nextTick(() => {
-      this.$nuxt.$loading.start()
-      setTimeout(() => this.$nuxt.$loading.finish(), 3000)
-    })
-  },
-  head() {
-    return {
-      title: "Ogurinka Benjamin - Ever growing creative",
-      meta: [
-        { name: 'description', content: 'I design User Interfaces and build Interactive applications that define experiences, products and brands.' },
-        { property: 'og:title', content: "Ogurinka Benjamin - Ever growing creative" },
-        { property: 'og:site_name', content: 'Ogurinka Benjamin' },
-        { property: 'og:image', content: 'https://pbs.twimg.com/profile_images/1283040894808215553/CVvTaxEl_400x400.jpg' },
-        { property: 'og:type', content: 'website' },
-        { name: 'twitter:card', content: 'https://pbs.twimg.com/profile_images/1283040894808215553/CVvTaxEl_400x400.jpg' },
-        { name: 'twitter:description', content: 'I design User Interfaces and build Interactive applications that define experiences, products and brands.' },
-        { name: 'twitter:image', content: 'https://pbs.twimg.com/profile_images/1283040894808215553/CVvTaxEl_400x400.jpg' },
-        { name: 'robots', content: 'index,follow' }
-      ]
+  import Navbar from '../components/Navbar'
+  import Footer from '../components/Footer'
+  import Testimonial from '../components/Testimonial'
+  import Partners from '../components/Partners'
+  import BlogPreview from '../components/BlogPreview'
+  export default {
+    name: "Home",
+    scrollToTop: true,
+    components: {
+      Navbar,
+      Footer,
+      Testimonial,
+      Partners,
+      BlogPreview
+    },
+    mounted() {
+      if (process.client) {
+        this.$scrollTo('#__nuxt', 0, {
+          force: true
+        })
+      }
+      this.$nextTick(() => {
+        this.$nuxt.$loading.start()
+        setTimeout(() => this.$nuxt.$loading.finish(), 3000)
+      })
+    },
+    head() {
+      return {
+        title: "Ogurinka Benjamin - Ever growing creative",
+        meta: [{
+            name: 'description',
+            content: 'I design User Interfaces and build Interactive applications that define experiences, products and brands.'
+          },
+          {
+            property: 'og:title',
+            content: "Ogurinka Benjamin - Ever growing creative"
+          },
+          {
+            property: 'og:site_name',
+            content: 'Ogurinka Benjamin'
+          },
+          {
+            property: 'og:image',
+            content: 'https://pbs.twimg.com/profile_images/1283040894808215553/CVvTaxEl_400x400.jpg'
+          },
+          {
+            property: 'og:type',
+            content: 'website'
+          },
+          {
+            name: 'twitter:card',
+            content: 'https://pbs.twimg.com/profile_images/1283040894808215553/CVvTaxEl_400x400.jpg'
+          },
+          {
+            name: 'twitter:description',
+            content: 'I design User Interfaces and build Interactive applications that define experiences, products and brands.'
+          },
+          {
+            name: 'twitter:image',
+            content: 'https://pbs.twimg.com/profile_images/1283040894808215553/CVvTaxEl_400x400.jpg'
+          },
+          {
+            name: 'robots',
+            content: 'index,follow'
+          }
+        ]
+      }
     }
   }
-}
 
 </script>
 
 <style>
-#flip {
-  height: 50px;
-  overflow: hidden;
-  font-size: 36px;
-}
-
-#flip>div>div {
-  color: #fff;
-  padding: 4px 12px;
-  height: 50px;
-  margin-bottom: 45px;
-  display: inline-block;
-}
-
-#flip div:first-child {
-  animation: show 10s linear infinite;
-}
-
-#flip div div {
-  background: #42c58a;
-}
-
-#flip div:first-child div {
-  background: #4ec7f3;
-}
-
-#flip div:last-child div {
-  background: #6a89cc;
-}
-
-@keyframes show {
-  0% {
-    margin-top: -270px;
+  #flip {
+    height: 50px;
+    overflow: hidden;
+    font-size: 36px;
   }
 
-  5% {
-    margin-top: -180px;
+  #flip>div>div {
+    color: #fff;
+    padding: 4px 12px;
+    height: 50px;
+    margin-bottom: 45px;
+    display: inline-block;
   }
 
-  33% {
-    margin-top: -180px;
+  #flip div:first-child {
+    animation: show 10s linear infinite;
   }
 
-  38% {
-    margin-top: -90px;
+  #flip div div {
+    background: #42c58a;
   }
 
-  66% {
-    margin-top: -90px;
+  #flip div:first-child div {
+    background: #4ec7f3;
   }
 
-  71% {
-    margin-top: 0px;
+  #flip div:last-child div {
+    background: #6a89cc;
   }
 
-  99.99% {
-    margin-top: 0px;
-  }
+  @keyframes show {
+    0% {
+      margin-top: -270px;
+    }
 
-  100% {
-    margin-top: -270px;
+    5% {
+      margin-top: -180px;
+    }
+
+    33% {
+      margin-top: -180px;
+    }
+
+    38% {
+      margin-top: -90px;
+    }
+
+    66% {
+      margin-top: -90px;
+    }
+
+    71% {
+      margin-top: 0px;
+    }
+
+    99.99% {
+      margin-top: 0px;
+    }
+
+    100% {
+      margin-top: -270px;
+    }
   }
-}
 
 </style>

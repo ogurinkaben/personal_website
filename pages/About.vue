@@ -196,8 +196,8 @@ export default {
 
           <li>
             <div class="content">
-              <h3><a href="https://twitter.com/codeclubph" target="_blank" class="og-link plain">Codeclub PH</a></h3>
-              <p>Community Mentor</p>
+              <h3><a href="https://twitter.com/uniportTech" target="_blank" class="og-link plain">UNIPORT Tech Community</a></h3>
+              <p>Community Lead</p>
             </div>
             <div class="time">
               <h4>Sep. 2019 - Present</h4>
