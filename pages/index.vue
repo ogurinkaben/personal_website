@@ -106,7 +106,7 @@
           <div class="column">
             <div class="design-card">
               <div>
-                <img data-src="../assets/img/design-cards/rev_mediaUI.png" alt="Rev Media" v-lazy-load>
+                <img data-src="https://res.cloudinary.com/simplytammy/image/upload/v1610052301/decf88b968cd98f4e1d1b06dc4be3e63.png" alt="Skull Candy" v-lazy-load>
 
               </div>
             </div>
@@ -114,7 +114,7 @@
           <div class="column">
             <div class="design-card">
               <div>
-                <img data-src="../assets/img/design-cards/knotes.png" alt="Knotes App" v-lazy-load>
+                <img data-src="https://res.cloudinary.com/simplytammy/image/upload/v1610052720/40220e165f260f7da0ddedd3a3f2f672.png" alt="JBL Xtreme 2" v-lazy-load>
               </div>
             </div>
           </div>
