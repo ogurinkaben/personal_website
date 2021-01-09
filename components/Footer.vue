@@ -43,6 +43,10 @@
             <div class="column ">
               <div class="og-section--heading">
                 <h1 class="sub-title">Reach out via <span class="period"></span></h1>
+                 <div>
+                  <a href="https://www.behance.net/ogurinkaben" class=" og-link plain">
+                    Behance</a>
+                </div>
                 <div>
                   <a href="https://dev.to/ogurinkaben/" class=" og-link plain" target="_blank">
                     Dev</a>
@@ -65,10 +69,7 @@
                     LinkedIn</a>
                 </div>
 
-                <div>
-                  <a href="https://twitter.com/ogurinkaben" class=" og-link plain">
-                    Twitter</a>
-                </div>
+               
 
               </div>
             </div>
