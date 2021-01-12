@@ -124,11 +124,11 @@ export default {
 	width: 100%;
 	background: rgba(0, 9, 27, 0.7);
 	z-index: 100;
-	padding: 1rem;
+	padding:0 1rem;
 }
 
 .header {
-	padding: 1rem 0;
+	padding: 0.3rem 0;
 	display: flex;
 	justify-content: space-between;
 	min-height: 40px;
