@@ -33,9 +33,8 @@
           <div class="column">
             <div class="project-card is-dsc" lazy-background>
               <a href="https://getcolr.xyz" target="_blank">
-                <img data-src="../assets/img/design-cards/getcolr.png" alt="GetColr Logo" v-lazy-load>
                 <h1 class="title">GetColr <br>
-                  <span>—</span></h1>
+                  </h1>
 
                 <p class="desc">A Web App that easily helps you generate colours from an image </p>
               </a>
@@ -44,9 +43,8 @@
           <div class="column">
             <div class="project-card is-io" lazy-background>
               <a href="https://iohub.space" target="_blank">
-                <img data-src="../assets/img/design-cards/io.png" alt="line icon" v-lazy-load>
                 <h1 class="title">ioHub <br>
-                  <span>—</span></h1>
+                  </h1>
                 <p class="desc">Website for ioHub, a creative agency focused on UI/UX, Web Design and Web Development
                   services.</p>
               </a>
@@ -57,9 +55,9 @@
           <div class="column">
             <div class="project-card is-dupian" lazy-background>
               <a href="https://everylink.space" target="_blank">
-                <img data-src="../assets/img/design-cards/ctr.png" alt="ctr icon" v-lazy-load>
+               
                 <h1 class="title">Everylink <br>
-                  <span>—</span></h1>
+                  </h1>
 
                 <p class="desc">Everylink is a super simple URL shortener specially designed and developed for event
                   organizers and social media enthusiasts to give them a fast way to easily share clean content URLs</p>
@@ -68,11 +66,10 @@
           </div>
           <div class="column">
             <div class="project-card is-livid" lazy-background>
-              <a href="https://dallasconzut.com/" target="_blank">
-                <img data-src="../assets/img/design-cards/lc.png" alt="line icon" v-lazy-load>
-                <h1 class="title">Dallas Conzut <br>
-                  <span>—</span></h1>
-                <p class="desc">Dallas provides customers with the highest quality of construction services at a fair price with the aim of building long term customer and supplier relationships.</p>
+              <a href="https://tammy.dev/krowdback/" target="_blank">
+                <h1 class="title">krowdback <br>
+                 </h1>
+                <p class="desc">krowdback is a one-page HTML template for a crowd funding platform that  helps you get started with sourcing for financial help or donating to a worth cause.</p>
               </a>
             </div>
           </div>
@@ -84,38 +81,68 @@
         <div class="og-section--heading" data-aos="slide-up" data-aos-easing="ease">
           <h1 class="sub-title">Design <span class="period"></span></h1>
         </div>
-        <div class="row" data-aos="slide-up" data-aos-easing="ease">
+                <div class="row" data-aos="slide-up" data-aos-easing="ease">
           <div class="column">
             <div class="design-card">
+               <a href="https://dribbble.com/shots/14868094-Macbuddy/attachments/6579205?mode=media" target="_blank">
               <div>
-                <img data-src="../assets/img/design-cards/taskAppUI.png" alt="Task App UI" v-lazy-load>
+                <img data-src="https://res.cloudinary.com/simplytammy/image/upload/v1610052334/b21f6ae8aa6d268b01737d1208815103.png" alt="Macbudyy" v-lazy-load>
 
               </div>
+               </a>
             </div>
           </div>
           <div class="column">
             <div class="design-card">
+              <a href="#!">
               <div>
-                <img data-src="../assets/img/design-cards/dyces_mobile.png" alt="Task App UI" v-lazy-load>
+                <img data-src="https://res.cloudinary.com/simplytammy/image/upload/v1611012304/melvin_manni.png" alt="Dyces Mobile" v-lazy-load>
 
               </div>
+              </a>
             </div>
           </div>
         </div>
         <div class="row" data-aos="slide-up" data-aos-easing="ease">
           <div class="column">
             <div class="design-card">
+               <a href="#!">
               <div>
-                <img data-src="https://res.cloudinary.com/simplytammy/image/upload/v1610052301/decf88b968cd98f4e1d1b06dc4be3e63.png" alt="Skull Candy" v-lazy-load>
+                <img data-src="../assets/img/design-cards/taskAppUI.png" alt="Task App UI" v-lazy-load>
 
               </div>
+               </a>
             </div>
           </div>
           <div class="column">
             <div class="design-card">
+              <a href="https://dribbble.com/shots/10496495-Fintech-mobile-app-UI" target="_blank">
+              <div>
+                <img data-src="../assets/img/design-cards/dyces_mobile.png" alt="Dyces Mobile" v-lazy-load>
+
+              </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row" data-aos="slide-up" data-aos-easing="ease">
+          <div class="column">
+            <div class="design-card">
+              <a href="https://dribbble.com/shots/14892340-Headphone-E-commerce-Design" target="_blank">
+              <div>
+                <img data-src="https://res.cloudinary.com/simplytammy/image/upload/v1610052301/decf88b968cd98f4e1d1b06dc4be3e63.png" alt="Skull Candy" v-lazy-load>
+
+              </div>
+              </a>
+            </div>
+          </div>
+          <div class="column">
+            <div class="design-card">
+                <a href="https://dribbble.com/shots/14872495-JBL-Xtreme-2-Product-Page" target="_blank">
               <div>
                 <img data-src="https://res.cloudinary.com/simplytammy/image/upload/v1610052720/40220e165f260f7da0ddedd3a3f2f672.png" alt="JBL Xtreme 2" v-lazy-load>
               </div>
+                </a>
             </div>
           </div>
 
