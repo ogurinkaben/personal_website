@@ -364,4 +364,8 @@ div.inner-comment div.body div.highlight pre.highlight code {
   color: #ae81ff;
 }
 
-/* Literal.Number.Integer.Long */
+/* Hide JS Fullscreen Code Action Toggle */
+
+.highlight__panel-action.js-fullscreen-code-action {
+  display: none;
+}
