@@ -1,8 +1,15 @@
 /* Taken from https://github.com/thepracticaldev/dev.to/blob/master/app/assets/stylesheets/syntax.scss */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
 
 div.highlight pre.highlight code {
   font-size: inherit;
   padding: 0px;
+
+}
+
+div.highlight pre.highlight code span {
+  font-family: 'JetBrains Mono', monospace !important;
+
 }
 
 div.inner-comment div.body div.highlight pre.highlight {
