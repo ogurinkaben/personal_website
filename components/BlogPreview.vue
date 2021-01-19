@@ -13,7 +13,7 @@
               <h1 class="blog-preview__title">{{article.title}}</h1>
               <p class="blog-preview__desc">{{article.description}}</p>
               <div class="pt">
-                <button @click="openArticle(article.id, article.slug)" class="preview-btn">Continue Reading <span>&rarr;</span></button>
+                <button @click="openArticle(article.id, article.slug)" class="preview-btn">Continue Reading <span class="ti-arrow-right"></span></button>
               </div>
             </div>
           </div>
@@ -74,10 +74,10 @@ export default {
   padding: 16px;
   font-size: 15px;
   text-align: center;
-  color: #3363ff;
-  background-color: #e6ecff;
+  color: #17bf63;
+  background-color: #fff;
   border: none;
-  border-radius: 0;
+  border-radius: 2rem ;
   transition: 0.2s;
   cursor: pointer;
   font-family: 'Poppins', sans-serif;
@@ -91,11 +91,6 @@ export default {
 .preview-btn:hover,
 .preview-btn:active {
   background-color: #dce4ff;
-}
-
-.preview-btn:hover span,
-.preview-btn:active span {
-  margin-left: 1.5rem;
 }
 
 .blog-preview {
