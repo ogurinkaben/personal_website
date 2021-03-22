@@ -42,7 +42,7 @@
           </div>
           <div class="column">
             <div class="project-card is-io" lazy-background>
-              <a href="https://iohub.space" target="_blank">
+              <a href="https://iohub.ng" target="_blank">
                 <h1 class="title">ioHub <br>
                   </h1>
                 <p class="desc">Website for ioHub, a creative agency focused on UI/UX, Web Design and Web Development
@@ -66,7 +66,7 @@
           </div>
           <div class="column">
             <div class="project-card is-livid" lazy-background>
-              <a href="https://tammy.dev/krowdback/" target="_blank">
+              <a href="http://t24.live/krowdback/" target="_blank">
                 <h1 class="title">krowdback <br>
                  </h1>
                 <p class="desc">krowdback is a one-page HTML template for a crowd funding platform that  helps you get started with sourcing for financial help or donating to a worth cause.</p>
