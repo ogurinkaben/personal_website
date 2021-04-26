@@ -125,6 +125,13 @@ table {
   background: #fff !important;
 }
 
+.bg--cta {
+  background: url('./img/bg/cta.png');
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
 .text-is-primary {
   color: var(--defaultColor) !important;
 }

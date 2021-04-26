@@ -19,6 +19,7 @@
       </div>
 
     </section>
+    <div class="bg--cta">
     <section class="og-section">
       <div class="og-container">
         <div class="og-section--heading is-relative animate__animated animate__fadeInDownBig">
@@ -149,7 +150,8 @@
         </div>
       </div>
     </section>
-    <div class="bg--white">
+    </div>
+    <div class="">
       <div class="og-section  is-flex flex-center justify-center text-is-center ">
         <div class="og-section--heading">
           <h1 class="title">Want to see more of what I have done<span class="text-is-primary">?</span></h1>
