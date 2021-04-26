@@ -8,7 +8,7 @@
       </div>
       <div v-cloak class="flex-img pt">
         <div class="testimonial-img pt">
-          <div v-for="(testimonial, index) in testimonials" :class="[{'is-active': show == index}, testimonial.className]">
+          <div v-for="(testimonial, index) in testimonials" :class="[{'is-active': show == index}, testimonial.className]" v-bind:key="testimonial.id">
             <div class="img-wrapper">
 
               <a @click.prevent="show = index">
