@@ -22,7 +22,10 @@
 
 html,
 body {
-  background: #f5f5f5;
+  background: url('./img/bg/body.png');
+  background-size: contain;
+  background-repeat: repeat;
+  background-attachment: fixed;
 }
 
 * {
