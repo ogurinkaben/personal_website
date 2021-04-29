@@ -23,9 +23,9 @@
     <section class="og-section">
       <div class="og-container">
         <div class="og-section--heading is-relative animate__animated animate__fadeInDownBig">
-          <h1 class="title">Recent Projects —</h1>
-          <h1 class="cover-text">Recent Projects</h1>
-          <p class="info">Collection of some of my most recent projects and works</p>
+          <h1 class="title">Personal Projects —</h1>
+          <h1 class="cover-text">Personal Projects</h1>
+          <p class="info">Collection of some of my most recent personal projects and works</p>
         </div>
         <div class="og-section--heading" data-aos="slide-up" data-aos-easing="ease">
           <h1 class="sub-title">Web <span class="period"></span></h1>
@@ -158,7 +158,7 @@
           <div class=" text-is-center ">
           <nuxt-link class="og-link--button text-default  text-is-center " to="/contact">
 
-             Say Hello <span class="ti-arrow-right"></span>
+             Leave a message <span class="ti-arrow-right"></span>
 
             </nuxt-link>
           </div>
