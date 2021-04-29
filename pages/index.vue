@@ -5,7 +5,7 @@
       <div class="og-hero--content home og-container">
         <div class="animate__animated animate__fadeInUp">
           <h1 class="title  animate__animated animate__bounce uu">
-            I Design Interactive Applications that define experiences, products, and brands<span class="period"></span>
+            I Design & Develop Interactive Applications that define Experiences, Products, and Brands<span class="period"></span>
           </h1>
           <div>
             <nuxt-link class="og-link--button" to="/contact">
