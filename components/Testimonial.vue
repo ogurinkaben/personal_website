@@ -1,6 +1,6 @@
 <template>
   <div class="og-container testimonials pt">
-    <div class="og-section">
+    <div class="og-section bg--white">
       <div class="og-section--heading text-is-center">
         <h1 class="title">Testimonials <span class="period"></span></h1>
         <h1 class="cover-text">Testimonials</h1>
