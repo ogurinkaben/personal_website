@@ -103,16 +103,26 @@
             title: "Work ",
             content: `      <div class="timeline">
      	<ul>
-     		<li>
+       		<li>
      			<div class="content">
      				<h3>HoloAsh</h3>
      				<p>UX Research (Intern)</p>
      			</div>
      			<div class="time">
-     				<h4>Feb, 2021 - May 2021</h4>
+     				<h4>Feb, 2021 - Present</h4>
      			</div>
      		</li>
      		<li>
+     			<div class="content">
+     				<h3>UsefulPDF </h3>
+     				<p>User Interface Designer (Contract)</p>
+     			</div>
+     			<div class="time">
+     				<h4>Feb, 2021 - May 2021</h4>
+     			</div>
+     		</li>
+
+          		<li>
      			<div class="content">
      				<h3>Studihub</h3>
      				<p>Full-stack Developer (Contract)</p>
