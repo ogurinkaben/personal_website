@@ -25,9 +25,11 @@
           </div>
           <div v-cloak>
 
-            <vue-page-transition name="fade-in-up" target="div" appear @click.native="navigate($event); alerts($event);">
-              <div v-for="(tab, index) in tabs" v-if="show == index" :key="tab.id" v-html="tab.content"></div>
-            </vue-page-transition>
+            <transition-group name="fade" @click="navigate($event); alerts($event);">
+              <div v-for="(tab, index) in tabs"  :key="tab.id">
+                <div v-html="tab.content" v-if="show == index"></div>
+              </div>
+            </transition-group>
 
           </div>
         </div>
