@@ -4,7 +4,7 @@
 
 			<nuxt-link to="/" class="brand">
 				<span class="brand"><img src="../assets/logo.png" alt=""></span>
-				<p>Freelance Software Designer</p>
+				<p>UX Designer . Sofware Dev</p>
 			</nuxt-link>
 
 			<nav class="nav ">
