@@ -23,6 +23,8 @@
 				</svg>
 			</div>
 
+		</header>
+
 			<div id="myNav" class="overlay">
 				<div class="overlay-content">
 					<span class="closebtn" @click="closeNav">
@@ -57,7 +59,6 @@
 					</div>
 				</div>
 			</div>
-		</header>
 	</div>
 </template>
 
@@ -125,8 +126,7 @@ export default {
 	background: rgba(0, 9, 27, 0.7);
 	z-index: 100;
 	padding:0 1rem;
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+
 }
 
 .header {
@@ -141,7 +141,7 @@ export default {
 	height: 0;
 	width: 100%;
 	position: fixed;
-	z-index: 8;
+	z-index: 100;
 	bottom: 0;
 	left: 0;
 	background-color: #00091b;

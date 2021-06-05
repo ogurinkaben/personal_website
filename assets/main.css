@@ -1125,6 +1125,7 @@ div.highlight {
 }
 
 .project-card {
+  position: relative;
   min-height: 220px;
   width: 100%;
   display: flex;
@@ -1135,8 +1136,9 @@ div.highlight {
   box-shadow: 13px 32px 36px -14px hsla(0, 0%, 70%, 0.3);
   transition: 0.4s ease-in-out;
   border-radius: 6px;
-
+  z-index: 100;
 }
+
 
 .design-card img:hover,
 .project-card:hover {
