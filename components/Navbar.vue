@@ -4,7 +4,7 @@
 
 			<nuxt-link to="/" class="brand">
 				<span class="brand"><img src="../assets/logo.png" alt=""></span>
-				<p>UX Designer . Sofware Dev</p>
+				<p>UI Designer . Sofware Developer</p>
 			</nuxt-link>
 
 			<nav class="nav ">
@@ -351,6 +351,7 @@ export default {
 	transform: translateX(-50%);
 	top: 1.7rem;
 	background: transparent;
+	border:2px solid transparent;
 	-webkit-transition: all 0.5s ease;
 	-o-transition: all 0.5s ease;
 	transition: all 0.5s ease;
@@ -359,7 +360,8 @@ export default {
 .header .nav a:hover:before,
 .header .nav a.active:before,
 .header .nav a.nuxt-link-exact-active:before {
-	background: var(--defaultColor);
+		background: transparent;
+		border:1px solid  var(--defaultColor);
 }
 
 @media screen and (max-width: 768px) {

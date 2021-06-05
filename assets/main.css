@@ -1125,7 +1125,7 @@ div.highlight {
 }
 
 .project-card {
-  min-height: 350px;
+  min-height: 220px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -1134,7 +1134,7 @@ div.highlight {
   border-radius: 0;
   box-shadow: 13px 32px 36px -14px hsla(0, 0%, 70%, 0.3);
   transition: 0.4s ease-in-out;
-  border-radius: 2rem;
+  border-radius: 6px;
 
 }
 
@@ -1175,8 +1175,16 @@ div.highlight {
   background: #60a3bc;
 }
 
+.is-blue {
+  background: #355396;
+}
+
 .is-dsc {
   background: #0a192f;
+}
+
+.is-son {
+  background: #0b5cae;
 }
 
 .is-io {
@@ -1197,6 +1205,7 @@ div.highlight {
 }
 
 .design-card {
+  position: relative;
   display: flex;
   align-items: center;
   padding: 0;
@@ -1209,10 +1218,26 @@ div.highlight {
   width: 100%;
   min-height: 450px;
   object-fit: cover;
-  border-radius: 0;
   box-shadow: 13px 32px 36px -14px hsla(0, 0%, 70%, 0.3);
   transition: 0.4s ease-in-out;
-  border-radius: 2rem;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+
+.design-card .info {
+  background: #fff;
+  box-shadow: 13px 32px 36px -14px hsla(0, 0%, 70%, 0.3);
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  min-height: 120px;
+  display: flex;
+  align-items: center;
+}
+
+.design-card .info p {
+  font-size: 1rem;
+  color: var(--primaryColor);
+  padding: 1rem;
 }
 
 img.single {
@@ -1236,6 +1261,10 @@ img.single {
   .project-card {
     padding: 1rem;
     min-height: 250px;
+  }
+
+  .design-card {
+    margin: 2rem auto
   }
 
   .design-card img {

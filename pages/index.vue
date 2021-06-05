@@ -10,7 +10,7 @@
           <div>
             <nuxt-link class="og-link--button" to="/contact">
 
-             Say Hello <span class="ti-arrow-right"></span>
+              Say Hello <span class="ti-arrow-right"></span>
 
             </nuxt-link>
           </div>
@@ -20,145 +20,186 @@
 
     </section>
     <div class="bg--cta">
-    <section class="og-section">
-      <div class="og-container">
-        <div class="og-section--heading is-relative animate__animated animate__fadeInDownBig">
-          <h1 class="title">Personal Projects —</h1>
-          <h1 class="cover-text">Personal Projects</h1>
-          <p class="info">Collection of some of my most recent personal projects and works</p>
-        </div>
-        <div class="og-section--heading" data-aos="slide-up" data-aos-easing="ease">
-          <h1 class="sub-title">Web <span class="period"></span></h1>
-        </div>
-        <div class="row" data-aos="slide-up" data-aos-easing="ease">
-          <div class="column">
-            <div class="project-card is-dsc" lazy-background>
-              <a href="https://getcolr.xyz" target="_blank">
-                <h1 class="title">GetColr <br>
+      <section class="og-section">
+        <div class="og-container">
+          <div class="og-section--heading is-relative animate__animated animate__fadeInDownBig">
+            <h1 class="title">Personal Projects —</h1>
+            <h1 class="cover-text">Personal Projects</h1>
+            <p class="info">Collection of some of my most recent personal projects and works</p>
+          </div>
+          <div class="og-section--heading" data-aos="slide-up" data-aos-easing="ease">
+            <h1 class="sub-title">Web <span class="period"></span></h1>
+          </div>
+          <div class="row" data-aos="slide-up" data-aos-easing="ease">
+            <div class="column">
+              <div class="project-card is-dsc" lazy-background>
+                <a href="https://getcolr.xyz" target="_blank">
+                  <h1 class="title">GetColr <br>
                   </h1>
 
-                <p class="desc">A Web App that easily helps you generate colours from an image </p>
-              </a>
-            </div>
-          </div>
-          <div class="column">
-            <div class="project-card is-io" lazy-background>
-              <a href="https://iohub.ng" target="_blank">
-                <h1 class="title">ioHub <br>
-                  </h1>
-                <p class="desc">Website for ioHub, a creative agency focused on UI/UX, Web Design and Web Development
-                  services.</p>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="row" data-aos="slide-up" data-aos-easing="ease">
-          <div class="column">
-            <div class="project-card is-dupian" lazy-background>
-              <a href="https://everylink.space" target="_blank">
-               
-                <h1 class="title">Everylink <br>
-                  </h1>
-
-                <p class="desc">Everylink is a super simple URL shortener specially designed and developed for event
-                  organizers and social media enthusiasts to give them a fast way to easily share clean content URLs</p>
-              </a>
-            </div>
-          </div>
-          <div class="column">
-            <div class="project-card is-livid" lazy-background>
-              <a href="https://ogurinkaben.github.io/krowdback" target="_blank">
-                <h1 class="title">krowdback <br>
-                 </h1>
-                <p class="desc">krowdback is a one-page HTML template for a crowd funding platform that  helps you get started with sourcing for financial help or donating to a worth cause.</p>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="og-section">
-      <div class="og-container">
-        <div class="og-section--heading" data-aos="slide-up" data-aos-easing="ease">
-          <h1 class="sub-title">Design <span class="period"></span></h1>
-        </div>
-                <div class="row" data-aos="slide-up" data-aos-easing="ease">
-          <div class="column">
-            <div class="design-card">
-               <a href="https://dribbble.com/shots/14868094-Macbuddy/attachments/6579205?mode=media" target="_blank">
-              <div>
-                <img data-src="https://res.cloudinary.com/simplytammy/image/upload/v1610052334/b21f6ae8aa6d268b01737d1208815103.png" alt="Macbudyy" v-lazy-load>
-
-              </div>
-               </a>
-            </div>
-          </div>
-          <div class="column">
-            <div class="design-card">
-              <a href="#!">
-              <div>
-                <img data-src="https://res.cloudinary.com/simplytammy/image/upload/v1611012304/melvin_manni.png" alt="Dyces Mobile" v-lazy-load>
-
-              </div>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="row" data-aos="slide-up" data-aos-easing="ease">
-          <div class="column">
-            <div class="design-card">
-               <a href="#!">
-              <div>
-                <img data-src="../assets/img/design-cards/taskAppUI.png" alt="Task App UI" v-lazy-load>
-
-              </div>
-               </a>
-            </div>
-          </div>
-          <div class="column">
-            <div class="design-card">
-              <a href="https://dribbble.com/shots/10496495-Fintech-mobile-app-UI" target="_blank">
-              <div>
-                <img data-src="../assets/img/design-cards/dyces_mobile.png" alt="Dyces Mobile" v-lazy-load>
-
-              </div>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="row" data-aos="slide-up" data-aos-easing="ease">
-          <div class="column">
-            <div class="design-card">
-              <a href="https://dribbble.com/shots/14892340-Headphone-E-commerce-Design" target="_blank">
-              <div>
-                <img data-src="https://res.cloudinary.com/simplytammy/image/upload/v1610052301/decf88b968cd98f4e1d1b06dc4be3e63.png" alt="Skull Candy" v-lazy-load>
-
-              </div>
-              </a>
-            </div>
-          </div>
-          <div class="column">
-            <div class="design-card">
-                <a href="https://dribbble.com/shots/14872495-JBL-Xtreme-2-Product-Page" target="_blank">
-              <div>
-                <img data-src="https://res.cloudinary.com/simplytammy/image/upload/v1610052720/40220e165f260f7da0ddedd3a3f2f672.png" alt="JBL Xtreme 2" v-lazy-load>
-              </div>
+                  <p class="desc">A Web App that easily helps you generate colours from an image </p>
                 </a>
+              </div>
+            </div>
+            <div class="column">
+              <div class="project-card is-io" lazy-background>
+                <a href="https://iohub.ng" target="_blank">
+                  <h1 class="title">ioHub <br>
+                  </h1>
+                  <p class="desc">Website for ioHub, a creative agency focused on UI/UX, Web Design and Web Development
+                    services.</p>
+                </a>
+              </div>
             </div>
           </div>
+          <div class="row" data-aos="slide-up" data-aos-easing="ease">
+            <div class="column">
+              <div class="project-card is-dupian" lazy-background>
+                <a href="https://everylink.space" target="_blank">
 
+                  <h1 class="title">Everylink <br>
+                  </h1>
+
+                  <p class="desc">Everylink is a super simple URL shortener specially designed and developed for event
+                    organizers and social media enthusiasts to give them a fast way to easily share clean content URLs</p>
+                </a>
+              </div>
+            </div>
+            <div class="column">
+              <div class="project-card is-livid" lazy-background>
+                <a href="https://ogurinkaben.github.io/krowdback" target="_blank">
+                  <h1 class="title">krowdback <br>
+                  </h1>
+                  <p class="desc">krowdback is a one-page HTML template for a crowd funding platform that helps you get started with sourcing for financial help or donating to a worth cause.</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row" data-aos="slide-up" data-aos-easing="ease">
+            <div class="column">
+              <div class="project-card is-blue" lazy-background>
+                <a href="https://www.kyleads.com/" target="_blank">
+
+                  <h1 class="title">Kyleads <br>
+                  </h1>
+
+                  <p class="desc">Mockup to code implementation of the Homepage, Blog and other components for Kyleads: a Popup And Quiz Maker Built To Generate More Leads - Faster</p>
+                </a>
+              </div>
+            </div>
+            <div class="column">
+              <div class="project-card is-son" lazy-background>
+                <a href="https://sonergy.io/" target="_blank">
+                  <h1 class="title">Songery <br>
+                  </h1>
+                  <p class="desc">Homepage website development for Sonergy, a blockchain-based data integrity protocol that connects businesses, researchers, and data providers to access quality and trustless data that will inform their strategic business decisions.</p>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <section class="og-section">
+        <div class="og-container">
+          <div class="og-section--heading" data-aos="slide-up" data-aos-easing="ease">
+            <h1 class="sub-title">Design <span class="period"></span></h1>
+          </div>
+          <div class="row" data-aos="slide-up" data-aos-easing="ease">
+            <div class="column">
+              <div class="design-card">
+                <a href="https://dribbble.com/shots/15028735-Debtor-Tracker" target="_blank">
+                  <div>
+                    <img data-src="https://cdn.dribbble.com/users/4073305/screenshots/15028735/media/8d03b22da58587dea128424d46c9eed3.png" alt="Payback" v-lazy-load>
+                    <div class="info">
+                      <p>Mobile App Design for a debtor tracker application which aids users keep track of sent out loans as well as receive loans from their peers</p>
+                    </div>
+
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="column">
+              <div class="design-card">
+                <a href="#!">
+                  <div>
+                    <img data-src="https://res.cloudinary.com/simplytammy/image/upload/v1611012304/melvin_manni.png" alt="Dyces Mobile" v-lazy-load>
+                    <div class="info">
+                      <p>Personal Portfolio Design for Melvin, a Web Developer who focuses on ReactJS and NodeJS as well as React Native</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row" data-aos="slide-up" data-aos-easing="ease">
+            <div class="column">
+              <div class="design-card">
+                <a href="#!">
+                  <div>
+                    <img data-src="../assets/img/design-cards/taskAppUI.png" alt="Task App UI" v-lazy-load>
+                     <div class="info">
+                      <p>
+                        A task management app for productive individuals and teams designed to easily help them manage and plan projects with ease
+                      </p>
+                    </div>
+
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="column">
+              <div class="design-card">
+                <a href="https://dribbble.com/shots/10496495-Fintech-mobile-app-UI" target="_blank">
+                  <div>
+                    <img data-src="../assets/img/design-cards/dyces_mobile.png" alt="Dyces Mobile" v-lazy-load>
+                     <div class="info">
+                      <p>Mobile app design for an online wallet which provides an easy and flexible way to save and manage funds while investing and making profit</p>
+                    </div>
+
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row" data-aos="slide-up" data-aos-easing="ease">
+            <div class="column">
+              <div class="design-card">
+                <a href="https://dribbble.com/shots/14892340-Headphone-E-commerce-Design" target="_blank">
+                  <div>
+                    <img data-src="https://res.cloudinary.com/simplytammy/image/upload/v1610052301/decf88b968cd98f4e1d1b06dc4be3e63.png" alt="Skull Candy" v-lazy-load>
+                     <div class="info">
+                      <p>E-commerce website design for a Headphone shop for individuals with great love for sound </p>
+                    </div>
+
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="column">
+              <div class="design-card">
+                <a href="https://dribbble.com/shots/15500679-Array-HR" target="_blank">
+                  <div>
+                    <img data-src="https://cdn.dribbble.com/users/4073305/screenshots/15500679/media/89c270988c422acffc7c9d91898f7b74.png" alt="JBL Xtreme 2" v-lazy-load>
+                     <div class="info">
+                      <p>Early Access page for a HR management SAAS which focuses to ease recruitment, giving you more flexibility and allowing you to concentrate on what matters most.</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
     </div>
     <div class="">
       <div class="og-section  is-flex flex-center justify-center text-is-center ">
         <div class="og-section--heading">
           <h1 class="title">Want to see more of what I have done<span class="text-is-primary">?</span></h1>
           <div class=" text-is-center ">
-          <nuxt-link class="og-link--button text-default  text-is-center " to="/contact">
+            <nuxt-link class="og-link--button text-default  text-is-center " to="/contact">
 
-             Leave a message <span class="ti-arrow-right"></span>
+              Leave a message <span class="ti-arrow-right"></span>
 
             </nuxt-link>
           </div>
@@ -250,7 +291,6 @@
       }
     }
   }
-
 </script>
 
 <style>
@@ -317,5 +357,4 @@
       margin-top: -270px;
     }
   }
-
 </style>
