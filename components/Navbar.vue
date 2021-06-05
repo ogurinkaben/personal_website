@@ -125,6 +125,8 @@ export default {
 	background: rgba(0, 9, 27, 0.7);
 	z-index: 100;
 	padding:0 1rem;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
 }
 
 .header {
