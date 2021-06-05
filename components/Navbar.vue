@@ -1,5 +1,6 @@
 <template>
-	<div class="navbar is-relative">
+	<div class=" is-relative">
+		<div class="navbar">
 		<header class="header og-container" id="top">
 
 			<nuxt-link to="/" class="brand">
@@ -24,6 +25,7 @@
 			</div>
 
 		</header>
+		</div>
 
 			<div id="myNav" class="overlay">
 				<div class="overlay-content">
@@ -126,7 +128,8 @@ export default {
 	background: rgba(0, 9, 27, 0.7);
 	z-index: 100;
 	padding:0 1rem;
-
+	  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
 }
 
 .header {
@@ -135,6 +138,7 @@ export default {
 	justify-content: space-between;
 	min-height: 40px;
 	align-items: center;
+
 }
 
 .overlay {
@@ -145,12 +149,15 @@ export default {
 	bottom: 0;
 	left: 0;
 	background-color: #00091b;
+		background: rgba(0, 9, 27, 0.7);
 	visibility: hidden;
 	transition: height 0.35s, visibility 0.35s, height 0.35s;
 	overflow-x: hidden;
 	transition: 0.5s;
 	border-top-right-radius: 3rem;
 	border-top-left-radius: 3rem;
+		  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
 }
 
 
