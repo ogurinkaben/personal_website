@@ -28,7 +28,7 @@
             <p class="info">Collection of some of my most recent personal projects and works</p>
           </div>
           <div class="og-section--heading" data-aos="slide-up" data-aos-easing="ease">
-            <h1 class="sub-title">Web <span class="period"></span></h1>
+            <h1 class="sub-title">Web Development<span class="period"></span></h1>
           </div>
           <div class="row" data-aos="slide-up" data-aos-easing="ease">
             <div class="column">
@@ -102,7 +102,7 @@
       <section class="og-section">
         <div class="og-container">
           <div class="og-section--heading" data-aos="slide-up" data-aos-easing="ease">
-            <h1 class="sub-title">Design <span class="period"></span></h1>
+            <h1 class="sub-title">UI Design <span class="period"></span></h1>
           </div>
           <div class="row" data-aos="slide-up" data-aos-easing="ease">
             <div class="column">

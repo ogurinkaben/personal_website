@@ -1184,7 +1184,7 @@ div.highlight {
 }
 
 .is-son {
-  background: #0b5cae;
+  background: #1d593c;
 }
 
 .is-io {
@@ -1229,7 +1229,7 @@ div.highlight {
   box-shadow: 13px 32px 36px -14px hsla(0, 0%, 70%, 0.3);
   border-bottom-right-radius: 6px;
   border-bottom-left-radius: 6px;
-  min-height: 120px;
+  min-height: 150px;
   display: flex;
   align-items: center;
 }
