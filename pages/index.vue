@@ -111,7 +111,7 @@
                   <div>
                     <img data-src="https://cdn.dribbble.com/users/4073305/screenshots/15028735/media/8d03b22da58587dea128424d46c9eed3.png" alt="Payback" v-lazy-load>
                     <div class="info">
-                      <p>Mobile App Design for a debtor tracker application which aids users keep track of sent out loans as well as receive loans from their peers</p>
+                      <p>Mobile app design for a debtor tracker application that allows users to keep track of loans sent out as well as loans received from peers.</p>
                     </div>
 
                   </div>
@@ -124,7 +124,7 @@
                   <div>
                     <img data-src="https://res.cloudinary.com/simplytammy/image/upload/v1611012304/melvin_manni.png" alt="Dyces Mobile" v-lazy-load>
                     <div class="info">
-                      <p>Personal Portfolio Design for Melvin, a Web Developer who focuses on ReactJS and NodeJS as well as React Native</p>
+                      <p>Personal Portfolio Design Created to provide a beautiful representation of Melvin's skillset as a React/Nodejs Developer.</p>
                     </div>
                   </div>
                 </a>
@@ -139,7 +139,7 @@
                     <img data-src="../assets/img/design-cards/taskAppUI.png" alt="Task App UI" v-lazy-load>
                      <div class="info">
                       <p>
-                        A task management app for productive individuals and teams designed to easily help them manage and plan projects with ease
+                      A task management app for productive individuals and teams that allows them to easily manage and plan projects.
                       </p>
                     </div>
 
@@ -153,7 +153,7 @@
                   <div>
                     <img data-src="../assets/img/design-cards/dyces_mobile.png" alt="Dyces Mobile" v-lazy-load>
                      <div class="info">
-                      <p>Mobile app design for an online wallet which provides an easy and flexible way to save and manage funds while investing and making profit</p>
+                      <p>Design of a mobile app for an online wallet that provides an easy and flexible way to save and manage funds while investing and profiting.</p>
                     </div>
 
                   </div>
@@ -168,7 +168,7 @@
                   <div>
                     <img data-src="https://res.cloudinary.com/simplytammy/image/upload/v1610052301/decf88b968cd98f4e1d1b06dc4be3e63.png" alt="Skull Candy" v-lazy-load>
                      <div class="info">
-                      <p>E-commerce website design for a Headphone shop for individuals with great love for sound </p>
+                      <p>E-commerce website design for a Headphone store for people who are passionate about great sound.</p>
                     </div>
 
                   </div>
@@ -181,7 +181,7 @@
                   <div>
                     <img data-src="https://cdn.dribbble.com/users/4073305/screenshots/15500679/media/89c270988c422acffc7c9d91898f7b74.png" alt="JBL Xtreme 2" v-lazy-load>
                      <div class="info">
-                      <p>Early Access page for a HR management SAAS which focuses to ease recruitment, giving you more flexibility and allowing you to concentrate on what matters most.</p>
+                      <p>Early Access page for a SAAS for HR management that focuses on easing recruitment, giving you more flexibility, and allowing you to focus on what matters most.</p>
                     </div>
                   </div>
                 </a>
