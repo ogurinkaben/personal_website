@@ -109,7 +109,7 @@
      				<p>UX Research (Intern)</p>
      			</div>
      			<div class="time">
-     				<h4>Feb, 2021 - Present</h4>
+     				<h4>Feb, 2021 - May 2021</h4>
      			</div>
      		</li>
      		<li>
@@ -118,7 +118,7 @@
      				<p>User Interface Designer (Contract)</p>
      			</div>
      			<div class="time">
-     				<h4>Feb, 2021 - May 2021</h4>
+     				<h4>Feb, 2021 - Present</h4>
      			</div>
      		</li>
 
