@@ -21,7 +21,7 @@
       <div v-cloak class="is-relative">
         <div @click="navigate($event); alerts($event);">
           <div v-for="(testimonial, index) in testimonials" :key="testimonial.id">
-            <transition-group name="fade" v-if="show == index">
+            <transition-group name="list" v-if="show == index">
               <div :key="testimonial.id" class="testimonial-content is-relative">
               <p class="body is-relative"><span class="quote">"</span>{{testimonial.content}} </p>
               <h3 class="name">{{testimonial.name}} <br> ({{testimonial.country}}) </h3>
@@ -120,37 +120,13 @@
     }
   }
 
-.bounce-enter-active {
-  animation: bounce-in .5s;
+.list-enter-active, .list-leave-active {
+  transition: all 1s;
 }
-.bounce-leave-active {
-  animation: bounce-in .5s reverse;
+.list-enter, .list-leave-to {
+  opacity: 0;
+  transform: translateY(30px);
 }
-@keyframes bounce-in {
-  0% {
-    transform: scale(0);
-  }
-  50% {
-    transform: scale(1.5);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-  .fade-up-enter-active,
-  .fade-up-leave-active {
-    transition: all 0.2s ease-in-out;
-    height: 0;
-  }
-
-  .fade-up-enter,
-  .fade-up-leave-to {
-    height: 0;
-    transform: translateY(-10px);
-    transition: all 0.2s ease-in-out;
-    opacity: 0;
-  }
-
   .testimonials {
     display: flex;
     justify-content: center;
@@ -267,6 +243,7 @@
     font-weight: 400;
     color: #1c1c1c;
     z-index: 10;
+    transition: 0.4s ease-in-out;
   }
 
   .testimonial-content .body .quote {
