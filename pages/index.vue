@@ -55,19 +55,20 @@
           <div class="row" data-aos="slide-up" data-aos-easing="ease">
             <div class="column">
               <div class="project-card is-dupian" lazy-background>
-                <a href="https://everylink.space" target="_blank">
+                <a href="https://chrome.google.com/webstore/detail/cool-chrome-landing-page/bbhbmkeopfdilmkndmngkahhcocjkbfg?hl=en&authuser=0" target="_blank">
 
-                  <h1 class="title">Everylink <br>
+                  <h1 class="title">Cool chrome <br>
                   </h1>
 
-                  <p class="desc">Everylink is a super simple URL shortener specially designed and developed for event
-                    organizers and social media enthusiasts to give them a fast way to easily share clean content URLs</p>
+                  <p class="desc">
+                    The default chrome landing page is boring,so I decided to make a simple extension that allows a custom new tab screen for Chrome Web Browser with a simple timer and dynamic backgrounds (WIP)
+                  </p>
                 </a>
               </div>
             </div>
             <div class="column">
               <div class="project-card is-livid" lazy-background>
-                <a href="https://ogurinkaben.github.io/krowdback" target="_blank">
+                <a href="https://git.ogurinkabenjamin.com/krowdback" target="_blank">
                   <h1 class="title">krowdback <br>
                   </h1>
                   <p class="desc">krowdback is a one-page HTML template for a crowd funding platform that helps you get started with sourcing for financial help or donating to a worth cause.</p>
