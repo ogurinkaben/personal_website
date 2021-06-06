@@ -14,7 +14,7 @@
       <div class="og-container animate__animated animate__fadeInUpBig">
         <div class="og-section--heading">
           <h1 class="sub-title">Leave a message <span class="period"></span></h1>
-          <p class="info">Typically replies within the day!</p>
+          <p class="info">I will reply within <span class="text-is-primary">24hours</span></p>
           <p class="info-text">(All fields are required)</p>
         </div>
         <form class="pt half-width og-form-area" @submit.prevent="sendMessage">
