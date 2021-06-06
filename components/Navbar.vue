@@ -342,7 +342,7 @@
     font-weight: normal;
     text-decoration: none;
     display: inline-block;
-    margin: 4px 4px 4px 0;
+    margin: 4px 16px 4px 0;
     transition: 0.8s ease-in-out;
 
   }
