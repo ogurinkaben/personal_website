@@ -1,10 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@200;400;600;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css');
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600;700&display=swap');
-
 
 @font-face {
   font-family: EurostileBold;
@@ -42,7 +38,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lora', serif;
+  font-family: 'EurostileBold', sans-serif;
 }
 
 a,
@@ -52,7 +48,7 @@ ul,
 li,
 span,
 p {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Overpass', sans-serif;
 }
 
 a:focus,
@@ -540,7 +536,7 @@ span.scroll::before {
   font-size: 28px;
   font-weight: 600;
   color: var(--primaryColor);
-  font-family: 'Lora', serif;
+  font-family: 'EurostileBold', sans-serif;
   margin: 1rem 0;
 }
 
@@ -966,7 +962,7 @@ div.highlight {
 .og-form label {
   display: block;
   font-size: 0.9rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Overpass', sans-serif;
   color: #888;
 }
 
