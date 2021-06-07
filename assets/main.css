@@ -24,7 +24,7 @@
 
 html,
 body {
-  background: url('./img/bg/body.png');
+  /* background: url('./img/bg/body.png'); */
   background-size: contain;
   background-repeat: repeat;
   background-attachment: fixed;
@@ -127,6 +127,10 @@ table {
   background: #fff !important;
 }
 
+.bg--dark {
+  background: var(--primaryColor);
+}
+
 .bg--cta {
   background: url('./img/bg/cta.png');
   background-attachment: fixed;
@@ -204,8 +208,8 @@ table {
 
 span.scroll {
   position: absolute;
-  bottom: 0.7rem;
-  left: 0.6rem;
+  bottom: -1.5rem;
+  left: 50%;
   width: 30px;
   height: 50px;
   margin-left: -15px;
@@ -753,6 +757,7 @@ div.highlight {
   padding: 5rem 0 0 0;
   max-width: 30vw;
   color: #f1f1f1;
+
 }
 
 
@@ -762,6 +767,11 @@ div.highlight {
   filter: gray;
   -webkit-filter: grayscale(100%);
   opacity: 0.7;
+}
+
+.og-hero.home .og-hero--content {
+  text-align: center;
+  margin: 0 auto;
 }
 
 .og-hero.sm,
@@ -775,6 +785,7 @@ div.highlight {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+
 }
 
 .og-hero.versions {
@@ -797,8 +808,8 @@ div.highlight {
 
 .og-hero.about {
   background: linear-gradient(to bottom, rgba(0, 9, 27, 0.9), rgba(0, 9, 27, 0.9)),
-    url('../assets/img/page-images/me.png');
-  background-position: top center;
+    url('../assets/img/bg/IMG_20210424_192134_239.jpg');
+  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -813,8 +824,8 @@ div.highlight {
 
 .og-hero.contact {
   background: linear-gradient(to bottom, rgba(0, 9, 27, 0.9), rgba(0, 9, 27, 0.9)),
-    url('../assets/img/bg/contact.png');
-  background-position: top center;
+    url('../assets/img/bg/IMG_20210513_210105_235.jpg');
+  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -1168,13 +1179,17 @@ div.highlight {
 }
 
 .project-card .desc {
-  font-size: 16px;
+  font-size: 1rem;
   font-family: 'Overpass', sans-serif;
   margin: 0;
 }
 
 .is-dupian {
   background: #60a3bc;
+}
+
+.is-carmine {
+  background: #DD5144;
 }
 
 .is-blue {
@@ -1239,6 +1254,7 @@ div.highlight {
 .design-card .info p {
   font-size: 1rem;
   color: var(--primaryColor);
+  font-family: 'Overpass', sans-serif;
   padding: 1rem;
 }
 

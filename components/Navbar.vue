@@ -125,7 +125,7 @@
     left: 0;
     width: 100%;
     background: rgba(0, 9, 27, 0.7);
-    z-index: 100;
+    z-index: 1000;
     padding: 0 1rem;
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);

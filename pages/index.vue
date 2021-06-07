@@ -22,14 +22,14 @@
     <div class="bg--cta">
       <section class="og-section">
         <div class="og-container">
-          <div class="og-section--heading is-relative animate__animated animate__fadeInDownBig">
+          <!-- <div class="og-section--heading is-relative animate__animated animate__fadeInDownBig">
             <h1 class="title">Personal Projects —</h1>
             <h1 class="cover-text">Personal Projects</h1>
             <p class="info">Collection of some of my most recent personal projects and works</p>
           </div>
           <div class="og-section--heading" data-aos="slide-up" data-aos-easing="ease">
             <h1 class="sub-title">Web Development<span class="period"></span></h1>
-          </div>
+          </div> -->
           <div class="row" data-aos="slide-up" data-aos-easing="ease">
             <div class="column">
               <div class="project-card is-dsc" lazy-background>
@@ -54,7 +54,7 @@
           </div>
           <div class="row" data-aos="slide-up" data-aos-easing="ease">
             <div class="column">
-              <div class="project-card is-dupian" lazy-background>
+              <div class="project-card is-carmine" lazy-background>
                 <a href="https://chrome.google.com/webstore/detail/cool-chrome-landing-page/bbhbmkeopfdilmkndmngkahhcocjkbfg?hl=en&authuser=0" target="_blank">
 
                   <h1 class="title">Cool chrome <br>
@@ -102,9 +102,9 @@
       </section>
       <section class="og-section">
         <div class="og-container">
-          <div class="og-section--heading" data-aos="slide-up" data-aos-easing="ease">
+          <!-- <div class="og-section--heading" data-aos="slide-up" data-aos-easing="ease">
             <h1 class="sub-title">UI Design <span class="period"></span></h1>
-          </div>
+          </div> -->
           <div class="row" data-aos="slide-up" data-aos-easing="ease">
             <div class="column">
               <div class="design-card">
@@ -193,10 +193,10 @@
         </div>
       </section>
     </div>
-    <div class="">
+    <div class="bg--dark">
       <div class="og-section  is-flex flex-center justify-center text-is-center ">
         <div class="og-section--heading">
-          <h1 class="title">Want to see more of what I have done<span class="text-is-primary">?</span></h1>
+          <h1 class="title text-is-white">Want to see more of what I have done<span class="text-is-primary">?</span></h1>
           <div class=" text-is-center ">
             <nuxt-link class="og-link--button text-default  text-is-center " to="/contact">
 
