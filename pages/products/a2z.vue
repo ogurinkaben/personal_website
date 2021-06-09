@@ -148,7 +148,6 @@
   .product-info p {
     color: #808080;
     font-size: 1rem;
-    opacity: 0.;
   }
 
   .product-info h3 {
