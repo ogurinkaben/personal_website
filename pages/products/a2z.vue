@@ -17,7 +17,7 @@
     <div class="">
       <section class="og-section is--flex">
         <div class="og-container">
-          <div class="row start" data-aos="slide-up" data-aos-easing="ease">
+          <div class="row start">
             <div class="column">
               <div class="product-info">
                 <h3>Simple</h3>
