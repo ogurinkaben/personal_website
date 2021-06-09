@@ -70,7 +70,7 @@
           },
           {
             property: 'og:image',
-            content: 'https://pbs.twimg.com/profile_images/1283040894808215553/CVvTaxEl_400x400.jpg'
+            content: 'https://res.cloudinary.com/simplytammy/image/upload/v1623217825/cover/Cover.png'
           },
           {
             property: 'og:type',
@@ -78,7 +78,7 @@
           },
           {
             name: 'twitter:card',
-            content: 'https://pbs.twimg.com/profile_images/1283040894808215553/CVvTaxEl_400x400.jpg'
+            content: 'https://res.cloudinary.com/simplytammy/image/upload/v1623217825/cover/Cover.png'
           },
           {
             name: 'twitter:description',
@@ -86,7 +86,7 @@
           },
           {
             name: 'twitter:image',
-            content: 'https://pbs.twimg.com/profile_images/1283040894808215553/CVvTaxEl_400x400.jpg'
+            content: 'https://res.cloudinary.com/simplytammy/image/upload/v1623217825/cover/Cover.png'
           },
           {
             name: 'robots',

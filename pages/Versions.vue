@@ -121,11 +121,11 @@ export default {
         { name: 'description', content: 'I design User Interfaces and build Interactive applications that define experiences, products and brands.' },
         { property: 'og:title', content: "Ogurinka Benjamin - Website Versions" },
         { property: 'og:site_name', content: 'Ogurinka Benjamin' },
-        { property: 'og:image', content: 'https://pbs.twimg.com/profile_images/1283040894808215553/CVvTaxEl_400x400.jpg' },
+        { property: 'og:image', content: 'https://res.cloudinary.com/simplytammy/image/upload/v1623217825/cover/Cover.png' },
         { property: 'og:type', content: 'website' },
-        { name: 'twitter:card', content: 'https://pbs.twimg.com/profile_images/1283040894808215553/CVvTaxEl_400x400.jpg' },
+        { name: 'twitter:card', content: 'https://res.cloudinary.com/simplytammy/image/upload/v1623217825/cover/Cover.png' },
         { name: 'twitter:description', content: 'I design User Interfaces and build Interactive applications that define experiences, products and brands.' },
-        { name: 'twitter:image', content: 'https://pbs.twimg.com/profile_images/1283040894808215553/CVvTaxEl_400x400.jpg' },
+        { name: 'twitter:image', content: 'https://res.cloudinary.com/simplytammy/image/upload/v1623217825/cover/Cover.png' },
         { name: 'robots', content: 'index,follow' }
       ]
     }
