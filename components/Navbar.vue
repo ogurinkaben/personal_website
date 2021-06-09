@@ -368,7 +368,7 @@
   .header .nav a:hover:before,
   .header .nav a.active:before,
   .header .nav a.nuxt-link-exact-active:before {
-    background: transparent;
+    background: var(--defaultColor);
     border: 1px solid var(--defaultColor);
   }
 
