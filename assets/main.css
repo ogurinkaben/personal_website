@@ -413,6 +413,15 @@ span.scroll::before {
   border: none;
 }
 
+.og-button.bold {
+  padding: 0.8rem 1rem;
+  background: var(--defaultColor);
+  color: #fff;
+}
+
+.og-button.bold:hover {
+  opacity: 0.8;
+}
 
 .animate {
   background: transparent;

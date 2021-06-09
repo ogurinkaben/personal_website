@@ -1,12 +1,16 @@
 <template>
   <div class="products">
-    <section class="og-hero sm ">
+    <section class="og-hero">
       <Navbar />
       <div class="og-hero--content og-container is--centered">
         <div>
-        		<h1 class="title">Made with ❤️</h1>
-            <p class="info">Still working on this, check back later</p>
+          <h1 class="title">Minimal and Powerful link tracking and analytics for you</h1>
+          <p class="info">a2z (formerly everylink) is a super simple URL shortener/tracker made with ❤️ and specially designed and developed for content creators to give them a fast and simple way to easily share clean trackable content URLs</p>
+          <div class="pt">
+            <nuxt-link class="og-button bold" to="/contact">Request Access</nuxt-link>
+          </div>
         </div>
+          <span class="scroll"></span>
       </div>
 
     </section>
@@ -23,20 +27,20 @@
       Navbar,
       Footer,
     },
-        head() {
+    head() {
       return {
-        title: "Made by  - Ogurinka Benjamin",
+        title: "a2z by  - Ogurinka Benjamin",
         meta: [{
             name: 'description',
             content: 'A collection of products and projects I have built to make my life easier and in turn(maybe) make turn also help others in one way or another as well'
           },
           {
             property: 'og:title',
-            content: "Made by - Ogurinka Benjamin"
+            content: "a2z by  - Ogurinka Benjamin"
           },
           {
             property: 'og:site_name',
-            content: 'Made by - Ogurinka Benjamin'
+            content: 'Ogurinka Benjamin'
           },
           {
             property: 'og:image',
