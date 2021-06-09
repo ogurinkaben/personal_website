@@ -127,8 +127,8 @@
     background: rgba(0, 9, 27, 0.7);
     z-index: 1000;
     padding: 0 1rem;
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: saturate(150%) blur(7px);
+    backdrop-filter: saturate(150%) blur(7px);
   }
 
   .header {
@@ -155,8 +155,8 @@
     transition: 0.5s;
     border-top-right-radius: 3rem;
     border-top-left-radius: 3rem;
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: saturate(150%) blur(7px);
+    backdrop-filter: saturate(150%) blur(7px);
   }
 
 
@@ -312,7 +312,6 @@
     color: #fff;
     text-decoration: none;
     letter-spacing: 0;
-    font-family: 'Sacramento', cursive;
     padding: 0 0.2rem 0 0;
     line-height: 2.5rem;
   }
