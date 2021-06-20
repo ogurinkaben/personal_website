@@ -20,7 +20,7 @@
 
 html,
 body {
-  /* background: url('./img/bg/body.png'); */
+  background: url('./img/bg/body.png');
   background-size: contain;
   background-repeat: repeat;
   background-attachment: fixed;
@@ -885,10 +885,10 @@ div.highlight {
 }
 
 .og-hero .og-hero--content .title {
-  font-size: 3rem;
+  font-size: 2.4rem;
   font-weight: 900;
   margin-bottom: 1.4rem;
-  line-height: 3rem;
+  line-height: 2rem;
   font-family: 'EurostileBold', sans-serif;
 }
 
@@ -1203,7 +1203,7 @@ div.highlight {
 
 .project-card {
   position: relative;
-  min-height: 220px;
+  min-height: 250px;
   width: 100%;
   display: flex;
   align-items: center;
