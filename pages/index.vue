@@ -19,17 +19,14 @@
       </div>
 
     </section>
-    <div class="bg--cta">
+    <div class="">
       <section class="og-section">
         <div class="og-container">
-          <!-- <div class="og-section--heading is-relative animate__animated animate__fadeInDownBig">
-            <h1 class="title">Personal Projects —</h1>
-            <h1 class="cover-text">Personal Projects</h1>
-            <p class="info">Collection of some of my most recent personal projects and works</p>
+          <div class="og-section--heading is-relative animate__animated animate__fadeIn">
+            <h1 class="title">Recent Projects —</h1>
+            <h1 class="cover-text">Recent Projects</h1>
+            <p class="info">Collection of some of my most recent projects (both personal and client work)</p>
           </div>
-          <div class="og-section--heading" data-aos="slide-up" data-aos-easing="ease">
-            <h1 class="sub-title">Web Development<span class="period"></span></h1>
-          </div> -->
           <div class="row" data-aos="slide-up" data-aos-easing="ease">
             <div class="column">
               <div class="project-card is-dsc" lazy-background>
@@ -108,17 +105,20 @@
           <div class="row" data-aos="slide-up" data-aos-easing="ease">
             <div class="column">
               <div class="design-card">
-                <a href="https://dribbble.com/shots/15028735-Debtor-Tracker" target="_blank">
+                <a href="http://nft.orangegrove.finance" target="_blank">
                   <div>
-                    <img data-src="https://cdn.dribbble.com/users/4073305/screenshots/15028735/media/8d03b22da58587dea128424d46c9eed3.png" alt="Payback" v-lazy-load>
+                    <img data-src="https://res.cloudinary.com/simplytammy/image/upload/v1624207941/cover/1.png" alt="Task App UI" v-lazy-load>
                     <div class="info">
-                      <p>Mobile app design for a debtor tracker application that allows users to keep track of loans sent out as well as loans received from peers.</p>
+                      <p>
+                        NFT marketplace to buy and sell your digital art and content. Discover amazing creators, collect priceless digital artwork, mint your own NFTs, and sell to your fans.
+                      </p>
                     </div>
 
                   </div>
                 </a>
               </div>
             </div>
+
             <div class="column">
               <div class="design-card">
                 <a href="#!">
@@ -135,25 +135,24 @@
           <div class="row" data-aos="slide-up" data-aos-easing="ease">
             <div class="column">
               <div class="design-card">
-                <a href="#!">
+                <a href="https://dribbble.com/shots/15028735-Debtor-Tracker" target="_blank">
                   <div>
-                    <img data-src="../assets/img/design-cards/taskAppUI.png" alt="Task App UI" v-lazy-load>
-                     <div class="info">
-                      <p>
-                      A task management app for productive individuals and teams that allows them to easily manage and plan projects.
-                      </p>
+                    <img data-src="https://cdn.dribbble.com/users/4073305/screenshots/15028735/media/8d03b22da58587dea128424d46c9eed3.png" alt="Payback" v-lazy-load>
+                    <div class="info">
+                      <p>Mobile app design for a debtor tracker application that allows users to keep track of loans sent out as well as loans received from peers.</p>
                     </div>
 
                   </div>
                 </a>
               </div>
             </div>
+
             <div class="column">
               <div class="design-card">
                 <a href="https://dribbble.com/shots/10496495-Fintech-mobile-app-UI" target="_blank">
                   <div>
                     <img data-src="../assets/img/design-cards/dyces_mobile.png" alt="Dyces Mobile" v-lazy-load>
-                     <div class="info">
+                    <div class="info">
                       <p>Design of a mobile app for an online wallet that provides an easy and flexible way to save and manage funds while investing and profiting.</p>
                     </div>
 
@@ -168,7 +167,7 @@
                 <a href="https://dribbble.com/shots/14892340-Headphone-E-commerce-Design" target="_blank">
                   <div>
                     <img data-src="https://res.cloudinary.com/simplytammy/image/upload/v1610052301/decf88b968cd98f4e1d1b06dc4be3e63.png" alt="Skull Candy" v-lazy-load>
-                     <div class="info">
+                    <div class="info">
                       <p>E-commerce website design for a Headphone store for people who are passionate about great sound.</p>
                     </div>
 
@@ -181,7 +180,7 @@
                 <a href="https://dribbble.com/shots/15500679-Array-HR" target="_blank">
                   <div>
                     <img data-src="https://cdn.dribbble.com/users/4073305/screenshots/15500679/media/89c270988c422acffc7c9d91898f7b74.png" alt="JBL Xtreme 2" v-lazy-load>
-                     <div class="info">
+                    <div class="info">
                       <p>Early Access page for a SAAS for HR management that focuses on easing recruitment, giving you more flexibility, and allowing you to focus on what matters most.</p>
                     </div>
                   </div>
