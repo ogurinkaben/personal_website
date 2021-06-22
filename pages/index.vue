@@ -33,7 +33,7 @@
 												<p> Website for ioHub, a creative agency focused on UI/UX, Web Design and Web Development services. </p>
 												<div class="group">
 													<div class="tag">
-														<span>UI</span>
+														<span>UI Design</span>
 														<span>Web Dev</span>
 													</div>
 													<div class="arrow">
@@ -80,7 +80,7 @@
 												<p> Getcolr is a super simple, fast and minimal colour generator that helps you extract colours present in any image </p>
 												<div class="group">
 													<div class="tag">
-														<span>UI</span>
+														<span>UI Design</span>
 														<span>Web Dev</span>
 													</div>
 													<div class="arrow">
@@ -127,7 +127,7 @@
 												<p>Mobile app design for a debtor tracker application that allows users to keep track of loans sent out as well as loans received from peers.</p>
 												<div class="group">
 													<div class="tag">
-														<span>UI</span>
+														<span>UI Design</span>
 													</div>
 													<div class="arrow">
 														<i class="ti-arrow-right"></i>
@@ -149,7 +149,7 @@
 												<p>Design of a mobile app for an online wallet that provides an easy and flexible way to save and manage funds while investing and profiting.</p>
 												<div class="group">
 													<div class="tag">
-														<span>UI</span>
+														<span>UI Design</span>
 													</div>
 													<div class="arrow">
 														<i class="ti-arrow-right"></i>
@@ -195,7 +195,7 @@
 												<p> Homepage website development for Sonergy, a blockchain-based data integrity protocol that connects businesses, researchers, and data providers to access quality and trustless data that will inform their strategic business decisions. </p>
 												<div class="group">
 													<div class="tag">
-														<span>UI</span>
+														<span>UI Design</span>
 														<span>Web Dev</span>
 													</div>
 													<div class="arrow">
@@ -220,7 +220,7 @@
 												<p> NFT marketplace to buy and sell your digital art and content. Discover amazing creators, collect priceless digital artwork, mint your own NFTs, and sell to your fans. </p>
 												<div class="group">
 													<div class="tag">
-														<span>UI</span>
+														<span>UI Design</span>
 													</div>
 													<div class="arrow">
 														<i class="ti-arrow-right"></i>
@@ -241,7 +241,7 @@
 											<p>Personal Portfolio Design Created to provide a beautiful representation of Melvin's skillset as a React/Nodejs Developer.</p>
 											<div class="group">
 												<div class="tag">
-													<span>UI</span>
+													<span>UI Design</span>
 												</div>
 												<div class="arrow">
 													<i class="ti-arrow-right"></i>
@@ -264,7 +264,7 @@
 												<p>E-commerce website design for a Headphone store for people who are passionate about great sound.</p>
 												<div class="group">
 													<div class="tag">
-														<span>UI</span>
+														<span>UI Design</span>
 													</div>
 													<div class="arrow">
 														<i class="ti-arrow-right"></i>
@@ -286,7 +286,7 @@
 												<p>Early Access page for a SAAS for HR management that focuses on easing recruitment, giving you more flexibility, and allowing you to focus on what matters most.</p>
 												<div class="group">
 													<div class="tag">
-														<span>UI</span>
+														<span>UI Design</span>
 													</div>
 													<div class="arrow">
 														<i class="ti-arrow-right"></i>
