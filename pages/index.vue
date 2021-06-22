@@ -189,7 +189,7 @@
 							<div class="design-card">
 								<a href="https://sonergy.io/" target="_blank">
 									<div>
-										<img data-src="https://res.cloudinary.com/simplytammy/image/upload/v1624356439/ui-cover/sonergy.png" alt="Sonergy" v-lazy-load>
+										<img data-src="https://res.cloudinary.com/simplytammy/image/upload/v1624382521/ui-cover/sonergy.png" alt="Sonergy" v-lazy-load>
 										<div class="info">
 											<div class="wrapper">
 												<p> Homepage website development for Sonergy, a blockchain-based data integrity protocol that connects businesses, researchers, and data providers to access quality and trustless data that will inform their strategic business decisions. </p>
