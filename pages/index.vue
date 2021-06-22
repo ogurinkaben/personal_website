@@ -283,7 +283,7 @@
 										<img data-src="https://cdn.dribbble.com/users/4073305/screenshots/15500679/media/89c270988c422acffc7c9d91898f7b74.png" alt="Array-HR" v-lazy-load>
 										<div class="info">
 											<div class="wrapper">
-												<p>Early Access page for a SAAS for HR management that focuses on easing recruitment, giving you more flexibility, and allowing you to focus on what matters most.</p>
+												<p>Early Access page for a HR management SAAS  that focuses on easing recruitment, giving you more flexibility, and allowing you to focus on what matters most.</p>
 												<div class="group">
 													<div class="tag">
 														<span>UI Design</span>
