@@ -256,7 +256,7 @@
 					<div class="row" data-aos="slide-up" data-aos-easing="ease">
 						<div class="column">
 							<div class="design-card">
-								<a href="https://arrayhr.xyz" target="_blank">
+								<a href="https://dribbble.com/shots/14892340-Headphone-E-commerce-Design" target="_blank">
 									<div>
 										<img data-src="https://res.cloudinary.com/simplytammy/image/upload/v1610052301/decf88b968cd98f4e1d1b06dc4be3e63.png" alt="Skull Candy" v-lazy-load>
 										<div class="info">
@@ -278,7 +278,7 @@
 						</div>
 						<div class="column">
 							<div class="design-card">
-								<a href="https://dribbble.com/shots/15500679-Array-HR" target="_blank">
+								<a href="https://arrayhr.xyz" target="_blank">
 									<div>
 										<img data-src="https://cdn.dribbble.com/users/4073305/screenshots/15500679/media/89c270988c422acffc7c9d91898f7b74.png" alt="Array-HR" v-lazy-load>
 										<div class="info">
