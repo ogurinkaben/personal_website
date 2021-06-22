@@ -1294,12 +1294,12 @@ div.highlight {
   padding: 0;
   margin: 0 auto 0.4rem auto;
   border-radius: 0;
-
+  width: 100%;
 }
 
 .design-card img {
   width: 100%;
-  min-height: 450px;
+  height: 500px;
   object-fit: cover;
   box-shadow: 13px 32px 36px -14px hsla(0, 0%, 70%, 0.3);
   transition: 0.4s ease-in-out;
@@ -1308,20 +1308,71 @@ div.highlight {
 }
 
 .design-card .info {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  max-width: 70%;
   background: #fff;
   box-shadow: 13px 32px 36px -14px hsla(0, 0%, 70%, 0.3);
   border-bottom-right-radius: 6px;
   border-bottom-left-radius: 6px;
   min-height: 150px;
+  padding: 1rem;
   display: flex;
   align-items: center;
+}
+
+@media screen and (max-width:990px) {
+  .design-card .info {
+    max-width: 85%;
+  }
+}
+
+.design-card .info .group {
+  display: flex;
+  justify-content: space-between;
+  min-height: 1rem;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.design-card .info .arrow {
+  text-align: right;
+  opacity: 0;
+  transition: 0.4s ease-in-out;
+}
+
+.design-card .info .arrow i {
+  font-size: 1rem;
+  color: var(--defaultColor);
+}
+
+.design-card:hover .arrow {
+  opacity: 1;
+}
+
+.design-card .info .wrapper {
+  width: 100%;
+}
+
+.design-card .info .tag {
+  display: flex;
+}
+
+.design-card .info .tag span {
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  margin-right: 0.4rem;
+  border-radius: 0.6rem;
+  background: #ddd;
+  color: #00091b;
 }
 
 .design-card .info p {
   font-size: 1rem;
   color: var(--primaryColor);
   font-family: 'Overpass', sans-serif;
-  padding: 1rem;
+
 }
 
 img.single {
