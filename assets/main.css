@@ -95,15 +95,31 @@ table {
   padding: 0 5px;
 }
 
+.swal2-title {
+  font-family: 'EurostileBold', sans-serif !important;
+}
+
+.swal2-content {
+  font-family: 'Overpass', sans-serif !important;
+}
+
 .og-link--button {
   color: #f2f2f2;
   display: inline-flex;
   align-items: center;
-  min-height: 30px;
-  padding: 1rem 0;
+  min-height: 20px;
+  border-radius: 3rem;
+  padding: 0.75rem 1.4rem;
   border: none;
   background: transparent;
   cursor: pointer;
+  border: 2px solid var(--defaultColor);
+}
+
+.swal2-styled.swal2-confirm {
+  background: var(--defaultColor) !important;
+  padding: 0.75rem 2rem !important;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.12) !important;
 }
 
 .og-link--button span {
@@ -1016,6 +1032,7 @@ div.highlight {
   width: 100%;
   padding: 15px;
   border: 2px solid #ddd;
+  border-radius: 0.4rem;
   font-size: 16px;
   font-weight: 400;
   font-family: 'Overpass'sans-serif;
@@ -1040,7 +1057,7 @@ div.highlight {
   width: 0;
   height: 2px;
   background-color: var(--primaryColor);
-  ;
+  border-radius: 0.4rem;
   transition: 0.2s;
   transition-delay: 0.2s;
 }
@@ -1051,6 +1068,7 @@ div.highlight {
   right: auto;
   left: 0;
   transition-delay: 0.6s;
+  border-radius: 0.4rem;
 }
 
 .og-form-focus~.focus-border i:before,
@@ -1062,7 +1080,7 @@ div.highlight {
   width: 2px;
   height: 0;
   background-color: var(--primaryColor);
-  ;
+  border-radius: 0.4rem;
   transition: 0.2s;
 }
 
@@ -1072,6 +1090,7 @@ div.highlight {
   top: auto;
   bottom: 0;
   transition-delay: 0.4s;
+  border-radius: 0.4rem;
 }
 
 .og-form-focus:focus~.focus-border:before,
@@ -1079,6 +1098,7 @@ div.highlight {
   width: 100%;
   transition: 0.2s;
   transition-delay: 0.6s;
+
 }
 
 .og-form-focus:focus~.focus-border:after {
@@ -1089,6 +1109,7 @@ div.highlight {
 .og-form-focus:focus~.focus-border i:after {
   height: 100%;
   transition: 0.2s;
+  border-radius: 0.4rem;
 }
 
 .og-form-focus:focus~.focus-border i:after {

@@ -13,7 +13,7 @@
               <h1 class="blog-preview__title">{{article.title}}</h1>
               <p class="blog-preview__desc">{{article.description}}</p>
               <div class="pt">
-                <button @click="openArticle(article.id, article.slug)" class="preview-btn">Continue Reading <span class="ti-arrow-right"></span></button>
+                <button @click="openArticle(article.id, article.slug)" class="og-link--button">Continue Reading <span class="ti-arrow-right"></span></button>
               </div>
             </div>
           </div>

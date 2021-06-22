@@ -307,7 +307,7 @@
 				<div class="og-section--heading">
 					<h1 class="title text-is-white">Want to see more of what I have done<span class="text-is-primary">?</span></h1>
 					<div class=" text-is-center ">
-						<nuxt-link class="og-link--button text-default  text-is-center " to="/contact"> Leave a message <span class="ti-arrow-right"></span>
+						<nuxt-link class="og-link--button  text-is-center " to="/contact"> Leave a message <span class="ti-arrow-right"></span>
 						</nuxt-link>
 					</div>
 				</div>
