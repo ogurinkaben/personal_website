@@ -187,12 +187,12 @@
 						</div>
 						<div class="column">
 							<div class="design-card">
-								<a href="https://sonergy.io/" target="_blank">
+								<a href="#!" target="_blank">
 									<div>
-										<img data-src="https://res.cloudinary.com/simplytammy/image/upload/v1624382521/ui-cover/sonergy.png" alt="Sonergy" v-lazy-load>
+										<img data-src="https://res.cloudinary.com/simplytammy/image/upload/v1624385130/ui-cover/storjlabs.png" alt="Sonergy" v-lazy-load>
 										<div class="info">
 											<div class="wrapper">
-												<p> Homepage website development for Sonergy, a blockchain-based data integrity protocol that connects businesses, researchers, and data providers to access quality and trustless data that will inform their strategic business decisions. </p>
+												<p> File Browser service built as part of a technical exercise for Storj (a Decentralized cloud object storage that is affordable, easy to use, private and secure).</p>
 												<div class="group">
 													<div class="tag">
 														<span>UI Design</span>
