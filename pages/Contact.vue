@@ -62,7 +62,7 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="" style="  padding: 20px;">
+						<div class="" style="padding:15px;">
 							<div id="balls" v-if="isSending">
 								<div id="ball-1" class="circle"></div>
 								<div id="ball-2" class="circle"></div>
