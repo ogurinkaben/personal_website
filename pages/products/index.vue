@@ -40,7 +40,7 @@
           },
           {
             property: 'og:image',
-            content: 'https://res.cloudinary.com/simplytammy/image/upload/v1623217825/cover/Cover.png'
+            content: 'https://res.cloudinary.com/simplytammy/image/upload/v1624711222/persona/2.png'
           },
           {
             property: 'og:type',
@@ -48,7 +48,7 @@
           },
           {
             name: 'twitter:card',
-            content: 'https://res.cloudinary.com/simplytammy/image/upload/v1623217825/cover/Cover.png'
+            content: 'https://res.cloudinary.com/simplytammy/image/upload/v1624711222/persona/2.png'
           },
           {
             name: 'twitter:description',
@@ -56,7 +56,7 @@
           },
           {
             name: 'twitter:image',
-            content: 'https://res.cloudinary.com/simplytammy/image/upload/v1623217825/cover/Cover.png'
+            content: 'https://res.cloudinary.com/simplytammy/image/upload/v1624711222/persona/2.png'
           },
           {
             name: 'robots',
