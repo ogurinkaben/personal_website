@@ -302,7 +302,7 @@
 				</div>
 			</section>
 		</div>
-		<div class="bg--dark">
+		<div class="bg--cta">
 			<div class="og-section  is-flex flex-center justify-center text-is-center ">
 				<div class="og-section--heading">
 					<h1 class="title text-is-white">Want to see more of what I have done<span class="text-is-primary">?</span></h1>

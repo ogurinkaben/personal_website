@@ -108,8 +108,8 @@ table {
   display: inline-flex;
   align-items: center;
   min-height: 10px;
-  border-radius: 3rem;
-  padding: 0.75rem 0.9rem;
+  border-radius: 0.4rem;
+  padding: 0.75rem 2rem;
   border: none;
   background: transparent;
   cursor: pointer;
@@ -133,18 +133,19 @@ table {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   margin-left: 0.6rem;
   font-size: 1rem;
   color: #fff;
   background: var(--defaultColor) !important;
   border-radius: 50%;
-  transition: 0.5s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .og-link--button:hover span {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12) !important;
+  transform: rotate(360deg);
 }
 
 .bg--white {
@@ -156,7 +157,8 @@ table {
 }
 
 .bg--cta {
-  background: url('./img/bg/cta.png');
+  background: linear-gradient(to bottom, rgba(0, 9, 27, 0.6), rgba(0, 9, 27, 0.6)),
+    url('./img/bg/cta.png');
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;

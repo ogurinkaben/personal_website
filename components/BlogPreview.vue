@@ -1,7 +1,7 @@
 <template>
-  <div class="blog-preview og-section">
-    <!-- <div class="grid-bg "></div> -->
-    <div class="og-container blog-preview -container">
+  <div class="blog-preview og-section ">
+    <div class="grid-bg "></div>
+    <div class="og-container container">
       <div class="">
         <div class="og-section--heading is-relative">
           <h1 class="title text-is-white">Blog Post —</h1>
@@ -99,11 +99,10 @@ export default {
   align-items: center;
   min-height: 50vh;
   padding: 4rem 0;
-  background: var(--primaryColor);
-  background-color: var(--primaryColor);
-}
+    background: var(--primaryColor);
 
-.blog-preview .blog-preview -container {
+}
+ .blog-preview .container {
   position: relative;
   z-index: 100 !important;
   background: transparent;
