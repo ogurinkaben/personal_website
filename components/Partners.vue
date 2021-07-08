@@ -7,7 +7,7 @@
       </div>
       <div class="partners-grid-area">
         <div class="partners-grid">
-          <img data-src="../assets/img/partners/olete_logo.png" alt="Olete" v-lazy-load>
+          <img data-src="https://res.cloudinary.com/simplytammy/image/upload/v1625737145/partners/logo.png" alt="Olete" v-lazy-load>
           <img data-src="../assets/img/partners/codeit-logo-dark.png" alt="codeit" v-lazy-load>
           <img data-src="../assets/img/partners/fd_logo.png" alt="Fliredoth" v-lazy-load>
           <img data-src="../assets/img/partners/doa.png" alt="DOA Graphics" v-lazy-load>

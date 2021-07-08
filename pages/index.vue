@@ -163,21 +163,19 @@
 						</div>
 					</div>
 					<div class="row" data-aos="slide-up" data-aos-easing="ease">
-						<div class="column">
+									<div class="column">
 							<div class="design-card">
-								<a href="https://www.kyleads.com/" target="_blank">
-									<div>
-										<img data-src="https://res.cloudinary.com/simplytammy/image/upload/v1624355867/ui-cover/kyleads.png" alt="Kyleads" v-lazy-load>
-										<div class="info">
-											<div class="wrapper">
-												<p> Mockup to code implementation of the Homepage, Blog and other components for Kyleads: a Popup And Quiz Maker Built To Generate More Leads - Faster </p>
-												<div class="group">
-													<div class="tag">
-														<span>Web Dev</span>
-													</div>
-													<div class="arrow">
-														<i class="ti-arrow-right"></i>
-													</div>
+								<a href="https://hopeupindustries.com/" target="_blank">
+									<img data-src="https://res.cloudinary.com/simplytammy/image/upload/v1625737473/ui-cover/hopeup.png" alt="Hopeup Industries" v-lazy-load>
+									<div class="info">
+										<div class="wrapper">
+											<p>Website Update for Hopeup industries aimed at creating a modern and simple way of introducing the company's growth, vision and services to visitors and potential partners</p>
+											<div class="group">
+												<div class="tag">
+													<span>Web Development</span>
+												</div>
+												<div class="arrow">
+													<i class="ti-arrow-right"></i>
 												</div>
 											</div>
 										</div>
@@ -185,6 +183,7 @@
 								</a>
 							</div>
 						</div>
+
 						<div class="column">
 							<div class="design-card">
 								<a href="#!" target="_blank">
@@ -234,17 +233,19 @@
 						</div>
 						<div class="column">
 							<div class="design-card">
-								<a href="#!">
-									<img data-src="https://res.cloudinary.com/simplytammy/image/upload/v1611012304/melvin_manni.png" alt="Melvin Manni" v-lazy-load>
-									<div class="info">
-										<div class="wrapper">
-											<p>Personal Portfolio Design Created to provide a beautiful representation of Melvin's skillset as a React/Nodejs Developer.</p>
-											<div class="group">
-												<div class="tag">
-													<span>UI Design</span>
-												</div>
-												<div class="arrow">
-													<i class="ti-arrow-right"></i>
+								<a href="https://www.kyleads.com/" target="_blank">
+									<div>
+										<img data-src="https://res.cloudinary.com/simplytammy/image/upload/v1624355867/ui-cover/kyleads.png" alt="Kyleads" v-lazy-load>
+										<div class="info">
+											<div class="wrapper">
+												<p> Mockup to code implementation of the Homepage, Blog and other components for Kyleads: a Popup And Quiz Maker Built To Generate More Leads - Faster </p>
+												<div class="group">
+													<div class="tag">
+														<span>Web Dev</span>
+													</div>
+													<div class="arrow">
+														<i class="ti-arrow-right"></i>
+													</div>
 												</div>
 											</div>
 										</div>
