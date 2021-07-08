@@ -172,7 +172,7 @@
 											<p>Website Update for Hopeup industries aimed at creating a modern and simple way of introducing the company's growth, vision and services to visitors and potential partners</p>
 											<div class="group">
 												<div class="tag">
-													<span>Web Development</span>
+													<span>Web Dev</span>
 												</div>
 												<div class="arrow">
 													<i class="ti-arrow-right"></i>
