@@ -12,7 +12,7 @@
           <img data-src="../assets/img/partners/fd_logo.png" alt="Fliredoth" v-lazy-load>
           <img data-src="../assets/img/partners/doa.png" alt="DOA Graphics" v-lazy-load>
           <img data-src="https://res.cloudinary.com/simplytammy/image/upload/v1625434242/partners/logo-dark.png" alt="Raddr Technologies" v-lazy-load>
-          <img data-src="https://res.cloudinary.com/simplytammy/image/upload/v1625986414/partners/innovationroom.png" alt="Innovation Room" v-lazy-load>
+          <img data-src="https://res.cloudinary.com/simplytammy/image/upload/v1625987394/partners/innovationroom.png" alt="Innovation Room" v-lazy-load>
         </div>
       </div>
     </div>
