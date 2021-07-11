@@ -7,12 +7,12 @@
       </div>
       <div class="partners-grid-area">
         <div class="partners-grid">
-          <img data-src="https://res.cloudinary.com/simplytammy/image/upload/v1625737145/partners/logo.png" alt="Olete" v-lazy-load>
+          <img data-src="https://res.cloudinary.com/simplytammy/image/upload/v1625737145/partners/logo.png" alt="Hopeup" v-lazy-load>
           <img data-src="../assets/img/partners/codeit-logo-dark.png" alt="codeit" v-lazy-load>
           <img data-src="../assets/img/partners/fd_logo.png" alt="Fliredoth" v-lazy-load>
           <img data-src="../assets/img/partners/doa.png" alt="DOA Graphics" v-lazy-load>
-          <img data-src="https://res.cloudinary.com/simplytammy/image/upload/v1625434242/partners/logo-dark.png" alt="Sublime And Beauty" v-lazy-load>
-          <img data-src="../assets/img/partners/eventpady.png" alt="Eventpady" v-lazy-load>
+          <img data-src="https://res.cloudinary.com/simplytammy/image/upload/v1625434242/partners/logo-dark.png" alt="Raddr Technologies" v-lazy-load>
+          <img data-src="https://res.cloudinary.com/simplytammy/image/upload/v1625986414/partners/innovationroom.png" alt="Innovation Room" v-lazy-load>
         </div>
       </div>
     </div>
