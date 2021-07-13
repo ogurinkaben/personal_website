@@ -22,6 +22,54 @@
 						<h1 class="cover-text">Recent Projects</h1>
 						<p class="info">Collection of some of my most recent projects (both personal and client work)</p>
 					</div>
+										<div class="row" data-aos="slide-up" data-aos-easing="ease">
+						<div class="column">
+							<div class="design-card">
+								<a href="http://nft.orangegrove.finance" target="_blank">
+									<div>
+										<img data-src="https://res.cloudinary.com/simplytammy/image/upload/v1624207941/cover/1.png" alt="Orange Grove" v-lazy-load>
+										<div class="info">
+											<div class="wrapper">
+												<p> NFT marketplace to buy and sell your digital art and content. Discover amazing creators, collect priceless digital artwork, mint your own NFTs, and sell to your fans. </p>
+												<div class="group">
+													<div class="tag">
+														<span>UI Design</span>
+													</div>
+													<div class="arrow">
+														<i class="ti-arrow-right"></i>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+									<div class="column">
+							<div class="design-card">
+								<a href="https://innovationroom.com.ng" target="_blank">
+									<div>
+										<img data-src="https://res.cloudinary.com/simplytammy/image/upload/v1626198345/ui-cover/Innovation-room.png" alt="Innovation Room" v-lazy-load>
+										<div class="info">
+											<div class="wrapper">
+												<p>Minimal landing page design for innovation room, a creative agency and software development company focused on building products that matters</p>
+												<div class="group">
+													<div class="tag">
+														<span>UI Design</span>
+														<span>Web Development</span>
+													</div>
+													<div class="arrow">
+														<i class="ti-arrow-right"></i>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+
+					</div>
 					<div class="row" data-aos="slide-up" data-aos-easing="ease">
 						<div class="column">
 							<div class="design-card">
@@ -211,52 +259,6 @@
 					<div class="row" data-aos="slide-up" data-aos-easing="ease">
 						<div class="column">
 							<div class="design-card">
-								<a href="http://nft.orangegrove.finance" target="_blank">
-									<div>
-										<img data-src="https://res.cloudinary.com/simplytammy/image/upload/v1624207941/cover/1.png" alt="Orange Grove" v-lazy-load>
-										<div class="info">
-											<div class="wrapper">
-												<p> NFT marketplace to buy and sell your digital art and content. Discover amazing creators, collect priceless digital artwork, mint your own NFTs, and sell to your fans. </p>
-												<div class="group">
-													<div class="tag">
-														<span>UI Design</span>
-													</div>
-													<div class="arrow">
-														<i class="ti-arrow-right"></i>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</a>
-							</div>
-						</div>
-						<div class="column">
-							<div class="design-card">
-								<a href="https://www.kyleads.com/" target="_blank">
-									<div>
-										<img data-src="https://res.cloudinary.com/simplytammy/image/upload/v1624355867/ui-cover/kyleads.png" alt="Kyleads" v-lazy-load>
-										<div class="info">
-											<div class="wrapper">
-												<p> Mockup to code implementation of the Homepage, Blog and other components for Kyleads: a Popup And Quiz Maker Built To Generate More Leads - Faster </p>
-												<div class="group">
-													<div class="tag">
-														<span>Web Dev</span>
-													</div>
-													<div class="arrow">
-														<i class="ti-arrow-right"></i>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</a>
-							</div>
-						</div>
-					</div>
-					<div class="row" data-aos="slide-up" data-aos-easing="ease">
-						<div class="column">
-							<div class="design-card">
 								<a href="https://dribbble.com/shots/14892340-Headphone-E-commerce-Design" target="_blank">
 									<div>
 										<img data-src="https://res.cloudinary.com/simplytammy/image/upload/v1610052301/decf88b968cd98f4e1d1b06dc4be3e63.png" alt="Skull Candy" v-lazy-load>
@@ -277,18 +279,17 @@
 								</a>
 							</div>
 						</div>
-						<div class="column">
+									<div class="column">
 							<div class="design-card">
-								<a href="https://innovationroom.com.ng" target="_blank">
+								<a href="https://www.kyleads.com/" target="_blank">
 									<div>
-										<img data-src="https://res.cloudinary.com/simplytammy/image/upload/v1626198345/ui-cover/Innovation-room.png" alt="Innovation Room" v-lazy-load>
+										<img data-src="https://res.cloudinary.com/simplytammy/image/upload/v1624355867/ui-cover/kyleads.png" alt="Kyleads" v-lazy-load>
 										<div class="info">
 											<div class="wrapper">
-												<p>Minimal landing page design for innovation room, a creative agency and software development company focused on building products that matters</p>
+												<p> Mockup to code implementation of the Homepage, Blog and other components for Kyleads: a Popup And Quiz Maker Built To Generate More Leads - Faster </p>
 												<div class="group">
 													<div class="tag">
-														<span>UI Design</span>
-														<span>Web Development</span>
+														<span>Web Dev</span>
 													</div>
 													<div class="arrow">
 														<i class="ti-arrow-right"></i>
