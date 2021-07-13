@@ -50,7 +50,7 @@ export default {
 .partners-grid {
   display: grid;
   grid-template-columns: 80px 80px 80px;
-  grid-gap: 1rem;
+  grid-gap: 2.5rem;
   align-items: center;
 }
 

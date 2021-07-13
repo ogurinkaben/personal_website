@@ -279,15 +279,16 @@
 						</div>
 						<div class="column">
 							<div class="design-card">
-								<a href="https://arrayhr.xyz" target="_blank">
+								<a href="https://innovationroom.com.ng" target="_blank">
 									<div>
-										<img data-src="https://cdn.dribbble.com/users/4073305/screenshots/15500679/media/89c270988c422acffc7c9d91898f7b74.png" alt="Array-HR" v-lazy-load>
+										<img data-src="https://res.cloudinary.com/simplytammy/image/upload/v1626198345/ui-cover/Innovation-room.png" alt="Innovation Room" v-lazy-load>
 										<div class="info">
 											<div class="wrapper">
-												<p>Early Access page for a HR management SAAS  that focuses on easing recruitment, giving you more flexibility, and allowing you to focus on what matters most.</p>
+												<p>Minimal landing page design for innovation room, a creative agency and software development company focused on building products that matters</p>
 												<div class="group">
 													<div class="tag">
 														<span>UI Design</span>
+														<span>Web Development</span>
 													</div>
 													<div class="arrow">
 														<i class="ti-arrow-right"></i>
@@ -303,7 +304,7 @@
 				</div>
 			</section>
 		</div>
-		<div class="bg--cta">
+		<div class="bg--dark">
 			<div class="og-section  is-flex flex-center justify-center text-is-center ">
 				<div class="og-section--heading">
 					<h1 class="title text-is-white">Want to see more of what I have done<span class="text-is-primary">?</span></h1>
