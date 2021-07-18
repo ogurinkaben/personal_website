@@ -73,16 +73,15 @@
 					<div class="row" data-aos="slide-up" data-aos-easing="ease">
 						<div class="column">
 							<div class="design-card">
-								<a href="https://iohub.ng" target="_blank">
+								<a href="#!">
 									<div>
-										<img data-src="https://res.cloudinary.com/simplytammy/image/upload/v1624354838/ui-cover/iohub.png" alt="ioHub" v-lazy-load>
+										<img data-src="https://res.cloudinary.com/simplytammy/image/upload/v1626604374/ui-cover/bk.png" alt="bk" v-lazy-load>
 										<div class="info">
 											<div class="wrapper">
-												<p> Website for ioHub, a creative agency focused on UI/UX, Web Design and Web Development services. </p>
+												<p> Conceptual mobile app design for a bookkeeping platform designed to be a partner for productive individuals </p>
 												<div class="group">
 													<div class="tag">
 														<span>UI Design</span>
-														<span>Web Dev</span>
 													</div>
 													<div class="arrow">
 														<i class="ti-arrow-right"></i>
